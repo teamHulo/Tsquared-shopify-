@@ -1,0 +1,390 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1661009346ec6198fc": {
+      "type": "custom-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/giphy_16_c7968ec7-7e51-429b-96c9-7e04abe19128.gif",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "featured",
+        "title1": "",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "944a1812-79be-4b9f-8cb7-e66a7f8a3844": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "9de5d89c-703f-4252-9ff2-95e5b681f363": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/arlo-gray",
+            "tab_ttl": "ARLO GRAY",
+            "access": ""
+          }
+        },
+        "9caf5d02-bfdd-4a68-86cb-c810e653a697": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/sophie-schaffler",
+            "tab_ttl": "SOPHIE SCHAFFLER",
+            "access": ""
+          }
+        },
+        "20295e98-0260-43b2-b1f3-286a828129e3": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/agee",
+            "tab_ttl": "AGEE",
+            "access": ""
+          }
+        },
+        "ae8c88ed-184f-4330-b8ff-0005269104d1": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/hope-chilton",
+            "tab_ttl": "HOPE CHILTON",
+            "access": ""
+          }
+        },
+        "2916978c-282e-48c8-a8cd-66a956de5f6c": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/browning-clark",
+            "tab_ttl": "BROWNING CLARK",
+            "access": ""
+          }
+        },
+        "f5811129-ea75-49ff-af1c-c62103fc1c37": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/petra-rose",
+            "tab_ttl": "PETRA ROSE",
+            "access": ""
+          }
+        },
+        "ee2301b2-9a91-44f2-94ae-10314348d909": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "",
+            "tab_ttl": "",
+            "access": ""
+          }
+        }
+      },
+      "block_order": [
+        "9de5d89c-703f-4252-9ff2-95e5b681f363",
+        "9caf5d02-bfdd-4a68-86cb-c810e653a697",
+        "20295e98-0260-43b2-b1f3-286a828129e3",
+        "ae8c88ed-184f-4330-b8ff-0005269104d1",
+        "2916978c-282e-48c8-a8cd-66a956de5f6c",
+        "f5811129-ea75-49ff-af1c-c62103fc1c37",
+        "ee2301b2-9a91-44f2-94ae-10314348d909"
+      ],
+      "settings": {}
+    },
+    "166101270292b8c0ad": {
+      "type": "top-ten1",
+      "settings": {
+        "heading": "",
+        "heading1": "",
+        "top-heading": "",
+        "image": "shopify://shop_images/Screen_Shot_2023-01-08_at_4.47.31_PM.png",
+        "title": "SFK",
+        "sub-heading": "",
+        "link": "#",
+        "image1": "shopify://shop_images/Screen_Shot_2023-01-08_at_4.47.41_PM.png",
+        "title1": "edith young",
+        "sub-heading1": "",
+        "link1": "#"
+      }
+    },
+    "1661013833adee5e62": {
+      "type": "top-ten2",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/giphy-downsized_2.gif",
+        "heading1": "GOLDEN HOOP EARINGS",
+        "sub-heading1": "One size fits all",
+        "sub-heading2": "MEET ME",
+        "images": "shopify://shop_images/DailyDigestionLead_800x_107239f8-f1d0-444e-a6b8-de8c3da577e2.jpg",
+        "heading2": "LIGHTLY LINED BRA",
+        "sub-heading3": "Soft and wireless"
+      }
+    },
+    "1661018549433f5919": {
+      "type": "custom-list",
+      "settings": {
+        "sub-heading": "",
+        "title1": "TOP TEN",
+        "title2": "LISTS",
+        "title3": "",
+        "sub-title1": "CREATING CONNECTIONS THROUGH THE TOP TEN THINGS THAT BRING US JOY",
+        "sub-link1": "",
+        "sub-title2": "",
+        "sub-link2": "",
+        "sub-title3": "",
+        "sub-link3": "",
+        "sub-title4": "",
+        "sub-link4": "",
+        "sub-title5": "",
+        "sub-link5": "",
+        "sub-title6": "",
+        "sub-link6": "",
+        "sub-title7": "",
+        "sub-link7": "",
+        "sub-title8": "",
+        "sub-link8": ""
+      }
+    },
+    "1661018639ff6f562e": {
+      "type": "top-ten1",
+      "settings": {
+        "heading": "",
+        "heading1": "",
+        "top-heading": "",
+        "image": "shopify://shop_images/Petra_Rose_Feature_c6170714-26bb-41f1-ba3e-e8a8db2572ac.jpg",
+        "title": "petra rose",
+        "sub-heading": "",
+        "link": "#",
+        "image1": "shopify://shop_images/Dax_Seidlin_Feature_Image.jpg",
+        "title1": "dax seidlin",
+        "sub-heading1": "",
+        "link1": "#"
+      }
+    },
+    "1661079085713475a4": {
+      "type": "grid-top-tens",
+      "disabled": true,
+      "blocks": {
+        "8244c9d0-d32c-4dca-a1e9-fe24b8c6009d": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2022-11-18_at_6.39.37_AM.png",
+            "link": "https://shopdailydrills.com/products"
+          }
+        },
+        "cc068273-170f-4fdb-a4c4-58cd2f8d3cb6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2022-11-18_at_6.40.36_AM.png",
+            "link": "https://www.calpaktravel.com/products/jewelry-case/dragonfruit"
+          }
+        },
+        "be2c2677-d920-4e13-9915-c68e04714870": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3730.jpg",
+            "link": "#"
+          }
+        },
+        "eb06f8b5-91f7-4823-9601-023946f97d85": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3688.jpg",
+            "link": "#"
+          }
+        },
+        "4df5addb-b6f6-4acc-9e06-59c960fdb862": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3731.jpg",
+            "link": "#"
+          }
+        },
+        "6ecafe43-9d51-4ad8-a573-8fe64c1ee6e5": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3687.jpg",
+            "link": "#"
+          }
+        },
+        "b9f0913b-2aad-4efd-a361-0cc1bcc2f5fc": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3746_1d8ce2b4-da61-48ef-a4fb-b186fe7a0ee7.jpg",
+            "link": "#"
+          }
+        },
+        "ea0b29dd-3831-499b-98a3-ec24e2db4601": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3745_eac25553-32ea-43bb-9fe3-c05cbefea80b.jpg",
+            "link": "#"
+          }
+        },
+        "e4c65887-d1dd-4bbb-9bb2-0abb904c0095": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3742_ed4f680b-c67f-4694-bdb3-bfb662139205.jpg",
+            "link": "#"
+          }
+        },
+        "0f1cf9a1-b522-4336-9ffc-56d6bbef46d1": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3748.jpg",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "8244c9d0-d32c-4dca-a1e9-fe24b8c6009d",
+        "cc068273-170f-4fdb-a4c4-58cd2f8d3cb6",
+        "be2c2677-d920-4e13-9915-c68e04714870",
+        "eb06f8b5-91f7-4823-9601-023946f97d85",
+        "4df5addb-b6f6-4acc-9e06-59c960fdb862",
+        "6ecafe43-9d51-4ad8-a573-8fe64c1ee6e5",
+        "b9f0913b-2aad-4efd-a361-0cc1bcc2f5fc",
+        "ea0b29dd-3831-499b-98a3-ec24e2db4601",
+        "e4c65887-d1dd-4bbb-9bb2-0abb904c0095",
+        "0f1cf9a1-b522-4336-9ffc-56d6bbef46d1"
+      ],
+      "settings": {
+        "sub-heading1": "Top Ten Baskin Champion",
+        "image1": "shopify://shop_images/Baskin_Champion_Feature_7f9ce6a1-483b-46ef-9106-4787d156d85f.jpg",
+        "heading1": "Top Ten Baskin Champion",
+        "sub-heading2": "Featured Top Ten",
+        "link": "#",
+        "heading2": "@baskinchampion",
+        "sub-heading3": "featured top ten",
+        "link1": "#"
+      }
+    },
+    "ffe2e9c7-52ad-45e7-a21e-ef9d6671be2e": {
+      "type": "feature_user",
+      "disabled": true,
+      "blocks": {
+        "632546d6-5aba-49b3-ba42-c7f469c70c03": {
+          "type": "block-1",
+          "settings": {
+            "tbl": "A",
+            "access": "name"
+          }
+        },
+        "c790715c-69db-4fd8-8b67-afe07d3b303c": {
+          "type": "block-2",
+          "settings": {
+            "accex": "name",
+            "tbs1": "A",
+            "links1": "a",
+            "tbs2": "B",
+            "links2": "main-menu",
+            "tbs3": "C",
+            "links3": "main-menu",
+            "tbs4": "D",
+            "links4": "main-menu",
+            "tbs5": "D",
+            "links5": "main-menu",
+            "tbs6": "E",
+            "links6": "main-menu",
+            "tbs7": "F",
+            "links8": "main-menu",
+            "tbs9": "G",
+            "links9": "main-menu",
+            "tbs10": "H",
+            "links10": "main-menu",
+            "tbs11": "",
+            "links11": "",
+            "tbs12": "",
+            "links12": ""
+          }
+        },
+        "3eab8114-a146-4d5e-9dfc-4ade1c72b8df": {
+          "type": "block-1",
+          "settings": {
+            "tbl": "B Name",
+            "access": "b_name"
+          }
+        },
+        "61ec33dd-eb47-44f5-88b7-6b95132dbfef": {
+          "type": "block-2",
+          "settings": {
+            "accex": "b_name",
+            "tbs1": "B Name",
+            "links1": "main-menu",
+            "tbs2": "C",
+            "links2": "main-menu",
+            "tbs3": "S",
+            "links3": "main-menu",
+            "tbs4": "D",
+            "links4": "main-menu",
+            "tbs5": "E",
+            "links5": "main-menu",
+            "tbs6": "F",
+            "links6": "main-menu",
+            "tbs7": "",
+            "links8": "",
+            "tbs9": "",
+            "links9": "",
+            "tbs10": "",
+            "links10": "",
+            "tbs11": "",
+            "links11": "",
+            "tbs12": "",
+            "links12": ""
+          }
+        }
+      },
+      "block_order": [
+        "632546d6-5aba-49b3-ba42-c7f469c70c03",
+        "c790715c-69db-4fd8-8b67-afe07d3b303c",
+        "3eab8114-a146-4d5e-9dfc-4ade1c72b8df",
+        "61ec33dd-eb47-44f5-88b7-6b95132dbfef"
+      ],
+      "settings": {}
+    },
+    "16612538023d7797d0": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div >\n<br><br>\n      <p>TOP TEN</p>\n      <br><br>\n      <h2>Not about social media. Not about followers. Nor e-commerce. Share what you love- and get excited about you don’t…yet\n<br>\n<br> <a href=\"#\" class=\"any\">WORK WITH US</a> </h2><br><br>\n      <p>I AM ALWAYS OPEN TO NEW</p>\n<p>COLLABORATIONS WITH BRANDS.</p>\n<p>YOU KNOW WHAT TO DO.</p>\n<br>\n<p><a href=\"#\" class=\"here\">CONTACT US</a>\n</p>\n  </div>\n<br><br>",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1661009346ec6198fc",
+    "944a1812-79be-4b9f-8cb7-e66a7f8a3844",
+    "166101270292b8c0ad",
+    "1661013833adee5e62",
+    "1661018549433f5919",
+    "1661018639ff6f562e",
+    "1661079085713475a4",
+    "ffe2e9c7-52ad-45e7-a21e-ef9d6671be2e",
+    "16612538023d7797d0"
+  ]
+}

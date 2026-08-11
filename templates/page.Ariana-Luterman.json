@@ -1,0 +1,240 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1845d2c3-a8ef-492d-b8f9-683208408e14": {
+      "type": "profile-one",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_14_df347038-e7ff-4963-9e94-3e7a42ce87e9.gif",
+        "logo": "shopify://shop_images/Ariana_Luterman.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "Ariana Luterman",
+        "title1": "",
+        "kicker": "Introducing",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "da330636-3431-42a9-901e-18e92ffa7410": {
+      "type": "image-description",
+      "settings": {
+        "heading": "ariana luterman",
+        "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+        "image": "shopify://shop_images/Ariana_Luterman_1eb8129c-f453-4a54-8630-89c792aedc7c.webp",
+        "description": "The 21 year old founder and CEO of Team Ariana, Triathlete, and UNC-Chapel Hill student shares her top ten favorites that take her from the bike, to the track, to the dance floor...",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "16648922938c347e91": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2": {
+          "type": "block-2",
+          "settings": {
+            "showconten": false,
+            "accessc": "FEATURED",
+            "img1": "shopify://shop_images/61HFdDiTRIL._SX679.jpg",
+            "link_url1": "https://www.amazon.com/Melis-Original-Certified-Gluten-Free-Chocolate/dp/B08GHXGYP5/ref=asc_df_B08GHXGYP5/?tag=hyprod-20&linkCode=df0&hvadid=475718188056&hvpos=&hvnetw=g&hvrand=14263415910024566774&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1021047&hvtargid=pla-1186462824953&psc=1",
+            "img2": "shopify://shop_images/SOOR-WU31_V1_1.webp",
+            "link_url2": "https://www.revolve.com/supergoop-unseen-sunscreen-spf-40/dp/SOOR-WU31/?d=F&currency=USD&countrycode=US&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsTu27PmptpGrSohzUxbiytga48Z9vIbxPLrn95RZ01cniZxClReJ1hoCHYgQAvD_BwE&gclsrc=aw.ds",
+            "img3": "shopify://shop_images/001879_AS-SL002BSH_BLUSH_01.jpg",
+            "link_url3": "https://www.altardstate.com/as/accessories/shoes-%2B-sandals/slippers/smiley-face-slippers/1002335162.html?gclid=CjwKCAiA7IGcBhA8EiwAFfUDsfmkB9-L5e2vKtuQM6kbDYjP8SSm2LINotlLkTbBpzx_WD31Pwo4kxoCwooQAvD_BwE",
+            "img4": "shopify://shop_images/global-20221202-grid1-fg-bd1-gifting-season-xs.png",
+            "link_url4": "https://www.bestbuy.com/site/yogasleep-rohm-travel-sound-machine-white/6436662.p?skuId=6436662&ref=212&loc=1&ref=212&loc=1&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsbgh25idSB9hho-oCfY-uTiT6Kl4LKH3hHGZ8InYWGw-ACZl2xBBpRoCPB8QAvD_BwE&gclsrc=aw.ds",
+            "img5": "shopify://shop_images/Hammer-Nutrition-Endurolytes-120-capsules-768x768.webp",
+            "link_url5": "https://findyourhealthyplace.com/product/hammer-nutrition-endurolytes/?gclid=CjwKCAiA7IGcBhA8EiwAFfUDsYc7ms6cj_l0NaNv9_R_F-PG1wc21wGFMGZ4gdJEad25VhewCwud4RoCRiwQAvD_BwE",
+            "img6": "shopify://shop_images/our-dates-1-updated.webp",
+            "link_url6": "https://coachellasbestdates.com/pages/our-dates",
+            "img7": "shopify://shop_images/2104cfe9-9188-4dc3-8919-636ad3e827a3.webp",
+            "link_url7": "https://www.nike.com/t/dunk-high-1985-shoes-rsx4JL/DV1143-800?nikemt=true&cp=26442424969_search_%7CPRODUCT_GROUP%7CGOOGLE%7C71700000098766171%7CAll_X_X_X_X-Device_X_Nike-FullPrice_X_SSC%7C%7Cc&gclsrc=aw.ds&&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsUZKhTRFL_3UOXHbY7UDRB49B8fK1bksKQflrBdvu62Mu2T63qbj1RoCIN4QAvD_BwE&gclsrc=aw.ds",
+            "img8": "shopify://shop_images/bando-il-fw22-12-month-medium-planner-progress-not-perfection-01_1024x1024_b68730ad-0e8f-4396-ae36-ecaacdb2c3af.webp",
+            "link_url8": "https://www.bando.com/products/medium-12-month-planner-mod?gclid=CjwKCAiA7IGcBhA8EiwAFfUDsao0VFJPgjHuyArtiJ4l6FUIso2sBv1fkhu7gemEKI6QaORgvM8ufRoC9ccQAvD_BwE",
+            "link_url9": "",
+            "link_url10": "",
+            "heading1": "Top Ten Ariana Luterman",
+            "sub-heading1": "",
+            "img11": "shopify://shop_images/DP-17012-017.jpg",
+            "link_url11": "https://www.metmuseum.org/exhibitions/listings/2020/british-galleries#:~:text=Exhibition%20Overview,created%20between%201500%20and%201900.",
+            "img12": "shopify://shop_images/71zXYBpsuVL._AC_SL1500.jpg",
+            "link_url12": "https://www.amazon.com/Barefoot-Dreams-CozyChic-Throw-Cream/dp/B005ABX0NS",
+            "img13": "shopify://shop_images/CHA624803_1_enlarged.jpg",
+            "link_url13": "https://www.therealreal.com/products/women/shoes/sandals/chanel-2021-quilted-denim-sandals-slingback-sandals-bdy1a?sid=pxogmz&utm_source=Google&utm_medium=shopping&cvosrc=cse.google.google&cvo_crid=453344066284&utm_campaign=shopping_200&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-BsLcllJ778tKkIMhdkxfc3NuNGgRG2EcBPuPMtZon6OhI0R_J-y4aAmTQEALw_wcB",
+            "img14": "shopify://shop_images/bella_blu.jpg",
+            "link_url14": "https://www.bellablunyc.com/",
+            "img15": "shopify://shop_images/s2249779-main-zoom.jpg",
+            "link_url15": "https://www.sephora.com/product/libre-eau-de-parfum-P448102?country_switch=us&lang=en&skuId=2249779&om_mmc=ppc-GG_1918213323_68906954085_pla-418385531910_2249779_353573794529_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY8Q4wosCihXCopM6hPEA47y_djHK1AZDlUb7OlnnxUAiwucLCGGIOYaAgvwEALw_wcB&gclsrc=aw.ds",
+            "img16": "shopify://shop_images/81gWcEhDfIL._AC_UL1500.jpg",
+            "link_url16": "https://www.amazon.com/Rangers-47-Clean-Adjustable-Royal/dp/B00CTEPQNQ/ref=sr_1_2?crid=107S36EL6U9TJ&keywords=rangers+hat&qid=1657425012&sprefix=rangers+hat%2Caps%2C86&sr=8-2",
+            "img17": "shopify://shop_images/ILXhy47dQ4yZAwEJI56k_Home_page_Indo.jpg",
+            "link_url17": "https://www.indochinenyc.com/",
+            "img18": "shopify://shop_images/0143126687.01._SCLZZZZZZZ_SX500.jpg",
+            "link_url18": "https://www.amazon.com/Truth-About-Harry-Quebert-Affair/dp/0143126687",
+            "img19": "shopify://shop_images/s2427110-main-zoom.jpg",
+            "link_url19": "https://www.sephora.com/product/one-size-by-patrick-starrr-secure-blur-hydrating-under-eye-patches-P468395?country_switch=us&lang=en&skuId=2427110&om_mmc=ppc-GG_1918213323_114417900931_pla-1212528922078_2427110_463343130707_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-e0GNhAIl8pqSL35joJ4ibO3tCtvZaE1ml8nDOY_FAZWkRAjxnIwgaAs5KEALw_wcB&gclsrc=aw.ds",
+            "img20": "shopify://shop_images/IMG_3748_2888930e-e600-4380-a4cd-555f18c42237.jpg",
+            "link_url20": "",
+            "heading2": "Top Ten Hope Chilton",
+            "sub-heading2": ""
+          }
+        }
+      },
+      "block_order": [
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2"
+      ],
+      "settings": {}
+    },
+    "2ecbf435-6736-47ef-b5a7-0e900aa215dc": {
+      "type": "image-slider",
+      "blocks": {
+        "9aa33f84-d355-4339-ba52-3678ad4250c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KHRM00389503-0.jpg",
+            "product_url": "https://melismonstercookies.com/collections/mini-cookies/products/melis-mini-cookies-chocolate-chip-three-pack-3-4-5-oz-bags-per-order",
+            "text": ""
+          }
+        },
+        "c65c6c1c-db42-4de1-a6da-9828a0e93e62": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shopping_ad9dc6eb-5691-4387-b584-6e2856b153d0.jpg",
+            "product_url": "https://supergoop.com/products/unseen-sunscreen",
+            "text": ""
+          }
+        },
+        "6e684518-6bfa-4bc1-a41f-aeca54a3d4af": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unknown_e4f4ada5-f2e9-4062-a389-13e3e5c5f5cc.jpg",
+            "product_url": "https://yllwthelabel.com/products/happy-home-slippers-lemon-preorder",
+            "text": ""
+          }
+        },
+        "2d92bf79-a8c7-4aac-80e9-ce8e6c645d26": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Belk.webp",
+            "product_url": "https://www.ulta.com/p/light-blue-eau-de-toilette-VP11736?sku=2072837&cmpid=PS_Non!google!Product_Listing_Ads&utm_source=google&utm_medium=paidsearch&cagpspn=pla&CATCI=pla-41600695724&CAAGID=19238025750&CAWELAID=772017614&CATARGETID=330000200000348513&CADevice=c&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqneMCzFRMMFb2RhImpiTcYrfy2eu73x1Xj5PdC6DHDFBHIerkI0URIAaAs8gEALw_wcB",
+            "text": ""
+          }
+        },
+        "0a5e0e87-91ad-4619-8814-bb19095280d3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GUEST_00eb664d-56e0-4727-96b3-d186f4910205.jpg",
+            "product_url": "https://yogasleep.com/products/rohm?utm_campaign=SmartShoppingSoundMachines&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqnfR-oYStooSKzBtQ4dW1hR_Pz5RmFvR5fWS__cNQShUPBs3Xm8hMAYaAj_8EALw_wcB",
+            "text": ""
+          }
+        },
+        "0865b792-095b-4d44-88ed-b639d93217f1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EL.webp",
+            "product_url": "https://hammernutrition.com/products/endurolytes?variant=42815249416427",
+            "text": ""
+          }
+        },
+        "49ed377a-e9c7-4c81-8ce9-a3f0e0c2449b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5028534.jpg",
+            "product_url": "https://www.amazon.com/Grande-Cosmetics-GrandeLASH-MD-Enhancing-Serum/dp/B082WZTJV5/ref=sr_1_1_sspa?hvadid=580973840081&hvdev=c&hvlocphy=9009652&hvnetw=g&hvqmt=e&hvrand=192593571802350988&hvtargid=kwd-36801229837&hydadcr=29132_14570214&keywords=grand+lash+md&qid=1684433536&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRlBWR04wTUVRTVNEJmVuY3J5cHRlZElkPUEwMjIxODUwNEdINFdDNEE5WjNQJmVuY3J5cHRlZEFkSWQ9QTA4NjQzMTAxWDBOUURNRlBFRVM0JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
+            "text": ""
+          }
+        },
+        "83aac88f-3c93-4a45-9adf-2a9d98f6cdab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/71JgMkyn3wL._SL1500.jpg",
+            "product_url": "https://www.amazon.com/Del-Rey-Farms-Organic-Medjool/dp/B07JL8Z5NG/ref=sr_1_3?hvadid=598851126388&hvdev=c&hvlocphy=9009652&hvnetw=g&hvqmt=e&hvrand=7192634895127762794&hvtargid=kwd-801399776617&hydadcr=3389_13571889&keywords=coachella+medjool+dates&qid=1684433614&sr=8-3",
+            "text": ""
+          }
+        },
+        "b82b5e47-460c-471f-9791-955f240c26d2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/E7835_6250_right.webp",
+            "product_url": "https://www.hibbett.com/jordan-air-1-mid-white-sea-coral-atmosphere%E2%80%8B-womens-shoe/47855119.html?gclid=Cj0KCQjwmZejBhC_ARIsAGhCqndVEoPH94hdHsSGPyrdOoydgzdEZEObgDVv6Bsr0OthHP90wLcTvUkaAuJIEALw_wcB",
+            "text": ""
+          }
+        },
+        "8eec0eb6-4cc1-4904-b75f-feac792af6e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bando-il-17-month-medium-planner-youre-gonna-get-there-01_1024x1024_jpg.webp",
+            "product_url": "https://www.bando.com/collections/planners/products/medium-17-month-academic-planner-youre-gonna-get-theremedium-17-month-academic-planner-youre-gonna-get-there",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "9aa33f84-d355-4339-ba52-3678ad4250c8",
+        "c65c6c1c-db42-4de1-a6da-9828a0e93e62",
+        "6e684518-6bfa-4bc1-a41f-aeca54a3d4af",
+        "2d92bf79-a8c7-4aac-80e9-ce8e6c645d26",
+        "0a5e0e87-91ad-4619-8814-bb19095280d3",
+        "0865b792-095b-4d44-88ed-b639d93217f1",
+        "49ed377a-e9c7-4c81-8ce9-a3f0e0c2449b",
+        "83aac88f-3c93-4a45-9adf-2a9d98f6cdab",
+        "b82b5e47-460c-471f-9791-955f240c26d2",
+        "8eec0eb6-4cc1-4904-b75f-feac792af6e6"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "2b4e04bc-7625-4976-ae66-261242901cda": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screen_Shot_2023-05-25_at_9.48.10_AM.png",
+        "top_url": "",
+        "image2": "shopify://shop_images/Screen_Shot_2023-05-25_at_9.48.23_AM.png",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1845d2c3-a8ef-492d-b8f9-683208408e14",
+    "da330636-3431-42a9-901e-18e92ffa7410",
+    "16648922938c347e91",
+    "2ecbf435-6736-47ef-b5a7-0e900aa215dc",
+    "2b4e04bc-7625-4976-ae66-261242901cda"
+  ]
+}

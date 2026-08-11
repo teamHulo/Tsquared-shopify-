@@ -1,0 +1,190 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1845d2c3-a8ef-492d-b8f9-683208408e14": {
+      "type": "profile-one",
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_14_df347038-e7ff-4963-9e94-3e7a42ce87e9.gif",
+        "logo": "shopify://shop_images/Agee_Leinberry.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "Agee",
+        "title1": "",
+        "kicker": "Introducing",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16648922938c347e91": {
+      "type": "tab_blogs",
+      "blocks": {
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2": {
+          "type": "block-2",
+          "settings": {
+            "showconten": false,
+            "accessc": "FEATURED",
+            "profile1": "shopify://shop_images/Agee_Leinberry_Feature_Image_6f7cb558-4594-4a7b-a156-9ac2abb3f067.jpg",
+            "img1": "shopify://shop_images/Premium-Market-Gallery-Lau-Nvy-Stripe_1605x1800_41e3b0df-a44d-4b03-ad7b-fc638a637f74.jpg",
+            "link_url1": "https://businessandpleasureco.com/products/the-market-umbrella-laurens-navy-stripe?variant=32991577243751&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvzGCwV1QfsL_QAcoPJeoyRJQNQSO1Jb32tg7zwdQ8szZZskU-OUBvcaAiroEALw_wcB",
+            "img2": "shopify://shop_images/il_1140xN.3683024681_meng.jpg",
+            "link_url2": "https://www.etsy.com/listing/1156374500/cooper-river-bridge-art-print-by?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=ravenel+bridge&ref=sc_gallery-1-2&frs=1&sts=1&plkey=e6b9a76e017e3f2ad27460c6fdec74a99533bff5%3A1156374500",
+            "img3": "shopify://shop_images/P00633696.jpg",
+            "link_url3": "https://www.mytheresa.com/en-us/golden-goose-exclusive-to-mytheresa-superstar-shearling-lined-sneakers-2029295.html?catref=category",
+            "img4": "shopify://shop_images/leons-oyster-shop-charleston-compressor.jpg",
+            "link_url4": "https://leonsoystershop.com/",
+            "img5": "shopify://shop_images/hdjkp94tihorhumtrasj_750x750_d9f8135a-47d9-433d-971c-e73c53a7849f.jpg",
+            "link_url5": "https://woodencork.com/products/perrier-jouet-belle-epoque-rose-2012?variant=31618950168712&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2020-01-08&utm_source=google&utm_medium=smart_campaign&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxtJRrnklWpcTio132p5ZQUeAxoM-_o6RpOlCBh79iQ4KhnuDJbDP4aAqzdEALw_wcB",
+            "img6": "shopify://shop_images/large_ulla-johnson-neutral-sydel-cotton-midi-dress.jpg",
+            "link_url6": "https://www.modaoperandi.com/women/p/ulla-johnson/sydel-cotton-midi-dress/514800?country=US&currency=USD&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvwNhgl8u7gPHa1hgSP_uDnonfksU2Q2xW8tVsOhm7BVxHoMr8K3mNoaAty8EALw_wcB&gclsrc=aw.ds",
+            "img7": "shopify://shop_images/Hydrangea_Carousel.jpg",
+            "link_url7": "https://urbanstems.com/products/flowers/the-hydrangea/FLRL-B-01918.html",
+            "img8": "shopify://shop_images/719-t1LlP7S._SL1491.jpg",
+            "link_url8": "https://www.amazon.com/Croix-Sparkling-Water-Flavored-Naturally/dp/B07TLYD6SF",
+            "img9": "shopify://shop_images/giphy.gif",
+            "link_url9": "",
+            "img10": "shopify://shop_images/Screen_Shot_2022-10-07_at_5.52.14_AM.png",
+            "link_url10": "https://www.sephora.com/product/volcano-candle-P433018?country_switch=us&lang=en&skuId=2113587&om_mmc=ppc-GG_13746853422_127990371047_aud-1528752703180:pla-421385685355_2113587_531290564054_9067609_c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvylQ-sklsdNSEWnqqU-JZxVb86ggzSyA9igLVcC_OFJ0HLRmWdXxBYaAuYNEALw_wcB&gclsrc=aw.ds",
+            "heading1": "Top Ten Sophie Schaffler",
+            "sub-heading1": "",
+            "link_url11": "https://www.metmuseum.org/exhibitions/listings/2020/british-galleries#:~:text=Exhibition%20Overview,created%20between%201500%20and%201900.",
+            "link_url12": "https://www.amazon.com/Barefoot-Dreams-CozyChic-Throw-Cream/dp/B005ABX0NS",
+            "link_url13": "https://www.therealreal.com/products/women/shoes/sandals/chanel-2021-quilted-denim-sandals-slingback-sandals-bdy1a?sid=pxogmz&utm_source=Google&utm_medium=shopping&cvosrc=cse.google.google&cvo_crid=453344066284&utm_campaign=shopping_200&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-BsLcllJ778tKkIMhdkxfc3NuNGgRG2EcBPuPMtZon6OhI0R_J-y4aAmTQEALw_wcB",
+            "link_url14": "https://www.bellablunyc.com/",
+            "link_url15": "https://www.sephora.com/product/libre-eau-de-parfum-P448102?country_switch=us&lang=en&skuId=2249779&om_mmc=ppc-GG_1918213323_68906954085_pla-418385531910_2249779_353573794529_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY8Q4wosCihXCopM6hPEA47y_djHK1AZDlUb7OlnnxUAiwucLCGGIOYaAgvwEALw_wcB&gclsrc=aw.ds",
+            "link_url16": "https://www.amazon.com/Rangers-47-Clean-Adjustable-Royal/dp/B00CTEPQNQ/ref=sr_1_2?crid=107S36EL6U9TJ&keywords=rangers+hat&qid=1657425012&sprefix=rangers+hat%2Caps%2C86&sr=8-2",
+            "link_url17": "https://www.indochinenyc.com/",
+            "link_url18": "https://www.amazon.com/Truth-About-Harry-Quebert-Affair/dp/0143126687",
+            "link_url19": "https://www.sephora.com/product/one-size-by-patrick-starrr-secure-blur-hydrating-under-eye-patches-P468395?country_switch=us&lang=en&skuId=2427110&om_mmc=ppc-GG_1918213323_114417900931_pla-1212528922078_2427110_463343130707_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-e0GNhAIl8pqSL35joJ4ibO3tCtvZaE1ml8nDOY_FAZWkRAjxnIwgaAs5KEALw_wcB&gclsrc=aw.ds",
+            "link_url20": "",
+            "heading2": "",
+            "sub-heading2": ""
+          }
+        },
+        "c7257b35-e8f6-4569-8653-1fa42bd5c726": {
+          "type": "block-2",
+          "disabled": true,
+          "settings": {
+            "showconten": true,
+            "accessc": "",
+            "link_url1": "",
+            "link_url2": "",
+            "link_url3": "",
+            "link_url4": "",
+            "link_url5": "",
+            "link_url6": "",
+            "link_url7": "",
+            "link_url8": "",
+            "link_url9": "",
+            "link_url10": "",
+            "heading1": "",
+            "sub-heading1": "",
+            "link_url11": "",
+            "link_url12": "",
+            "link_url13": "",
+            "link_url14": "",
+            "link_url15": "",
+            "link_url16": "",
+            "link_url17": "",
+            "link_url18": "",
+            "link_url19": "",
+            "link_url20": "",
+            "heading2": "",
+            "sub-heading2": ""
+          }
+        }
+      },
+      "block_order": [
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2",
+        "c7257b35-e8f6-4569-8653-1fa42bd5c726"
+      ],
+      "settings": {}
+    },
+    "e8a361cd-0d12-4e9b-a201-35f20270045c": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "134d4360-ce85-4a99-9c3b-27aaad0c4e58": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "",
+            "tab_ttl": "agee",
+            "access": ""
+          }
+        },
+        "88299523-07c1-4e05-ab16-751f87c4a289": {
+          "type": "block-2",
+          "settings": {
+            "showconten": true,
+            "accessc": "",
+            "profile1": "shopify://shop_images/Agee_Leinberry_Feature_Image_6f7cb558-4594-4a7b-a156-9ac2abb3f067.jpg",
+            "link_url1": "",
+            "link_url2": "",
+            "link_url3": "",
+            "link_url4": "",
+            "link_url5": "",
+            "link_url6": "",
+            "link_url7": "",
+            "link_url8": "",
+            "link_url9": "",
+            "link_url10": "",
+            "heading1": "",
+            "sub-heading1": "",
+            "link_url11": "",
+            "link_url12": "",
+            "link_url13": "",
+            "link_url14": "",
+            "link_url15": "",
+            "link_url16": "",
+            "link_url17": "",
+            "link_url18": "",
+            "link_url19": "",
+            "link_url20": "",
+            "heading2": "",
+            "sub-heading2": ""
+          }
+        }
+      },
+      "block_order": [
+        "134d4360-ce85-4a99-9c3b-27aaad0c4e58",
+        "88299523-07c1-4e05-ab16-751f87c4a289"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "1845d2c3-a8ef-492d-b8f9-683208408e14",
+    "16648922938c347e91",
+    "e8a361cd-0d12-4e9b-a201-35f20270045c"
+  ]
+}

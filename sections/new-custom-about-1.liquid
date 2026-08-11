@@ -1,0 +1,54 @@
+<!-- /sections/section-html.liquid -->
+{{ 'section-new-custom-about-1.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .section-html-{{ section.id }} {
+    text-align: center;
+  }
+</style>
+
+<div class="new-custom-about-one-container palette--gray ">
+  <div class="new-custom-about-one-wrapper">
+    <p class="new-custom-about-one-top_title">{{ section.settings.top_title }}</p>
+    <p class="new-custom-about-one-title">{{ section.settings.title }}</p>
+    <p class="new-custom-about-one-sub_title">{{ section.settings.sub_title }}</p>
+    <p class="new-custom-about-one-more">&nbsp;MORE</p>
+    <div class="new-custom-about-one-vl"></div>
+    <div class="new-custom-about-one-content-wrapper">
+      {{ section.settings.content }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "New Custom About 1",
+  "settings": [
+    {
+      "type": "text",
+      "id": "top_title",
+      "label": "Top Title"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title"
+    },
+    {
+      "type": "html",
+      "id": "content",
+      "label": "Content HTML"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Custom About 1"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,404 @@
+.palette--gray {
+  background-color: #e8e8e8;
+}
+
+.js-grid[data-grid-large="2"] {
+  column-gap: 21px;
+}
+
+.product-image-custom {
+  width: 100%;
+}
+
+.product__grid__info-custom {
+  text-align: left !important;
+  margin-top: 49px !important;
+  margin-left: 11.5% !important;
+}
+
+.product__grid__title-custom {
+  /*font-family: "Futura" !important;font-family: "BebasNeue-Regular" !important; */
+  font-family: Gambarino-Regular !important;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  color: #090909;
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.product__grid__title-custom span {
+  /* font-family: "Poppins-Regular" !important;  font-family: "BebasNeue-Regular" !important; */
+  font-family: Gambarino-Regular !important;
+  text-transform: none !important;
+}
+
+.product__grid__price-custom {
+  /* font-family: "Poppins-Regular" !important;  font-family: "BebasNeue-Regular" !important; */
+  font-family: Gambarino-Regular !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  color: #090909;
+}
+
+.meetme-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meetme-title {
+ /* font-family: "Futura" !important;
+   font-family: "BebasNeue-Regular" !important; */
+  font-family: Gambarino-Regular !important; 
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+  margin-top: 130px;
+  margin-bottom: 127px;
+  text-align:center;
+}
+
+.my-photo {
+  width: 60%;
+  aspect-ratio: 0.85;
+  max-width: 439px;
+  margin-bottom: 71px;
+}
+
+.my-name {
+  /*font-family: "Poppins-Regular" !important;
+  font-family: "BebasNeue-Regular" !important; */
+   font-family: Gambarino-Regular !important;
+  text-transform: none !important;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  color: #090909;
+  margin: 0;
+  margin-bottom: 29px;
+  text-align:center;
+}
+
+.my-intro {
+  /*font-family: "Poppins-Regular" !important;
+    font-family: "BebasNeue-Regular" !important; */
+  font-family: Gambarino-Regular !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+  color: #090909;
+  opacity: 0.3;
+  margin: 0;
+}
+
+.grid__title-wrapper {
+  margin-left: 11.5% !important;
+  text-align: left !important;
+}
+
+.grid__title {
+ /* font-family: "Poppins-Regular" !important;*/
+  font-family: Gambarino-Regular !important;
+  font-size: 76px;
+  font-weight: bold;
+  line-height: 99px;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 18px;
+  max-width: 205px;
+  margin-bottom: 97px;
+}
+
+.grid__grid-title {
+  /*font-family: "Futura" !important;font-family: "BebasNeue-Regular" !important; */
+   font-family: Gambarino-Regular !important;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.grid__description-wrapper {
+  text-align: left !important;
+}
+
+.grid__title-wrapper .mobile_desc {
+  display: none;
+}
+
+.grid__description {
+  /*font-family: "Futura" !important;   font-family: "BebasNeue-Regular" !important; */
+   font-family: Gambarino-Regular !important;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 76px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 30px;
+  color: #000000;
+  max-width: 401px;
+  margin: 0;
+}
+
+.user_profile-title {
+/*  font-family: "Futura" !important;font-family: "BebasNeue-Regular" !important; */
+  font-family: Gambarino-Regular !important;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  margin-top: 215px;
+  margin-bottom: 81px;
+}
+
+.user-photo {
+  max-width: 438px;
+  width: 49%;
+  aspect-ratio: 0.8;
+}
+
+.user-contact-info {
+  /*font-family: "Futura" !important;font-family: "BebasNeue-Regular" !important; */
+   font-family: Gambarino-Regular !important;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  font-style: normal;
+  text-align: center;
+  color: #090909;
+  margin-top: 37px;
+  margin-bottom: 24px;
+}
+
+.user-description {
+ /* font-family: "Poppins-Regular" !important;   font-family: "BebasNeue-Regular" !important; */
+   font-family: Gambarino-Regular !important;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: normal;
+  text-align: center;
+  color: #090909;
+  opacity: 0.3;
+}
+
+.user-path-image {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+  z-index: 5;
+  aspect-ratio: 0.57;
+  max-width: 376px;
+  width: 42%;
+}
+
+.user_profile-content-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+.product__grid__info-caption {
+  text-align: left !important;
+  margin-top: 20px !important;
+  border-bottom: 2px solid #000000;
+  border-top: 2px solid #000000;
+}
+
+.product__grid__title-caption {
+  font-family: "Futura" !important;
+  font-weight: bold;
+  line-height: 1;
+  font-style: normal;
+  color: #171717;
+  margin: 0;
+  margin-bottom: 17px;
+  margin-top: 20px;
+}
+
+.product__grid__title-caption span {
+  /*font-family: "Futura" !important;*/
+   font-family: Gambarino-Regular !important;
+}
+
+.product__grid__price-caption {
+  font-family: "Futura" !important; /*font-family: Gambarino-Regular !important;  font-family: "BebasNeue-Regular" !important; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #171717;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1400px) {
+  .meetme-title {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .my-photo {
+    margin-bottom: 49px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .product__grid__title-custom,
+  .my-name {
+    font-size: 20px;
+  }
+
+  .product__grid__price-custom,
+  .my-intro {
+    font-size: 15px;
+  }
+
+  .grid__title {
+    font-size: 45px;
+    line-height: 70px;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 15px;
+  }
+
+  .grid__grid-title {
+    font-size: 20px;
+  }
+
+  .grid__description {
+    font-size: 20px;
+    line-height: 55px;
+    letter-spacing: 20px;
+  }
+
+  .product__grid__title-caption {
+    font-size: 25px;
+  }
+
+  .product__grid__price-caption {
+    font-size: 12px;
+  }
+
+  .user_profile-title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  .user-contact-info {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .user-description {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .meetme-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .grid__title {
+    font-size: 30px;
+    line-height: 45px;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    margin-bottom: 50px;
+  }
+
+  .grid__grid-title {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .grid__description {
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 10px;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 550px) {
+  .js-grid[data-grid-large="2"] {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    row-gap: 50px;
+  }
+
+  .product__grid__info-custom {
+    margin-top: 30px !important;
+  }
+
+  .meetme-title {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .grid__description-wrapper {
+    display: none;
+  }
+
+  .grid__title-wrapper .mobile_desc {
+    display: block;
+  }
+
+  .grid__title {
+    margin-bottom: 35px;
+    max-width: 100%;
+  }
+
+  .grid__description {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  .user_profile-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .user-path-image {
+    top: 60%;
+    right: 3%;
+    width: 55%;
+  }
+
+  .user_profile-title {
+    margin-top: 0px;
+    margin-bottom: 51px;
+  }
+
+  .user-photo {
+    width: 70%;
+  }
+}

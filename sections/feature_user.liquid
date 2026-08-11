@@ -1,0 +1,368 @@
+<style>
+  .tabbing_sec_container {
+    max-width: 64em;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .tabbs_titles_holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  .tabbs_titles_holder h5 {
+    transition: all 0.4s ease;
+    color: #9b9b9b;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .tabbs_titles_holder h5:hover,
+  .tabbs_titles_holder h5.active_heading {
+    color: #dd4127;
+  }
+  .tabbing__data__holder h5 {
+    color: #353535;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 10px 0;
+  }
+  .tabbing__data__holder a {
+    color: #9b9b9b;
+    font-size: 10px;
+    line-height: 15px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    margin: 5px 0;
+    text-transform: uppercase;
+  }
+  .tabbing__data__holder {
+    padding-top: 40px;
+    margin-bottom: 50px;
+  }
+  .tabbing__data__holder a:hover {
+    color: #dd4127;
+  }
+  .characters__links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .tabbing__list__area {
+    columns: 5;
+  }
+  .inn__mobile {
+    display: none;
+  }
+  /* ======== media quries ===== */
+  @media (max-width: 830px) {
+    .tabbing_sec_container {
+      max-width: 100%;
+      width: 100%;
+      padding: 0 20px;
+    }
+    .inn__mobile {
+      display: block;
+    }
+    .inn__desktop {
+      display: none;
+    }
+    .inn__mobile .tabbs_titles_holder {
+      row-gap: 16px;
+      justify-content: center;
+      column-gap: 0;
+    }
+    .inn__mobile .tabbs_titles_holder h5 {
+      width: 25%;
+      text-align: center;
+    }
+    .inn__mobile .tabbing__list__area:not(:first-child) {
+      display: none;
+    }
+    .inn__mobile .tabbing__list__area {
+      columns: 1;
+      text-align: center;
+    }
+    .inn__mobile .tabbing__list__area a {
+      margin: 15px 0;
+    }
+  }
+</style>
+
+<section class="tabbing__wrapper">
+  <div class="tabbing_sec_container">
+    <div class="inn__desktop">
+      <div class="tabbs_titles_holder">
+        {% for block in section.blocks %}
+          {% if block.type == 'block-1' %}
+            <h5
+              class="tab__tile {% if forloop.index == 1 %}active_heading{% endif %}"
+              data-targe="#{{ block.settings.access }}"
+            >
+              {{ block.settings.tbl }}
+            </h5>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="tabbing__data__holder">
+        {% for block in section.blocks %}
+          {% if block.type == 'block-2' %}
+            <div class="tabbing__list__area" id="{{ block.settings.accex }}" style="display: none;">
+              <h5 class="character__Title">{{ block.settings.tbs1 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links1.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs2 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links2.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs3 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links3.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs4 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links4.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs5 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links5.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs6 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links6.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs7 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links7.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs8 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links8.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs19 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links9.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs10 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links10.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs11 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links11.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs12 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links12.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+              <h5 class="character__Title">{{ block.settings.tbs13 }}</h5>
+              <div class="characters__links">
+                {%- for link in block.settings.links13.links -%}
+                  <a href="{{ link.url }}">{{ link.title }}</a>
+                {%- endfor -%}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('h5.tab__tile').click(function () {
+      $('h5.tab__tile').removeClass('active_heading');
+      $(this).addClass('active_heading');
+      $('.tabbing__list__area').hide();
+      var show__cat = $(this).data('targe');
+      $(show__cat).fadeIn();
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Featured User",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "User Tabs",
+      "type": "block-1",
+      "settings": [
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbl"
+        },
+        {
+          "label": "Content Accesser",
+          "type": "text",
+          "id": "access"
+        }
+      ]
+    },
+    {
+      "name": "Tab Content",
+      "type": "block-2",
+      "settings": [
+        {
+          "label": "Content Accesser",
+          "type": "text",
+          "id": "accex"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs1"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links1"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs2"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links2"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs3"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links3"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs4"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links4"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs5"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links5"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs6"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links6"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs7"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links8"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs9"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links9"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs10"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links10"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs11"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links11"
+        },
+        {
+          "label": "Tab Title",
+          "type": "text",
+          "id": "tbs12"
+        },
+        {
+          "label": "Navigation",
+          "type": "link_list",
+          "id": "links12"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature User",
+      "category": "Image",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

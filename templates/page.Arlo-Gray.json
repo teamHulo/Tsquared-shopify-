@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1845d2c3-a8ef-492d-b8f9-683208408e14": {
+      "type": "profile-one",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_14_df347038-e7ff-4963-9e94-3e7a42ce87e9.gif",
+        "logo": "shopify://shop_images/sophie-schaffler.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "Arlo Gray",
+        "title1": "",
+        "kicker": "Introducing",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "f704a78e-5c27-49c4-a852-988609187f16": {
+      "type": "image-description",
+      "settings": {
+        "heading": "arlo gray",
+        "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+        "image": "shopify://shop_images/Arlo_Gray_Feature_b6d5e429-2c99-4a1e-add7-ca452e548927.jpg",
+        "description": "Wave hey to Arlo Gray.  You can find the Richmond-native eating burrata panzanella at Lola 41 or singing on her father-daughter album on Spotify. With a voice and charisma like no other, we give you the top tens of our OG, A.G....",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "16648922938c347e91": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2": {
+          "type": "block-2",
+          "settings": {
+            "showconten": false,
+            "accessc": "FEATURED",
+            "profile1": "shopify://shop_images/Arlo_Gray_Feature_e3e5b0b0-8e4e-4d45-b379-0be644f17d8c.jpg",
+            "profile2": "shopify://shop_images/Browning_Clark_Feature_c4ec76be-77ba-48df-88e8-935ab6973a67.jpg",
+            "img1": "shopify://shop_images/94476LoLa41PalmBeach_exterior_582cdd9a-92a9-493b-9e4c-83393b4e877f.jpg",
+            "link_url1": "https://www.lola41.com/location/lola-41-palm-beach/",
+            "img2": "shopify://shop_images/product-images_100000343_imgs_COUNTER__LOTUS_GLOW_CLEANSING_BALM_02_PDP.jpg",
+            "link_url2": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm",
+            "img3": "shopify://shop_images/8821262712862.webp",
+            "link_url3": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/",
+            "img4": "shopify://shop_images/download_3.jpg",
+            "link_url4": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141",
+            "img5": "shopify://shop_images/loungeTop_600x_b919083c-f3e6-4e3a-a3c7-293a0959cec0.jpg",
+            "link_url5": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top",
+            "img6": "shopify://shop_images/546A1549.jpg",
+            "link_url6": "https://shopdailydrills.com/collections/sport/products/copy-of-bubble-bra",
+            "img7": "shopify://shop_images/light_pink_newest_300x300_01f2a295-6235-4528-8a22-78ef15e64acd.png",
+            "link_url7": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB",
+            "img8": "shopify://shop_images/XMAS-POST-CARD.png",
+            "link_url8": "https://balthazarny.com/",
+            "img9": "shopify://shop_images/bdaybox1_d7a6b3ff-4d50-4891-a5e5-8b17ac0e35af.jpg",
+            "link_url9": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html",
+            "img10": "shopify://shop_images/GUEST_d246651e-d425-4a0b-84e2-dba3add67b54.webp",
+            "link_url10": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636",
+            "heading1": "Top Ten Arlo Gray",
+            "sub-heading1": "",
+            "img11": "shopify://shop_images/DP-17012-017.jpg",
+            "link_url11": "https://www.metmuseum.org/exhibitions/listings/2020/british-galleries#:~:text=Exhibition%20Overview,created%20between%201500%20and%201900.",
+            "img12": "shopify://shop_images/71zXYBpsuVL._AC_SL1500.jpg",
+            "link_url12": "https://www.amazon.com/Barefoot-Dreams-CozyChic-Throw-Cream/dp/B005ABX0NS",
+            "img13": "shopify://shop_images/CHA624803_1_enlarged.jpg",
+            "link_url13": "https://www.therealreal.com/products/women/shoes/sandals/chanel-2021-quilted-denim-sandals-slingback-sandals-bdy1a?sid=pxogmz&utm_source=Google&utm_medium=shopping&cvosrc=cse.google.google&cvo_crid=453344066284&utm_campaign=shopping_200&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-BsLcllJ778tKkIMhdkxfc3NuNGgRG2EcBPuPMtZon6OhI0R_J-y4aAmTQEALw_wcB",
+            "img14": "shopify://shop_images/bella_blu.jpg",
+            "link_url14": "https://www.bellablunyc.com/",
+            "img15": "shopify://shop_images/s2249779-main-zoom.jpg",
+            "link_url15": "https://www.sephora.com/product/libre-eau-de-parfum-P448102?country_switch=us&lang=en&skuId=2249779&om_mmc=ppc-GG_1918213323_68906954085_pla-418385531910_2249779_353573794529_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY8Q4wosCihXCopM6hPEA47y_djHK1AZDlUb7OlnnxUAiwucLCGGIOYaAgvwEALw_wcB&gclsrc=aw.ds",
+            "img16": "shopify://shop_images/81gWcEhDfIL._AC_UL1500.jpg",
+            "link_url16": "https://www.amazon.com/Rangers-47-Clean-Adjustable-Royal/dp/B00CTEPQNQ/ref=sr_1_2?crid=107S36EL6U9TJ&keywords=rangers+hat&qid=1657425012&sprefix=rangers+hat%2Caps%2C86&sr=8-2",
+            "img17": "shopify://shop_images/ILXhy47dQ4yZAwEJI56k_Home_page_Indo.jpg",
+            "link_url17": "https://www.indochinenyc.com/",
+            "img18": "shopify://shop_images/0143126687.01._SCLZZZZZZZ_SX500.jpg",
+            "link_url18": "https://www.amazon.com/Truth-About-Harry-Quebert-Affair/dp/0143126687",
+            "img19": "shopify://shop_images/s2427110-main-zoom.jpg",
+            "link_url19": "https://www.sephora.com/product/one-size-by-patrick-starrr-secure-blur-hydrating-under-eye-patches-P468395?country_switch=us&lang=en&skuId=2427110&om_mmc=ppc-GG_1918213323_114417900931_pla-1212528922078_2427110_463343130707_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-e0GNhAIl8pqSL35joJ4ibO3tCtvZaE1ml8nDOY_FAZWkRAjxnIwgaAs5KEALw_wcB&gclsrc=aw.ds",
+            "img20": "shopify://shop_images/IMG_3748_2888930e-e600-4380-a4cd-555f18c42237.jpg",
+            "link_url20": "",
+            "heading2": "Top Ten Hope Chilton",
+            "sub-heading2": ""
+          }
+        }
+      },
+      "block_order": [
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2"
+      ],
+      "settings": {}
+    },
+    "7f398309-bf74-458b-829b-8be9eef4cd6c": {
+      "type": "image-slider",
+      "blocks": {
+        "37ab5536-37ef-46e3-a0fa-007c636d31be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Leslie-Long-LoLa41-Courtyard-patio-2-By-Ovi-Mustea-709x610.jpg",
+            "product_url": "https://www.lola41.com/location/lola-41-palm-beach/",
+            "text": ""
+          }
+        },
+        "af1e5513-cd1d-4980-999f-8ca9c6735514": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/product-images-100000343-imgs-COUNTER__LOTUS_GLOW_CLEANSING_BALM_02_PDP_jpg.webp",
+            "product_url": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm",
+            "text": ""
+          }
+        },
+        "f732256e-79d9-4ce4-9d9b-3d366d673ed6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9519204499486.webp",
+            "product_url": "https://www.chanel.com/us/fragrance/p/136420/chance-eau-fraiche-eau-de-toilette-spray/",
+            "text": ""
+          }
+        },
+        "8e9c599f-c0d3-4efd-a0da-aa734d6fce91": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-12_at_11.52.40_PM.png",
+            "product_url": "https://rstyle.me/+9N0T_vBBYPLmVt3PW1r1pg",
+            "text": ""
+          }
+        },
+        "978fdf2f-bb0c-4002-b306-4f48f1515024": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ladies-shirt-2_600x__21603.jpg",
+            "product_url": "https://royalhighnies.com/collections/all-products/products/ladies-gown",
+            "text": ""
+          }
+        },
+        "8ac9c832-5037-4684-aa4c-3c5e71f67cef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/A546A68182_jpg.webp",
+            "product_url": "https://shopdailydrills.com/products/bubble-bra-harbor?pr_prod_strat=use_description&pr_rec_id=be53d1488&pr_rec_pid=6840289132725&pr_ref_pid=8029206151406&pr_seq=uniform",
+            "text": ""
+          }
+        },
+        "b3eb4ae8-0052-4fe5-af3b-32f750e80ca0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-06-12_at_11.54.03_PM.png",
+            "product_url": "https://rstyle.me/+XJE4cy8SrIpvQv0LEkkeDA",
+            "text": ""
+          }
+        },
+        "4c8af84d-6307-467d-ae82-6e54537f3301": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-05-18_at_1.51.50_PM.png",
+            "product_url": "https://www.etsy.com/listing/802489306/balthazar-soho-nyc-nyc-restaurant-print?click_key=fbe57ca49cca713c2b3d56dad47aa84a77a06980%3A802489306&click_sum=9d1ccaf2&external=1&rec_type=cs&ref=landingpage_similar_listing_top-5&frs=1",
+            "text": ""
+          }
+        },
+        "28c9cc32-9f1d-4418-a8fa-107fd2c1bbb5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/apr23-product-fan-favorites-25pk.jpg",
+            "product_url": "https://www.bakedbymelissa.com",
+            "text": ""
+          }
+        },
+        "a7d24943-385d-423d-aabb-da089c1f5133": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17203673530398.webp",
+            "product_url": "https://www.totalwine.com/wine/white-wine/pinot-grigiopinot-gris/santa-margherita-pinot-grigio/p/2596750?glia=true&s=602&&pid=cpc:Performance+Max%2BUS%2BNCAR%2BSTANDARD+PRIORITY::google::&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqnd9JU603Z9eMl1qTlMkYc3AsZfHoMn1MzdYFXtS9F3ar1m_9bPLj0kaAhlUEALw_wcB&gclsrc=aw.ds",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "37ab5536-37ef-46e3-a0fa-007c636d31be",
+        "af1e5513-cd1d-4980-999f-8ca9c6735514",
+        "f732256e-79d9-4ce4-9d9b-3d366d673ed6",
+        "8e9c599f-c0d3-4efd-a0da-aa734d6fce91",
+        "978fdf2f-bb0c-4002-b306-4f48f1515024",
+        "8ac9c832-5037-4684-aa4c-3c5e71f67cef",
+        "b3eb4ae8-0052-4fe5-af3b-32f750e80ca0",
+        "4c8af84d-6307-467d-ae82-6e54537f3301",
+        "28c9cc32-9f1d-4418-a8fa-107fd2c1bbb5",
+        "a7d24943-385d-423d-aabb-da089c1f5133"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "e93690ac-d691-468e-bf50-66427c00205d": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screen_Shot_2023-05-25_at_9.31.34_AM.png",
+        "top_url": "",
+        "image2": "shopify://shop_images/Screen_Shot_2023-05-25_at_9.31.22_AM.png",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1845d2c3-a8ef-492d-b8f9-683208408e14",
+    "f704a78e-5c27-49c4-a852-988609187f16",
+    "16648922938c347e91",
+    "7f398309-bf74-458b-829b-8be9eef4cd6c",
+    "e93690ac-d691-468e-bf50-66427c00205d"
+  ]
+}

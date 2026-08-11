@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cbc194e2-1f38-494e-bad6-2824e2d7ea7a": {
+      "type": "image-description",
+      "settings": {
+        "heading": "SOPHIE KRAKOFF",
+        "path_image": "shopify://shop_images/path_475965da-195e-4b58-b22f-cf9b7a24ad01.webp",
+        "image": "shopify://shop_images/Screenshot_2023-12-21_140137.png",
+        "description": "Sophie strategized for top-shelf beauty staples, Shiseido & MAC, and now represents tastemakers of today & tomorrow via her recently-formed Friends of the House Group. With her curatorial eye, it’s only right that the group’s name evokes a sense of inside industry insight & top-notch taste. You can find the chic creative popping in Layla Bagels to start her day in LA or walking the city at sunset to hop on the subway—we give you the Top Tens of S.K…",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "2f806101-7290-47c8-a088-10bc275f64a2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker_17.gif",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "Color",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "f9055e26-7634-4356-aab7-9aedcc757d49": {
+      "type": "custom-grid-first",
+      "blocks": {
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/SFG_at_The_Armory_Show_2019_1.webp",
+            "link": "https://www.architecturaldigest.com/story/armory-show-2019"
+          }
+        },
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/2_2b556b37-da2a-43e2-8ef8-e870cf861665.webp",
+            "link": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm"
+          }
+        },
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/3_e2d7cae0-6eba-4657-ad2b-902b1b797e3d.webp",
+            "link": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/"
+          }
+        },
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/4_37f46bec-c751-47d9-95eb-d18cc9d46b04.webp",
+            "link": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141"
+          }
+        },
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/5_0f0f03a4-f768-4ab9-abaa-43b802e2f54f.webp",
+            "link": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top"
+          }
+        },
+        "0f766ed1-50d4-4b57-9bb1-34619362616e": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/6_7ede7859-8582-45bc-b4e8-97f15eee588b.webp",
+            "link": "https://shopdailydrills.com/products/bubble-bra-metallic"
+          }
+        },
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/7_cd06596b-5258-4b7b-9f76-a2b997ad9bed.webp",
+            "link": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB"
+          }
+        },
+        "703efa63-97de-49a4-b0bb-ffe107b23198": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/8.webp",
+            "link": "https://balthazarny.com/"
+          }
+        },
+        "5a248c41-880a-4c97-a6bd-466671378376": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/9.webp",
+            "link": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html"
+          }
+        },
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/10_872bc4f6-af5b-4777-911f-c3e202247638.webp",
+            "link": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636"
+          }
+        }
+      },
+      "block_order": [
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b",
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152",
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62",
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801",
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6",
+        "0f766ed1-50d4-4b57-9bb1-34619362616e",
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c",
+        "703efa63-97de-49a4-b0bb-ffe107b23198",
+        "5a248c41-880a-4c97-a6bd-466671378376",
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "html": "",
+        "html1": "",
+        "heading": "",
+        "link-title": "",
+        "link": ""
+      }
+    },
+    "72967e86-2947-460a-92d2-1b3fd5bd9b40": {
+      "type": "image-slider",
+      "blocks": {
+        "0455601d-c068-41bc-83d1-19072f64c08c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SFG_at_The_Armory_Show_2019_1_3813be28-7d87-456d-b169-1d4824efc0c2.webp",
+            "product_url": "https://www.architecturaldigest.com/story/armory-show-2019",
+            "text": ""
+          }
+        },
+        "4b946376-3ed7-4e3a-9419-146de0776524": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22549106_green_0.webp",
+            "product_url": "https://rstyle.me/+whYptqVZajPm0ye6jdb5vw",
+            "text": ""
+          }
+        },
+        "025707cd-f94a-4c07-98c1-310d7ced0a3e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Eye-Want-You_810102033611_01_Black_1024x1024_fbad629d-68dc-45fc-8680-7a6544d0a1ce.webp",
+            "product_url": "https://rstyle.me/+TYKryEUeTmLXGMHziBPnvw",
+            "text": ""
+          }
+        },
+        "c15bae75-2aa7-46ba-99e6-5b0861d45493": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SARTIANO_S_Photo_Credit__Teddy_Wolff.jpg",
+            "product_url": "https://ny.eater.com/2023/6/13/23759253/sartianos-mercer-hotel-soho-opening",
+            "text": ""
+          }
+        },
+        "b79181b5-6bfb-43d1-a908-642a3c115df5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/forestis-dolomites-location.jpg",
+            "product_url": "https://voyagefox.net/hotel-review-the-forestis-dolomites/",
+            "text": ""
+          }
+        },
+        "951e9bdc-a7a8-4887-a75d-fda90f78b810": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44461325_0.jpg",
+            "product_url": "https://www.cartier.com/en-gr/mini-baignoire-watch_cod44733502651450776.html",
+            "text": ""
+          }
+        },
+        "94cfa751-6d10-4886-b77d-38dc8f767ebb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10364465-1064965873801360.jpg",
+            "product_url": "https://rstyle.me/+EpgHmMGa4bJe0aVxDWTVdA",
+            "text": ""
+          }
+        },
+        "43c50fcf-4564-42b2-b40a-fa822c4111dd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_73b47c98-ce1b-4167-ab53-d764378cfb16.jpg",
+            "product_url": "https://www.timeout.com/newyork/bars/brandys-piano-bar",
+            "text": ""
+          }
+        },
+        "6d90c7ea-5f13-4ade-9bd2-5b4dda990269": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11062b_8ed9f282bc7c453a8af6f40ce6ea483e_mv2.webp",
+            "product_url": "https://www.the100spilates.com/",
+            "text": ""
+          }
+        },
+        "89dd43fa-245d-40bb-87ec-18806a6b1bfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/nm_4619690_100106_d.webp",
+            "product_url": "https://rstyle.me/+lPi2apNgt2HGyD1lBGX6ew",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "0455601d-c068-41bc-83d1-19072f64c08c",
+        "4b946376-3ed7-4e3a-9419-146de0776524",
+        "025707cd-f94a-4c07-98c1-310d7ced0a3e",
+        "c15bae75-2aa7-46ba-99e6-5b0861d45493",
+        "b79181b5-6bfb-43d1-a908-642a3c115df5",
+        "951e9bdc-a7a8-4887-a75d-fda90f78b810",
+        "94cfa751-6d10-4886-b77d-38dc8f767ebb",
+        "43c50fcf-4564-42b2-b40a-fa822c4111dd",
+        "6d90c7ea-5f13-4ade-9bd2-5b4dda990269",
+        "89dd43fa-245d-40bb-87ec-18806a6b1bfd"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "16126eec-e70f-4173-b29e-1cb26bf7458a": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/IMG_0774.jpg",
+        "top_url": "https://pin.it/7CCVzCZ",
+        "image2": "shopify://shop_images/IMG_2010.jpg",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "cbc194e2-1f38-494e-bad6-2824e2d7ea7a",
+    "main",
+    "2f806101-7290-47c8-a088-10bc275f64a2",
+    "f9055e26-7634-4356-aab7-9aedcc757d49",
+    "72967e86-2947-460a-92d2-1b3fd5bd9b40",
+    "16126eec-e70f-4173-b29e-1cb26bf7458a"
+  ]
+}

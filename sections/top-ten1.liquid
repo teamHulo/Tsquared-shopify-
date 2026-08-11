@@ -1,0 +1,142 @@
+<div class="top-ten1 cs-{{ section.id }}">
+  {% if section.settings.heading != blank %}
+   <h3 style="width:100%;">{{ section.settings.heading }}</h3>
+  {% endif %}
+  {% if section.settings.heading1 != blank %}
+   <h3 style="width:100%;">{{ section.settings.heading1 }}</h3>
+  {% endif %}
+  {% if section.settings.top-heading != blank %}
+   <p style="width:100%;">{{ section.settings.top-heading }}</p>
+  {% endif %}
+  <div class="top-ten1-left">
+   <a href="{{ section.settings.link }}">
+      <img src="{{ section.settings.image | img_url:'master' }}">
+      <div class="bottom-div">
+        <h5>{{ section.settings.title }}</h5>
+        <p>{{ section.settings.sub-heading }}</p>
+      </div>
+    </a>
+  </div>
+  <div class="top-ten1-right">
+    <a href="{{ section.settings.link1 }}">
+      <img src="{{ section.settings.image1 | img_url:'master' }}">
+      <div class="bottom-div">
+        <h5>{{ section.settings.title1 }}</h5>
+        <p>{{ section.settings.sub-heading1 }}</p>
+      </div>
+    </a>
+  </div>
+  
+</div>
+<style>
+  
+  .top-ten1
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:50px 5%;
+  }
+  .top-ten1-left
+  {
+     width:50%;
+     max-width:50%;
+    text-align:left;
+    padding:20px;
+  }
+  
+  .top-ten1-right
+  {
+    width:50%;
+    max-width:50%;
+    text-algin:left;
+    padding:20px;
+  }
+  .top-ten1 img
+  {
+    max-width:100%;
+  }
+  .bottom-div
+  {
+    margin:20px 0px;
+  }
+  @media screen and (max-width:768px)
+  {
+   
+    .top-ten1-left,.top-ten1-right
+    {
+      width:100%;
+      max-width:100%;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Top-Ten1",
+  "settings": [
+    {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "heading1",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "top-heading",
+          "label": "Top Heading"
+    },
+    {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+    },
+    {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "sub-heading",
+          "label": "Sub-Heading"
+    },
+    {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+    },
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image"
+    },
+    {
+          "type": "text",
+          "id": "title1",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "sub-heading1",
+          "label": "Sub-Heading"
+    },
+    {
+          "type": "url",
+          "id": "link1",
+          "label": "Link"
+    }
+    
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Top-Ten1"
+    }
+  ]
+}
+{% endschema %}

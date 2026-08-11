@@ -1,0 +1,711 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1660380503ba04e3dc": {
+      "type": "custom-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Happy_Birthday_Photo_Collage_Polaroid_Frame_Your_Story_Billboard_Square_1__LE_upscale_gentle.jpg",
+        "bg_position": "center-center",
+        "height": "use_screen_full",
+        "overlay_opacity": 0,
+        "overlay_color": "#ffffff",
+        "kicker": "",
+        "title": "",
+        "title1": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "166149232574405903": {
+      "type": "splash",
+      "disabled": true,
+      "settings": {}
+    },
+    "5af1286b-fa13-49b9-8a37-9384693a242f": {
+      "type": "title-content",
+      "custom_css": [],
+      "settings": {
+        "top_title": "",
+        "bg_color": "#ffffff",
+        "title": "Your trusted insider lens & home of the Top Ten",
+        "sub_title1": "",
+        "effect_text": "",
+        "sub_title2": "Through features with founders and tastemakers, T² distills personal taste into actionable discovery across products, places, and rituals—bridging aspiration with application.",
+        "content": "<h6></h6><h6>@TSQUAREDOFFICIAL<strong>™</strong></h6><p></p>",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "0d2a15fd-8f57-411d-a783-8340f65ef110": {
+      "type": "section-logos",
+      "blocks": {
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/e41ad35493c93a87c61a508449be7e84-1.png",
+            "link": "shopify://pages/jessica-matlin"
+          }
+        },
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/VOGUE_LOGO_svg.png",
+            "link": "https://shareyourtopten.com/pages/lilah-ramzi"
+          }
+        },
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/MYTE_BIG-8677496b_65824cfc-2283-4192-b906-9d511fc3d693.png",
+            "link": ""
+          }
+        },
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-3": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-4": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-0",
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-1",
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-2",
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-3",
+        "template--15750794936515__0d2a15fd-8f57-411d-a783-8340f65ef110-1684509991c9d48a0f-4"
+      ],
+      "settings": {
+        "title": "FEATURES + PARTNERSHIPS INCLUDE:",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1660385520f78d6a4a": {
+      "type": "custom-about",
+      "disabled": true,
+      "settings": {
+        "text": "ABOUT TSQUARED",
+        "html1": "",
+        "html": "<div style='text-align: center;'><h2 class='hero__title h2'>Connection created through\n<br> the top ten things that bring you joy<br><br><a href=\"#\" class=\"makes\">Discover</a>your next favorite</h2>\n</div>",
+        "full_width": false
+      }
+    },
+    "45cf6996-1f23-4330-826e-156637f7aed3": {
+      "type": "image-text-grid",
+      "blocks": {
+        "9e1e8d97-6c0f-4acd-af78-61e9dec15e2b": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_TOP_TEN_BABY_PINK_1.png",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "3bedf865-a1a9-473d-80ef-60e67d3ee6fd": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_TOP_TEN_BABY_PINK_2.png",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9e1e8d97-6c0f-4acd-af78-61e9dec15e2b",
+        "3bedf865-a1a9-473d-80ef-60e67d3ee6fd"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16603831709af6b8ad": {
+      "type": "custom-links",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify://shop_images/Photo_b2812b21-1a09-466a-be35-ea4261b05c67.png",
+        "image2": "shopify://shop_images/Bows_before_bros__wildfoxcouture_yvessaintlaurent_inspo_fashion_copy_2af69e3f-5bb2-46b3-bb9a-07b3102226f5.jpg",
+        "image3": "shopify://shop_images/STUDIOCORAL_b91ee059-fccf-456a-96f3-9a25e762801b.png",
+        "image4": "shopify://shop_images/Camille_Charriere_Wore_an_Upcycled_Lace_Dress_to_Her_Roaring_2020s_Wedding_Celebration_at_Maxim_s_in_Paris_3f27542e-5465-4feb-bd27-1ec7bfcb99e0.jpg",
+        "image5": "shopify://shop_images/Molly_Goddard_AW18_af7300e2-63bb-457e-8606-4fcb347a7c67.jpg",
+        "title1": "",
+        "link1": "#",
+        "title2": "FEATURES",
+        "link2": "shopify://blogs/featured",
+        "title3": "WELL",
+        "link3": "shopify://pages/well",
+        "title4": "COLOR",
+        "link4": "shopify://pages/color",
+        "title5": "SEASON",
+        "link5": "shopify://pages/season",
+        "title6": "STYLE",
+        "link6": "shopify://pages/style",
+        "title7": "TRAVEL",
+        "link7": "shopify://pages/travel"
+      }
+    },
+    "36de6708-100a-48c5-b3fd-bc94dcb3baa9": {
+      "type": "image-text-grid",
+      "blocks": {
+        "43ae3e88-715f-4fe4-8d6f-68ea7586cc79": {
+          "type": "user_profile",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/chandon-iconrose-rose-california-75-nk-w.webp",
+            "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+            "contact_info": "Chandon",
+            "description": "Rose Brut",
+            "link": "https://www.chandon.com/en-US/chandon-rose-mini/1091547.html"
+          }
+        },
+        "898d0ba2-e127-43c6-8c79-a0b2805e8033": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Kate_Berry_s_Top_Ten_Mockup_for_LaForce_1.png",
+            "title": "Kate Berry",
+            "subtitle": "Style, art, creativity, design, @kateberryberry lives at the intersection of all four. A seasoned leader in the design and lifestyle media world, Berry currently serves as U.S. Editor of Cabana Magazine, the Milan-based luxury interiors publication.                                   Her discerning eye for detail is on full display as she prepares to host her annual Lunar New Year celebration. For Kate, the holiday is about gathering her nearest and dearest, toasting to fresh beginnings, and welcoming a clean slate—preferably with bubbles, @chandonusa Where her impeccable sense of taste and tradition begins, we give you Kate Berry’s Top Ten.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "43ae3e88-715f-4fe4-8d6f-68ea7586cc79",
+        "898d0ba2-e127-43c6-8c79-a0b2805e8033"
+      ],
+      "settings": {
+        "title": "in the spotlight",
+        "description": "kate berry x chandon",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "3a8e1a6c-68a0-4e2d-8a8c-64b67f5498d5": {
+      "type": "image-text-grid",
+      "blocks": {
+        "926cebcb-0ec9-43e1-8f0b-0764d342281f": {
+          "type": "user_profile",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/1311131.2.webp",
+            "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+            "contact_info": "Flower Power",
+            "description": "",
+            "link": "https://rstyle.me/+VrwmmOSUOLCyfaLXomcD7Q"
+          }
+        },
+        "a1003685-5544-4775-8106-de28fe6e0d2d": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/TOP_TEN_FLOWER_POWER.png",
+            "title": "Flower Power",
+            "subtitle": "From poppies to peonies to daisies, the florals in a blossoming bouquet never fail to brighten any day. Find yourself inspired by Il Fiorista (our favorite Flatiron dinner spot), Amsterdam’s Keukenhof Tulip Festivals, & Lewis Miller’s iconic “flower flashes” which earned him the moniker “botanical Banksy.” Whether you get your floral fix at the corner bodega, Venus ET Fleur, or the notes in your perfume— we give you our Top Tens to stay in bloom 🤍",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "926cebcb-0ec9-43e1-8f0b-0764d342281f",
+        "a1003685-5544-4775-8106-de28fe6e0d2d"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "7ff0538e-855c-4308-a32f-8f3d52fa73ed": {
+      "type": "image-text-grid",
+      "blocks": {
+        "product_c6Mbbh": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/download_13.jpg",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "6d23d4fd-3e48-46cb-85a8-86924ff71c1d": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/TOP_TEN_LILAH_RAMZI.png",
+            "title": "Lilah Ramzi",
+            "subtitle": "Lilah Ramzi is the personification of timelessness— think, the nostalgia of a history book meets the pages of Vogue’s chic contemporary curation. The Features, Parties & Shopping Editor at Vogue’s approach is rooted in fashion history studies & the Metropolitan Museum of Art's Costume Institute. You’ll find her walking the streets of the city, wearing a 1950s circle skirt & mother’s heirloom gold necklace, with a Jackie O.-elegance & Billie Holiday on play. With a style of writing & wearing as lovely as can be, we give you the Top Tens of L. Ramzi",
+            "link": "shopify://pages/lilah-ramzi"
+          }
+        },
+        "7a8b9bf0-9c5e-4dc7-a147-93ad525949f3": {
+          "type": "user_profile",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Lilah_Ramzi_Feature_3e730d37-c5b4-4bd5-a1c2-9ba2ad2c0d5e.jpg",
+            "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+            "contact_info": "Lilah Ramzi",
+            "description": "",
+            "link": "shopify://pages/lilah-ramzi"
+          }
+        }
+      },
+      "block_order": [
+        "product_c6Mbbh",
+        "6d23d4fd-3e48-46cb-85a8-86924ff71c1d",
+        "7a8b9bf0-9c5e-4dc7-a147-93ad525949f3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "c1c3712d-c470-4304-96ab-958985df1d4e": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/download_13.jpg",
+        "mobile_image": "shopify://shop_images/download_13.jpg",
+        "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Join the Party",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--invert--primary",
+        "link_text": "sign up",
+        "link": "https://substack.com/@tsquaredofficial",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "166038651794b73803": {
+      "type": "section-video",
+      "settings": {
+        "height": "use_image",
+        "video_link_bg": "https://cdn.shopify.com/videos/c/o/v/107555e9d4664d07b05fbf9f53979489.mov",
+        "object_position": "center-center",
+        "image": "shopify://shop_images/ezgif.com-optimize_1.gif",
+        "bg_position": "center-center",
+        "video_link": "",
+        "popup_text": "",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "overlay_opacity": 0,
+        "overlay_color": "#333333",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1660388869c241ee79": {
+      "type": "custom-list",
+      "disabled": true,
+      "settings": {
+        "sub-heading": "",
+        "title1": "DEMOCRATIZED",
+        "title2": "Sharing",
+        "title3": "Environment",
+        "sub-title1": "SEASON",
+        "sub-link1": "",
+        "sub-title2": "COLOR",
+        "sub-link2": "",
+        "sub-title3": "WELL",
+        "sub-link3": "",
+        "sub-title4": "STYLE",
+        "sub-link4": "",
+        "sub-title5": "TRAVEL",
+        "sub-link5": "",
+        "sub-title6": "",
+        "sub-link6": "",
+        "sub-title7": "",
+        "sub-link7": "",
+        "sub-title8": "",
+        "sub-link8": ""
+      }
+    },
+    "16604004202e683382": {
+      "type": "custom-text-plus",
+      "disabled": true,
+      "settings": {
+        "heading": "Arlo Gray",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum tempore vero error accusantium possimus, tenetur necessitatibus adipisci distinctio quidem quam numquam laborum, nisi aut ea sed est magnam consectetur similique? Sed, nemo delectus? Natus enim impedit itaque illo eum, voluptate obcaecati harum, in nesciunt maiores temporibus similique nihil, quaerat dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, totam corrupti quisquam eveniet asperiores ex molestiae architecto suscipit molestias! At?",
+        "link-title": "SHOP ALL",
+        "link": "#"
+      }
+    },
+    "b2d3dcf6-167f-40eb-a00b-dca323f1e90c": {
+      "type": "title-content",
+      "disabled": true,
+      "settings": {
+        "top_title": "HEY",
+        "bg_color": "",
+        "title": "A Top Ten",
+        "sub_title1": "is a look into someone’s life: the tote bag that keeps them organized, the",
+        "effect_text": "SONG",
+        "sub_title2": "they had their first dance to, an avocado slicer",
+        "content": "<p><a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">CONTACT US</a></p>",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "166125398351ceac10": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<div >\n<br><br>\n      <p>HEY</p>\n      <br><br>\n      <h2>A Top Ten is a look into someone’s life-\n<br>\nthe tote bag that keeps them organized,\n<br>  \nthe song they had their first dance to, an avocado slicer.</h2><br><br>\n      <p></p>\n<p></p>\n<p></p>\n<br>\n<p><a href=\"#\" class=\"here\">CONTACT US</a>\n</p>\n  </div>\n<br><br>",
+        "full_width": false
+      }
+    },
+    "f01ff27f-c5de-44ff-9142-5e760d5552d6": {
+      "type": "image-text-grid",
+      "blocks": {
+        "46f8bebc-0569-4781-b16a-6a26ce606335": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/TOP_TEN_KIT_KEENAN.png",
+            "title": "Kit Keenan",
+            "subtitle": "Find @kitkeenan on her surfboard, #whatskitcooking episodes, or styling the latest @cynthiarowley arrivals. From the workouts she creates for your yoga mat, to the recipes she devises for your dinner plate, to the conversations she cultivates on @agelesspodcast for your morning walk, multifaceted takes on a new meaning. To the one that inspires us to chase our dreams & stay fit, we give you the Top Tens of KIT 🤍",
+            "link": "shopify://pages/kit-keenan"
+          }
+        },
+        "9aacf3f9-f298-45e7-aff5-f5b7af870e86": {
+          "type": "user_profile",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/Kit_Keenan_Feature_27a4c653-1168-45cc-bb53-001f9ec2b937.jpg",
+            "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+            "contact_info": "Kit Keenan",
+            "description": "",
+            "link": "shopify://pages/kit-keenan"
+          }
+        }
+      },
+      "block_order": [
+        "46f8bebc-0569-4781-b16a-6a26ce606335",
+        "9aacf3f9-f298-45e7-aff5-f5b7af870e86"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "714a93fd-d920-42c3-8acd-5c2647b28aba": {
+      "type": "image-text-grid",
+      "blocks": {
+        "0fc5e932-67db-44c9-a659-810ccce786fa": {
+          "type": "user_profile",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/unnamed-7_500x_8e46b3a3-6ba2-424d-9d89-0c56125e9f81.webp",
+            "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+            "contact_info": "Orange",
+            "description": "",
+            "link": "https://www.forsythart.com/products/the-orange-stack"
+          }
+        },
+        "6e65419f-6fab-46c7-a068-3d4958b16037": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/TOP_TEN_ORANGE.png",
+            "title": "Orange",
+            "subtitle": "From vintage inspiration— Sonny & Cher’s bright suits to match their duet — to the runway— Fendi’s F/W ‘21 sultry minidresses — to the red carpet — Regina King’s @christopherjohnrogers habenero silhouette at the CDGA Awards, clearly orange is back & it’s the new black. The once-underrated & kitsch shade is now associated with the vibrancy of the 1970s & the citrus side of life. Let its warmth uplift you as we give you our Top Tens of the sunset hue 🧡",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0fc5e932-67db-44c9-a659-810ccce786fa",
+        "6e65419f-6fab-46c7-a068-3d4958b16037"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1660396408c10827ce": {
+      "type": "custom-grid-first",
+      "blocks": {
+        "cdeb6d7f-c0b4-49dd-bcff-231a50e44bf6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/94476LoLa41PalmBeach_exterior.jpg",
+            "link": "https://www.lola41.com/location/lola-41-palm-beach/"
+          }
+        },
+        "421cf7c7-01b5-4d42-a46e-be5da639f2e7": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2022-08-31_at_11.14.55_AM.png",
+            "link": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm"
+          }
+        },
+        "9f57b7d8-4b28-4d10-85bf-31464d8909e4": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/chance-eau-fraiche-eau-de-toilette-spray-3-4fl-oz--packshot-default-136420-8848377446430.png",
+            "link": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/"
+          }
+        },
+        "8b8c0e2f-af89-4288-bb4e-17bcdc616638": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/download.jpg",
+            "link": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141"
+          }
+        },
+        "826a517f-0ddb-4076-9748-2447d7da13ff": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3815.jpg",
+            "link": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top"
+          }
+        },
+        "3af864ea-10ea-41c0-8002-7c234f51ce98": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3863.jpg",
+            "link": "https://shopdailydrills.com/products/bubble-bra-metallic"
+          }
+        },
+        "bc8d1f4a-da66-4528-9f52-ef2ce647bf03": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3814.jpg",
+            "link": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB"
+          }
+        },
+        "9b06ec50-0c7f-4f9c-bf19-595fbb2a616a": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/01_BALTHAZAR-EATER-SCENES-Daniel-Krieger-1010_CROP1.jpg",
+            "link": "https://balthazarny.com/"
+          }
+        },
+        "3b5db05c-dfce-4bcb-8302-82c2ba81efb0": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/bdaybox1.jpg",
+            "link": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html"
+          }
+        },
+        "ee73b473-0ace-4800-825f-6bce193b9bb6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/GUEST_d246651e-d425-4a0b-84e2-dba3add67b54.jpg",
+            "link": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636"
+          }
+        }
+      },
+      "block_order": [
+        "cdeb6d7f-c0b4-49dd-bcff-231a50e44bf6",
+        "421cf7c7-01b5-4d42-a46e-be5da639f2e7",
+        "9f57b7d8-4b28-4d10-85bf-31464d8909e4",
+        "8b8c0e2f-af89-4288-bb4e-17bcdc616638",
+        "826a517f-0ddb-4076-9748-2447d7da13ff",
+        "3af864ea-10ea-41c0-8002-7c234f51ce98",
+        "bc8d1f4a-da66-4528-9f52-ef2ce647bf03",
+        "9b06ec50-0c7f-4f9c-bf19-595fbb2a616a",
+        "3b5db05c-dfce-4bcb-8302-82c2ba81efb0",
+        "ee73b473-0ace-4800-825f-6bce193b9bb6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "html": "<h4 class=\"hero__title \">\n   Top Ten Arlo Gray<sup style=\"top:-15px;font-size:15px\"></sup>\n    \n  </h4>",
+        "html1": "<p>Lola41 Palm Beach</p>\n<p>Beautycounter Cleansing Balm</p>\n<p>Chanel Chance Eau Fraîche Perfume</p>\n<p>SAKARA Detox Drops</p>\n<p>Royal Highnies Original Lounge Top Pajamas</p>\n<p>Daily Drills Bubble Bra</p>\n<p>Cecilia New York flower heels</p>\n<p> Balthazar </p>\n<p>Baked by Melissa</p>\n<p>Santa Margherita Pinot Grigio</p>",
+        "heading": "@arlogray",
+        "link-title": "",
+        "link": "#"
+      }
+    },
+    "168451068656a03765": {
+      "type": "apps",
+      "blocks": {
+        "7eb84f7d-e67a-477a-81f0-b4a2c7b65cd6": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "7eb84f7d-e67a-477a-81f0-b4a2c7b65cd6"
+      ],
+      "settings": {
+        "width": "wrapper",
+        "height": "margin--medium",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "646d65a8-2913-4342-8ea1-e9bb24249629": {
+      "type": "influent-text",
+      "disabled": true,
+      "settings": {
+        "icon_width": 500,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": 36
+      }
+    },
+    "c67063e8-c2ca-4ad4-aa78-f5c2c6d3b6c6": {
+      "type": "custom-text-plus",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "text": "",
+        "link-title": "",
+        "link": ""
+      }
+    },
+    "5651e0cf-fcdf-404f-a83b-46930890c38d": {
+      "type": "section-newsletter",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "richtext": "",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "43008efe-227e-4180-9427-71e7490f6511": {
+      "type": "section-contact",
+      "blocks": {
+        "template--15750794936515__43008efe-227e-4180-9427-71e7490f6511-16878774804bd83b73-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "template--15750794936515__43008efe-227e-4180-9427-71e7490f6511-16878774804bd83b73-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "313283fd-cb70-4091-bf17-519463b8b972": {
+          "type": "body",
+          "disabled": true,
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "template--15750794936515__43008efe-227e-4180-9427-71e7490f6511-16878774804bd83b73-0",
+        "template--15750794936515__43008efe-227e-4180-9427-71e7490f6511-16878774804bd83b73-1",
+        "313283fd-cb70-4091-bf17-519463b8b972"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "1660380503ba04e3dc",
+    "166149232574405903",
+    "5af1286b-fa13-49b9-8a37-9384693a242f",
+    "0d2a15fd-8f57-411d-a783-8340f65ef110",
+    "1660385520f78d6a4a",
+    "45cf6996-1f23-4330-826e-156637f7aed3",
+    "16603831709af6b8ad",
+    "36de6708-100a-48c5-b3fd-bc94dcb3baa9",
+    "3a8e1a6c-68a0-4e2d-8a8c-64b67f5498d5",
+    "7ff0538e-855c-4308-a32f-8f3d52fa73ed",
+    "c1c3712d-c470-4304-96ab-958985df1d4e",
+    "166038651794b73803",
+    "1660388869c241ee79",
+    "16604004202e683382",
+    "b2d3dcf6-167f-40eb-a00b-dca323f1e90c",
+    "166125398351ceac10",
+    "f01ff27f-c5de-44ff-9142-5e760d5552d6",
+    "714a93fd-d920-42c3-8acd-5c2647b28aba",
+    "1660396408c10827ce",
+    "168451068656a03765",
+    "646d65a8-2913-4342-8ea1-e9bb24249629",
+    "c67063e8-c2ca-4ad4-aa78-f5c2c6d3b6c6",
+    "5651e0cf-fcdf-404f-a83b-46930890c38d",
+    "43008efe-227e-4180-9427-71e7490f6511"
+  ]
+}

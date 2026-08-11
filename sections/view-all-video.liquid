@@ -1,0 +1,111 @@
+{{ 'section-view-all-video.css' | asset_url | stylesheet_tag }}
+
+<style>
+    #section--{{section.id}} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom}}px;
+    }
+    @media (max-width: 767px) {
+        #section--{{section.id}} {
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+</style>
+
+<view-all-video id="section--{{ section.id }}" class="view-all-video__wrapper">
+    <div class="text__wrapper">
+        {% if section.settings.title != blank %}
+            <h2 class="title">{{ section.settings.title }}</h2>
+        {% endif %}
+        {% if section.settings.subtitle != blank %}
+            <p class="subtitle">{{ section.settings.subtitle }}</p>
+        {% endif %}
+    </div>
+    <div class="video__wrapper">
+        <video controls preload="none" {% if section.settings.video_poster != blank %}
+            poster="{{ section.settings.video_poster | img_url: '1000x' }}"
+        {% endif %}>
+            <source src="{{ section.settings.video_url }}" typer="video/mp4">
+        </video>
+        
+    </div>
+</view-all-video>
+
+{% schema %}
+    {
+        "name": "View all video",
+        "class": "view-all-video",
+        "settings": [
+            {
+                "type": "url",
+                "id": "video_url",
+                "label": "Video url"
+            },
+            {
+                "type": "image_picker",
+                "id": "video_poster",
+                "label": "Video poster"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "text",
+                "id": "subtitle",
+                "label": "Subtitle"
+            },
+            {
+                "type": "header",
+                "content": "Section spacing"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding top",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding bottom",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_top_mobile",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding top on mobile",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom_mobile",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding bottom on mobile",
+                "default": 50
+            }
+        ],
+        "presets": [
+            {
+                "name": "View all video"
+            }
+        ]
+    }
+{% endschema %}

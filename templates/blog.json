@@ -1,0 +1,111 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "f3a4d48d-0b54-4498-81bc-4ad6c3c2f2a5": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Image_10.webp",
+        "path_image": "shopify://shop_images/line.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Featured",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "7653d479-9a0a-4591-b0e1-e146cc5d20f7": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15750794576067__7653d479-9a0a-4591-b0e1-e146cc5d20f7-16846590012d7e4c3e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Lilah_Ramzi_Feature_d1683e9b-769f-4011-afdb-ceddc0812216.jpg",
+            "bg_position": "center-center",
+            "title": "LILAH RAMZI",
+            "text": "",
+            "button_label": "",
+            "button_link": "https://shareyourtopten.com/pages/lilah-ramzi",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15750794576067__7653d479-9a0a-4591-b0e1-e146cc5d20f7-16846590012d7e4c3e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/25.webp",
+            "bg_position": "center-center",
+            "title": "lilly SISTO",
+            "text": "",
+            "button_label": "",
+            "button_link": "https://shareyourtopten.com/pages/lilly-sisto",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15750794576067__7653d479-9a0a-4591-b0e1-e146cc5d20f7-16846590012d7e4c3e-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/27.webp",
+            "bg_position": "center-center",
+            "title": "KIT KEENAN",
+            "text": "",
+            "button_label": "",
+            "button_link": "https://shareyourtopten.com/pages/kit-keenan",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15750794576067__7653d479-9a0a-4591-b0e1-e146cc5d20f7-16846590012d7e4c3e-0",
+        "template--15750794576067__7653d479-9a0a-4591-b0e1-e146cc5d20f7-16846590012d7e4c3e-1",
+        "template--15750794576067__7653d479-9a0a-4591-b0e1-e146cc5d20f7-16846590012d7e4c3e-2"
+      ],
+      "settings": {
+        "title": "NEWEST FEATURES",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1.4
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "layout": "list",
+        "blog_show_meta": true,
+        "bg_position": "center-center",
+        "overlay_opacity": 30,
+        "overlay_color": "#000000",
+        "image_height": "use_screen_one_third",
+        "text_color": "text--white",
+        "tags": false
+      }
+    }
+  },
+  "order": [
+    "f3a4d48d-0b54-4498-81bc-4ad6c3c2f2a5",
+    "7653d479-9a0a-4591-b0e1-e146cc5d20f7",
+    "main"
+  ]
+}

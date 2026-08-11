@@ -1,0 +1,748 @@
+
+
+<section class="custom__tabs">
+<div class="tab">
+  {% for block in section.blocks %}
+    {% if block.type == 'block-1' %}
+        <button class="tablinks" onclick="openCity(event, '{{ block.settings.access }}')" {% if forloop.index == 1 %}id="defaultOpen"{% endif %}>
+      {% if block.settings.link__url != blank %}<a class="link__ssas" href="{{ block.settings.link__url }}">{{ block.settings.tab_ttl }}</a>{% else %}{{ block.settings.tab_ttl }}{% endif %}</button>
+      {% endif %}
+    {% endfor %}
+</div>
+  
+{% capture block_type %}
+  {% for block in section.blocks %}
+    {{block.type}}{% if forloop.last == false %}::{% endif%}
+  {% endfor %}
+{% endcapture %}
+
+{% assign types_array = block_type | split: '::'%}
+
+
+
+{% for block in section.blocks %}
+  
+   {% if block.type == 'block-1' %}
+       {% assign cont = block.settings.access  %}
+       {% assign count = 0 %}
+  {% endif %}
+  
+    {% if block.type == 'block-2' %}
+      {% assign tit = block.settings.accessc  %}
+        {% if tit == cont %}
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% if count == 1 %}
+                <div id="{{ block.settings.accessc }}" class="tabcontent" >
+       {% endif %}
+        
+                <div class="inner__grid">
+               <div class="insert-new {% if block.settings.showconten == blank %}make_it-full{% endif %}">
+        {%  if block.settings.heading1 != blank %}    
+                   <div class="bottom-divv">
+                     <div class="">
+                      <h4>{{ block.settings.heading1 }}</h4>
+                      <p>{{ block.settings.sub-heading1 }}</p>
+                     </div>
+                  {% if block.settings.profile1 != blank %} 
+                    
+                     <div class="rad">
+                       <img src="{{ block.settings.profile1 | img_url:'small' }}"/>
+                     </div>
+                    {% endif %}
+                   </div>
+                  {% endif %}
+                <div class="grid-container">
+                    {% if block.settings.img1 != blank %}
+                      <div class="item-1">
+                        <a href="{{ block.settings.link_url1 }}">         
+                             <img src="{{ block.settings.img1 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                      {% endif %}
+                      {% if block.settings.img2 != blank %}
+                      <div class="item-2">
+                  <a href="{{ block.settings.link_url2 }}">         
+                             <img src="{{ block.settings.img2 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img3 != blank %}
+                      <div class="item-3">
+                  <a href="{{ block.settings.link_url3 }}">         
+                             <img src="{{ block.settings.img3 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img4 != blank %}
+                      <div class="item-4">
+                 <a href="{{ block.settings.link_url4 }}">         
+                             <img src="{{ block.settings.img4 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img5 != blank %}
+                      <div class="item-5">
+                 <a href="{{ block.settings.link_url5 }}">         
+                             <img src="{{ block.settings.img5 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img6 != blank %}
+                      <div class="item-6">
+                 <a href="{{ block.settings.link_url6 }}">         
+                             <img src="{{ block.settings.img6 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img7 != blank %}
+                      <div class="item-7">
+                 <a href="{{ block.settings.link_url7 }}">         
+                             <img src="{{ block.settings.img7 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img8 != blank %}
+                      <div class="item-8">
+                 <a href="{{ block.settings.link_url8 }}">         
+                             <img src="{{ block.settings.img8 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img9 != blank %}
+                      <div class="item-9">
+                 <a href="{{ block.settings.link_url9 }}">         
+                             <img src="{{ block.settings.img9 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img10 != blank %}
+                      <div class="item-10">
+                    <a href="{{ block.settings.link_url10 }}">         
+                             <img src="{{ block.settings.img10 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+              
+                </div>
+       {%- if block.settings.showconten -%}
+                 <div class="insert-new">
+       {%  if block.settings.heading2 != blank %}
+                   <div class="bottom-divv">
+                    <div class="">
+                      <h4>{{ block.settings.heading2 }}</h4>
+                      <p>{{ block.settings.sub-heading2 }}</p>
+                    </div>
+                    {% if block.settings.profile2 != blank %} 
+                     <div class="rad">
+                       <img src="{{ block.settings.profile2 | img_url:'small' }}"/>
+                     </div>
+                      {% endif %}
+                   </div>
+                    {% endif %}
+                  <div class="grid-container">
+                      {% if block.settings.img11 != blank %}
+                      <div class="item-1">
+                  <a href="{{ block.settings.link_url11 }}">         
+                             <img src="{{ block.settings.img11 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img12 != blank %}
+                      <div class="item-2">
+                 <a href="{{ block.settings.link_url12 }}">         
+                             <img src="{{ block.settings.img12 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img13 != blank %}
+                      <div class="item-3">
+                 <a href="{{ block.settings.link_url13 }}">         
+                             <img src="{{ block.settings.img13 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img14 != blank %}
+                      <div class="item-4">
+                 <a href="{{ block.settings.link_url14 }}">         
+                             <img src="{{ block.settings.img14 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img15 != blank %}
+                      <div class="item-5">
+                 <a href="{{ block.settings.link_url15 }}">         
+                             <img src="{{ block.settings.img15 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img16 != blank %}
+                      <div class="item-6">
+                    <a href="{{ block.settings.link_url16 }}">         
+                             <img src="{{ block.settings.img16 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img17 != blank %}
+                      <div class="item-7">
+                 <a href="{{ block.settings.link_url17 }}">         
+                             <img src="{{ block.settings.img17 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img18 != blank %}
+                      <div class="item-8">
+                 <a href="{{ block.settings.link_url18 }}">         
+                             <img src="{{ block.settings.img18 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img19 != blank %}
+                      <div class="item-9">
+                 <a href="{{ block.settings.link_url19 }}">         
+                             <img src="{{ block.settings.img19 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                        {% if block.settings.img20 != blank %}
+                      <div class="item-10">
+                 <a href="{{ block.settings.link_url20 }}">         
+                             <img src="{{ block.settings.img20 | img_url: 'master' }}">         
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+                 
+                 </div>
+                {% endif %}
+                </div>
+              {% assign cur = forloop.index0 | plus: 1 %}
+      {% comment %}
+               {{ types_array[cur]}}
+      {% endcomment %}
+              {% if types_array[cur] contains 'block-1' %}
+                </div>
+              {% endif %}
+        {% assign count = 1 %}
+      {% endif %}
+  {% endfor %}
+
+
+<div class="margin--botton">
+</div>
+
+<style>
+  .grid-container
+  {
+    width: 50%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(4, 15vw);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .grid-container img
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width:100%;
+  }
+  .item-1
+  {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .item-2
+  {
+    
+  }
+  .item-3
+  {
+    
+  }
+  .item-4
+  {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .item-5
+  {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .item-6
+  {
+    
+  }
+  .item-7
+  {
+    
+  }
+  .item-8
+  {
+    
+  }
+  .item-9
+  {
+    
+  }
+  .item-10
+  {
+    
+  }
+  .w-grid
+  {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .w-grid p
+  {
+    margin-bottom:20px;
+  }
+  .white-cont
+  {
+    max-width: 80%;
+    margin: 0px auto;
+    padding:20px;
+    background-color:white;
+  }
+  .box-content
+  {
+    border:4px solid #EBA443;
+    padding:20px;
+    text-align:center;
+  }
+  .white-cont p
+  {
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  @media screen and (max-width:768px)
+  {
+    .grid-container
+    {
+      width:100%;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+    }
+    .w-grid
+    {
+      width:100%;
+    }
+    .white-cont
+    {
+      max-width:96%;
+    }
+    .item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10
+    {
+      width:48%;
+      
+    }
+  }
+</style>
+{% schema %}
+  {
+    "name": "Blogs Tabs",
+    "max_blocks": 100,
+    "settings": [
+      
+    ],
+    "blocks":[
+      {
+      "name": "Tabs",
+      "type": "block-1",
+      "settings":[
+        {
+          "label": "Link URl",
+          "type": "url",
+          "id": "link__url"
+        },
+          {
+          "label": "Tab Title",
+          "type": "text",
+            "id": "tab_ttl"
+          },
+         {
+           "label": "Content Accesser",
+           "type": "text",
+           "id": "access"
+         }
+      
+      ]
+      },
+      {
+        "name": "Tab Content",
+        "type": "block-2",
+        "settings":[
+          {
+            "type": "checkbox",
+              "id": "showconten",
+              "label": "Show content Seconed",
+              "default": true
+          },
+          {
+           "label": "Content Accesser",
+           "type": "text",
+           "id": "accessc"
+         },
+          {
+              "label": "Profile Image 1",
+              "type": "image_picker",
+              "id": "profile1"
+            },
+          {
+              "label": "Profile Image 2",
+              "type": "image_picker",
+              "id": "profile2"
+            },
+            {
+              "label": "First Grid Image 1",
+              "type": "image_picker",
+              "id": "img1"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url1"
+            },
+          {
+              "label": "First Grid Image 2",
+              "type": "image_picker",
+              "id": "img2"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url2"
+            },
+          {
+              "label": "First Grid Image 3",
+              "type": "image_picker",
+              "id": "img3"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url3"
+            },
+          {
+              "label": "First Grid Image 4",
+              "type": "image_picker",
+              "id": "img4"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url4"
+            },
+          {
+              "label": "First Grid Image 5",
+              "type": "image_picker",
+              "id": "img5"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url5"
+            },
+          {
+              "label": "First Grid Image 6",
+              "type": "image_picker",
+              "id": "img6"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url6"
+            },
+          {
+              "label": "First Grid Image 7",
+              "type": "image_picker",
+              "id": "img7"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url7"
+            },
+          {
+              "label": "First Grid Image 8",
+              "type": "image_picker",
+              "id": "img8"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url8"
+            },
+          {
+              "label": "First Grid Image 9",
+              "type": "image_picker",
+              "id": "img9"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url9"
+            },
+           {
+              "label": "First Grid Image 10",
+              "type": "image_picker",
+              "id": "img10"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url10"
+            },
+            {
+              "label": "heading for 1st grid",
+              "type": "text",
+              "id": "heading1"
+            },
+            {
+              "label": "subheading for 1st grid",
+              "type": "text",
+              "id": "sub-heading1"
+            },
+           {
+              "label": "2nd Grid Image 1",
+              "type": "image_picker",
+              "id": "img11"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url11"
+            },
+           {
+              "label": "2nd Grid Image 2",
+              "type": "image_picker",
+              "id": "img12"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url12"
+            },
+           {
+              "label": "2nd Grid Image 3",
+              "type": "image_picker",
+              "id": "img13"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url13"
+            },
+           {
+              "label": "2nd Grid Image 4",
+              "type": "image_picker",
+              "id": "img14"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url14"
+            },
+           {
+              "label": "2nd Grid Image 5",
+              "type": "image_picker",
+              "id": "img15"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url15"
+            },
+           {
+              "label": "2nd Grid Image 6",
+              "type": "image_picker",
+              "id": "img16"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url16"
+            },
+           {
+              "label": "2nd Grid Image 7",
+              "type": "image_picker",
+              "id": "img17"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url17"
+            },
+           {
+              "label": "2nd Grid Image 8",
+              "type": "image_picker",
+              "id": "img18"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url18"
+            },
+           {
+              "label": "2nd Grid Image 9",
+              "type": "image_picker",
+              "id": "img19"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url19"
+            },
+           {
+              "label": "2nd Grid Image 10",
+              "type": "image_picker",
+              "id": "img20"
+            },
+            {
+              "label": "Link",
+              "type": "url",
+              "id": "link_url20"
+            },
+            {
+              "label": "heading for 2nd grid",
+              "type": "text",
+              "id": "heading2"
+            },
+            {
+              "label": "subheading for 2nd grid",
+              "type": "text",
+              "id": "sub-heading2"
+            }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name": "Tabs Blogs",
+        "category": "Image",
+        "settings":{}
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}
+<style>
+
+.bottom-divv {
+    border-top: 2px solid #4C4B4C;
+    border-bottom: 2px solid #4C4B4C;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .rad img
+  {
+    border-radius:100px;
+    margin-top:10px;
+  }
+.insert-new
+  {
+    width: 47%;
+  }
+/* Style the tab */
+  .tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+      overflow: hidden;
+    flex-wrap: wrap;
+}
+section.custom__tabs {
+    margin-top: 70px;
+
+}
+  .margin--botton {
+    margin-bottom: 110px;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  //background-color: #ddd;
+   border-bottom: 1px solid black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  //background-color: #ccc;
+  border-bottom: 1px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+  
+.insert-new .grid-container {
+    width: 100%;
+}
+  .inner__grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 25px;
+    margin-bottom:50px;
+}
+  @media only screen and (max-width: 600px) {
+   .insert-new
+  {
+    width: 100%;
+  }
+   .insert-new .grid-container {
+    width: 100%;
+} 
+  }
+</style>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>

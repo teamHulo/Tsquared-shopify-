@@ -1,0 +1,152 @@
+<div class="custom-footer-images">
+  <img class="footer-f-image" src="{{ section.settings.image1 | img_url:'master' }}">
+  <img class="footer-s-image" src="{{ section.settings.image2 | img_url:'master' }}">
+
+  <div class="footer-custom-links">
+    <a href="{{  section.settings.link1 }}">
+      {{ section.settings.title1 }}
+    </a>
+    <a href="{{  section.settings.link2 }}">
+      {{ section.settings.title2 }}
+    </a>
+    <a href="{{  section.settings.link3 }}">
+      {{ section.settings.title3 }}
+    </a>
+    <a href="{{  section.settings.link4 }}">
+      {{ section.settings.title4 }}
+    </a>
+  </div>
+  <br>
+  <br>
+  <div class="custom-text-footer">
+    {{ section.settings.html }}
+  </div>
+  {% comment %}
+    <div class="footer-bottom">
+      <p>subscrible</p>
+    </div>
+  {% endcomment %}
+</div>
+<style>
+  #shopify-section-footer-new {
+    background-image: url('https://cdn.shopify.com/s/files/1/0617/5699/7827/files/ezgif.com-gif-maker_14_df347038-e7ff-4963-9e94-3e7a42ce87e9.gif?v=1673347264');
+    background-size: cover;
+    background-position: center;
+  }
+  .custom-footer-images {
+    //background-color:black;
+    color: white;
+    padding: 200px 0px 0px 0px;
+    position: relative;
+  }
+  .footer-f-image {
+    max-width: 170px;
+    position: absolute;
+    left: 20%;
+    top: -11%;
+  }
+  .footer-s-image {
+    max-width: 200px;
+    position: absolute;
+    top: 4%;
+    left: 60%;
+  }
+  .footer-custom-links a {
+    color: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--FONT-STACK-HEADING);
+    font-weight: var(--FONT-WEIGHT-HEADING);
+    font-style: var(--FONT-STYLE-HEADING);
+  }
+  .custom-text-footer p {
+    color: white;
+    width: 100%;
+    text-align: center;
+  }
+  .footer-bottom {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+  }
+  @media screen and (max-width: 1000px) {
+    .footer-f-image,
+    .footer-s-image {
+      display: none;
+    }
+    .custom-footer-images {
+      padding: 60px 0px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Footer-new",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link3",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "Link"
+    },
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer new",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

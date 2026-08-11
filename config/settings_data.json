@@ -1,0 +1,694 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "color_announcement_bg": "#191008",
+    "color_announcement_text": "#fffcf9",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#191008",
+    "color_nav_border": "#f8f0e7",
+    "color_highlight_link": "#d2815f",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_primary": "#191008",
+    "color_secondary": "#191008",
+    "color_bg_light": "#fcfaf7",
+    "color_bg_inverse": "#333333",
+    "color_primary_inverse": "#766456",
+    "color_secondary_inverse": "#687158",
+    "color_bg_accent_inverse": "#f2b51a",
+    "color_footer_bg": "#f9f6f2",
+    "color_footer_text": "#f2ab1a",
+    "type_heading_font": "helvetica_n4",
+    "type_heading_size": 80,
+    "font_title_capitalize": true,
+    "type_accent_font": "avenir_next_n5",
+    "type_accent_size": 95,
+    "type_base_font": "arapey_n4",
+    "type_body_size": 95,
+    "animations_scroll_enable": true,
+    "animations_hover_enable": false,
+    "collection_text_alignment": "text-center",
+    "product_grid_style": "under",
+    "image_hover_enable": true,
+    "product_grid_image": "scale",
+    "product_grid_aspect_ratio": 1.4,
+    "cart_style": "drawer",
+    "social_instagram_link": "https://instagram.com/tsquaredofficial?igshid=YmMyMTA2M2Y=",
+    "favicon": "shopify://shop_images/t2_blk_3b25e09f-35e6-4e8a-96db-cab074d32b63.png",
+    "product_background_color": "#fcfcfc",
+    "sections": {
+      "announcement": {
+        "type": "announcement",
+        "blocks": {
+          "announce_text": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "text": "<p><strong>Make an announcement</strong> | More info</p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "announce_shipping": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "message": "Spend ||amount|| more for free shipping",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          }
+        },
+        "block_order": [
+          "announce_text",
+          "announce_shipping"
+        ],
+        "settings": {
+          "text_size": 3,
+          "layout": "slider",
+          "speed": 5
+        }
+      },
+      "header": {
+        "type": "header",
+        "blocks": {
+          "collection_block": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "position": "1",
+              "collection": "",
+              "limit": 4
+            }
+          }
+        },
+        "block_order": [
+          "collection_block"
+        ],
+        "settings": {
+          "shp_url": "",
+          "header_style": "drawer",
+          "logo": "shopify://shop_images/t2_blk.png",
+          "logo_max_limit": 40,
+          "right-image": "shopify://shop_images/profile_image_for_mneu_1.png",
+          "main_menu_linklist": "main-menu",
+          "full_width": false,
+          "underline_current": false,
+          "enable_search": false,
+          "enable_account": false,
+          "use_icons": true,
+          "header_sticky": "directional",
+          "transparent_home": true,
+          "transparent_collection": true,
+          "transparent_blog": true,
+          "transparent_article": true,
+          "transparent_page": true,
+          "transparent_text_color": "#ffffff",
+          "transparent_logo": "shopify://shop_images/t2_white.png"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "main-menu",
+              "accordion_default": ""
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Text column",
+              "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
+              "accordion_default": ""
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "richtext": "<p>Join to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+              "accordion_default": ""
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "footer_secondary_linklist": "",
+          "footer_payment_enable": false,
+          "footer_social_enable": false,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "currency_select_type": "country"
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "cookies": {
+            "type": "cookie",
+            "disabled": true,
+            "settings": {
+              "show_cookies_popup": true,
+              "text_title": "Are Cookies OK?",
+              "text_body": "<p>We use cookies to improve your browsing experience</p>",
+              "text_accept": "Accept",
+              "text_learn": "Learn more",
+              "learn_url": "shopify://policies/privacy-policy",
+              "text_color": "text--neutral",
+              "button_color": "btn--neutral",
+              "button_style": "btn--soft uppercase",
+              "bg": "palette--light bg--neutral",
+              "position": "popup--left"
+            }
+          },
+          "newsletter_signup": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "title": "Join the club",
+              "text": "<p>Enter your email to save 10% on your next order</p>",
+              "success": "Success! Use code CLUB10 to save 10%",
+              "text_color": "text--neutral",
+              "bg": "palette--light bg--neutral",
+              "position": "popup--right",
+              "trigger": "always",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "89a38e63-616b-46bb-b01c-b2ce49474f29": {
+            "type": "newsletter",
+            "disabled": true,
+            "settings": {
+              "title": "Join the club",
+              "text": "<p>Enter your email to save 10% on your next order</p>",
+              "success": "Success! Use code CLUB10 to save 10%",
+              "text_color": "text--neutral",
+              "bg": "palette--light bg--neutral",
+              "position": "popup--center",
+              "trigger": "bottom",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "desktop"
+            }
+          }
+        },
+        "block_order": [
+          "cookies",
+          "newsletter_signup",
+          "89a38e63-616b-46bb-b01c-b2ce49474f29"
+        ],
+        "settings": {}
+      },
+      "footer-new": {
+        "type": "footer-new",
+        "settings": {
+          "image1": "shopify://shop_images/giphy_19_aa792457-aabd-4e36-a278-2c414e3a8fe8.gif",
+          "image2": "shopify://shop_images/t2_white.png",
+          "title1": "TOP TENS",
+          "link1": "shopify://pages/top-tens",
+          "title2": "FEATURED",
+          "link2": "shopify://pages/featured",
+          "title3": "POLICIES",
+          "link3": "shopify://policies/terms-of-service",
+          "title4": "ABOUT",
+          "link4": "shopify://pages/about",
+          "html": "<p>THIS PLATFORM IS A PERSONAL</p>           <p>DIARY SPACE TO SHARE WHAT</p>                           <p>INSPIRES AND INTRIGUES YOU IN A</p>\n<p>MONTHLY LIST YOU CREATE</p>                             <p>MAKE SURE TO CREATE YOUR TOP TEN</p><br><br>"
+        }
+      },
+      "new-header": {
+        "type": "new-header",
+        "settings": {
+          "shp_url": "shopify://pages/list",
+          "header_style": "drawer",
+          "logo": "shopify://shop_images/t2_blk_1cc8adbb-fe54-4727-9823-ce8d98a0c173.png",
+          "logo_max_limit": 30,
+          "right-image": "shopify://shop_images/ChatGPT_Image_Mar_26_2026_11_01_26_PM.png",
+          "main_menu_linklist": "main-menu",
+          "full_width": false,
+          "underline_current": false,
+          "enable_search": false,
+          "enable_account": false,
+          "use_icons": true,
+          "header_sticky": "static",
+          "transparent_home": true,
+          "transparent_collection": true,
+          "transparent_blog": true,
+          "transparent_article": true,
+          "transparent_page": true,
+          "transparent_text_color": "#fffcf9",
+          "transparent_logo": "shopify://shop_images/t2_wht.png"
+        }
+      },
+      "new-footer": {
+        "type": "new-footer",
+        "settings": {
+          "image1": "shopify://shop_images/Image_5.png",
+          "image2": "shopify://shop_images/jean_shrimpton_1964.jpg",
+          "linktitle_1": "TOP TENS",
+          "link_1": "shopify://pages/style",
+          "linktitle_2": "FEATURED",
+          "link_2": "shopify://blogs/featured",
+          "linktitle_3": "POLICIES",
+          "link_3": "shopify://policies/privacy-policy",
+          "linktitle_4": "ABOUT",
+          "link_4": "shopify://pages/about",
+          "footer_description": "<p>YOUR CURATED COMMUNITY</p>\n<br>\n<p>YOU KNOW WHAT TO DO<br> DROP US A LINE<br>HELLO@SHAREYOURTOPTEN.COM </p>\n<br>\n<p class=\"btm-textllc\">TSquared Platforms LLC | We might make a commission on some links from this site. <br> Images and videos not linked are inspirational | ©T2 What’s Your Top Ten</p>"
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "5946647744298494267": {
+        "type": "shopify://apps/wishlist-plus/blocks/wishlist-app-embed/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+        "disabled": false,
+        "settings": {
+          "storefront_layout_enabled": false,
+          "storefront_layout_primary_bg_color": "#000000",
+          "storefront_layout_primary_text_color": "#ffffff",
+          "storefront_layout_secondary_bg_color": "#F4F8FE",
+          "storefront_layout_secondary_text_color": "#333333",
+          "storefront_layout_ui_border_radius": 6,
+          "storefront_layout_notification_position": "left",
+          "storefront_layout_action_popup_position": "left",
+          "storefront_layout_drawer_position": "left",
+          "storefront_layout_as_section_page": ""
+        }
+      }
+    }
+  },
+  "presets": {
+    "Bright": {
+      "color_announcement_bg": "#766456",
+      "color_announcement_text": "#fffcf9",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#766456",
+      "color_nav_border": "#f8f0e7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#766456",
+      "color_primary": "#d2815f",
+      "color_secondary": "#687158",
+      "color_bg_light": "#fcfaf7",
+      "color_bg_inverse": "#333333",
+      "color_primary_inverse": "#ffe5da",
+      "color_secondary_inverse": "#dff3fd",
+      "color_bg_accent_inverse": "#191008",
+      "product_background_color": "#fcfcfc",
+      "color_footer_bg": "#f9f6f2",
+      "color_footer_text": "#766456",
+      "type_heading_font": "itc_clearface_n4",
+      "type_heading_size": 115,
+      "font_title_capitalize": false,
+      "type_accent_font": "avenir_next_n5",
+      "type_accent_size": 95,
+      "type_base_font": "avenir_next_n4",
+      "type_body_size": 100,
+      "animations_scroll_enable": true,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "image_hover_enable": true,
+      "product_grid_image": "crop",
+      "cart_style": "drawer",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {}
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience</p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify://policies/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Light": {
+      "color_announcement_bg": "#f7f7f7",
+      "color_announcement_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_nav_border": "#d7d7d7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#f4a482",
+      "color_secondary": "#585e71",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#ffffff",
+      "color_primary_inverse": "#fcd8c8",
+      "color_secondary_inverse": "#c6dae5",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#efefef",
+      "color_footer_text": "#393939",
+      "type_heading_font": "futura_n7",
+      "type_heading_size": 115,
+      "font_title_capitalize": true,
+      "type_accent_font": "itc_johnston_n5",
+      "type_accent_size": 95,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "button_radius": 0,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "image_hover_enable": true,
+      "animations_scroll_enable": true,
+      "product_grid_image": "crop",
+      "cart_style": "pop",
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {}
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience</p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify://policies/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {}
+        }
+      }
+    },
+    "Dark": {
+      "color_announcement_bg": "#000000",
+      "color_announcement_text": "#ffffff",
+      "color_header_bg": "#000000",
+      "color_header_text": "#f1f1f1",
+      "color_nav_border": "#282828",
+      "color_body_bg": "#f7f7f7",
+      "color_body_text": "#000000",
+      "color_primary": "#28a77f",
+      "color_secondary": "#18664e",
+      "color_bg_light": "#eeeeee",
+      "color_bg_inverse": "#282828",
+      "color_text_inverse": "#e9e9e9",
+      "color_primary_inverse": "#28a77f",
+      "color_secondary_inverse": "#78a395",
+      "color_bg_accent_inverse": "#000000",
+      "default_background": "default--dark",
+      "color_footer_bg": "#000000",
+      "color_footer_text": "#fdfdfd",
+      "type_heading_font": "basic_commercial_n7",
+      "type_heading_size": 110,
+      "font_title_capitalize": false,
+      "type_accent_font": "montserrat_n5",
+      "type_accent_size": 100,
+      "type_base_font": "basic_commercial_n4",
+      "type_body_size": 110,
+      "button_radius": 0,
+      "parallax_enable": true,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "image_hover_enable": true,
+      "product_grid_image": "crop",
+      "swatches_enable": true,
+      "badge_sale_discount": true,
+      "badge_sale_type": "dollar",
+      "color_badge": "#ffffff",
+      "color_badge_text": "#000000",
+      "cart_style": "pop",
+      "cart_color_bg": "palette--dark bg--invert--accent",
+      "animations_enable": true,
+      "image_autoheight_enable": true,
+      "tag_sellout": false,
+      "tag_sale": false,
+      "sections": {
+        "announcement": {
+          "type": "announcement",
+          "blocks": {
+            "announce_text": {
+              "type": "text",
+              "disabled": true,
+              "settings": {}
+            },
+            "announce_shipping": {
+              "type": "message",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "announce_text",
+            "announce_shipping"
+          ],
+          "settings": {}
+        },
+        "header": {
+          "type": "header",
+          "blocks": {
+            "collection_block": {
+              "type": "collection",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection_block"
+          ],
+          "settings": {
+            "main_menu_linklist": "main-menu",
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "linklist": {
+              "type": "linklist",
+              "settings": {
+                "linklist": "main-menu"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "linklist",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        },
+        "popups": {
+          "type": "popups",
+          "blocks": {
+            "cookies": {
+              "type": "cookie",
+              "disabled": true,
+              "settings": {
+                "show_cookies_popup": true,
+                "text_title": "Are Cookies OK?",
+                "text_body": "<p>We use cookies to improve your browsing experience</p>",
+                "text_accept": "Accept",
+                "text_learn": "Learn more",
+                "learn_url": "shopify://policies/privacy-policy"
+              }
+            },
+            "newsletter_signup": {
+              "type": "newsletter",
+              "disabled": true,
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "cookies",
+            "newsletter_signup"
+          ],
+          "settings": {}
+        }
+      }
+    }
+  }
+}

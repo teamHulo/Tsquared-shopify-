@@ -1,0 +1,68 @@
+  {% if section.settings.heading != blank %}
+    <div class="section-heading">
+      <h2>{{ section.settings.heading }}</h2>
+    </div>
+  {% endif %}
+<div class="product-list">
+        {% for block in section.blocks %}
+          <a href="{{ block.settings.link }}" class="product-item">
+            {% if block.settings.image != blank %}
+              <img src="{{ block.settings.image | img_url:'master' }}">
+            {% endif %}
+            {% if block.settings.title != blank %}
+              <p><strong>{{ block.settings.title }}</strong></p>
+            {% endif %}
+            {% if block.settings.price != blank %}
+              <p>{{ block.settings.price }}</p>
+            {% endif %}
+          </a>
+        {% endfor %}
+</div>
+{{ 'gallery-section.css' | asset_url | stylesheet_tag }}
+
+{% schema %}
+{
+  "name": "Gallery-Section",
+  "settings": [
+       {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "product-block",
+      "name": "Product Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Gallery-Section",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

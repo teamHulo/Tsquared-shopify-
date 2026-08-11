@@ -1,0 +1,122 @@
+<!-- /templates/customers/register.liquid -->
+<div class="full__page__form__wrapper">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid__item medium-up--one-half medium-up--push-one-quarter text-center">
+        <div class="full__page__form">
+          {% comment %}
+          <h1 class="account__form__title">{{ 'customer.register.title' | t }}</h1>
+          {% endcomment %}
+
+          <div class="image-bc" style="padding-top:{{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;">
+             <div class="register_log">
+                   <img src="//cdn.shopify.com/s/files/1/0617/5699/7827/files/t2_white.png?v=1662576078">
+             </div>
+          </div>
+          {% form 'create_customer' %}
+
+            {{ form.errors | default_errors }}
+            <div class="float__wrapper">
+              <label for="Email">{{ 'customer.register.email' | t }}</label>
+              <input type="email" name="customer[email]" id="Email" placeholder="{{ 'customer.register.email' | t }}" {% if form.errors contains "email" %} class="error"{% elsif form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
+            </div>
+          
+            <div class="float__wrapper">
+              <label for="FirstName">{{ 'customer.register.first_name' | t }}</label>
+              <input type="text" name="customer[first_name]" id="FirstName" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autofocus>
+            </div>
+
+            <div class="float__wrapper">
+              <label for="LastName">{{ 'customer.register.last_name' | t }}</label>
+              <input type="text" name="customer[last_name]" id="LastName" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %}>
+            </div>
+          
+            <div class="float__wrapper">
+              <label for="dateofbirth"></label>
+              <input type="text" name="customer[BirthDate]" id="BirthDate" placeholder="BirthDate"  autofocus>
+            </div>
+
+            <div class="float__wrapper">
+              <label for="city"></label>
+              <input type="text" name="customer[city]" id="City" placeholder="City"  autofocus>
+            </div>
+          
+            <div class="float__wrapper">
+              <label for="CreatePassword">{{ 'customer.register.password' | t }}</label>
+              <input type="password" name="customer[password]" id="CreatePassword" placeholder="{{ 'customer.register.password' | t }}" {% if form.errors contains "password" %} class="error"{% endif %}>
+            </div>
+
+            <button type="submit" class="btn--outline uppercase btn--full">
+              Sign Up
+            </button>
+            <div class="form--additional">
+              Already have an account? 
+              <a class="text-link uppercase" href="{{ routes.account_login_url }}">
+                Sign In
+              </a>
+            </div>
+            <hr>
+            <div class="form__legal">
+              {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+            </div> 
+          {% endform %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  {% if template contains 'register' or template contains 'login' %}
+    #MainContent
+  {
+    background-image:url('{{ section.settings.bk-desk | img_url:"master" }}');
+    background-size:cover;
+    background-position: center;
+    position: relative;
+  }
+  @media screen and (max-width:850px)
+  {
+    #MainContent
+    {
+      background-image:url('{{ section.settings.bk-mob | img_url:"master" }}');
+    }
+  }
+  {% endif %}
+  .image-bc
+  {
+    background-image:url('{{ section.settings.image | img_url:"master" }}');
+    background-size:cover;
+    background-position: center;
+    position: relative;
+  }
+  .register_log
+  {
+    max-width: 20%;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+  }
+</style>
+{% schema %}
+{
+  "name": "Regsiter",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "image"
+    },
+    {
+      "type": "image_picker",
+      "id": "bk-desk",
+      "label": "Background Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "bk-mob",
+      "label": "Background Mobile"
+    }
+  ]
+}
+{% endschema %}

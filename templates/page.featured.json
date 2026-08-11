@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "16612391207a416ddf": {
+      "type": "custom-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_15.gif",
+        "logo": "shopify://shop_images/t2_white.png",
+        "bg_position": "center-center",
+        "height": "use_screen_three_quarters",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "Featured",
+        "title1": "",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1661246396c094c9a7": {
+      "type": "featured1",
+      "settings": {
+        "heading": "THE BEST OF SPRING SUMMER '22",
+        "sub-heading": "Our favourites",
+        "image": "shopify://shop_images/giphy_3.gif",
+        "link": "#",
+        "image1": "shopify://shop_images/giphy-downsized_3.gif",
+        "link1": "#"
+      }
+    },
+    "1661251405dbe39f23": {
+      "type": "custom-video-html",
+      "settings": {
+        "text": "",
+        "html1": "<div style='text-align: center; padding:0px 0PX;'>\n<a href=\"#\" class=\"whatelse\">\nWHAT ELSE\n</a>\n<p>TAKE A LOOK AT THE BEST OF</p>\n<p>THE BEST TOP TEN LISTS. WE</p>\n<p>SELECTED OUR FAVOURITES OF WEEK III .</p>\n<br>\n<p>SHOP AND SHARE TO ENSURE</p>\n<p> YOUR STUNNING LOOK.</p>\n<p><strong>DON'T THANK US - JUST ENJOY!</strong></p>\n</div>",
+        "html": "",
+        "full_width": false
+      }
+    },
+    "16612484888fe9c461": {
+      "type": "featured-cold",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "description": "",
+        "sub_description": "",
+        "text": "",
+        "image": "shopify://shop_images/Caroline_Lucas_Feature_db3aa42b-a888-421c-b1eb-7cf90f59399d.jpg",
+        "title": "Caroline Lucas",
+        "sub-heading": "WHAT TO WEAR THIS SPRING",
+        "link": "shopify://pages/caroline-lucas",
+        "html": "<h4 class=\"hero__title\">\n    T<sup style=\"top:-15px;font-size:15px\">2</sup>\n    SPRING BREAK\n  </h4>\n<p>1- Text can be added here and can be chnaged accordingly.</p>\n<p>2- Text can be added here and can be chnaged accordingly.</p>\n<p>3- Text can be added here and can be chnaged accordingly.</p>\n<p>4- Text can be added here and can be chnaged accordingly.</p>\n<p>5- Text can be added here and can be chnaged accordingly.</p>\n<p>6- Text can be added here and can be chnaged accordingly.</p>\n<p>7- Text can be added here and can be chnaged accordingly.</p>\n<p>8- Text can be added here and can be chnaged accordingly.</p>\n<p>9- Text can be added here and can be chnaged accordingly.</p>\n<p>10- Text can be added here and can be chnaged accordingly.</p>"
+      }
+    },
+    "16612545272f3ed5f3": {
+      "type": "featured4",
+      "settings": {
+        "heading": "PASTEL PARTY",
+        "sub-heading": "Create Your Top Ten",
+        "image0": "shopify://shop_images/giphy_18.gif",
+        "link": "#",
+        "image1": "shopify://shop_images/giphy-downsized_3_80e12123-c08f-490b-b19b-b7aef5506690.gif",
+        "link1": "#",
+        "image2": "shopify://shop_images/CrystalsforCalming_1_900x_6d8c5451-b781-4a5d-bca2-e4f1c2e141a8.webp",
+        "image3": "shopify://shop_images/71RrmYYb0OL._SL1080.jpg",
+        "image4": "shopify://shop_images/Screen_Shot_2022-10-24_at_8.24.14_AM.png"
+      }
+    },
+    "1661252052dc2d0cdf": {
+      "type": "custom-grid-first",
+      "blocks": {
+        "1f9d1078-2fff-47f9-bb04-90edeac1f8c7": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/94476LoLa41PalmBeach_exterior.jpg",
+            "link": "https://www.lola41.com/location/lola-41-palm-beach/"
+          }
+        },
+        "d8f93d40-7afa-4d1e-ae33-e98d5bc21edd": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/chance-eau-fraiche-eau-de-toilette-spray-3-4fl-oz--packshot-default-136420-8848377446430.png",
+            "link": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/"
+          }
+        },
+        "b472134b-577b-450c-b30c-d4af7aa50702": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/download.jpg",
+            "link": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141"
+          }
+        },
+        "e7f7c647-97a8-4964-a397-299b343cb427": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/bdaybox1.jpg",
+            "link": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html"
+          }
+        },
+        "9fc6c68a-2939-4ce1-9be7-14f1e9e00190": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/GUEST_d246651e-d425-4a0b-84e2-dba3add67b54.jpg",
+            "link": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636"
+          }
+        },
+        "08672f6f-6b4e-4d65-af2e-05093489320e": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/01_BALTHAZAR-EATER-SCENES-Daniel-Krieger-1010_CROP1.jpg",
+            "link": "https://balthazarny.com/"
+          }
+        },
+        "f9968266-6811-4b1d-b585-6119a5581115": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3814.jpg",
+            "link": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB"
+          }
+        },
+        "6d1f6b7d-7123-47af-9d29-cc4f42aa06b3": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
+            "link": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top"
+          }
+        },
+        "19ca5597-4e81-455c-bbf5-4e1133c64886": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
+            "link": ""
+          }
+        },
+        "c028b4b9-f13f-40e9-bd93-93e1cf590e94": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1f9d1078-2fff-47f9-bb04-90edeac1f8c7",
+        "d8f93d40-7afa-4d1e-ae33-e98d5bc21edd",
+        "b472134b-577b-450c-b30c-d4af7aa50702",
+        "e7f7c647-97a8-4964-a397-299b343cb427",
+        "9fc6c68a-2939-4ce1-9be7-14f1e9e00190",
+        "08672f6f-6b4e-4d65-af2e-05093489320e",
+        "f9968266-6811-4b1d-b585-6119a5581115",
+        "6d1f6b7d-7123-47af-9d29-cc4f42aa06b3",
+        "19ca5597-4e81-455c-bbf5-4e1133c64886",
+        "c028b4b9-f13f-40e9-bd93-93e1cf590e94"
+      ],
+      "settings": {
+        "title": "",
+        "html": "<h4 class=\"hero__title\">\n    T<sup style=\"top:-15px;font-size:15px\">2</sup>\n    SPRING BREAK\n  </h4>",
+        "html1": "<p>1- Text can be added here and can be chnaged accordingly.</p>\n<p>2- Text can be added here and can be chnaged accordingly.</p>\n<p>3- Text can be added here and can be chnaged accordingly.</p>\n<p>4- Text can be added here and can be chnaged accordingly.</p>\n<p>5- Text can be added here and can be chnaged accordingly.</p>\n<p>6- Text can be added here and can be chnaged accordingly.</p>\n<p>7- Text can be added here and can be chnaged accordingly.</p>\n<p>8- Text can be added here and can be chnaged accordingly.</p>\n<p>9- Text can be added here and can be chnaged accordingly.</p>\n<p>10- Text can be added here and can be chnaged accordingly.</p>",
+        "heading": "",
+        "link-title": "",
+        "link": ""
+      }
+    },
+    "25777e02-fed7-4dd6-b76e-00f6f91b8bd1": {
+      "type": "featured-tabs",
+      "blocks": {
+        "65e56cad-547a-4f90-89d8-48030c7baee7": {
+          "type": "block-1",
+          "settings": {
+            "tab_ttl": "tab1",
+            "access": "tab1"
+          }
+        },
+        "d6ef37b3-232e-448c-b300-1c1db3b00417": {
+          "type": "block-2",
+          "settings": {
+            "accessc": "tab1",
+            "profile1": "shopify://shop_images/MENU.png",
+            "profile2": "shopify://shop_images/Melanie_Masarin_Feature.jpg",
+            "img1": "shopify://shop_images/MENU.png",
+            "link_url1": "",
+            "img2": "shopify://shop_images/Melanie_Masarin_Feature.jpg",
+            "link_url2": "",
+            "img3": "shopify://shop_images/PJ_Middleton_Feature.jpg",
+            "link_url3": "",
+            "img4": "shopify://shop_images/Sophie_Schaffler_Feature-1.jpg",
+            "link_url4": "",
+            "img5": "shopify://shop_images/Sarah_Levine_Feature.jpg",
+            "link_url5": "",
+            "img6": "shopify://shop_images/Annabelle_Pollack.jpg",
+            "link_url6": "",
+            "img7": "shopify://shop_images/Dax_Seidlin_Feature_Image.jpg",
+            "link_url7": "",
+            "img8": "shopify://shop_images/Sophie_Schaffler_Feature-2.jpg",
+            "link_url8": "",
+            "img9": "shopify://shop_images/Arlo_Gray_Feature.jpg",
+            "link_url9": "",
+            "img10": "shopify://shop_images/Hope_Chilton_Feature.jpg",
+            "link_url10": "",
+            "heading1": "",
+            "sub-heading1": "",
+            "img11": "shopify://shop_images/Lou_Wright_Feature_Image.jpg",
+            "link_url11": "",
+            "img12": "shopify://shop_images/Katie_McEvoy_Feature.jpg",
+            "link_url12": "",
+            "img13": "shopify://shop_images/Arlo_Gray_Feature.jpg",
+            "link_url13": "",
+            "img14": "shopify://shop_images/Sophie_Schaffler_Feature-2.jpg",
+            "link_url14": "",
+            "img15": "shopify://shop_images/Hope_Chilton_Feature.jpg",
+            "link_url15": "",
+            "img16": "shopify://shop_images/Sophie_Schaffler_Feature-2.jpg",
+            "link_url16": "",
+            "img17": "shopify://shop_images/Claudia_Clark_Feature.jpg",
+            "link_url17": "",
+            "img18": "shopify://shop_images/Annabelle_Pollack.jpg",
+            "link_url18": "",
+            "img19": "shopify://shop_images/Sophie_Schaffler_Feature-1.jpg",
+            "link_url19": "",
+            "img20": "shopify://shop_images/Melanie_Masarin_Feature.jpg",
+            "link_url20": "",
+            "heading2": "",
+            "sub-heading2": ""
+          }
+        },
+        "51c0dc88-5e3b-4598-8780-12674272e6ed": {
+          "type": "block-1",
+          "settings": {
+            "tab_ttl": "tab",
+            "access": "tab2"
+          }
+        }
+      },
+      "block_order": [
+        "65e56cad-547a-4f90-89d8-48030c7baee7",
+        "d6ef37b3-232e-448c-b300-1c1db3b00417",
+        "51c0dc88-5e3b-4598-8780-12674272e6ed"
+      ],
+      "settings": {}
+    },
+    "1661253242c4c917a4": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div >\n<br><br>\n      <p>FEATURED</p>\n      <br><br>\n      <h2>Talk to us\n<br>\nif you have an idea for\n<br> <a href=\"#\" class=\"any\">ANY</a> \ncollaborations</h2><br><br>\n      <p>I AM ALWAYS OPEN TO NEW</p>\n<p>COLLABORATIONS WITH BRANDS.</p>\n<p>yOU KNOW WHAT TO DO.</p>\n<br>\n<p><a href=\"#\" class=\"here\">CONTACT US</a>\n</p>\n  </div>\n<br><br>",
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16612391207a416ddf",
+    "1661246396c094c9a7",
+    "1661251405dbe39f23",
+    "16612484888fe9c461",
+    "16612545272f3ed5f3",
+    "1661252052dc2d0cdf",
+    "25777e02-fed7-4dd6-b76e-00f6f91b8bd1",
+    "1661253242c4c917a4"
+  ]
+}

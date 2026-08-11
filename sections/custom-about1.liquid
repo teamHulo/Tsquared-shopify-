@@ -1,0 +1,102 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html{% unless section.settings.full_width %} wrapper{% endunless %}">
+  <br>
+  <p>{{ section.settings.text }}</p>
+  <br>
+  {{ section.settings.html1 }}
+  <br>
+  {{ section.settings.html }}
+  <br><br>
+</div>
+<style>
+  .section-html
+  {
+    text-align:center;
+  }
+  .inn1
+  {
+    position:relative;
+    font-size:5rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .inn2
+  {
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 110px;
+  }
+  .inn1 sup
+  {
+    top:-2em;
+    font-size:1.5rem;
+  }
+  .inn1:after
+  {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #FF5D00;
+    right: -160%;
+    top: 58%;
+    position: absolute;
+  }
+  .more
+  {
+    color:#FF5D00;
+    letter-spacing:1rem;
+    position:relative;
+  }
+  .vl
+  {
+     border-left: 2px solid #FF5D00;
+     height: 50px;
+     width: 2px;
+     margin: 20px auto;
+  }
+  @media screen and (max-width:768px)
+  {
+    .inn1:after 
+    {
+      right: -110%;
+      width: 70px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Custom About1",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Full width"
+    },
+    {
+      "type": "liquid",
+      "id": "html1",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom About1"
+    }
+  ]
+}
+{% endschema %}

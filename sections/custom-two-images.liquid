@@ -1,0 +1,46 @@
+{{ 'custom-two-images.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .custom-two-images{
+        background-color: {{ section.settings.bg_color }};
+    }
+{% endstyle %}
+
+<div class="custom-two-images">
+    <div class="image-left">
+        <img src="{{ section.settings.image1 | img_url:'master' }}">
+    </div>
+    <div class="image-right">
+        <img src="{{ section.settings.image2 | img_url:'master' }}">
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Two Images",
+        "class": "two images",
+        "settings": [
+            {
+                "type": "color",
+                "id": "bg_color",
+                "label": "Background Image"
+            },
+            {
+                "type": "image_picker",
+                "id": "image1",
+                "label": "Image1"
+            },
+            {
+                "type": "image_picker",
+                "id": "image2",
+                "label": "Image2"
+            }
+        ],
+
+        "presets": [
+            {
+                "name": "Custom two images"
+            }
+        ]
+    }
+{% endschema %}

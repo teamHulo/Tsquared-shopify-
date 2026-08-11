@@ -1,0 +1,249 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "fdsf",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 4,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "95a458cc-c9bc-409a-aaca-4bde60965a2e": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/latest-top-tens-header-bg_15248de7-e286-42d2-abdc-b486d233a90a.webp",
+        "mobile_image": "shopify://shop_images/latest-top-tens-header-bg.webp",
+        "path_image": "shopify://shop_images/path.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Latest Top",
+        "title2": "Tens",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "f5cf058c-11d0-46fb-a840-b55eb4ef74e1": {
+      "type": "image-text-grid",
+      "disabled": true,
+      "blocks": {
+        "1a57e104-981b-4f45-97dc-34c3a199ce04": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Image.webp",
+            "title": "Tela Votive",
+            "subtitle": "Elegant glass candle holder",
+            "link": ""
+          }
+        },
+        "aad0f3d5-f6d9-48c1-a317-a3245df322cc": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Image_1.webp",
+            "title": "Loose-Fitting Blazer Coat",
+            "subtitle": "Long sleeves & rounded hem",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1a57e104-981b-4f45-97dc-34c3a199ce04",
+        "aad0f3d5-f6d9-48c1-a317-a3245df322cc"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 620,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 200,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "ff213677-1f2d-4179-b447-f03d51ca2b38": {
+      "type": "image-text-grid",
+      "blocks": {
+        "dccec9ce-eef1-4b91-951c-f6d76bd16a28": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Image_2.webp",
+            "title": "Golden Hoop Earrings",
+            "subtitle": "One size fits all",
+            "link": ""
+          }
+        },
+        "c77fef9a-0b41-4d0c-8e71-0921f3a3e7a5": {
+          "type": "meetme",
+          "settings": {
+            "title": "MEET ME",
+            "image": "shopify://shop_images/Image_3.webp",
+            "name": "Lightly Lined Bra",
+            "intro": "Soft & wireless",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "dccec9ce-eef1-4b91-951c-f6d76bd16a28",
+        "c77fef9a-0b41-4d0c-8e71-0921f3a3e7a5"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 210,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 130,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "af324ac2-a095-4b1e-90f4-d00bc33cc804": {
+      "type": "image-text-grid",
+      "blocks": {
+        "8a11ffa9-7493-4a49-8549-0c91dd690636": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Image_4.webp",
+            "title": "Sheer Linen Curtain",
+            "subtitle": "Plain & Soft",
+            "link": ""
+          }
+        },
+        "426ffda4-2269-4511-82f4-28160a38f082": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Image_5.webp",
+            "title": "Slim Wool Trousers",
+            "subtitle": "Slim fit",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8a11ffa9-7493-4a49-8549-0c91dd690636",
+        "426ffda4-2269-4511-82f4-28160a38f082"
+      ],
+      "settings": {
+        "title": "EDITOR’S CHOICE",
+        "description": "EVERYTHING IS ALMOST HERE",
+        "grid_title": "VINTAGE OBJECTS",
+        "desktop_margin_top": 330,
+        "desktop_margin_bottom": 230,
+        "mobile_margin_top": 150,
+        "mobile_margin_bottom": 100,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "9b9f41b8-021a-4f3f-a057-75e920a9cba3": {
+      "type": "custom-links",
+      "settings": {
+        "image1": "shopify://shop_images/Screen_Shot_2023-02-26_at_6.58.28_PM.png",
+        "image2": "shopify://shop_images/Screen_Shot_2023-02-26_at_7.17.49_PM-removebg-preview.png",
+        "image3": "shopify://shop_images/Screen_Shot_2023-02-26_at_7.00.32_PM.png",
+        "image4": "shopify://shop_images/Screen_Shot_2023-02-26_at_6.51.24_PM.png",
+        "image5": "shopify://shop_images/Photo.png",
+        "title1": "WELL",
+        "link1": "shopify://pages/well",
+        "title2": "COLOR",
+        "link2": "shopify://pages/color",
+        "title3": "TRAVEL",
+        "link3": "shopify://pages/travel",
+        "title4": "STYLE",
+        "link4": "shopify://pages/style",
+        "title5": "SEASON",
+        "link5": "shopify://pages/season",
+        "title6": "",
+        "link6": "",
+        "title7": "",
+        "link7": ""
+      }
+    },
+    "7439b76b-edbf-4f7c-8e35-a04e3d7948c0": {
+      "type": "image-text-grid",
+      "blocks": {
+        "4316512c-0b2d-4356-b378-65c92405f144": {
+          "type": "user_profile",
+          "settings": {
+            "title": "USER PROFILE?",
+            "image": "shopify://shop_images/IMG_3179.webp",
+            "path_image": "shopify://shop_images/path.webp",
+            "contact_info": "@PROFILEphoto1234",
+            "description": "Profile Description",
+            "link": ""
+          }
+        },
+        "3e0739b0-c88a-4b4a-8ef6-5bf0abba04ea": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1945_2.webp",
+            "title": "@toptenexample",
+            "subtitle": "caption",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4316512c-0b2d-4356-b378-65c92405f144",
+        "3e0739b0-c88a-4b4a-8ef6-5bf0abba04ea"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 90,
+        "desktop_margin_bottom": 50,
+        "mobile_margin_top": 130,
+        "mobile_margin_bottom": 50,
+        "bg": "palette--gray"
+      }
+    },
+    "94f7f439-0213-4736-ba50-b69bc36ac97a": {
+      "type": "title-content",
+      "settings": {
+        "top_title": "TOPTEN",
+        "bg_color": "",
+        "title": "Talk to me",
+        "sub_title1": "if you have some ideas for",
+        "effect_text": "ANY",
+        "sub_title2": "custom design",
+        "content": "<p>LOREM IPSUM, ETC.</p><p>INFORMATION TO CONNECT</p>",
+        "bg": "palette--gray"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "95a458cc-c9bc-409a-aaca-4bde60965a2e",
+    "f5cf058c-11d0-46fb-a840-b55eb4ef74e1",
+    "ff213677-1f2d-4179-b447-f03d51ca2b38",
+    "af324ac2-a095-4b1e-90f4-d00bc33cc804",
+    "9b9f41b8-021a-4f3f-a057-75e920a9cba3",
+    "7439b76b-edbf-4f7c-8e35-a04e3d7948c0",
+    "94f7f439-0213-4736-ba50-b69bc36ac97a"
+  ]
+}

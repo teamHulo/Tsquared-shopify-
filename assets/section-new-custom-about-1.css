@@ -1,0 +1,211 @@
+.palette--gray {
+  background-color: #e8e8e8;
+}
+
+.new-custom-about-one-container {
+  width: 100%;
+}
+
+.new-custom-about-one-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.new-custom-about-one-top_title {
+  font-family: "Futura" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #000000;
+  margin: 0;
+  margin-top: 123px;
+  margin-bottom: 142px;
+}
+
+.new-custom-about-one-title {
+  font-family: "Gambarino-Regular" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 115px;
+  font-weight: 400;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 3px;
+  color: #363636;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.new-custom-about-one-sub_title {
+  font-family: "Gambarino-Regular" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #363636;
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.new-custom-about-one-effect_text {
+  font-family: "Futura" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 17px;
+  color: #fa6a18;
+  text-decoration: underline;
+  text-underline-offset: 18px;
+  text-decoration-thickness: 2px;
+}
+
+.new-custom-about-one-content-wrapper {
+  margin-bottom: 116px;
+  text-align: center;
+  max-width: 384px;
+}
+
+.new-custom-about-one-content-wrapper p {
+  font-family: "Futura" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  letter-spacing: 3px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+.new-custom-about-one-more {
+  font-family: "Futura" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 17px;
+  color: #fa6a18;
+  position: relative;
+  margin: 0;
+  margin-bottom: 64px;
+}
+
+.new-custom-about-one-vl {
+  border-left: 2px solid #ff5d00;
+  height: 50px;
+  width: 2px;
+  margin-bottom: 102px;
+}
+
+@media (max-width: 1200px) {
+  .new-custom-about-one-title {
+    font-size: 100px;
+  }
+
+  .new-custom-about-one-sub_title {
+    font-size: 50px;
+    margin-bottom: 27px;
+  }
+
+  .new-custom-about-one-effect_text {
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 10px;
+    text-underline-offset: 10px;
+  }
+
+  .new-custom-about-one-second {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .new-custom-about-one-top_title {
+    font-size: 12px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  .new-custom-about-one-title {
+    font-size: 55px;
+  }
+
+  .new-custom-about-one-sub_title {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+
+  .new-custom-about-one-second {
+    margin-bottom: 50px;
+  }
+
+  .new-custom-about-one-content-wrapper {
+    width: 80%;
+  }
+
+  .new-custom-about-one-content-wrapper {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .new-custom-about-one-more {
+    margin-bottom: 40px;
+  }
+
+  .new-custom-about-one-vl {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 550px) {
+  .new-custom-about-one-effect_text {
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 8px;
+    text-underline-offset: 8px;
+  }
+
+  .new-custom-about-one-sub_title {
+    font-size: 20px;
+  }
+
+  .new-custom-about-one-content-wrapper {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .new-custom-about-one-title {
+    font-size: 35px;
+  }
+
+  .new-custom-about-one-more {
+    margin-bottom: 25px;
+    font-size: 10px;
+    letter-spacing: 11px;
+  }
+  .new-custom-about-one-vl {
+    margin-bottom: 40px;
+    border-left: 1px solid #ff5d00;
+    height: 35px;
+  }
+  .new-custom-about-one-content-wrapper p {
+    font-size: 10px;
+    line-height: 26px;
+    letter-spacing: 3px;
+  }
+}

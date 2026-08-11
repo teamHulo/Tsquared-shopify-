@@ -1,0 +1,232 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "2f806101-7290-47c8-a088-10bc275f64a2": {
+      "type": "section-custom-content",
+      "disabled": true,
+      "blocks": {
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker_17.gif",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "Color",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "f9055e26-7634-4356-aab7-9aedcc757d49": {
+      "type": "custom-grid-first",
+      "disabled": true,
+      "blocks": {
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/1.jpg",
+            "link": "https://www.lola41.com/location/lola-41-palm-beach/"
+          }
+        },
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/2_2b556b37-da2a-43e2-8ef8-e870cf861665.webp",
+            "link": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm"
+          }
+        },
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/3_e2d7cae0-6eba-4657-ad2b-902b1b797e3d.webp",
+            "link": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/"
+          }
+        },
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/4_37f46bec-c751-47d9-95eb-d18cc9d46b04.webp",
+            "link": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141"
+          }
+        },
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/5_0f0f03a4-f768-4ab9-abaa-43b802e2f54f.webp",
+            "link": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top"
+          }
+        },
+        "0f766ed1-50d4-4b57-9bb1-34619362616e": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/6_7ede7859-8582-45bc-b4e8-97f15eee588b.webp",
+            "link": "https://shopdailydrills.com/products/bubble-bra-metallic"
+          }
+        },
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/7_cd06596b-5258-4b7b-9f76-a2b997ad9bed.webp",
+            "link": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB"
+          }
+        },
+        "703efa63-97de-49a4-b0bb-ffe107b23198": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/8.webp",
+            "link": "https://balthazarny.com/"
+          }
+        },
+        "5a248c41-880a-4c97-a6bd-466671378376": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/9.webp",
+            "link": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html"
+          }
+        },
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/10_872bc4f6-af5b-4777-911f-c3e202247638.webp",
+            "link": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636"
+          }
+        }
+      },
+      "block_order": [
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b",
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152",
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62",
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801",
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6",
+        "0f766ed1-50d4-4b57-9bb1-34619362616e",
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c",
+        "703efa63-97de-49a4-b0bb-ffe107b23198",
+        "5a248c41-880a-4c97-a6bd-466671378376",
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4"
+      ],
+      "settings": {
+        "title": "",
+        "html": "",
+        "html1": "",
+        "heading": "",
+        "link-title": "",
+        "link": ""
+      }
+    },
+    "ea49a21c-7aa6-406f-8bb3-61db99c645c6": {
+      "type": "image-description",
+      "settings": {
+        "heading": "",
+        "description": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "3e725155-5282-49f5-8cd3-e0e94cd076d1": {
+      "type": "image-slider",
+      "blocks": {
+        "df05dcbf-9e21-4336-9e8a-f4aa0c20be8a": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "e4e04c22-829d-418e-bd9d-c9ec3a9b6032": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "2247a828-7b53-4435-b2be-5a042908ac7d": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "387aac1f-30cc-4977-b13c-e408036de3ef": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "56064a40-e5cd-4586-9ecf-504009e38b14": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "3e6e5bea-5733-4aef-90b9-0652e2b9c44c": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "df05dcbf-9e21-4336-9e8a-f4aa0c20be8a",
+        "e4e04c22-829d-418e-bd9d-c9ec3a9b6032",
+        "2247a828-7b53-4435-b2be-5a042908ac7d",
+        "387aac1f-30cc-4977-b13c-e408036de3ef",
+        "56064a40-e5cd-4586-9ecf-504009e38b14",
+        "3e6e5bea-5733-4aef-90b9-0652e2b9c44c"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2f806101-7290-47c8-a088-10bc275f64a2",
+    "f9055e26-7634-4356-aab7-9aedcc757d49",
+    "ea49a21c-7aa6-406f-8bb3-61db99c645c6",
+    "3e725155-5282-49f5-8cd3-e0e94cd076d1"
+  ]
+}

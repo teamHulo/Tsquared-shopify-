@@ -1,0 +1,75 @@
+{{ 'section-title-content.css' | asset_url | stylesheet_tag }}
+
+<div class="title-content-container {{ section.settings.bg }}" style="background:{{ section.settings.bg_color }};">
+  <div class="title-content-wrapper">
+    <p class="title-content-top_title">{{ section.settings.top_title }}</p>
+    <p class="title-content-title">{{ section.settings.title }}</p>
+    <p class="title-content-sub_title">{{ section.settings.sub_title1 }}</p>
+    <p class="title-content-sub_title title-content-second">
+      <span class="title-content-effect_text">&nbsp;{{ section.settings.effect_text }}</span>{{ section.settings.sub_title2 }}
+    </p>
+    <div class="title-content-content-wrapper">
+      {{ section.settings.content }}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Title and content",
+  "settings": [
+    {
+      "type": "text",
+      "id": "top_title",
+      "label": "Top Title"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background-color"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title1",
+      "label": "Subtitle"
+    },
+    {
+      "type": "text",
+      "id": "effect_text",
+      "label": "Effect Text"
+    },
+    {
+      "type": "text",
+      "id": "sub_title2",
+      "label": "Subtitle"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "label": "Background color",
+      "default": "palette--light bg--neutral",
+      "options": [
+        { "value": "palette--light bg--neutral", "label": "Default" },
+        { "value": "palette--light bg--accent", "label": "Light" },
+        { "value": "palette--dark bg--invert", "label": "Dark" },
+        { "value": "palette--gray", "label": "Gray" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Title and content"
+    }
+  ]
+}
+{% endschema %}

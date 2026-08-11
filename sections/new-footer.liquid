@@ -1,0 +1,93 @@
+{{ 'section-new-footer.css' | asset_url | stylesheet_tag }}
+
+<div class="new-custom-footer-images">
+  <img class="new-footer-first-image" src="{{ section.settings.image1 | image_url }}" alt="footer_first_image">
+  <img class="new-footer-second-image" src="{{ section.settings.image2 | image_url }}" alt="footer_second_image">
+
+  <div class="new-footer-content-wrapper">
+    <div class="new-footer-custom-links">
+      <a href="{{ section.settings.link_1 }}">
+        {{ section.settings.linktitle_1 }}
+      </a>
+      <a href="{{ section.settings.link_2 }}">
+        {{ section.settings.linktitle_2 }}
+      </a>
+      <a href="{{ section.settings.link_3 }}">
+        {{ section.settings.linktitle_3 }}
+      </a>
+      <a href="{{ section.settings.link_4 }}">
+        {{ section.settings.linktitle_4 }}
+      </a>
+    </div>
+    <div class="new-custom-text-footer">
+      {{ section.settings.footer_description }}
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "New Footer",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image 2"
+    },
+    {
+      "type": "text",
+      "id": "linktitle_1",
+      "label": "Link Title 1"
+    },
+    {
+      "type": "url",
+      "id": "link_1",
+      "label": "Link 1"
+    },
+    {
+      "type": "text",
+      "id": "linktitle_2",
+      "label": "Link Title 2"
+    },
+    {
+      "type": "url",
+      "id": "link_2",
+      "label": "Link 2"
+    },
+    {
+      "type": "text",
+      "id": "linktitle_3",
+      "label": "Link Title 3"
+    },
+    {
+      "type": "url",
+      "id": "link_3",
+      "label": "Link 3"
+    },
+    {
+      "type": "text",
+      "id": "linktitle_4",
+      "label": "Link Title 4"
+    },
+    {
+      "type": "url",
+      "id": "link_4",
+      "label": "Link 4"
+    },
+    {
+      "type": "textarea",
+      "id": "footer_description",
+      "label": "Description"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Footer"
+    }
+  ]
+}
+{% endschema %}

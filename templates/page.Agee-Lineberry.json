@@ -1,0 +1,233 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "f8817c39-4b80-4469-aec3-184c779f8225": {
+      "type": "image-description",
+      "settings": {
+        "heading": "Agee Leinberry",
+        "path_image": "shopify://shop_images/path.webp",
+        "image": "shopify://shop_images/img.webp",
+        "description": "From NC to NYC— Agee's curatorial eye extends from her prior roles at SAKS & Veronica Beard all the way to her brand-new brand baby @Couper. It’s a brand that boasts a “refusal of being ignored,” which informs the museum-worthy looks she brings to the platform. With golden hair and a glimmering smile that radiates from her Beaver Creek wedding day to a Cabo getaway, we give you the Top Tens of Agee....",
+        "padding_top": 130,
+        "padding_bottom": 120
+      }
+    },
+    "df1e06d2-f052-41a9-ab09-7ab5939b5c3e": {
+      "type": "image-slider",
+      "blocks": {
+        "b5413a7e-5d03-44ff-818f-68f0522d7fa2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-07_at_4.15.50_PM-removebg-preview.png",
+            "product_url": "https://shopcouper.com/products/hydrangea-earrings-chains",
+            "text": ""
+          }
+        },
+        "be9413c9-d88d-40e8-b238-a1340dd64c7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-07_at_3.59.08_PM-removebg-preview.png",
+            "product_url": "https://shopfollowsuit.com/products/the-flora-one-piece-lilac-plum",
+            "text": ""
+          }
+        },
+        "29168f80-d680-4b0c-a224-4969fbe488f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_c05fcbcc-2c25-45c4-b854-3dcda90f5b9c.png",
+            "product_url": "https://rstyle.me/+oYU00HHEDd1MZMKJA_oC7w",
+            "text": ""
+          }
+        },
+        "c67dc3f0-ab97-4037-9002-070e6f537368": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_1_b0acbc1e-f07d-46c6-b717-fe6c159d2c73.png",
+            "product_url": "https://rstyle.me/+5wlnC16Z9euhWsGaCffyAA",
+            "text": ""
+          }
+        },
+        "183b6662-591f-406d-b583-6936c814cdca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_4.png",
+            "product_url": "https://www.etsy.com/listing/945386806/raouls-matchbook",
+            "text": ""
+          }
+        },
+        "67ac0598-96f9-444f-bd3e-ab734b441d86": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image_2.png",
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "455b91fb-a38c-46f2-9f4c-b0ba79b4aa9a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAN_2057_28032DD8-8DC5-430D-AF360E00A77DD093_000238a5-eeae-44bf-a0f5b9bcd1761148.jpg",
+            "product_url": "https://www.fourseasons.com/sensei/?utm_source=ggl&utm_medium=cpc&utm_campaign=other-koe-prop-cv-brd_koele_na-na&utm_content=na-na&utm_term=na&gad=1&gclid=Cj0KCQjwmN2iBhCrARIsAG_G2i489NLmJOGVTSY9jVKAvTU7Qty3TIsoAGfQAmd2l_9ZV8jxiA8Q_ZMaAmvEEALw_wcB&gclsrc=aw.ds",
+            "text": ""
+          }
+        },
+        "ee5c2a4a-6c6b-4f66-babd-af4fabe475ef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/63393797_046_b10.webp",
+            "product_url": "https://www.anthropologie.com/shop/ramona-coupe-glasses-set-of-4?category=kitchen-glassware&color=046",
+            "text": ""
+          }
+        },
+        "81c35f13-799d-49f3-a18b-17cfef58eed9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_d3ec1302-be91-4838-8a43-9b5cf2db74cc.webp",
+            "product_url": "https://neelyandchloe.com/products/26-suitcase-x-couper",
+            "text": ""
+          }
+        },
+        "2db874c1-c859-4373-b124-273e8347f7d6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PACKSHOT_GRAND_SOIR_70ML_EDP_VUE3-3-4_FOND-TRANSPARENT_460x460_d74c2167-090b-4941-a685-6ad117fc9dc5.webp",
+            "product_url": "https://www.saksfifthavenue.com/product/maison-francis-kurkdjian-grand-soir-eau-de-parfum-0400096068717.html",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "b5413a7e-5d03-44ff-818f-68f0522d7fa2",
+        "be9413c9-d88d-40e8-b238-a1340dd64c7e",
+        "29168f80-d680-4b0c-a224-4969fbe488f2",
+        "c67dc3f0-ab97-4037-9002-070e6f537368",
+        "183b6662-591f-406d-b583-6936c814cdca",
+        "67ac0598-96f9-444f-bd3e-ab734b441d86",
+        "455b91fb-a38c-46f2-9f4c-b0ba79b4aa9a",
+        "ee5c2a4a-6c6b-4f66-babd-af4fabe475ef",
+        "81c35f13-799d-49f3-a18b-17cfef58eed9",
+        "2db874c1-c859-4373-b124-273e8347f7d6"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "fd55b281-5575-48d7-acd9-169baf0d7245": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screenshot_2023-05-07_at_3.52.52_PM.png",
+        "top_url": "",
+        "image2": "shopify://shop_images/Screenshot_2023-05-07_at_3.53.48_PM.png",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "f6e2defa-9238-4565-b488-dfe1a372ff91": {
+      "type": "footer-new",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify://shop_images/Image_7.png",
+        "image2": "shopify://shop_images/Image_4_ccfc7dd8-1f80-4bc4-b1d1-80291bbcd1fb.png",
+        "title1": "",
+        "link1": "",
+        "title2": "",
+        "link2": "",
+        "title3": "",
+        "link3": "",
+        "title4": "",
+        "link4": "",
+        "html": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+      }
+    },
+    "d0559036-5edc-4c09-ae7a-c903999fa77e": {
+      "type": "new-footer",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify://shop_images/Image_7.png",
+        "image2": "shopify://shop_images/Image_1_0301e4d6-16ea-4ae5-bd3f-57968ebf2564.png",
+        "linktitle_1": "",
+        "link_1": "",
+        "linktitle_2": "",
+        "link_2": "",
+        "linktitle_3": "",
+        "link_3": "",
+        "linktitle_4": "",
+        "link_4": "",
+        "footer_description": ""
+      }
+    },
+    "3330a990-7d78-4965-a48d-2aae1f975b39": {
+      "type": "image-text-grid",
+      "disabled": true,
+      "blocks": {
+        "2b390afb-fa1e-43d6-bee9-957b20b91cc1": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Photo.png",
+            "title": "name",
+            "subtitle": "bio",
+            "link": ""
+          }
+        },
+        "a4d1ac80-8c0b-4041-8ab5-6b0525bbef1f": {
+          "type": "meetme",
+          "settings": {
+            "title": "sdfasd",
+            "image": "shopify://shop_images/Screen_Shot_2023-02-26_at_7.17.49_PM-removebg-preview.png",
+            "name": "necklace",
+            "intro": "bio",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "2b390afb-fa1e-43d6-bee9-957b20b91cc1",
+        "a4d1ac80-8c0b-4041-8ab5-6b0525bbef1f"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f8817c39-4b80-4469-aec3-184c779f8225",
+    "df1e06d2-f052-41a9-ab09-7ab5939b5c3e",
+    "fd55b281-5575-48d7-acd9-169baf0d7245",
+    "f6e2defa-9238-4565-b488-dfe1a372ff91",
+    "d0559036-5edc-4c09-ae7a-c903999fa77e",
+    "3330a990-7d78-4965-a48d-2aae1f975b39"
+  ]
+}

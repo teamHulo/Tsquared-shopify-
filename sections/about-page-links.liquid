@@ -1,0 +1,215 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html-{{ section.id }}">
+  <div class="main-links">
+    <div class="left-text1">
+      <a href="{{ section.settings.link1 }}">
+        <h6>
+          {{ section.settings.heading1 }}
+          <svg
+            style="margin-left:10px;vertical-align: bottom;"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1.5em"
+            height="1.5em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+          >
+            <path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </h6>
+        <p>{{ section.settings['sub-heading1'] }}</p>
+      </a>
+    </div>
+    <div class="right-text2">
+      <a href="{{ section.settings.link2 }}">
+        <h6>{{ section.settings.heading2 }}</h6>
+        <p>{{ section.settings['sub-heading2'] }}</p>
+      </a>
+    </div>
+    <div class="left-text3">
+      <a href="{{ section.settings.link3 }}">
+        <h6>
+          {{ section.settings.heading3 }}
+          <svg
+            style="margin-left:10px;vertical-align: bottom;"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1.5em"
+            height="1.5em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+          >
+            <path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </h6>
+        <p>{{ section.settings['sub-heading3'] }}</p>
+      </a>
+    </div>
+    <div class="right-text4">
+      <a href="{{ section.settings.link4 }}">
+        <h6>{{ section.settings.heading4 }}</h6>
+        <p>{{ section.settings['sub-heading4'] }}</p>
+      </a>
+    </div>
+  </div>
+  <div class="bottom-content">
+    <a href="{{ section.settings.bottom-link }}">
+      <h6 class="c-w">{{ section.settings['bottom-text'] }}</h6>
+      <svg
+        style="margin-left:10px;vertical-align: bottom;"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1.5em"
+        height="1.5em"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 16 16"
+      >
+        <path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+<style>
+   .section-html-{{section.id}}
+   {
+     padding: 0px 5% 200px 5%;
+     background-color:#F1F1F1;
+     position:relative;
+   }
+   .main-links
+   {
+     width: 60%;
+     margin:0 auto;
+     border-bottom:2px solid #FF5D00;
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:center;
+     align-items:center;
+   }
+   .left-text1
+   {
+     width:50%;
+     max-width:50%;
+     text-align:left;
+     margin-bottom: 50px;
+   }
+   .left-text3
+   {
+     width:50%;
+     max-width:50%;
+     text-align:left;
+   }
+   .right-text2
+   {
+     width:50%;
+     max-width:50%;
+     text-align:right;
+     margin-bottom: 50px;
+   }
+   .right-text4
+   {
+     width:50%;
+     max-width:50%;
+     text-align:right;
+   }
+   .bottom-content
+   {
+     text-align:center;
+     width:100%;
+   }
+  .c-w
+   {
+     max-width:300px;
+     border-bottom:4px solid #FF5D00;
+     margin: 30px auto;
+   }
+
+   @media screen and (max-width:768px)
+   {
+     .main-links
+     {
+      width: 100%;
+     }
+
+   }
+</style>
+{% schema %}
+{
+  "name": "About page links",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading1",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading2",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading3",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading4",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading1",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading2",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading3",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading4",
+      "label": "Sub heading"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "Link"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "Link"
+    },
+    {
+      "type": "url",
+      "id": "link3",
+      "label": "Link"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "Link"
+    },
+    {
+      "type": "richtext",
+      "id": "bottom-text",
+      "label": "Bottom text"
+    },
+    {
+      "type": "url",
+      "id": "bottom-link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom About Links"
+    }
+  ]
+}
+{% endschema %}

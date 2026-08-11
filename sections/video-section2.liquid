@@ -1,0 +1,115 @@
+<div class="dont-worry cs-{{ section.id }}">
+  <div class="dont-worry1">
+    {{ section.settings.text }}
+  </div>
+  <div class="dont-worry2">
+    <a href="{{ section.settings.link }}">
+      <img src="{{ section.settings.image | img_url:'master' }}">
+      <div class="bottom-div">
+        <h4>{{ section.settings.title }}</h4>
+        <p>{{ section.settings.sub-heading }}</p>
+      </div>
+    </a>
+  </div>
+  <div class="dont-worry3">
+  </div>
+</div>
+<style>
+  .dont-worry
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:50px 5%;
+  }
+  .dont-worry1
+  {
+     width:20%;
+     max-width:20%;
+    text-align:left;
+  }
+  .dont-worry1 p
+  {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+  }
+  .dont-worry2
+  {
+    width:60%;
+    max-width:60%;
+    text-algin:center;
+  }
+  .dont-worry2 img
+  {
+    max-width:100%;
+  }
+  .dont-worry3
+  {
+    width:20%;
+    max-width:20%;
+  }
+  .bottom-div
+  {
+    border-top:2px solid #4C4B4C;
+    border-bottom:2px solid #4C4B4C;
+    margin:20px 0px;
+  }
+  @media screen and (max-width:768px)
+  {
+   .dont-worry1 p
+    {
+      writing-mode: horizontal-tb;
+      transform: rotate(0deg);
+      text-align: center;
+   }
+    .dont-worry1,.dont-worry2
+    {
+      width:100%;
+      max-width:100%;
+    }
+    .dont-worry3
+    {
+      display:none;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "dont worry",
+  "settings": [
+    {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+    },
+    {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+    },
+    {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "sub-heading",
+          "label": "Sub-Heading"
+    },
+    {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+    }
+    
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "dont worry"
+    }
+  ]
+}
+{% endschema %}

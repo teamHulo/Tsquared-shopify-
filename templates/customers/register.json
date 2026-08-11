@@ -1,0 +1,23 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "customer-register",
+      "settings": {
+        "image": "shopify://shop_images/TOP_TEN_18_x_18_in.png",
+        "bk-desk": "shopify://shop_images/Camille_Charriere_Wore_an_Upcycled_Lace_Dress_to_Her_Roaring_2020s_Wedding_Celebration_at_Maxim_s_in_Paris.jpg"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

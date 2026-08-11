@@ -1,0 +1,168 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1660988649d9a8110e": {
+      "type": "custom-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/giphy_7.gif",
+        "mobile_image": "shopify://shop_images/giphy_12.gif",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "VIdeos",
+        "title1": "",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1660992588a0a6699c": {
+      "type": "video-section2",
+      "settings": {
+        "text": "<p>FEATURED VIDEOS</p>",
+        "image": "shopify://shop_images/Sophie_Schaffler_Feature-1.jpg",
+        "title": "Sophie Schaffler",
+        "sub-heading": "Featured Top Ten",
+        "link": "#"
+      }
+    },
+    "1661161164abe9d811": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/giphy_13.gif",
+        "mobile_image": "shopify://shop_images/giphy_6.gif",
+        "bg_position": "center-center",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16609954137e2d867f": {
+      "type": "custom-list",
+      "settings": {
+        "sub-heading": "",
+        "title1": "VIEW THE LATEST VIDEOS",
+        "title2": "",
+        "title3": "",
+        "sub-title1": "",
+        "sub-link1": "",
+        "sub-title2": "",
+        "sub-link2": "",
+        "sub-title3": "",
+        "sub-link3": "",
+        "sub-title4": "",
+        "sub-link4": "",
+        "sub-title5": "",
+        "sub-link5": "",
+        "sub-title6": "",
+        "sub-link6": "",
+        "sub-title7": "",
+        "sub-link7": "",
+        "sub-title8": "",
+        "sub-link8": ""
+      }
+    },
+    "166099582444d0893f": {
+      "type": "video-section2",
+      "settings": {
+        "text": "<p>THE LATEST FEATURED</p>",
+        "image": "shopify://shop_images/Peyton_Spolansky_Feature.jpg",
+        "title": "Peyton spolansky",
+        "sub-heading": "FEATURED VIDEO SETS",
+        "link": "#"
+      }
+    },
+    "16610016446762d30b": {
+      "type": "video-section-latest",
+      "settings": {
+        "heading": "FEATURED TOP TENS",
+        "heading1": "",
+        "image": "shopify://shop_images/Quincy_Morgan_Feature.jpg",
+        "title": "Quincy Morgan",
+        "sub-heading": "FEATURED TOP TEN",
+        "link": "#",
+        "image1": "shopify://shop_images/Lilly_Sisto_Feature.jpg",
+        "title1": "Lilly Sisto",
+        "sub-heading1": "Featured Top Ten",
+        "link1": "#"
+      }
+    },
+    "1661253919ec3879f9": {
+      "type": "section-html",
+      "settings": {
+        "html": "<div >\n<br><br>\n      <p>TOP TENS</p>\n      <br><br>\n      <h2>Playing “what’s your favorite” at a dinner party with friends new & old. Welcome to T2.\n<br>\n<br> <a href=\"#\" class=\"Create Your Top Ten\">Create Your Top Ten</a> \n</h2><br><br>\n      <p>I AM ALWAYS OPEN TO NEW</p>\n<p>COLLABORATIONS WITH BRANDS.</p>\n<p>YOU KNOW WHAT TO DO.</p>\n<br>\n<p><a href=\"#\" class=\"here\">CONTACT US</a>\n</p>\n  </div>\n<br><br>",
+        "full_width": false
+      }
+    },
+    "511dbdf5-076c-46e0-a35a-4b5ed232303e": {
+      "type": "custom-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/giphy_5.gif",
+        "logo": "shopify://shop_images/giphy_11.gif",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title": "",
+        "title1": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660988649d9a8110e",
+    "1660992588a0a6699c",
+    "1661161164abe9d811",
+    "16609954137e2d867f",
+    "166099582444d0893f",
+    "16610016446762d30b",
+    "1661253919ec3879f9",
+    "511dbdf5-076c-46e0-a35a-4b5ed232303e"
+  ]
+}

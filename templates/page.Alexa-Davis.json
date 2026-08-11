@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1845d2c3-a8ef-492d-b8f9-683208408e14": {
+      "type": "profile-one",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_14_df347038-e7ff-4963-9e94-3e7a42ce87e9.gif",
+        "logo": "shopify://shop_images/Alexa_Davis_Feature_Image.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "Alexa Davis",
+        "title1": "",
+        "kicker": "Introducing",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16648922938c347e91": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2": {
+          "type": "block-2",
+          "disabled": true,
+          "settings": {
+            "showconten": false,
+            "accessc": "FEATURED",
+            "profile1": "shopify://shop_images/Alexa_Davis_Feature_Image_a2802f4a-ca35-4deb-b471-ae6592c575b6.jpg",
+            "img1": "shopify://shop_images/Premium-Market-Gallery-Lau-Nvy-Stripe_1605x1800_41e3b0df-a44d-4b03-ad7b-fc638a637f74.jpg",
+            "link_url1": "https://businessandpleasureco.com/products/the-market-umbrella-laurens-navy-stripe?variant=32991577243751&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvzGCwV1QfsL_QAcoPJeoyRJQNQSO1Jb32tg7zwdQ8szZZskU-OUBvcaAiroEALw_wcB",
+            "img2": "shopify://shop_images/il_1140xN.3683024681_meng.jpg",
+            "link_url2": "https://www.etsy.com/listing/1156374500/cooper-river-bridge-art-print-by?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=ravenel+bridge&ref=sc_gallery-1-2&frs=1&sts=1&plkey=e6b9a76e017e3f2ad27460c6fdec74a99533bff5%3A1156374500",
+            "img3": "shopify://shop_images/P00633696.jpg",
+            "link_url3": "https://www.mytheresa.com/en-us/golden-goose-exclusive-to-mytheresa-superstar-shearling-lined-sneakers-2029295.html?catref=category",
+            "img4": "shopify://shop_images/leons-oyster-shop-charleston-compressor.jpg",
+            "link_url4": "https://leonsoystershop.com/",
+            "img5": "shopify://shop_images/hdjkp94tihorhumtrasj_750x750_d9f8135a-47d9-433d-971c-e73c53a7849f.jpg",
+            "link_url5": "https://woodencork.com/products/perrier-jouet-belle-epoque-rose-2012?variant=31618950168712&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2020-01-08&utm_source=google&utm_medium=smart_campaign&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxtJRrnklWpcTio132p5ZQUeAxoM-_o6RpOlCBh79iQ4KhnuDJbDP4aAqzdEALw_wcB",
+            "img6": "shopify://shop_images/large_ulla-johnson-neutral-sydel-cotton-midi-dress.jpg",
+            "link_url6": "https://www.modaoperandi.com/women/p/ulla-johnson/sydel-cotton-midi-dress/514800?country=US&currency=USD&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvwNhgl8u7gPHa1hgSP_uDnonfksU2Q2xW8tVsOhm7BVxHoMr8K3mNoaAty8EALw_wcB&gclsrc=aw.ds",
+            "img7": "shopify://shop_images/Hydrangea_Carousel.jpg",
+            "link_url7": "https://urbanstems.com/products/flowers/the-hydrangea/FLRL-B-01918.html",
+            "img8": "shopify://shop_images/719-t1LlP7S._SL1491.jpg",
+            "link_url8": "https://www.amazon.com/Croix-Sparkling-Water-Flavored-Naturally/dp/B07TLYD6SF",
+            "img9": "shopify://shop_images/giphy.gif",
+            "link_url9": "",
+            "img10": "shopify://shop_images/Screen_Shot_2022-10-07_at_5.52.14_AM.png",
+            "link_url10": "https://www.sephora.com/product/volcano-candle-P433018?country_switch=us&lang=en&skuId=2113587&om_mmc=ppc-GG_13746853422_127990371047_aud-1528752703180:pla-421385685355_2113587_531290564054_9067609_c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvylQ-sklsdNSEWnqqU-JZxVb86ggzSyA9igLVcC_OFJ0HLRmWdXxBYaAuYNEALw_wcB&gclsrc=aw.ds",
+            "heading1": "Top Ten alexa davis",
+            "sub-heading1": "bio",
+            "img11": "shopify://shop_images/DP-17012-017.jpg",
+            "link_url11": "https://www.metmuseum.org/exhibitions/listings/2020/british-galleries#:~:text=Exhibition%20Overview,created%20between%201500%20and%201900.",
+            "img12": "shopify://shop_images/71zXYBpsuVL._AC_SL1500.jpg",
+            "link_url12": "https://www.amazon.com/Barefoot-Dreams-CozyChic-Throw-Cream/dp/B005ABX0NS",
+            "img13": "shopify://shop_images/CHA624803_1_enlarged.jpg",
+            "link_url13": "https://www.therealreal.com/products/women/shoes/sandals/chanel-2021-quilted-denim-sandals-slingback-sandals-bdy1a?sid=pxogmz&utm_source=Google&utm_medium=shopping&cvosrc=cse.google.google&cvo_crid=453344066284&utm_campaign=shopping_200&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-BsLcllJ778tKkIMhdkxfc3NuNGgRG2EcBPuPMtZon6OhI0R_J-y4aAmTQEALw_wcB",
+            "img14": "shopify://shop_images/bella_blu.jpg",
+            "link_url14": "https://www.bellablunyc.com/",
+            "img15": "shopify://shop_images/s2249779-main-zoom.jpg",
+            "link_url15": "https://www.sephora.com/product/libre-eau-de-parfum-P448102?country_switch=us&lang=en&skuId=2249779&om_mmc=ppc-GG_1918213323_68906954085_pla-418385531910_2249779_353573794529_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY8Q4wosCihXCopM6hPEA47y_djHK1AZDlUb7OlnnxUAiwucLCGGIOYaAgvwEALw_wcB&gclsrc=aw.ds",
+            "img16": "shopify://shop_images/81gWcEhDfIL._AC_UL1500.jpg",
+            "link_url16": "https://www.amazon.com/Rangers-47-Clean-Adjustable-Royal/dp/B00CTEPQNQ/ref=sr_1_2?crid=107S36EL6U9TJ&keywords=rangers+hat&qid=1657425012&sprefix=rangers+hat%2Caps%2C86&sr=8-2",
+            "img17": "shopify://shop_images/ILXhy47dQ4yZAwEJI56k_Home_page_Indo.jpg",
+            "link_url17": "https://www.indochinenyc.com/",
+            "img18": "shopify://shop_images/0143126687.01._SCLZZZZZZZ_SX500.jpg",
+            "link_url18": "https://www.amazon.com/Truth-About-Harry-Quebert-Affair/dp/0143126687",
+            "img19": "shopify://shop_images/s2427110-main-zoom.jpg",
+            "link_url19": "https://www.sephora.com/product/one-size-by-patrick-starrr-secure-blur-hydrating-under-eye-patches-P468395?country_switch=us&lang=en&skuId=2427110&om_mmc=ppc-GG_1918213323_114417900931_pla-1212528922078_2427110_463343130707_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-e0GNhAIl8pqSL35joJ4ibO3tCtvZaE1ml8nDOY_FAZWkRAjxnIwgaAs5KEALw_wcB&gclsrc=aw.ds",
+            "img20": "shopify://shop_images/IMG_3748_2888930e-e600-4380-a4cd-555f18c42237.jpg",
+            "link_url20": "",
+            "heading2": "Top Ten Hope Chilton",
+            "sub-heading2": ""
+          }
+        }
+      },
+      "block_order": [
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2"
+      ],
+      "settings": {}
+    },
+    "74094d39-e428-4f88-8660-cf89d230b92d": {
+      "type": "image-description",
+      "settings": {
+        "heading": "alexa davis",
+        "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+        "image": "shopify://shop_images/Alexa_Davis_Feature_Image_a2802f4a-ca35-4deb-b471-ae6592c575b6.jpg",
+        "description": "From CT to LA, Alexa Davis boasts a love for an olive oil cake, finding the newest music & a picanté at the end of a long day. There’s never a dull moment, after all, when you’re the social media manager for the D’Amelios. From picking up fresh blooms on a Melrose morning walk, chowing on pasta at Il Pastaio or driving down the 405 feeling carefree — we give you the Top Tens of A.D...",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "c99b7bd5-87e9-4e6d-b302-484e343f7015": {
+      "type": "image-slider",
+      "blocks": {
+        "a71d3c94-634e-41c3-9002-e095232e67b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Lip-unscented-2000x2000_1_1024x1024_514f50ae-8a7e-457a-9f3d-883688b92087.webp",
+            "product_url": "https://www.revolve.com/charlotte-tilbury-glowgasm-beauty-light-wand-highlighter-in-pinkgasm/dp/CTIL-WU137/?d=F&currency=USD&countrycode=US&gclid=CjwKCAjwjMiiBhA4EiwAZe6jQy7QrwXQNn5VoOZ22p1KDpOzEqSHuaDvkRZ6iAauWm1ofoYQ9-br3hoCnlkQAvD_BwE&gclsrc=aw.ds",
+            "text": ""
+          }
+        },
+        "3d84db9d-2fb9-45ac-8936-8efe8ae9f8f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-03_at_12.19.59_PM.png",
+            "product_url": "https://www.carlacafela.com/",
+            "text": ""
+          }
+        },
+        "3083dddb-4ecc-43f9-9863-facf8ccc63c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1116109-CHE_1_1793x_0be2e042-9da3-48b6-a3d1-570880c65d63.webp",
+            "product_url": "https://www.modaoperandi.com/women/p/ugg/classic-ultra-mini-sheepskin-boots/555980?country=US&currency=USD&gclid=CjwKCAjwjMiiBhA4EiwAZe6jQ0_5C469vTuz7ZSNThGLVrht5cdoaeAI5j0EMo1Azxgzhs_wyz7vDBoCrQQQAvD_BwE&gclsrc=aw.ds",
+            "text": ""
+          }
+        },
+        "c84ddf3c-cdf7-42f0-9a97-2936fef98907": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-03_at_12.24.43_PM-removebg-preview.png",
+            "product_url": "https://www.mytheresa.com/euro/en/women/re-done-mid-rise-straight-leg-jeans-blue-p00765907",
+            "text": ""
+          }
+        },
+        "8756e3b4-78db-47cc-a8cc-ee92e315b63b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lunaclipinpeach.jpg",
+            "product_url": "https://www.revolve.com/emi-jay-luna-clip-in-peach/dp/EJAY-WA10/",
+            "text": ""
+          }
+        },
+        "ec824e1c-ebb9-4c8d-9fed-a52f4c0d7b10": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-03_at_12.26.31_PM.png",
+            "product_url": "https://www.apple.com/shop/buy-airpods/airpods-max/sky-blue?afid=p238%7CsrAW3dlGH-dc_mtid_1870765e38482_pcrid_652759408792_pgrid_146259542854_pntwk_g_pchan_local_pexid__&cid=aos-us-kwgo-pla-airpods_lia--slid---product-MGYL3AM%2FA",
+            "text": ""
+          }
+        },
+        "707ad4b8-ea25-43a1-917c-bdef81cf3268": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-03_at_12.27.15_PM.png",
+            "product_url": "https://ca.beistravel.com/products/the-check-in-roller-in-beige",
+            "text": ""
+          }
+        },
+        "fb3b3703-6b72-42de-8637-f621b910f099": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/204535071-1-black.webp",
+            "product_url": "https://www.carlacafela.com/",
+            "text": ""
+          }
+        },
+        "e7647c86-5d8b-445d-988d-8b8347c65b6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-03_at_12.31.53_PM-removebg-preview.png",
+            "product_url": "https://www.revolve.com/charlotte-tilbury-glowgasm-beauty-light-wand-highlighter-in-pinkgasm/dp/CTIL-WU137/?d=F&currency=USD&countrycode=US&gclid=CjwKCAjwjMiiBhA4EiwAZe6jQy7QrwXQNn5VoOZ22p1KDpOzEqSHuaDvkRZ6iAauWm1ofoYQ9-br3hoCnlkQAvD_BwE&gclsrc=aw.ds",
+            "text": ""
+          }
+        },
+        "cba6c5c2-7a21-4db8-a763-d02ef6ccb764": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-03_at_12.29.36_PM.png",
+            "product_url": "https://www.nordstrom.com/s/3-pack-cotton-blend-slouch-socks/7189141?color=BRICK+MULTI&utm_content=33817192215&utm_term=aud-1024105537894:pla-269568094781&utm_channel=low_nd_shopping_standard&utm_source=google&utm_campaign=662927197&adpos=&creative=145518919813&device=c&matchtype=&network=g&acctid=21700000001689570&dskeywordid=92700049880551825&lid=92700049880551825&ds_s_kwgid=58700005468302280&ds_s_inventory_feed_id=97700000007631122&dsproductgroupid=269568094781&product_id=5771244&merchid=1243147&prodctry=US&prodlang=en&channel=online&storeid=&locationid=9009671&targetid=aud-1024105537894:pla-269568094781&campaignid=662927197&adgroupid=33817192215&gclid=CjwKCAjwjMiiBhA4EiwAZe6jQ9_uaKdQ7MxgXAg37lSWJLKEsczaDF7zmaVRuqi5OV0ubaKNhr6EeRoCHOsQAvD_BwE&gclsrc=aw.ds",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "a71d3c94-634e-41c3-9002-e095232e67b7",
+        "3d84db9d-2fb9-45ac-8936-8efe8ae9f8f8",
+        "3083dddb-4ecc-43f9-9863-facf8ccc63c8",
+        "c84ddf3c-cdf7-42f0-9a97-2936fef98907",
+        "8756e3b4-78db-47cc-a8cc-ee92e315b63b",
+        "ec824e1c-ebb9-4c8d-9fed-a52f4c0d7b10",
+        "707ad4b8-ea25-43a1-917c-bdef81cf3268",
+        "fb3b3703-6b72-42de-8637-f621b910f099",
+        "e7647c86-5d8b-445d-988d-8b8347c65b6f",
+        "cba6c5c2-7a21-4db8-a763-d02ef6ccb764"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "c2ab6c8b-af2b-42b6-ad3f-0d2f392aa9e2": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screenshot_2023-05-03_at_12.15.41_PM.png",
+        "top_url": "https://photos.com/featured/harriet-at-mougins-slim-aarons.html",
+        "image2": "shopify://shop_images/Screenshot_2023-05-03_at_12.15.35_PM.png",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1845d2c3-a8ef-492d-b8f9-683208408e14",
+    "16648922938c347e91",
+    "74094d39-e428-4f88-8660-cf89d230b92d",
+    "c99b7bd5-87e9-4e6d-b302-484e343f7015",
+    "c2ab6c8b-af2b-42b6-ad3f-0d2f392aa9e2"
+  ]
+}

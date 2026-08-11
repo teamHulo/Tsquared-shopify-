@@ -1,0 +1,345 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cbc194e2-1f38-494e-bad6-2824e2d7ea7a": {
+      "type": "image-description",
+      "settings": {
+        "heading": "JULIA MERVIS",
+        "path_image": "shopify://shop_images/path_475965da-195e-4b58-b22f-cf9b7a24ad01.webp",
+        "image": "shopify://shop_images/IMG_1750.jpg",
+        "description": "Julia is NYC-born & raised—now the brunette beauty waves in Cali. Find her at Belwood Bakery sipping on a latte pre-work day, to savoring a spicy marg at Hotel Costes on a jaunt to Paris by weekend. Whether she's giggling on Therapuss or frolicking in a flowy dress by Lake Como, she infuses the same bubbly charisma and D.S. & Durga signature scent into everything around her—& we present to you J.M.’s Top Ten...",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "2f806101-7290-47c8-a088-10bc275f64a2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker_17.gif",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "Color",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "f9055e26-7634-4356-aab7-9aedcc757d49": {
+      "type": "custom-grid-first",
+      "blocks": {
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/SFG_at_The_Armory_Show_2019_1.webp",
+            "link": "https://www.architecturaldigest.com/story/armory-show-2019"
+          }
+        },
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/2_2b556b37-da2a-43e2-8ef8-e870cf861665.webp",
+            "link": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm"
+          }
+        },
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/3_e2d7cae0-6eba-4657-ad2b-902b1b797e3d.webp",
+            "link": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/"
+          }
+        },
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/4_37f46bec-c751-47d9-95eb-d18cc9d46b04.webp",
+            "link": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141"
+          }
+        },
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/5_0f0f03a4-f768-4ab9-abaa-43b802e2f54f.webp",
+            "link": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top"
+          }
+        },
+        "0f766ed1-50d4-4b57-9bb1-34619362616e": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/6_7ede7859-8582-45bc-b4e8-97f15eee588b.webp",
+            "link": "https://shopdailydrills.com/products/bubble-bra-metallic"
+          }
+        },
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/7_cd06596b-5258-4b7b-9f76-a2b997ad9bed.webp",
+            "link": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB"
+          }
+        },
+        "703efa63-97de-49a4-b0bb-ffe107b23198": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/8.webp",
+            "link": "https://balthazarny.com/"
+          }
+        },
+        "5a248c41-880a-4c97-a6bd-466671378376": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/9.webp",
+            "link": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html"
+          }
+        },
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/10_872bc4f6-af5b-4777-911f-c3e202247638.webp",
+            "link": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636"
+          }
+        }
+      },
+      "block_order": [
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b",
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152",
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62",
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801",
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6",
+        "0f766ed1-50d4-4b57-9bb1-34619362616e",
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c",
+        "703efa63-97de-49a4-b0bb-ffe107b23198",
+        "5a248c41-880a-4c97-a6bd-466671378376",
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "html": "",
+        "html1": "",
+        "heading": "",
+        "link-title": "",
+        "link": ""
+      }
+    },
+    "72967e86-2947-460a-92d2-1b3fd5bd9b40": {
+      "type": "image-slider",
+      "blocks": {
+        "0455601d-c068-41bc-83d1-19072f64c08c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/images_3605af85-989f-4898-8bb8-7f7bcded2306.jpg",
+            "product_url": "https://www.slip.com/",
+            "text": ""
+          }
+        },
+        "image_6p4AfR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "image_YriHJj": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "4b946376-3ed7-4e3a-9419-146de0776524": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dc9a57db81401a83d561a2b520ed7bc5.jpg",
+            "product_url": "https://rstyle.me/+QTB3Hj8d1WuTJNFzAwsKYQ",
+            "text": ""
+          }
+        },
+        "025707cd-f94a-4c07-98c1-310d7ced0a3e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13071938_fpx.webp",
+            "product_url": "https://us.https//rstyle.me/+sFZaP506laEPFkkQNW-kZAliviavonhalle.com/products/lila-beige-leopard-silk-pajamas",
+            "text": ""
+          }
+        },
+        "c15bae75-2aa7-46ba-99e6-5b0861d45493": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC_0023_clipped_rev_1_1024x1024_480248b5-fa60-45c2-8e96-1941b03c8822.webp",
+            "product_url": "https://www.gucci.com/us/en/pr/women/handbags/mini-bags-for-women/jackie-1961-mini-shoulder-bag-p-63709110O0G1000",
+            "text": ""
+          }
+        },
+        "image_gbVqYM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image_c94f7fe1-75fe-46b0-ab50-cb96677b1867.jpg",
+            "product_url": "https://buly1803.com/en/products/huile-antique-rose-de-damas",
+            "text": ""
+          }
+        },
+        "b79181b5-6bfb-43d1-a908-642a3c115df5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flatlay-square-rasp_grande_b0703b1a-1b45-4f01-886c-ede8ec3be870.webp",
+            "product_url": "https://www.rhodeskin.com/products/peptide-lip-tint-raspberry-jelly",
+            "text": ""
+          }
+        },
+        "951e9bdc-a7a8-4887-a75d-fda90f78b810": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WRANGLER_AMK_master.webp",
+            "product_url": "https://www.1stdibs.com/art/photography/black-white-photography/anouk-krantz-wrangler/id-a_4909762/",
+            "text": ""
+          }
+        },
+        "image_RxafPp": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "94cfa751-6d10-4886-b77d-38dc8f767ebb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/variant_images-size-17oz-716833643153-2_1024x_32c2686d-2556-4943-99f0-7aeb66ca5317.webp",
+            "product_url": "https://rstyle.me/+tOFsZJM-HsUyJNpU94xEEw",
+            "text": ""
+          }
+        },
+        "43c50fcf-4564-42b2-b40a-fa822c4111dd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ruinart_blanc_de_blancs_1.5l_magnum__14585.jpg",
+            "product_url": "https://www.ruinart.com/en-us/cpruinartblancdeblancs.html",
+            "text": ""
+          }
+        },
+        "6d90c7ea-5f13-4ade-9bd2-5b4dda990269": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/11062b_8ed9f282bc7c453a8af6f40ce6ea483e_mv2.webp",
+            "product_url": "https://www.the100spilates.com/",
+            "text": ""
+          }
+        },
+        "89dd43fa-245d-40bb-87ec-18806a6b1bfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Stephen_Talk_House-Matchbook-Diaries-White-Frame.jpg",
+            "product_url": "https://www.charlesryanclarke.com/matchbook/p/talkhouse",
+            "text": ""
+          }
+        },
+        "image_etggpF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Big-Joe-Shirt-in-White-20231017231848.jpg",
+            "product_url": "https://www.saksfifthavenue.com/product/TWP-Big-Joe-Cotton-Shirt-0400019916370.html?dwvar_0400019916370_size=Medium-Large&dwvar_0400019916370_color=WHITE&site_refer=CSE_GGLPLA:Womens_Clothing:TWP&country=US&currency=USD&CSE_CID=G_Saks_PLA_US_Women%27s+Apparel_Contemporary_High+LTV:All+Women%27s+Apparel+Contemporary&gad_source=1&gclid=Cj0KCQjw5cOwBhCiARIsAJ5njuaT7yLq1v5bXN7ZMchu08QeIkdg9bLwI-UFyJfRjOflEvqOE_AepDYaAmmqEALw_wcB&gclsrc=aw.ds",
+            "text": ""
+          }
+        },
+        "image_AGiqzj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/fbf924066f3f4bb39f5a70add1fb2d22_tplv-tej9nj120t-origin.webp",
+            "product_url": "https://www.instagram.com/belwoodbakery/",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "0455601d-c068-41bc-83d1-19072f64c08c",
+        "image_6p4AfR",
+        "image_YriHJj",
+        "4b946376-3ed7-4e3a-9419-146de0776524",
+        "025707cd-f94a-4c07-98c1-310d7ced0a3e",
+        "c15bae75-2aa7-46ba-99e6-5b0861d45493",
+        "image_gbVqYM",
+        "b79181b5-6bfb-43d1-a908-642a3c115df5",
+        "951e9bdc-a7a8-4887-a75d-fda90f78b810",
+        "image_RxafPp",
+        "94cfa751-6d10-4886-b77d-38dc8f767ebb",
+        "43c50fcf-4564-42b2-b40a-fa822c4111dd",
+        "6d90c7ea-5f13-4ade-9bd2-5b4dda990269",
+        "89dd43fa-245d-40bb-87ec-18806a6b1bfd",
+        "image_etggpF",
+        "image_AGiqzj"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "16126eec-e70f-4173-b29e-1cb26bf7458a": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/PoolsideChicbySlimAarons.webp",
+        "top_url": "https://pin.it/7CCVzCZ",
+        "image2": "shopify://shop_images/slim-aarons-penthouse-pool-Yellowtrace.jpg",
+        "bottom_url": "https://www.yellowtrace.com.au/happy-holidays-from-yellowtrace-slim-aarons/",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "cbc194e2-1f38-494e-bad6-2824e2d7ea7a",
+    "main",
+    "2f806101-7290-47c8-a088-10bc275f64a2",
+    "f9055e26-7634-4356-aab7-9aedcc757d49",
+    "72967e86-2947-460a-92d2-1b3fd5bd9b40",
+    "16126eec-e70f-4173-b29e-1cb26bf7458a"
+  ]
+}

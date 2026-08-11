@@ -1,0 +1,32 @@
+.custom-two-images {
+  display: flex;
+  flex-flow: row-reverse;
+  padding: 74px 5%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  
+}
+
+.custom-two-images .image-left {
+  width: 50%;
+}
+
+.custom-two-images .image-left img,
+.custom-two-images .image-right img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .custom-two-images {
+    flex-direction: column-reverse;
+    gap: 10%;
+    padding-top: 90px;
+  }
+
+  .custom-two-images .image-left,
+  .custom-two-images .image-right {
+    width: 100%;
+  }
+}

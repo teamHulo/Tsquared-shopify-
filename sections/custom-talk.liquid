@@ -1,0 +1,86 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html-{{ section.id }}">
+      <p>{{ section.settings.title }}</p>
+      <br><br>
+      {{ section.settings.html }}<br><br>
+      {{ section.settings.html1 }}
+  </div>
+</div>
+<style>
+  .section-html-{{section.id}}
+  {
+    text-align:center;
+    padding:50px 5%;
+    background-color:#F1F1F1;
+  }
+  .any
+  {
+    position:relative;
+    color:#EA9D3A;
+  }
+  .here
+  {
+    position:relative;
+    color:#EA9D3A;
+  }
+  .any:after
+  {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: -5px;
+    right: 0px;
+    height: 1px;
+    background: #EA9D3A;
+  }
+  .here:after
+  {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: -5px;
+    right: 0px;
+    height: 1px;
+    background: #EA9D3A;
+  }
+  
+  
+  @media screen and (max-width:768px)
+  {
+    
+  }
+  
+</style>
+{% schema %}
+{
+  "name": "Custom Talk",
+  "settings": [
+    {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+    },
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "liquid",
+      "id": "html1",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    }
+    
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom Talk"
+    }
+  ]
+}
+{% endschema %}

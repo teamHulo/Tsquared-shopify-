@@ -1,0 +1,253 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html-{{ section.id }}">
+  <div class="w-grid">
+    <p>{{ section.settings.sub-heading1 }}</p>
+    <br><br>
+    <div class="image-line">
+      <img class="" src="{{ section.settings.image1 | img_url:'master' }}">
+      <br><br>
+      <div>
+        <a href="{{ section.settings.link }}">
+         <h5>{{ section.settings.heading1 }}</h5>
+         <p>{{ section.settings.sub-heading2 }}</p>   
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="w-grid1">
+  <div class="grid-container">
+    {% for block in section.blocks %}
+      <div class="item-{{ forloop.index }}" >
+        <a href="{{ block.settings.link }}">
+           {% if block.settings.image != blank %}
+             <img src="{{ block.settings.image | img_url:'master' }}">
+           {% endif %}
+        </a>
+      </div>
+    {% endfor %}
+  </div> 
+    <div class="bottom-div">
+      <a href="{{ section.settings.link1 }}">
+       <h5>{{ section.settings.heading2 }}</h5>
+       <p>{{ section.settings.sub-heading3 }}</p>   
+      </a>
+    </div>
+  </div>
+  
+</div>
+<style>
+  .section-html-{{section.id}}
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:50px 5%;
+    background-color:#F1F1F1;
+  }
+  .grid-container
+  {
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(4, 15vw);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .grid-container img
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width:100%;
+  }
+.item-1
+  {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .item-2
+  {
+    
+  }
+  .item-3
+  {
+    
+  }
+  .item-4
+  {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .item-5
+  {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .item-6
+  {
+    
+  }
+  .item-7
+  {
+    
+  }
+  .item-8
+  {
+    
+  }
+  .item-9
+  {
+    
+  }
+  .item-10
+  {
+    
+  }
+  .w-grid
+  {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 3%;
+  }
+  .image-line img
+  {
+    max-width:100%;
+  }
+  .image-line
+  {
+    position:relative;
+    z-index:0;
+  }
+  .image-line:after
+  {
+    //content: "";
+    position: absolute;
+    z-index: -1;
+    left: 250px;
+    bottom: 210px;
+    height: 3px;
+    background: red;
+    transform: rotate(120deg);
+    width: 320px;
+ }
+  .w-grid1
+  {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .bottom-div
+  {
+    border-top: 2px solid #4C4B4C;
+    border-bottom: 2px solid #4C4B4C;
+    margin: 20px 0px;
+    text-align:left;
+  }
+  @media screen and (max-width:768px)
+  {
+    .w-grid1
+    {
+      width:100%;
+    }
+    .w-grid
+    {
+      width:100%;
+    }
+    .image-line:after
+    {
+      display:none;
+    }
+    .grid-container
+    {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+    }
+    .item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10
+    {
+      width:48%;
+      
+    }
+  }
+  
+</style>
+{% schema %}
+{
+  "name": "Grid top tens",
+  "max_blocks":10,
+  "settings": [
+    {
+          "type": "text",
+          "id": "sub-heading1",
+          "label": "Sub Heading"
+    },
+    {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image"
+    },
+    {
+          "type": "text",
+          "id": "heading1",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "sub-heading2",
+          "label": "Sub Heading"
+    },
+    {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+    },
+    {
+          "type": "text",
+          "id": "heading2",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "sub-heading3",
+          "label": "Sub Heading"
+    },
+    {
+          "type": "url",
+          "id": "link1",
+          "label": "Link"
+    }
+    
+  ],
+  "blocks": [
+    {
+      "type": "images",
+      "name": "Image block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "top ten grid"
+    }
+  ]
+}
+{% endschema %}

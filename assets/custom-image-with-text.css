@@ -1,0 +1,46 @@
+.custom-image-with-text{
+    padding: 0 10px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom-image-with-text .image_left-wrapper{
+    width: 50%;
+}
+
+.custom-image-with-text img{
+    width: 100%;
+    height: 100%;
+}
+
+.custom-image-with-text .image_right-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.right_heading{
+    font-family: "futura pt";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.right_text, .left_text{
+    font-family: "gambarino";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    font-style: normal;
+    text-align: left;
+    color: #090909;
+    margin: 30px 0 0;
+}

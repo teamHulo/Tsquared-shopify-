@@ -1,0 +1,213 @@
+<div class="custom-links-images">
+  <img class="f-image" src="{{ section.settings.image1 | img_url:'master' }}">
+  <img class="s-image" src="{{ section.settings.image2 | img_url:'master' }}">
+  <img class="t-image" src="{{ section.settings.image3 | img_url:'master' }}">
+  <img class="fo-image" src="{{ section.settings.image4 | img_url:'master' }}">
+  <img class="fif-image" src="{{ section.settings.image5 | img_url:'master' }}">
+
+  <div class="custom-links">
+    <a href="{{  section.settings.link1 }}">
+      {{ section.settings.title1 }}
+    </a>
+    <a href="{{  section.settings.link2 }}">
+      {{ section.settings.title2 }}
+    </a>
+    <a href="{{  section.settings.link3 }}">
+      {{ section.settings.title3 }}
+    </a>
+    <a href="{{  section.settings.link4 }}">
+      {{ section.settings.title4 }}
+    </a>
+    <a href="{{  section.settings.link5 }}">
+      {{ section.settings.title5 }}
+    </a>
+    <a href="{{  section.settings.link6 }}">
+      {{ section.settings.title6 }}
+    </a>
+    <a href="{{  section.settings.link7 }}">
+      {{ section.settings.title7 }}
+    </a>
+    {% comment %}
+      <a class="more" href="#shopify-section-template--15662938128579__1660388869c241ee79">
+        <p style="color:#EA9D3A;margin-bottom:15px;">&more</p>
+        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="2em" height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 16 16">
+          <path fill="#3B3535" fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+        </svg>
+      </a>
+    {% endcomment %}
+  </div>
+</div>
+<style>
+  .custom-links-images
+  {
+    background-color:black;
+    color:white;
+    padding:200px 0px;
+    position:relative;
+  }
+  .f-image
+  {
+    max-width:170px;
+    position:absolute;
+    left:20%;
+    top:2%;
+  }
+  .s-image
+  {
+    max-width: 170px;
+    position: absolute;
+    right: 15%;
+    top: -10%;
+  }
+  .t-image
+  {
+    max-width: 200px;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+  }
+  .fo-image
+  {
+        max-width: 190px;
+    position: absolute;
+    right: 0%;
+    top: 60%;
+  }
+  .fif-image
+  {
+    max-width: 220px;
+    position: absolute;
+    right: 10%;
+    top: 80%;
+    z-index:9;
+  }
+  .custom-links a
+  {
+    {% comment %} font-family: Poppins-Regular !important; {% endcomment %}
+    font-family: Switzer-Semibold !important;
+    color:white;
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size:2rem;
+  }
+  @media screen and (max-width:1000px)
+  {
+    .f-image,.s-image,.t-image,.fo-image,.fif-image
+    {
+      display:none;
+    }
+    .custom-links-images
+    {
+      padding:60px 0px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Custom Links",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title1",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title3",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link3",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title4",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title5",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link5",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title6",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link6",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "title7",
+      "label": "Link title"
+    },
+    {
+      "type": "url",
+      "id": "link7",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom Links",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

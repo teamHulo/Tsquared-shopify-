@@ -1,0 +1,127 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "735aa420-1a77-429e-a37c-793129be2d3c": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/lol.png",
+        "mobile_image": "shopify://shop_images/Image_6.webp",
+        "path_image": "shopify://shop_images/path.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "About",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "c3ada2bb-9610-4a3d-9cb6-f9c60c45baab": {
+      "type": "new-custom-about-1",
+      "disabled": true,
+      "settings": {
+        "top_title": "ABOUT US",
+        "title": "",
+        "sub_title": "a community of favorite things created by Kate Yarbrough",
+        "content": "<p>THROUGHOUT THE LAST YEARS, I’VE BEEN ABLE TO FIND WHAT IS THE MOST INTERESTING &amp; EXCITING IN FASHION, ART, DESIGN AND TRAVEL.</p>\n<br>\n<p>WE WANT TO SEE WHAT YOUR FAVORITES ARE - SEND US YOUR FAVORITE TOP TEN LIST.\n</p>"
+      }
+    },
+    "41223776-3129-425b-9fb7-5f34d0070740": {
+      "type": "new-custom-about-2",
+      "custom_css": [],
+      "settings": {
+        "title": "ABOUT US",
+        "subtitle1": "Kate Yarbrough is the founder of T² (T-Squared), a platform designed to inspire connection through curated discovery across the products, places, and rituals that define how we live. Her perspective is shaped by her work at the intersection of fashion and finance, where she invests in and advises leading consumer brands.Through T², she brings together founders, creatives, and tastemakers—translating their preferences into actionable, high-signal discovery.",
+        "desc1": "",
+        "subtitle2": "FEATURES",
+        "desc2": "Inspired by the “Top Ten” sections of fashion and shelter magazines, T² features are designed to be curated, digestible, and revealing—without excess.",
+        "subtitle3": "",
+        "desc3": "PLAYING “WHAT'S YOUR FAVORITE” AT A DINNER PARTY WITH FRIENDS YOU KNOW, AND SOME YOU DON'T. WELCOME TO T²",
+        "subtitle4": "COMMUNITY & EVENTS",
+        "desc4": "T² extends beyond editorial into curated, in-person experiences—bringing together founders, tastemakers, and creatives in intimate, design-forward settings.",
+        "image1": "shopify://shop_images/Screen_Shot_202_a6b3cdf9-ded4-4fdb-aa0c-4122b0ddea84.webp",
+        "image3": "shopify://shop_images/Screen_Shot_202_5.webp",
+        "image4": "shopify://shop_images/Screen_Shot_202_1_e250c3e4-4fc3-4721-879d-8840bac109b5.webp",
+        "image5": "shopify://shop_images/Screen_Shot_202_3.webp",
+        "image6": "shopify://shop_images/Screen_Shot_202_4.webp",
+        "image_path": "shopify://shop_images/path.webp",
+        "image7": "shopify://shop_images/Screen_Shot_202_8.webp"
+      }
+    },
+    "b66d50bc-b2c8-48c7-9483-4bc3bc25b7e7": {
+      "type": "new-custom-about-last",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2023-02-21_at_10.17.55_AM.png",
+        "title": "ORANGE",
+        "sub_heading": "With @nycxclothes good things come in pairs…and sister’s sharing clothes takes on a whole new meaning. From carrying sketchbooks to draw the latest styles while people-watching during their upbringing in Port-au-Prince to modeling them along the streets of downtown NYC, they find a stylistic stimulus at every city corner. The family that poses together is here to stay—so we give you the Top Tens of SJ & CJ 🤍",
+        "heading1": "Product",
+        "heading2": "",
+        "heading3": "",
+        "heading4": "",
+        "sub-heading1": "yes",
+        "sub-heading2": "",
+        "sub-heading3": "",
+        "sub-heading4": "",
+        "link1": "",
+        "link2": "",
+        "link3": "",
+        "link4": "",
+        "bottom-text": "",
+        "bottom-link": ""
+      }
+    },
+    "d29dcf39-79a4-4b3c-98bf-5d56d1e3b3fe": {
+      "type": "title-content",
+      "disabled": true,
+      "settings": {
+        "top_title": "ABOUT US",
+        "bg_color": "",
+        "title": "Talk to us",
+        "sub_title1": "if you have some ideas for",
+        "effect_text": "ANY",
+        "sub_title2": "collaborations",
+        "content": "<p>I AM ALWAYS OPEN TO NEW COLLABORATIONS WITH BRANDS. SEND YOUR PRODUCTS.</p><p>YOU KNOW WHAT TO DO - CONTACT US.</p>",
+        "bg": "palette--gray"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "735aa420-1a77-429e-a37c-793129be2d3c",
+    "c3ada2bb-9610-4a3d-9cb6-f9c60c45baab",
+    "41223776-3129-425b-9fb7-5f34d0070740",
+    "b66d50bc-b2c8-48c7-9483-4bc3bc25b7e7",
+    "d29dcf39-79a4-4b3c-98bf-5d56d1e3b3fe"
+  ]
+}

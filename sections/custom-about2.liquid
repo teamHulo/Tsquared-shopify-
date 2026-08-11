@@ -1,0 +1,152 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html{% unless section.settings.full_width %} wrapper{% endunless %} sc-{{ section.id }}">
+  <br>
+  <p>{{ section.settings.text }}</p>
+  <br>
+  {{ section.settings.html1 }}
+  <br>
+  {{ section.settings.html }}
+  <br><br>
+  <img class="abt-abs1" src="{{ section.settings.image1 | img_url:'master' }}">
+  <img class="abt-abs2" src="{{ section.settings.image2 | img_url:'master' }}">
+  <img class="abt-abs3" src="{{ section.settings.image3 | img_url:'master' }}">
+  <img class="abt-abs4" src="{{ section.settings.image4 | img_url:'master' }}">
+  <img class="abt-abs5" src="{{ section.settings.image5 | img_url:'master' }}">
+  <img class="abt-abs6" src="{{ section.settings.image6 | img_url:'master' }}">
+
+</div>
+<style>
+  .section-html
+  {
+    text-align:center;
+  }
+  .sc-{{ section.id }}
+  {
+    background-color:black;
+    padding:250px 5%;
+    position:relative;
+  }
+  .sc-template--15662938194115__1661423637641a2dd5 P
+  {
+    margin: 2px 0px;
+  }
+  .abt-abs1
+  {
+    position: absolute;
+    top: -50px;
+    max-width: 180px;
+    left: 100px;
+  }
+  .abt-abs2
+  {
+    position: absolute;
+    top: 80px;
+    max-width: 180px;
+    left: 30px;
+  }
+  .abt-abs3
+  {
+    position: absolute;
+    top: -80px;
+    max-width: 180px;
+    right: 30px;
+  }
+  .abt-abs4
+  {
+    position: absolute;
+    top: 400px;
+    max-width: 180px;
+    right: 30px;
+  }
+  .abt-abs5
+  {
+    position: absolute;
+    top: 630px;
+    max-width: 180px;
+    right: 120px;
+  }
+  .abt-abs6
+  {
+    position: absolute;
+    top: 500px;
+    max-width: 180px;
+    left: 30px;
+  }
+  @media screen and (max-width:900px)
+  {
+    .abt-abs1,.abt-abs2,.abt-abs3,.abt-abs4,.abt-abs5,.abt-abs6
+    {
+      display:none;
+    }
+    .sc-{{ section.id }}
+    {
+      padding:100px 5%;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Custom About2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Full width"
+    },
+    {
+      "type": "liquid",
+      "id": "html1",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom About2"
+    }
+  ]
+}
+{% endschema %}

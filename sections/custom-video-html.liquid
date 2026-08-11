@@ -1,0 +1,96 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html{% unless section.settings.full_width %} wrapper{% endunless %}">
+  <p>{{ section.settings.text }}</p>
+  <br>
+  {{ section.settings.html1 }}
+  <br>
+  {{ section.settings.html }}
+</div>
+<style>
+  .section-html
+  {
+    text-align:center;
+  }
+  .make,.whatelse
+  {
+    color:#EA9D3A;
+    font-size:1rem;
+    margin:0px 5px;
+    position:relative;
+    letter-spacing:1rem;
+  }
+  .make:after,.whatelse:after
+  {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    bottom: -5px;
+    right: 15px;
+    height: 1px;
+    background: #EA9D3A;
+  }
+  .t
+  {
+    position:relative;
+    font-size:5rem;
+  }
+   .t sup
+  {
+    top:-2em;
+    font-size:1.5rem;
+  }
+  .t:after {
+        content: "";
+        display: block;
+        width: 100px;
+        height: 5px;
+        background: #766456;
+        right:38%;
+        top: 58%;
+        position: absolute;
+      }
+  @media screen and (max-width:768px)
+  {
+    .t:after {
+      right:25%;
+       width:70px;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Custom video html",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Full width"
+    },
+    {
+      "type": "liquid",
+      "id": "html1",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom video html"
+    }
+  ]
+}
+{% endschema %}

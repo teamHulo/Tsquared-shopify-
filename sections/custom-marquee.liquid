@@ -1,0 +1,134 @@
+<div id="slider" style="margin-top:{{ section.settings.padding_top }}px;margin-bottom:{{ section.settings.padding_bottom }}px;">
+  <ul class="slides">
+        <li class="slide slide1">
+          {% for block in section.blocks %}
+               <a class="gamb c-sl" href="{{ block.settings.product_url }}">
+                 {{block.settings.text}}
+               </a>
+            {% endfor %}
+         </li>
+         <li class="slide slide2">
+          {% for block in section.blocks %}
+               <a class="gamb c-sl" href="{{ block.settings.product_url }}">
+                 {{block.settings.text}}
+               </a>
+            {% endfor %}
+         </li>
+    
+         <li class="slide slide2">
+          {% for block in section.blocks %}
+               <a class="gamb c-sl" href="{{ block.settings.product_url }}">
+                 {{block.settings.text}}
+               </a>
+            {% endfor %}
+         </li>
+  </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<style>
+
+
+  #slider {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+}
+.slides {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.slide {
+  position: absolute;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  //background-color:black;
+  //color:white;
+}
+</style>
+
+<script>
+  var width = 100;
+var animation_speed = 1000;
+var time_val = 5000;
+var current_slide = 1;
+
+var $slider = $('#slider');
+var $slide_container = $('.slides');
+var $slides = $('.slide');
+
+var interval;
+
+$slides.each(function(index){
+  $(this).css('left',(index*100)+'%');
+});
+
+function startSlider() {
+  interval = setInterval(function() {
+    $slide_container.animate({'left': '-='+(width+'%')}, animation_speed, function() {
+      if (++current_slide === $slides.length) {
+        current_slide = 1;
+        $slide_container.css('left', 0);
+      }
+    });
+  }, time_val);
+}
+
+startSlider();
+</script>
+
+
+{% schema %}
+{
+  "name": "Marquee",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 10,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 10,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "Url"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Marquee"
+    }
+  ]
+}
+{% endschema %}

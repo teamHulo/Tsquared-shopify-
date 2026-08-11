@@ -1,0 +1,196 @@
+<!-- /sections/section-html.liquid -->
+
+{{ 'section-new-custom-about-last.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .section-html-{{ section.id }} {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #e8e8e8;
+  }
+  @media (max-width: 768px) {
+      .section-html-{{ section.id }} {
+          padding-top: 100px;
+          padding-bottom: 100px;
+      }
+  }
+</style>
+
+<div class="section-html-{{ section.id }}">
+  <div class="new-custom-about-last-image-main-contt">
+    <img
+      class="new-custom-about-last-image"
+      src="{{ section.settings.image | img_url:'master' }}"
+      alt="new-custom-about-last-image"
+    >
+    <div class="new-custom-about-last-image-bottom-div">
+      <h4 class="new-custom-about-last-image-bottom-title">{{ section.settings.title }}</h4>
+      <p class="new-custom-about-last-image-bottom-subheading">{{ section.settings.sub_heading }}</p>
+    </div>
+    <div class="new-custom-about-last-links-container">
+      <div class="new-custom-about-last-main-links">
+        <div class="new-custom-about-last-left-text1">
+          <a class="new-custom-about-last-links-wrapper" href="{{ section.settings.link1 }}">
+            <h6 class="new-custom-about-last-link-title">
+              {{ section.settings.heading1 }}
+              <svg
+                style="margin-left:10px;vertical-align: bottom;"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.5em"
+                height="1.5em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+              >
+                <path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+            </h6>
+            <p class="new-custom-about-last-link-subtitle left">{{ section.settings['sub-heading1'] }}</p>
+          </a>
+        </div>
+        <div class="new-custom-about-last-right-text2">
+          <a class="new-custom-about-last-links-wrapper" href="{{ section.settings.link2 }}">
+            <h6 class="new-custom-about-last-link-title">{{ section.settings.heading2 }}</h6>
+            <p class="new-custom-about-last-link-subtitle right">{{ section.settings['sub-heading2'] }}</p>
+          </a>
+        </div>
+        <div class="new-custom-about-last-left-text3">
+          <a class="new-custom-about-last-links-wrapper" href="{{ section.settings.link3 }}">
+            <h6 class="new-custom-about-last-link-title left">
+              {{ section.settings.heading3 }}
+              <svg
+                style="margin-left:10px;vertical-align: bottom;"
+                xmlns="http://www.w3.org/2000/svg"
+                width="1.5em"
+                height="1.5em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 16 16"
+              >
+                <path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+            </h6>
+            <p class="new-custom-about-last-link-subtitle left">{{ section.settings['sub-heading3'] }}</p>
+          </a>
+        </div>
+        <div class="new-custom-about-last-right-text4">
+          <a class="new-custom-about-last-links-wrapper" href="{{ section.settings.link4 }}">
+            <h6 class="new-custom-about-last-link-title">{{ section.settings.heading4 }}</h6>
+            <p class="new-custom-about-last-link-subtitle right">{{ section.settings['sub-heading4'] }}</p>
+          </a>
+        </div>
+      </div>
+      <div class="new-custom-about-last-bottom-content">
+        <a href="{{ section.settings.bottom-link }}">
+          <h6 class="new-custom-about-last-c-w">{{ section.settings['bottom-text'] }}</h6>
+          <svg
+            style="margin-left:10px;vertical-align: bottom;"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1.5em"
+            height="1.5em"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16"
+          >
+            <path fill="currentColor" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "New Custom Grid Last",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "heading1",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading2",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading3",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "heading4",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading1",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading2",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading3",
+      "label": "Sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading4",
+      "label": "Sub heading"
+    },
+    {
+      "type": "url",
+      "id": "link1",
+      "label": "Link"
+    },
+    {
+      "type": "url",
+      "id": "link2",
+      "label": "Link"
+    },
+    {
+      "type": "url",
+      "id": "link3",
+      "label": "Link"
+    },
+    {
+      "type": "url",
+      "id": "link4",
+      "label": "Link"
+    },
+    {
+      "type": "text",
+      "id": "bottom-text",
+      "label": "Bottom text"
+    },
+    {
+      "type": "url",
+      "id": "bottom-link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Custom About Last"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,65 @@
+<div id="p1">
+<section class="home-sec">
+    <canvas></canvas>
+</section>
+</div>
+  
+<style>
+
+  .home-sec {
+    width: 100%;
+ 
+    height: calc(100vh - 200px);
+    background-image: url("https://cdn.shopify.com/s/files/1/0617/5699/7827/files/bg.jpg?v=1661491936");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+div#p1 {
+    position: relative;
+    overflow: hidden;
+    margin: 50px 0px;
+}
+  canvas {
+    position: absolute;
+    width: 90%;
+        height: calc(100vh - 200px);
+    top: 0;
+    left: 0;
+  }
+  .home-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .home-content h1{
+   font-size: 24px;
+  }
+</style>
+
+
+{% schema %}
+  {
+    "name": "Splash",
+    "settings": [
+      
+    ],
+    "presets":[
+      {
+        "name": "Splash",
+        "category": "Text",
+        "settings":{}
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+<script src="{{ 'bundle.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'main.js' | asset_url }}" defer="defer"></script>

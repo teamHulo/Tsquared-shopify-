@@ -1,0 +1,288 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cbc194e2-1f38-494e-bad6-2824e2d7ea7a": {
+      "type": "image-description",
+      "settings": {
+        "heading": "HANNAH PORTER",
+        "path_image": "shopify://shop_images/path_475965da-195e-4b58-b22f-cf9b7a24ad01.webp",
+        "image": "shopify://shop_images/Screenshot_2023-08-15_at_6.29.57_AM.png",
+        "description": "Hannah is the definition of bright and bubbly—her middle name is Lovey, after all. The daughter of a celebrity stylist was born with an innate sense for the new and noteworthy in fashion and now harnesses her know-how as an assistant buyer at Saks. Find her strutting the streets of New York —golden hair crowned with a pink bow and matching Goyard in tow. If the invitation includes Tracy Anderson or a seaside spritz, you know where she’ll be—we give you the Top Tens of H.L.P...",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "2f806101-7290-47c8-a088-10bc275f64a2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker_17.gif",
+            "bg_position": "center-center",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "kicker": "",
+            "title": "Color",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "cce9e813-7e6a-41e6-951c-681c32a3d07a"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "f9055e26-7634-4356-aab7-9aedcc757d49": {
+      "type": "custom-grid-first",
+      "blocks": {
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/1.jpg",
+            "link": "https://www.lola41.com/location/lola-41-palm-beach/"
+          }
+        },
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/2_2b556b37-da2a-43e2-8ef8-e870cf861665.webp",
+            "link": "https://www.beautycounter.com/product/counter-plus-lotus-glow-cleansing-balm"
+          }
+        },
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/3_e2d7cae0-6eba-4657-ad2b-902b1b797e3d.webp",
+            "link": "https://www.chanel.com/us/fragrance/women/c/7x1x1x33/chance-eau-fraiche/"
+          }
+        },
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/4_37f46bec-c751-47d9-95eb-d18cc9d46b04.webp",
+            "link": "https://www.sakara.com/products/detox-water-drops?variant=39566245036141"
+          }
+        },
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/5_0f0f03a4-f768-4ab9-abaa-43b802e2f54f.webp",
+            "link": "https://royalhighnies.com/collections/ladies/products/the-original-lounge-top"
+          }
+        },
+        "0f766ed1-50d4-4b57-9bb1-34619362616e": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/6_7ede7859-8582-45bc-b4e8-97f15eee588b.webp",
+            "link": "https://shopdailydrills.com/products/bubble-bra-metallic"
+          }
+        },
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/7_cd06596b-5258-4b7b-9f76-a2b997ad9bed.webp",
+            "link": "https://cecelianewyork.com/products/hibicsus-2?variant=31830491365461&cmp_id=15014751776&adg_id=129973178138&kwd=&device=c&gclid=Cj0KCQjw5ZSWBhCVARIsALERCvxnT7hlLHgrr6oixlIssf45f1zLkzcqgVoIu7FherkAN1WS9VaYazoaAmhjEALw_wcB"
+          }
+        },
+        "703efa63-97de-49a4-b0bb-ffe107b23198": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/8.webp",
+            "link": "https://balthazarny.com/"
+          }
+        },
+        "5a248c41-880a-4c97-a6bd-466671378376": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/9.webp",
+            "link": "https://www.bakedbymelissa.com/gifts/birthday/birthday-cupcakes/birthday-gift-box-25.html"
+          }
+        },
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4": {
+          "type": "images",
+          "settings": {
+            "image": "shopify://shop_images/10_872bc4f6-af5b-4777-911f-c3e202247638.webp",
+            "link": "https://www.target.com/p/santa-margherita-pinot-grigio-white-wine-750ml-bottle/-/A-13378636"
+          }
+        }
+      },
+      "block_order": [
+        "1928adf4-f93e-4e17-a996-fd6a0c08ab2b",
+        "36e5cb13-9c6e-4572-ad5d-2b254a11f152",
+        "ae9798c0-ced0-476f-ae99-f4a5ca914c62",
+        "99f6d047-514e-4912-b4cb-ab6bf86e1801",
+        "74d0b103-9bcd-438a-a980-6b1d5a2c64c6",
+        "0f766ed1-50d4-4b57-9bb1-34619362616e",
+        "290c2cd2-8f6e-46ed-8fc0-de68b595385c",
+        "703efa63-97de-49a4-b0bb-ffe107b23198",
+        "5a248c41-880a-4c97-a6bd-466671378376",
+        "a735bec7-f3cd-4218-97e6-8b30354d93a4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "html": "",
+        "html1": "",
+        "heading": "",
+        "link-title": "",
+        "link": ""
+      }
+    },
+    "72967e86-2947-460a-92d2-1b3fd5bd9b40": {
+      "type": "image-slider",
+      "blocks": {
+        "0455601d-c068-41bc-83d1-19072f64c08c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19449968_45155875_1000_jpg.webp",
+            "product_url": "https://rstyle.me/+e5QKpGBTlAobj9xr1IaUSg",
+            "text": ""
+          }
+        },
+        "4b946376-3ed7-4e3a-9419-146de0776524": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TheMethod_mobile_r1.jpg",
+            "product_url": "https://tracyanderson.com",
+            "text": ""
+          }
+        },
+        "025707cd-f94a-4c07-98c1-310d7ced0a3e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/il_1588xN_4624039579_ixtj_jpg.webp",
+            "product_url": "https://www.etsy.com/listing/1406253909/martini-3-olives-hand-drawn-cocktail-art?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_-home_and_living&utm_custom1=_k_EAIaIQobChMI3LXCm77VgAMV2yzUAR2oVgHFEAQYBSABEgLQ-fD_BwE_k_&utm_content=go_12665398257_121762925993_511610210343_pla-303628061699_c__1406253909_588120315&utm_custom2=12665398257&gclid=EAIaIQobChMI3LXCm77VgAMV2yzUAR2oVgHFEAQYBSABEgLQ-fD_BwE",
+            "text": ""
+          }
+        },
+        "c15bae75-2aa7-46ba-99e6-5b0861d45493": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19955666_44893376_1000.jpg",
+            "product_url": "https://www.farfetch.com/shopping/women/polo-ralph-lauren-polo-bear-cotton-jumper-item-19955666.aspx?fsb=1&size=20&storeid=13539&utm_source=google&utm_medium=cpc&utm_keywordid=119356154&utm_shoppingproductid=19955666-20&pid=google_search&af_channel=Search&c=2069920048&af_c_id=2069920048&af_siteid=&af_keywords=pla-297226412539&af_adset_id=75217628294&af_ad_id=204345266632&af_sub1=119356154&af_sub5=19955666-20&is_retargeting=true&shopping=yes&gclid=EAIaIQobChMI36qkgsDVgAMV7lB_AB3kWwQZEAQYAiABEgKxJfD_BwE",
+            "text": ""
+          }
+        },
+        "b79181b5-6bfb-43d1-a908-642a3c115df5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Main_PDP_1_4ccc4ac5-2406-4418-bdb4-6aafd6310e79_1200x_jpg.webp",
+            "product_url": "https://rstyle.me/+rsY3Hvzu7L_nlCdJL_GKvQ",
+            "text": ""
+          }
+        },
+        "951e9bdc-a7a8-4887-a75d-fda90f78b810": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0400018920336_SHINYGOLDGREEN.webp",
+            "product_url": "https://www.saksfifthavenue.com/product/Celine-Triomphe-54MM-Metal-Sunglasses-0400018920336.html?dwvar_0400018920336_size=No+Size&dwvar_0400018920336_color=SHINY+PALLADIUM+SMOKE&site_refer=CSE_GGLPLA:Mens_Clothing+Accessories:CELINE&country=US&currency=USD&CSE_CID=G_Saks_PLA_US_Men%27s+Accessories:Sunglasses&gclid=EAIaIQobChMItJDQjMzVgAMVJqFaBR0JSgLiEAQYAyABEgIs-_D_BwE&gclsrc=aw.ds",
+            "text": ""
+          }
+        },
+        "94cfa751-6d10-4886-b77d-38dc8f767ebb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_REVAPRICOTSETHeartPointNELLCROP_JOGGERHi_jpg.webp",
+            "product_url": "https://polkadot-england.com/collections/2-piece-sets/products/polkadot-pj-set-apricot-hearts-pointelle-nell-crop-slouchy-jogger",
+            "text": ""
+          }
+        },
+        "6d90c7ea-5f13-4ade-9bd2-5b4dda990269": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/154402086.webp",
+            "product_url": "https://www.parachutehome.com/products/body-pillow-cover-vintage-linen?options=color_antique-white&utm_medium=cpc&utm_source=google&utm_campaign=brandshopping&gclid=EAIaIQobChMI-dyrt87VgAMVKTjUAR0Y8wxoEAQYAiABEgJwWPD_BwE",
+            "text": ""
+          }
+        },
+        "43c50fcf-4564-42b2-b40a-fa822c4111dd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1582126088.68.jpg",
+            "product_url": "https://www.americanbarnyc.com/menus/",
+            "text": ""
+          }
+        },
+        "89dd43fa-245d-40bb-87ec-18806a6b1bfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/il_1588xN.4581628272_eeil.jpg",
+            "product_url": "https://rstyle.me/+X6J3bD0qScuY7IBELn3XDg",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "0455601d-c068-41bc-83d1-19072f64c08c",
+        "4b946376-3ed7-4e3a-9419-146de0776524",
+        "025707cd-f94a-4c07-98c1-310d7ced0a3e",
+        "c15bae75-2aa7-46ba-99e6-5b0861d45493",
+        "b79181b5-6bfb-43d1-a908-642a3c115df5",
+        "951e9bdc-a7a8-4887-a75d-fda90f78b810",
+        "94cfa751-6d10-4886-b77d-38dc8f767ebb",
+        "6d90c7ea-5f13-4ade-9bd2-5b4dda990269",
+        "43c50fcf-4564-42b2-b40a-fa822c4111dd",
+        "89dd43fa-245d-40bb-87ec-18806a6b1bfd"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "16126eec-e70f-4173-b29e-1cb26bf7458a": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screenshot_2023-08-15_at_6.33.33_AM.png",
+        "top_url": "https://www.instagram.com/p/Cv93EYGrvrB/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+        "image2": "shopify://shop_images/Screenshot_2023-08-15_at_6.34.13_AM.png",
+        "bottom_url": "https://www.instagram.com/p/Cv93xUWLkG1/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "cbc194e2-1f38-494e-bad6-2824e2d7ea7a",
+    "main",
+    "2f806101-7290-47c8-a088-10bc275f64a2",
+    "f9055e26-7634-4356-aab7-9aedcc757d49",
+    "72967e86-2947-460a-92d2-1b3fd5bd9b40",
+    "16126eec-e70f-4173-b29e-1cb26bf7458a"
+  ]
+}

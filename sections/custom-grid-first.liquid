@@ -1,0 +1,224 @@
+<!-- /sections/section-html.liquid -->
+<div class="section-html-{{ section.id }}">
+  <div class="grid-container">
+    {% for block in section.blocks %}
+      <div class="item-{{ forloop.index }}" >
+        <a href="{{ block.settings.link }}">
+           {% if block.settings.image != blank %}
+             <img src="{{ block.settings.image | img_url:'master' }}">
+           {% endif %}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  {% if template != 'index' %}
+  <div class="w-grid">
+    <p>{{ section.settings.title }}</p>
+    <br><br>
+    <div class="white-cont">
+      <div class="box-content">
+        {{ section.settings.html }}
+          {{ section.settings.html1 }}
+      </div>
+    </div>
+    <br>
+    <h6>{{ section.settings.heading }}</h6>
+    <a href="{{ section.settings.link }}">
+    {{ section.settings.link-title }}
+    </a>
+    
+    
+  </div>
+    {% endif %}
+</div>
+<style>
+  .section-html-{{section.id}}
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:50px 5%;
+    background-color:#F1F1F1;
+  }
+  .grid-container
+  {
+    width: 50%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(4, 15vw);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .grid-container img
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width:100%;
+  }
+  .item-1
+  {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .item-2
+  {
+    
+  }
+  .item-3
+  {
+    
+  }
+  .item-4
+  {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .item-5
+  {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .item-6
+  {
+    
+  }
+  .item-7
+  {
+    
+  }
+  .item-8
+  {
+    
+  }
+  .item-9
+  {
+    
+  }
+  .item-10
+  {
+    
+  }
+  .w-grid
+  {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .w-grid p
+  {
+    margin-bottom:20px;
+  }
+  .white-cont
+  {
+    max-width: 80%;
+    margin: 0px auto;
+    padding:20px;
+    background-color:white;
+  }
+  .box-content
+  {
+    border:4px solid #EBA443;
+    padding:20px;
+    text-align:center;
+  }
+  .white-cont p
+  {
+    margin-bottom: 3px;
+    margin-top: 3px;
+  }
+  @media screen and (max-width:768px)
+  {
+    .grid-container
+    {
+      width:100%;
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+    }
+    .w-grid
+    {
+      width:100%;
+    }
+    .white-cont
+    {
+      max-width:96%;
+    }
+    .item-1,.item-2,.item-3,.item-4,.item-5,.item-6,.item-7,.item-8,.item-9,.item-10
+    {
+      width:48%;
+      
+    }
+  }
+  
+</style>
+{% schema %}
+{
+  "name": "Custom Grid First",
+  "max_blocks":10,
+  "settings": [
+    {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+    },
+    {
+      "type": "liquid",
+      "id": "html",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+      "type": "liquid",
+      "id": "html1",
+      "label": "Custom HTML",
+      "default": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+    },
+    {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+    },
+    {
+          "type": "text",
+          "id": "link-title",
+          "label": "link text"
+    },
+    {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+    }
+    
+  ],
+  "blocks": [
+    {
+      "type": "images",
+      "name": "Image block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Custom Grid First"
+    }
+  ]
+}
+{% endschema %}

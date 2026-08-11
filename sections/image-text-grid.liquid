@@ -1,0 +1,315 @@
+{{ 'section-image-text-grid.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .homepage-collection-{{ section.id }} {
+      padding-top: {{ section.settings.desktop_margin_top }}px;
+      padding-bottom: {{ section.settings.desktop_margin_bottom }}px;
+  }
+
+  @media (max-width: 550px) {
+      .homepage-collection-{{ section.id }} {
+          padding-top: {{ section.settings.mobile_margin_top }}px;
+          padding-bottom: {{ section.settings.mobile_margin_bottom }}px;
+      }
+  }
+</style>
+<div
+  class="homepage-collection-{{ section.id }} {{ section.settings.bg }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-row"
+>
+  <div class="wrapper">
+    {% if section.settings.title != '' %}
+      <div class="js-grid" data-grid-large="2" data-grid-small="2">
+        <div
+          class="product-grid-item helper-content grid__title-wrapper"
+          data-grid-item
+        >
+          <p class="grid__title">{{ section.settings.title }}</p>
+          <p class="grid__description mobile_desc">{{ section.settings.description }}</p>
+          <p class="grid__grid-title">{{ section.settings.grid_title }}</p>
+        </div>
+        <div
+          class="product-grid-item helper-content grid__description-wrapper"
+          data-grid-item
+        >
+          <p class="grid__description">{{ section.settings.description }}</p>
+        </div>
+      </div>
+    {% endif %}
+    <div class="js-grid" data-grid-large="2" data-grid-small="2">
+      {% for block in section.blocks %}
+        {% if block.type == 'product' %}
+          {% render 'image-text-grid-item',
+            image: block.settings.image,
+            title: block.settings.title,
+            subtitle: block.settings.subtitle,
+            link:block.settings.link
+          %}
+        {% endif %}
+        {% if block.type == 'meetme' %}
+          <div
+            class="product-grid-item helper-content meetme-wrapper"
+            data-grid-item
+          >
+            <a href="{{ block.settings.link }}" style="text-decoration:none;">
+            <p class="meetme-title">{{ block.settings.title }}</p>
+            <img src="{{ block.settings.image | img_url: '1000x' }}" class="my-photo" alt="image-text-grid-me-image">
+            <p class="my-name">{{ block.settings.name }}</p>
+            <p class="my-intro">{{ block.settings.intro }}</p>
+            </a>
+          </div>
+        {% endif %}
+        {% if block.type == 'user_profile' %}
+          <div
+            class="product-grid-item helper-content user_profile-wrapper"
+            data-grid-item
+          >
+            <a href="{{ block.settings.link }}" style="text-decoration:none;">
+            <img
+              src="{{ block.settings.path_image | img_url: '1000x' }}"
+              class="user-path-image"
+              alt="image-text-grid-path-image"
+            >
+            <div class="user_profile-content-wrapper">
+              <p class="user_profile-title">{{ block.settings.title }}</p>
+              <img
+                src="{{ block.settings.image | img_url: '1000x' }}"
+                class="user-photo"
+                alt="image-text-grid-user-image"
+              >
+              <p class="user-contact-info">{{ block.settings.contact_info }}</p>
+              <p class="user-description">{{ block.settings.description }}</p>
+            </div>
+            </a>
+          </div>
+        {% endif %}
+        {% if block.type == 'product_caption' %}
+          <div class="product-grid-item helper-content" data-grid-item>
+            <div>
+             <a href="{{ block.settings.link }}" style="text-decoration:none;">
+              <div data-grid-slide>
+                <img
+                  src="{{ block.settings.image | img_url: 'master' }}"
+                  class="product-image-custom"
+                  alt="image-text-grid-caption-image"
+                >
+              </div>
+              <div class="product__grid__info-caption product__grid__info--under">
+                <p class="product__grid__title-caption">
+                  <span>{{ block.settings.title }}</span>
+                </p>
+                <p class="product__grid__price-caption">{{ block.settings.subtitle }}</p>
+              </div>
+            </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image and text grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "grid_title",
+      "label": "Grid Title"
+    },
+    {
+      "type": "range",
+      "id": "desktop_margin_top",
+      "min": 0,
+      "max": 800,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop Margin Top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "desktop_margin_bottom",
+      "min": 0,
+      "max": 800,
+      "step": 10,
+      "unit": "px",
+      "label": "Desktop Margin Bottom",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mobile_margin_top",
+      "min": 0,
+      "max": 800,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile Margin Top",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "mobile_margin_bottom",
+      "min": 0,
+      "max": 800,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile Margin Bottom",
+      "default": 10
+    },
+    {
+      "type": "select",
+      "id": "bg",
+      "label": "Background color",
+      "default": "palette--light bg--neutral",
+      "options": [
+        { "value": "palette--light bg--neutral", "label": "Default" },
+        { "value": "palette--light bg--accent", "label": "Light" },
+        { "value": "palette--dark bg--invert", "label": "Dark" },
+        { "value": "palette--gray", "label": "Gray" }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Image and text",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+        
+      ]
+    },
+    {
+      "type": "meetme",
+      "name": "Meet Me",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "intro",
+          "label": "Introduction"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "user_profile",
+      "name": "User Profile",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "path_image",
+          "label": "Path Image"
+        },
+        {
+          "type": "text",
+          "id": "contact_info",
+          "label": "Contact Info"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    },
+    {
+      "type": "product_caption",
+      "name": "Image and caption",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Subtitle"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image and text grid"
+    }
+  ]
+}
+{% endschema %}

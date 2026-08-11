@@ -1,0 +1,239 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--white",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1845d2c3-a8ef-492d-b8f9-683208408e14": {
+      "type": "profile-one",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker_14_df347038-e7ff-4963-9e94-3e7a42ce87e9.gif",
+        "logo": "shopify://shop_images/Abby_Earley_Feature_b83229da-8962-4392-8be2-1c5730368492.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "title": "ABBY EARLEY",
+        "title1": "",
+        "kicker": "Introducing",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "16648922938c347e91": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2": {
+          "type": "block-2",
+          "settings": {
+            "showconten": false,
+            "accessc": "FEATURED",
+            "img1": "shopify://shop_images/496A6588-0546-474E-9D94-D6635BF08F43_700x_2x.progressive_30c3e38d-4216-4ee0-a6d3-f4cccc129f10.webp",
+            "link_url1": "https://two-bohttps//www.loewe.com/usa/en/women/loewe-x-spirited-awaydies.com/products/abby-dress-in-champagne",
+            "img2": "shopify://shop_images/Bathhouse.png",
+            "link_url2": "https://www.loewe.com/usa/en/women/loewe-x-spirited-away",
+            "img3": "shopify://shop_images/81vmQ6f1KwL._AC_SX679.jpg",
+            "link_url3": "https://www.amazon.com/Contax-T2-Silver-35mm-Camera/dp/B002QNUDDI",
+            "img4": "shopify://shop_images/91FEFrBEz3L.jpg",
+            "link_url4": "https://www.amazon.com/Cravings-Recipes-All-Food-Want/dp/1101903910",
+            "img5": "shopify://shop_images/download_1_24cf1980-589a-477e-83ad-405708da1432.webp",
+            "link_url5": "https://www.freepeople.com/shop/skin-by-ella-rose-blush-creme/?color=066&countryCode=US&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsW55JA2zTflfvCrLEpwhE_6h-Vzf5oOu_LCTpJvbYWWbNE7rLYAvCRoCmw4QAvD_BwE&gclsrc=aw.ds&inventoryCountry=US&size=One%20Size&utm_kxconfid=vx6ro62gj&type=REGULAR&quantity=1",
+            "img6": "shopify://shop_images/20181016_ralphscoffee_lp_c02_hero.jpg",
+            "link_url6": "https://www.ralphlauren.com/ralphs-coffee-feat?webcat=home-ralphs-coffee&orignalCatID=home-ralphs-coffee&altrurlID=home-ralphs-coffee",
+            "link_url7": "https://www.sephora.com/product/resurfacing-serum-P432048?country_switch=us&lang=en&skuId=2066025&om_mmc=ppc-GG_18532081096_140015651217_pla-1879586012323_2066025_626820665498_9027599_c&gclid=CjwKCAiA7IGcBhA8EiwAFfUDsZwX-Rqhr-la9hiT4uqly9AbGsFGVU5UpgGaUUkTZP0cEjTp4kTrKxoCX5oQAvD_BwE&gclsrc=aw.ds",
+            "link_url8": "",
+            "link_url9": "",
+            "link_url10": "",
+            "heading1": "TOP TEN ABBY EARLEY",
+            "sub-heading1": "",
+            "img11": "shopify://shop_images/DP-17012-017.jpg",
+            "link_url11": "https://www.metmuseum.org/exhibitions/listings/2020/british-galleries#:~:text=Exhibition%20Overview,created%20between%201500%20and%201900.",
+            "img12": "shopify://shop_images/71zXYBpsuVL._AC_SL1500.jpg",
+            "link_url12": "https://www.amazon.com/Barefoot-Dreams-CozyChic-Throw-Cream/dp/B005ABX0NS",
+            "img13": "shopify://shop_images/CHA624803_1_enlarged.jpg",
+            "link_url13": "https://www.therealreal.com/products/women/shoes/sandals/chanel-2021-quilted-denim-sandals-slingback-sandals-bdy1a?sid=pxogmz&utm_source=Google&utm_medium=shopping&cvosrc=cse.google.google&cvo_crid=453344066284&utm_campaign=shopping_200&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-BsLcllJ778tKkIMhdkxfc3NuNGgRG2EcBPuPMtZon6OhI0R_J-y4aAmTQEALw_wcB",
+            "img14": "shopify://shop_images/bella_blu.jpg",
+            "link_url14": "https://www.bellablunyc.com/",
+            "img15": "shopify://shop_images/s2249779-main-zoom.jpg",
+            "link_url15": "https://www.sephora.com/product/libre-eau-de-parfum-P448102?country_switch=us&lang=en&skuId=2249779&om_mmc=ppc-GG_1918213323_68906954085_pla-418385531910_2249779_353573794529_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY8Q4wosCihXCopM6hPEA47y_djHK1AZDlUb7OlnnxUAiwucLCGGIOYaAgvwEALw_wcB&gclsrc=aw.ds",
+            "img16": "shopify://shop_images/81gWcEhDfIL._AC_UL1500.jpg",
+            "link_url16": "https://www.amazon.com/Rangers-47-Clean-Adjustable-Royal/dp/B00CTEPQNQ/ref=sr_1_2?crid=107S36EL6U9TJ&keywords=rangers+hat&qid=1657425012&sprefix=rangers+hat%2Caps%2C86&sr=8-2",
+            "img17": "shopify://shop_images/ILXhy47dQ4yZAwEJI56k_Home_page_Indo.jpg",
+            "link_url17": "https://www.indochinenyc.com/",
+            "img18": "shopify://shop_images/0143126687.01._SCLZZZZZZZ_SX500.jpg",
+            "link_url18": "https://www.amazon.com/Truth-About-Harry-Quebert-Affair/dp/0143126687",
+            "img19": "shopify://shop_images/s2427110-main-zoom.jpg",
+            "link_url19": "https://www.sephora.com/product/one-size-by-patrick-starrr-secure-blur-hydrating-under-eye-patches-P468395?country_switch=us&lang=en&skuId=2427110&om_mmc=ppc-GG_1918213323_114417900931_pla-1212528922078_2427110_463343130707_1021129_c&ds_rl=1261471&gclid=Cj0KCQjwzqSWBhDPARIsAK38LY-e0GNhAIl8pqSL35joJ4ibO3tCtvZaE1ml8nDOY_FAZWkRAjxnIwgaAs5KEALw_wcB&gclsrc=aw.ds",
+            "img20": "shopify://shop_images/IMG_3748_2888930e-e600-4380-a4cd-555f18c42237.jpg",
+            "link_url20": "",
+            "heading2": "TOP TEN ABBY EARLEY",
+            "sub-heading2": ""
+          }
+        }
+      },
+      "block_order": [
+        "c71d39c2-0cfa-489c-9f4d-00fe954af3c2"
+      ],
+      "settings": {}
+    },
+    "c1c968b6-a48e-4b3b-81f0-fb62a9629704": {
+      "type": "image-description",
+      "settings": {
+        "heading": "abby earley",
+        "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+        "image": "shopify://shop_images/Abby_Earley_Feature_f80d8c37-6143-4a84-aa49-9aae6de408b9.webp",
+        "description": "From Florida to New York, Abby Earley is the founder of Two Bodies & lover of all things art, film, & her cat, Lucy. With an eye for curation & fashion design, no one is more hip— We give you the Top Tens for the queen of the silk slip...",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "91efb586-82b3-457c-a9ef-85728fa6141f": {
+      "type": "image-slider",
+      "blocks": {
+        "bf5bbfa1-da34-4ce3-9664-ae3603fedbce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-07_at_6.56.43_PM-removebg-preview.png",
+            "product_url": "https://rstyle.me/+utM-Ik3Nthhv_9EQ15z0nA",
+            "text": ""
+          }
+        },
+        "9a86219e-e5e7-48b4-bce2-43df6658f73c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9780593135426.jpg",
+            "product_url": "https://rstyle.me/+7pqkSKiXWT2qqTqyyMN6Sg",
+            "text": ""
+          }
+        },
+        "88f240ef-14d3-4435-a0f9-25dd039f05e6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/two-bodies-dresses-abby-dress-in-tan-38892914802904_1946x_05118492-ad62-4f30-8d96-23c5ee1c79f0.webp",
+            "product_url": "https://two-bodies.com/products/abby-dress-in-champagne?variant=37413312856224",
+            "text": ""
+          }
+        },
+        "352a505c-29c5-4151-ab4b-3355a77c11ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/loewe-spirited-away-studio-ghibli-collab-capsule-1.webp",
+            "product_url": "https://www.therealreal.com/designers/loewe-x-studio-ghibli",
+            "text": ""
+          }
+        },
+        "2e6d7480-8102-4c3e-91a3-f536ad18a26f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6051d0aef39117cca56a11f91d921c13.1000x1000x1.jpg",
+            "product_url": "https://open.spotify.com/track/0LWJw6cx5zCTJzg2K9gxjS?si=aad050eddffc4c22",
+            "text": ""
+          }
+        },
+        "19c6609f-6401-44d7-8062-e299cf4b2681": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-07_at_7.16.49_PM.png",
+            "product_url": "https://rstyle.me/+SkrOmDYljiqpVY7tq-Waag",
+            "text": ""
+          }
+        },
+        "de171f3e-3b57-4f84-9735-307df84db60b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-07_at_7.19.39_PM.png",
+            "product_url": "https://rstyle.me/+5zlhWt-GAKKnUB_fsdYBkg",
+            "text": ""
+          }
+        },
+        "00c73366-8361-4aa4-b10d-ef92479688d3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3733.jpg",
+            "product_url": "https://www.thebalaboostachef.com/blog/crispy-rice-spicy-tuna",
+            "text": ""
+          }
+        },
+        "e5858f45-2b26-4d1a-9230-21e2e8328f2f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pdp_regenerating_cleanser_digital-1000-r1-0806.jpg",
+            "product_url": "https://rstyle.me/+S0Aoobuz4UjFsDYX7CNelA",
+            "text": ""
+          }
+        },
+        "b59635bb-1c21-4df9-b754-e0fa6a1613a2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Yolanda_Edwards_Feature_e96ba3a9-88d1-4621-b1fb-eb4715efc11e.jpg",
+            "product_url": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "bf5bbfa1-da34-4ce3-9664-ae3603fedbce",
+        "9a86219e-e5e7-48b4-bce2-43df6658f73c",
+        "88f240ef-14d3-4435-a0f9-25dd039f05e6",
+        "352a505c-29c5-4151-ab4b-3355a77c11ad",
+        "2e6d7480-8102-4c3e-91a3-f536ad18a26f",
+        "19c6609f-6401-44d7-8062-e299cf4b2681",
+        "de171f3e-3b57-4f84-9735-307df84db60b",
+        "00c73366-8361-4aa4-b10d-ef92479688d3",
+        "e5858f45-2b26-4d1a-9230-21e2e8328f2f",
+        "b59635bb-1c21-4df9-b754-e0fa6a1613a2"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "293b4d53-11f5-4023-8d88-eeb4a68f56a8": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screenshot_2023-05-07_at_6.53.13_PM.png",
+        "top_url": "",
+        "image2": "shopify://shop_images/Screenshot_2023-05-07_at_6.52.54_PM.png",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1845d2c3-a8ef-492d-b8f9-683208408e14",
+    "16648922938c347e91",
+    "c1c968b6-a48e-4b3b-81f0-fb62a9629704",
+    "91efb586-82b3-457c-a9ef-85728fa6141f",
+    "293b4d53-11f5-4023-8d88-eeb4a68f56a8"
+  ]
+}

@@ -1,0 +1,132 @@
+<div class="top-ten2">
+  <div class="part1">
+    <img src="{{section.settings.image | img_url: 'master' }}"/>
+    {%- if section.settings.heading1 != blank -%}
+        <h5>{{ section.settings.heading1 | escape }}</h5>
+    {%- endif -%}
+    {%- if section.settings.sub-heading1 != blank -%}
+        <p>{{ section.settings.sub-heading1 | escape }}</p>
+    {%- endif -%}
+  </div>
+  <div class="part2">
+            {%- if section.settings.subheading2 != blank -%}
+              <p>{{ section.settings.subheading2 | escape }}</p>
+            {%- endif -%}
+            
+            {%- if section.settings.images != blank -%}
+             <img src="{{section.settings.images | img_url:'medium'}}">
+            {%- endif -%}
+            
+            {%- if section.settings.heading2 != blank -%}
+              <h5>{{ section.settings.heading2 | escape }}</h5>
+            {%- endif -%} 
+          
+            {%- if section.settings.sub-heading3 != blank -%}
+              <p>{{ section.settings.sub-heading3 | escape }}</p>
+            {%- endif -%}
+          
+  </div>
+</div>
+<style>
+  .top-ten2
+  {
+    width:100%;
+    margin:0px auto;
+    padding:50px 5%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .top-ten2 .part1
+  {
+    width:50%;
+    max-width:50%;
+    text-align:center;
+  }
+  .top-ten2 .part1 img
+  {
+    width:100%;
+  }
+  .top-ten2 .part2
+  {
+    width:50%;
+    max-width:50%;
+    text-align: center;
+    padding: 0px 3%;
+  }
+  @media screen and (max-width:768px)
+  {
+    .top-ten2
+    {
+      width:100%;
+    }
+    .top-ten2 .part1
+    {
+      width:100%;
+      max-width:100%;
+    }
+    .top-ten2 .part2
+    {
+      width:100%;
+      max-width:100%;
+      margin:20px auto;
+    }
+  }
+</style>
+{% schema %}
+{
+  "name": "Top-ten2",
+  "class": "shopify-section",
+  "settings": [ 
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1200 x 1200px .png recommended"
+    },
+    {
+      "type": "text",
+      "id": "heading1",
+      "label": "heading",
+      "default": "heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading1",
+      "label": "sub heading",
+      "default": "sub heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading2",
+      "label": "sub heading",
+      "default": "sub heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "images",
+      "label": "Image small"
+    },
+    {
+      "type": "text",
+      "id": "heading2",
+      "label": "heading",
+      "default": "heading"
+    },
+    {
+      "type": "text",
+      "id": "sub-heading3",
+      "label": "sub heading",
+      "default": "sub heading"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Text",
+      "name": "Top-ten2",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}

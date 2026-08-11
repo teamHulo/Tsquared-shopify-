@@ -1,0 +1,128 @@
+<style>
+  .section-html-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .image-slider-item {
+    padding: 0 10px;
+  }
+
+  .image-slider-item img{
+    width: 100%;
+    //height: 100%;
+    min-height: 436px;
+    height:436px;
+    object-fit: cover;
+  }
+
+  .image-slider .slick-list{
+    display: flex;
+  }
+
+  .image-slider .slick-list .slick-track{
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .slick-initialized .slick-slide{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right_image{
+    max-width: 430px;
+  }
+
+  .left_image{
+    max-width: 895px;
+  }
+  .text
+  {
+    font-family: Gambarino-Regular !important;
+    text-align:left;
+    padding-left:10px;
+    font-size:16px;
+    width:100%;
+    padding-left:10px;
+  }
+  @media (max-width:950px){
+    .image-slider-item img{
+      min-height: 269px;
+      height:269px;
+    }
+  }
+</style>
+
+<div class="image-slider section-html-{{ section.id }}">
+  {% for block in section.blocks %}
+    {%- if block.settings.image != blank -%}
+      <div class="image-slider-item">
+        <a href="{{ block.settings.product_url }}" target="_blank">
+          <img src="{{ block.settings.image | img_url:'master' }}" class="main-image" alt="main-image">
+          {%- if block.settings.text != blank -%}
+            <p class="text">{{ block.settings.text }}</p>
+          {%- endif -%}
+        </a>
+      </div>
+    {%- endif -%}
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Image Slider",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 10,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 10,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 50
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "Url"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Slider"
+    }
+  ]
+}
+{% endschema %}

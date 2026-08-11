@@ -1,0 +1,299 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/57aa2fe0a897750902297b378eb1d09502f547c0.webp",
+        "path_image": "shopify://shop_images/path_410aa02d-3a10-4463-905f-261393df15fc.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Contact",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "contact": {
+      "type": "section-contact",
+      "blocks": {
+        "3d091ebf-cc3b-43e2-ac58-c0e8ac290ec0": {
+          "type": "text",
+          "settings": {
+            "title": "First Name"
+          }
+        },
+        "3864c815-f4c0-4092-8516-7a29db9ea1c4": {
+          "type": "text",
+          "settings": {
+            "title": "Last Name"
+          }
+        },
+        "19dbcebc-d299-4ac9-8702-4d5d23faf477": {
+          "type": "text",
+          "settings": {
+            "title": "Instagram Username"
+          }
+        },
+        "5fb0219f-0bab-4501-9fa6-a44ddae987cc": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "15639383-bdce-44ff-b4e0-aca9072df15f": {
+          "type": "body",
+          "settings": {
+            "title": "Share a quote that feels personal to you — it can be about your expression of style, your business or work, what taste means to you, a favorite quote you live by, or anything else that feels representative of you."
+          }
+        },
+        "e34d264a-a4f8-47c4-bad1-7cf385bb0cdd": {
+          "type": "spacer",
+          "settings": {
+            "line": false
+          }
+        },
+        "b0cbc5bd-d7af-4353-8162-06808a2bf820": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 1"
+          }
+        },
+        "6c61898f-6d77-466d-b1fd-7337e67d352f": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 1 Description"
+          }
+        },
+        "9150ccb1-b75a-4f9e-aa21-0e9535635ce5": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 2"
+          }
+        },
+        "51f7511e-f8d9-42c1-8163-97263d028b14": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 2 Description"
+          }
+        },
+        "93bf7ba1-e0ff-4512-8799-866205cd3c57": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 3"
+          }
+        },
+        "3cb3f4a9-c4c3-4ad9-a137-3d211e5e804d": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 3 Description"
+          }
+        },
+        "20a08f46-3321-4d0e-82b4-367b2518c6a9": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 4"
+          }
+        },
+        "aa7a0f79-548e-41db-b7f7-d5f3d4880d3c": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 4 Description"
+          }
+        },
+        "59e73354-b5da-45c3-ad80-c6fa9faf84f3": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 5"
+          }
+        },
+        "20cf0274-b359-4e12-aaeb-8dd053b53573": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 5 Description"
+          }
+        },
+        "d7e5c8b3-3106-4496-860b-70dc7b579cd6": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 6"
+          }
+        },
+        "c0c3511e-31be-49df-94fa-7a2d6e0bbf43": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 6 Description"
+          }
+        },
+        "8980f716-3776-4020-9e83-e12a66f3541b": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 7"
+          }
+        },
+        "5c1b0e91-c6a2-4626-bfc2-a19a0654042f": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 7 Description"
+          }
+        },
+        "a9dea1fd-b426-45fd-a992-6f412f589971": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 8"
+          }
+        },
+        "10ad40e5-0cec-4831-bdf8-40686f8ae7b6": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 8 Description"
+          }
+        },
+        "88c371b9-8985-45f2-950d-c80e5dd10533": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 9"
+          }
+        },
+        "c7af6d51-c3cd-43f0-b403-1a4f154d9b33": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 9 Description"
+          }
+        },
+        "e9458d2c-72f0-4668-b089-996dccd1e40e": {
+          "type": "text",
+          "settings": {
+            "title": "Top Ten 10"
+          }
+        },
+        "5ac6486d-e5d7-4627-823b-b6fd1172b8ef": {
+          "type": "textarea",
+          "disabled": true,
+          "settings": {
+            "title": "Top Ten 10 Description"
+          }
+        },
+        "textarea_YYTkpA": {
+          "type": "textarea",
+          "settings": {
+            "title": "Please share a link to your preferred photo for your Top Ten (Dropbox, Google Drive, Instagram, etc.)."
+          }
+        }
+      },
+      "block_order": [
+        "3d091ebf-cc3b-43e2-ac58-c0e8ac290ec0",
+        "3864c815-f4c0-4092-8516-7a29db9ea1c4",
+        "19dbcebc-d299-4ac9-8702-4d5d23faf477",
+        "5fb0219f-0bab-4501-9fa6-a44ddae987cc",
+        "15639383-bdce-44ff-b4e0-aca9072df15f",
+        "e34d264a-a4f8-47c4-bad1-7cf385bb0cdd",
+        "b0cbc5bd-d7af-4353-8162-06808a2bf820",
+        "6c61898f-6d77-466d-b1fd-7337e67d352f",
+        "9150ccb1-b75a-4f9e-aa21-0e9535635ce5",
+        "51f7511e-f8d9-42c1-8163-97263d028b14",
+        "93bf7ba1-e0ff-4512-8799-866205cd3c57",
+        "3cb3f4a9-c4c3-4ad9-a137-3d211e5e804d",
+        "20a08f46-3321-4d0e-82b4-367b2518c6a9",
+        "aa7a0f79-548e-41db-b7f7-d5f3d4880d3c",
+        "59e73354-b5da-45c3-ad80-c6fa9faf84f3",
+        "20cf0274-b359-4e12-aaeb-8dd053b53573",
+        "d7e5c8b3-3106-4496-860b-70dc7b579cd6",
+        "c0c3511e-31be-49df-94fa-7a2d6e0bbf43",
+        "8980f716-3776-4020-9e83-e12a66f3541b",
+        "5c1b0e91-c6a2-4626-bfc2-a19a0654042f",
+        "a9dea1fd-b426-45fd-a992-6f412f589971",
+        "10ad40e5-0cec-4831-bdf8-40686f8ae7b6",
+        "88c371b9-8985-45f2-950d-c80e5dd10533",
+        "c7af6d51-c3cd-43f0-b403-1a4f154d9b33",
+        "e9458d2c-72f0-4668-b089-996dccd1e40e",
+        "5ac6486d-e5d7-4627-823b-b6fd1172b8ef",
+        "textarea_YYTkpA"
+      ],
+      "settings": {
+        "title": "SHARE YOUR TOP TEN — THE PRODUCTS, PLACES, EXPERIENCES, BRANDS, RESTAURANTS, RITUALS & OTHER FINDS YOU LOVE, SWEAR BY, RETURN TO, OR THINK EVERYONE SHOULD KNOW ABOUT. DESCRIPTIONS ARE OPTIONAL.",
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper--narrow",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "e0b3e1ab-21fe-4726-806c-7c835aca2a42": {
+      "type": "custom-image-banner",
+      "disabled": true,
+      "settings": {
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Introducing",
+        "title": "Image banner",
+        "title1": "Image banner",
+        "richtext": "<p>This area is used to describe your store.</p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "custom_image_with_text_VpABcX": {
+      "type": "custom-image-with-text",
+      "disabled": true,
+      "name": "custom image with text",
+      "settings": {
+        "left_text": "",
+        "right_heading": "",
+        "right_text": ""
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "contact",
+    "e0b3e1ab-21fe-4726-806c-7c835aca2a42",
+    "custom_image_with_text_VpABcX"
+  ]
+}

@@ -1,0 +1,180 @@
+<!-- /sections/section-html.liquid -->
+{{ 'section-new-custom-about-2.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .section-html-{{ section.id }} {
+      text-align: center;
+      padding: 252px 60px 100px;
+      position: relative;
+      max-width: 100%;
+      margin: 0 auto;
+      width: 100%;
+      background-color: #000000;
+  }
+
+  @media (max-width: 550px) {
+    .section-html-{{ section.id }} {
+        padding: 150px 60px 1px;
+    }
+  }
+</style>
+
+<div class="section-html-{{ section.id }} sc-{{ section.id }}">
+  <p class="new-custom-about-2-title">{{ section.settings.title }}</p>
+  <div class="new-custom-about-2-content-wrapper">
+    <p class="new-custom-about-2-subtitle">{{ section.settings.subtitle1 }}</p>
+    <div class="new-custom-about-2-desc">
+        {{ section.settings.desc1 }}
+    </div>
+  </div>
+  <div class="new-custom-about-2-content-wrapper">
+    <p class="new-custom-about-2-subtitle">{{ section.settings.subtitle2 }}</p>
+    <p class="new-custom-about-2-desc">{{ section.settings.desc2 }}</p>
+  </div>
+  <div class="new-custom-about-2-content-wrapper">
+    <p class="new-custom-about-2-subtitle">{{ section.settings.subtitle3 }}</p>
+    <p class="new-custom-about-2-desc">{{ section.settings.desc3 }}</p>
+  </div>
+  <div class="new-custom-about-2-content-wrapper">
+    <p class="new-custom-about-2-subtitle">{{ section.settings.subtitle4 }}</p>
+    <p class="new-custom-about-2-desc">{{ section.settings.desc4 }}</p>
+  </div>
+  <img
+    class="absolute-image-1"
+    src="{{ section.settings.image1 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-1"
+  >
+  <img
+    class="absolute-image-2"
+    src="{{ section.settings.image2 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-2"
+  >
+  <img
+    class="absolute-image-3"
+    src="{{ section.settings.image3 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-3"
+  >
+  <img
+    class="absolute-image-4"
+    src="{{ section.settings.image4 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-4"
+  >
+  <img
+    class="absolute-image-5"
+    src="{{ section.settings.image5 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-5"
+  >
+  <img
+    class="absolute-image-6"
+    src="{{ section.settings.image6 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-6"
+  >
+  <img
+    class="absolute-image-path"
+    src="{{ section.settings.image_path | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-path"
+  >
+  <img
+    class="absolute-image-7"
+    src="{{ section.settings.image7 | img_url:'master' }}"
+    alt="new-custom-about-2-absolute-image-7"
+  >
+</div>
+
+{% schema %}
+{
+  "name": "New Custom About 2",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle1",
+      "label": "Sub Title"
+    },
+    {
+      "type": "richtext",
+      "id": "desc1",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "subtitle2",
+      "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "desc2",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "subtitle3",
+      "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "desc3",
+      "label": "Description"
+    },
+    {
+      "type": "text",
+      "id": "subtitle4",
+      "label": "Sub Title"
+    },
+    {
+      "type": "text",
+      "id": "desc4",
+      "label": "Description"
+    },
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image4",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image5",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image6",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_path",
+      "label": "Path Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image7",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Custom About 2"
+    }
+  ]
+}
+{% endschema %}

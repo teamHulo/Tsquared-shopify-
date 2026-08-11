@@ -1,0 +1,966 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "553953a1-aaf5-46af-9573-5c6d5adfc35b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2023-02-25_at_12.21.36_PM.png",
+        "path_image": "shopify://shop_images/path.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "The List",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "f1619652-4fea-43d6-b9a9-6283a300a9c6": {
+      "type": "custom-marquee",
+      "blocks": {
+        "image_qMt3m3": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/custom",
+            "text": "CUSTOM"
+          }
+        },
+        "9e7f79eb-9f7d-4a0d-b295-e44e9ee221e3": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/live",
+            "text": "LIVE"
+          }
+        },
+        "62a179a2-eacd-465c-ae95-0f608701163d": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/wear",
+            "text": "WEAR"
+          }
+        },
+        "ea5bdb82-216f-4ba0-8257-781a83584095": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/carry",
+            "text": "CARRY"
+          }
+        },
+        "e455fbc1-fced-41d5-ab51-d19af1b6d753": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/feel",
+            "text": "LOOK+FEEL"
+          }
+        },
+        "c653aae4-033e-4317-9308-a6f1d618c1c9": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/etc",
+            "text": "ETC."
+          }
+        },
+        "1246d3f5-d669-4b74-a25f-59ede68949e5": {
+          "type": "image",
+          "settings": {
+            "product_url": "shopify://collections/shop-all",
+            "text": "SHOP ALL"
+          }
+        }
+      },
+      "block_order": [
+        "image_qMt3m3",
+        "9e7f79eb-9f7d-4a0d-b295-e44e9ee221e3",
+        "62a179a2-eacd-465c-ae95-0f608701163d",
+        "ea5bdb82-216f-4ba0-8257-781a83584095",
+        "e455fbc1-fced-41d5-ab51-d19af1b6d753",
+        "c653aae4-033e-4317-9308-a6f1d618c1c9",
+        "1246d3f5-d669-4b74-a25f-59ede68949e5"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 10
+      }
+    },
+    "395fa861-6cba-43bd-8ec9-4cbded935c41": {
+      "type": "image-slider",
+      "blocks": {
+        "fd248cdb-0b7c-4f46-b106-7383e7730ea5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.jpg",
+            "product_url": "https://shareyourtopten.com/collections/live",
+            "text": "Live"
+          }
+        },
+        "68977cfc-5162-485c-89f2-f72b25395411": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Bows_before_bros__wildfoxcouture_yvessaintlaurent_inspo_fashion_copy_bfde3b0c-7bba-4104-aa7d-af06aeebaed5.jpg",
+            "product_url": "https://shareyourtopten.com/collections/wear",
+            "text": "Wear"
+          }
+        },
+        "3235c17e-bdc0-482f-a6f7-137bfc33c5b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GW_part_4.jpg",
+            "product_url": "https://shareyourtopten.com/collections/carry",
+            "text": "Carry"
+          }
+        },
+        "ee7e0f97-4903-46c0-a892-b638ecd1c139": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a_muted_palette_-_merde-petit-maitre__Photography.png",
+            "product_url": "https://shareyourtopten.com/collections/feel",
+            "text": "Look + Feel"
+          }
+        },
+        "5e1b9452-2313-4f41-a771-98d97b75636a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sarkan.jpg",
+            "product_url": "https://shareyourtopten.com/collections/etc",
+            "text": "Etc."
+          }
+        },
+        "aa6098a9-6e02-431f-8b55-e07cc007dd76": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Molly_Goddard_-_Kate_Bow-embellished_Velvet-trimmed_Taffeta_Midi_Dress_-_Pink_-_UK_12.jpg",
+            "product_url": "shopify://collections/shop-all",
+            "text": "SHOP ALL"
+          }
+        },
+        "image_MyaHaa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2894.jpg",
+            "product_url": "shopify://collections/custom",
+            "text": "CUSTOM"
+          }
+        }
+      },
+      "block_order": [
+        "fd248cdb-0b7c-4f46-b106-7383e7730ea5",
+        "68977cfc-5162-485c-89f2-f72b25395411",
+        "3235c17e-bdc0-482f-a6f7-137bfc33c5b5",
+        "ee7e0f97-4903-46c0-a892-b638ecd1c139",
+        "5e1b9452-2313-4f41-a771-98d97b75636a",
+        "aa6098a9-6e02-431f-8b55-e07cc007dd76",
+        "image_MyaHaa"
+      ],
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 10
+      }
+    },
+    "89e8615f-cec9-4ea2-8e03-77961b0109b8": {
+      "type": "section-columns",
+      "blocks": {
+        "template--15761431429315__89e8615f-cec9-4ea2-8e03-77961b0109b8-167666611862fb0425-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/regime-des-fleurs-n-a-chloe-sevigny-little-flower_8b667540-fb3c-45bf-920e-674d5713303c.jpg",
+            "bg_position": "center-center",
+            "title": "Little Flower Eau de Parfum",
+            "text": "<p>Régime des Fleurs’ take on our favorite bloom—the rose.</p>",
+            "button_label": "",
+            "button_link": "https://shareyourtopten.com/collections/shop-all/products/regime-des-fleurs-x-chloe-sevigny-little-flower-eau-de-parfum-1",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15761431429315__89e8615f-cec9-4ea2-8e03-77961b0109b8-167666611862fb0425-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/24AW5199_BLK_1_1024x1024_e83e0fa8-9dbf-4585-b0de-748d227f5818.webp",
+            "bg_position": "center-center",
+            "title": "COVE PENDANT DRESS",
+            "text": "<p>The perfect party piece.</p>",
+            "button_label": "",
+            "button_link": "https://shareyourtopten.com/collections/shop-all/products/cove-pendant-dress",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "template--15761431429315__89e8615f-cec9-4ea2-8e03-77961b0109b8-167666611862fb0425-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/adam-lippes-pink-shorts-in-silk-cotton-duchesse.jpg",
+            "bg_position": "center-center",
+            "title": "Cotton-Silk Duchesse Shorts",
+            "text": "<p>Who says fall isn't for bubblegum pink?</p>",
+            "button_label": "",
+            "button_link": "https://www.modaoperandi.com/women/p/adam-lippes/shorts-in-silk-cotton-duchesse/660265?AID=14379076&PID=4441350&SID=.OTg3NjU1NzU3LTA.d3690f10-731b-11ef-9beb-edf6b0d7adab&cjevent=d3786ca5731b11ef816dd91e0a1cb82b&utm_medium=affiliate&medium=affiliate&source=LTK&utm_source=LTK",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "template--15761431429315__89e8615f-cec9-4ea2-8e03-77961b0109b8-167666611862fb0425-1",
+        "template--15761431429315__89e8615f-cec9-4ea2-8e03-77961b0109b8-167666611862fb0425-0",
+        "template--15761431429315__89e8615f-cec9-4ea2-8e03-77961b0109b8-167666611862fb0425-2"
+      ],
+      "settings": {
+        "title": "featured favorites",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "aspect_ratio": 1.4
+      }
+    },
+    "d748f129-b270-4f4a-a454-773b9c407405": {
+      "type": "style-masonry-grid",
+      "blocks": {
+        "77080127-cea9-4018-8dcb-195975c8b36f": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "clear-resin-beaded-necklace"
+          }
+        },
+        "e59afb4c-c31e-4aa5-98c7-a5ef3aa97cbd": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "clear-resin-earrings"
+          }
+        },
+        "175b19b4-a3c9-44d5-9517-37f2d9fea75d": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "addy-top"
+          }
+        },
+        "6397d633-13a5-46d5-bbe7-e2c10b74a8f1": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "st-frank-vanity-tray"
+          }
+        }
+      },
+      "block_order": [
+        "77080127-cea9-4018-8dcb-195975c8b36f",
+        "e59afb4c-c31e-4aa5-98c7-a5ef3aa97cbd",
+        "175b19b4-a3c9-44d5-9517-37f2d9fea75d",
+        "6397d633-13a5-46d5-bbe7-e2c10b74a8f1"
+      ],
+      "settings": {
+        "myprdt": "strawberry-candle",
+        "order": ""
+      }
+    },
+    "7b397dcd-0ae1-49d7-a208-2467ae8c2d6a": {
+      "type": "style-masonry-grid",
+      "blocks": {
+        "005d7128-213c-49fc-8b80-7f229eff48e4": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "martinis-at-bemelmans-limited-edition-print"
+          }
+        },
+        "f36072c7-9bc7-4cd5-a17c-198573258539": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "short-court-tennis-napkins"
+          }
+        },
+        "c3701fe1-aed6-4682-a9cb-4288931b877f": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "the-damali-cat-eye-metal-sunglasses"
+          }
+        },
+        "7dffeeb3-c7d7-4076-86af-1c2e0ac86e1c": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "ssone-nail-lacquer"
+          }
+        }
+      },
+      "block_order": [
+        "005d7128-213c-49fc-8b80-7f229eff48e4",
+        "f36072c7-9bc7-4cd5-a17c-198573258539",
+        "c3701fe1-aed6-4682-a9cb-4288931b877f",
+        "7dffeeb3-c7d7-4076-86af-1c2e0ac86e1c"
+      ],
+      "settings": {
+        "myprdt": "pike-satin-dress-1",
+        "order": "2"
+      }
+    },
+    "0bc93732-7731-4ac3-b26b-39ee1986ae6c": {
+      "type": "custom-list",
+      "settings": {
+        "sub-heading": "",
+        "title1": "Editor's",
+        "title2": "Choice",
+        "title3": "",
+        "sub-title1": "WEAR |",
+        "sub-link1": "https://shareyourtopten.com/collections/wear",
+        "sub-title2": "CARRY |",
+        "sub-link2": "https://shareyourtopten.com/collections/carry",
+        "sub-title3": "LIVE |",
+        "sub-link3": "https://shareyourtopten.com/collections/live",
+        "sub-title4": "ETC. |",
+        "sub-link4": "https://shareyourtopten.com/collections/etc",
+        "sub-title5": "LOOK+FEEL",
+        "sub-link5": "https://shareyourtopten.com/collections/feel",
+        "sub-title6": "",
+        "sub-link6": "",
+        "sub-title7": "",
+        "sub-link7": "",
+        "sub-title8": "",
+        "sub-link8": ""
+      }
+    },
+    "81ed1916-3369-4a84-946c-e65cde613bf1": {
+      "type": "image-text-grid",
+      "blocks": {
+        "0cebda1f-1ccc-40e3-9df9-182c30d3f84e": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/255040_IMG_0228_Reduced.webp",
+            "title": "",
+            "subtitle": "",
+            "link": "https://shareyourtopten.com/collections/shop-all/products/corpus-katrafay-body-scrub"
+          }
+        },
+        "683cf07f-ad93-4de0-8555-22ed69201a72": {
+          "type": "meetme",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/WEmilieGemInitial.jpg",
+            "name": "",
+            "intro": "",
+            "link": "https://rstyle.me/+bDfCJj7J21jmwu-Ewae2dA"
+          }
+        },
+        "fb5ae151-b664-40c4-a2af-3458a1360970": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Palm_Pearl_Jelly_Pendant_Paracord_Choker_Silver_Sun_Ray_Hoops_model_FW22_Lot28_small_9e2a1b93-4f79-4d06-a2af-a41b7ab8b7c8_jpg.webp",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "afb55c0a-38d8-4f2b-ae00-ed2029dd6929": {
+          "type": "product_caption",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/IMG_2472_1024x1024_jpg.webp",
+            "title": "",
+            "subtitle": "king of the court",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0cebda1f-1ccc-40e3-9df9-182c30d3f84e",
+        "683cf07f-ad93-4de0-8555-22ed69201a72",
+        "fb5ae151-b664-40c4-a2af-3458a1360970",
+        "afb55c0a-38d8-4f2b-ae00-ed2029dd6929"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 0,
+        "desktop_margin_bottom": 0,
+        "mobile_margin_top": 0,
+        "mobile_margin_bottom": 0,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "453a36cd-1817-46d1-ac50-9838b5b54711": {
+      "type": "style-masonry-grid",
+      "blocks": {
+        "816b32ca-13e9-4bf4-bf27-fcbfe21bc066": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "550-suede-and-mesh-trainers"
+          }
+        },
+        "c0c5fe50-31ab-4156-a3a0-769be61da39d": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "monthly-planner"
+          }
+        },
+        "dbe058a0-a89f-460b-99fa-0876b5e27e2f": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "khaite-olivia-sculpture-bag"
+          }
+        },
+        "d94e0165-d23a-4d48-9550-f0371338646d": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "untitled-sep5_06-24"
+          }
+        }
+      },
+      "block_order": [
+        "816b32ca-13e9-4bf4-bf27-fcbfe21bc066",
+        "c0c5fe50-31ab-4156-a3a0-769be61da39d",
+        "dbe058a0-a89f-460b-99fa-0876b5e27e2f",
+        "d94e0165-d23a-4d48-9550-f0371338646d"
+      ],
+      "settings": {
+        "myprdt": "cable-knit-sweater",
+        "order": ""
+      }
+    },
+    "77e7f68c-a96a-495a-a67c-d044201968b1": {
+      "type": "image-text-grid",
+      "blocks": {
+        "c0c088b1-155d-4926-85cb-6012efe8fdf4": {
+          "type": "product_caption",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/9cd972b64a8d973e71a403c8da800e1b.jpg",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "023db7c2-726b-44a9-b096-5c5a4ad98fa9": {
+          "type": "meetme",
+          "settings": {
+            "title": "",
+            "image": "shopify://shop_images/462b9e2f421669f0e16b3b42e20a8ad0_579fcbc6-4fee-4ad2-a5f1-c5b40644dba3.jpg",
+            "name": "",
+            "intro": "",
+            "link": "https://rstyle.me/+yMIfmkEP_6mi_fRoScdAYQ"
+          }
+        },
+        "ed631687-f7a6-400c-8d41-d3bc85841952": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/5d8efb5d623c2820efbac6887a75e925.jpg",
+            "title": "the fall of the leaves means the rise of scalpel-sharp tailoring and burnt oranges",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "af102f0a-4563-487e-b770-4b9aa4a715d6": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "6076aee3-b700-43c0-83f5-d9ef1c6f22f9": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/18b2f8bba1c033420f221dd1b856f7e4_99959bb2-7273-4998-bf46-e5d939bff47a.jpg",
+            "title": "FALL'S FRESH LOOK",
+            "subtitle": "the leaves' fall means a rise of burnt oranges & scalpel-sharp tailoring",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c0c088b1-155d-4926-85cb-6012efe8fdf4",
+        "023db7c2-726b-44a9-b096-5c5a4ad98fa9",
+        "ed631687-f7a6-400c-8d41-d3bc85841952",
+        "af102f0a-4563-487e-b770-4b9aa4a715d6",
+        "6076aee3-b700-43c0-83f5-d9ef1c6f22f9"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 30,
+        "mobile_margin_bottom": 30,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "7bb4e52f-3719-436b-a72c-506af268d3dc": {
+      "type": "custom-image-with-text",
+      "disabled": true,
+      "settings": {
+        "left_image": "shopify://shop_images/Screenshot_2023-03-24_at_11.45.52_PM.png",
+        "right_image": "shopify://shop_images/jane-birkin-jean-claude-deutsch.jpg",
+        "left_text": "",
+        "right_heading": "inspired by",
+        "right_text": "icon"
+      }
+    },
+    "4d569fe8-ea13-46f4-b88b-7e87f3a188d3": {
+      "type": "style-masonry-grid",
+      "blocks": {
+        "27c8b147-a011-4a4b-89b6-7311e5586e8c": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "lacoste-x-bandier-short-onesie-short-onesie"
+          }
+        },
+        "0c6fdacf-5470-4bb7-afc3-9138a170f953": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "byredo-gypsy-water-hair-perfume"
+          }
+        },
+        "131b7c1d-c854-4d72-990d-32821574f590": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "lacoste-x-bandier-all-motion-colorblock-tank"
+          }
+        },
+        "db135488-06d9-4b54-9d4f-51469d241747": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "julietta-foxy-brown-resin-enamel-earrings"
+          }
+        }
+      },
+      "block_order": [
+        "27c8b147-a011-4a4b-89b6-7311e5586e8c",
+        "0c6fdacf-5470-4bb7-afc3-9138a170f953",
+        "131b7c1d-c854-4d72-990d-32821574f590",
+        "db135488-06d9-4b54-9d4f-51469d241747"
+      ],
+      "settings": {
+        "myprdt": "mar-mar-north-scented-candle",
+        "order": "2"
+      }
+    },
+    "3f01c2a5-9d7b-47f8-9317-ebbf48530b77": {
+      "type": "image-text-grid",
+      "blocks": {
+        "694938e7-418c-4c76-acb7-3a32b98abb46": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Gallery_of_AntiRoom_II_Pavilion___Elena_Chiavi_Ahmad_El_Mad_Matteo_Goldoni_-_5.jpg",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "e46e3bd1-c244-42fd-9b2a-89f881a43bab": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/too_many_personalities.jpg",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "99e1de62-2d82-4af6-b340-207af5058c4d": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/yasmin_on_Twitter_1.jpg",
+            "title": "NEW NOSTALGIA",
+            "subtitle": "we can't get enough of deep blues - a R&R reminder of seaside memories",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "694938e7-418c-4c76-acb7-3a32b98abb46",
+        "e46e3bd1-c244-42fd-9b2a-89f881a43bab",
+        "99e1de62-2d82-4af6-b340-207af5058c4d"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "6910e0e7-6394-43cf-9d81-2ccd312cba8c": {
+      "type": "style-masonry-grid",
+      "blocks": {
+        "a5eb2198-32f8-40bc-9221-95dcf61fd580": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "marlo-laz-mini-port-bonheur-pearl"
+          }
+        },
+        "80e6932e-641a-4699-a195-319ac629d23d": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "chunky-stone-necklace"
+          }
+        },
+        "21517ff1-10ec-41eb-a88c-44265835fcaf": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "rococo-gem-ring-in-blue"
+          }
+        },
+        "217ce418-ac95-4407-a366-2cb82c847f72": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "balloon-letter-necklace-with-beaded-satellite-chain"
+          }
+        }
+      },
+      "block_order": [
+        "a5eb2198-32f8-40bc-9221-95dcf61fd580",
+        "80e6932e-641a-4699-a195-319ac629d23d",
+        "21517ff1-10ec-41eb-a88c-44265835fcaf",
+        "217ce418-ac95-4407-a366-2cb82c847f72"
+      ],
+      "disabled": true,
+      "settings": {
+        "myprdt": "tropicana-necklace-in-gold",
+        "order": "2"
+      }
+    },
+    "290926fd-4cdf-4b80-9bb5-9cc64983f203": {
+      "type": "image-text-grid",
+      "blocks": {
+        "70d7fc74-4f69-4cb2-a74d-5425a0db5574": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2023-05-25_at_12.53.13_AM.png",
+            "title": "",
+            "subtitle": "",
+            "link": "https://rstyle.me/+l-3w-7TBg8ECheu88DXt-g"
+          }
+        },
+        "ed9fb86a-8bcc-43c4-b95b-79cbc258492d": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/etro-navy-tiered-cotton-mini-dress.jpg",
+            "title": "",
+            "subtitle": "",
+            "link": "https://rstyle.me/+A6uGsbbNVht5vEoxJ_9WKg"
+          }
+        }
+      },
+      "block_order": [
+        "70d7fc74-4f69-4cb2-a74d-5425a0db5574",
+        "ed9fb86a-8bcc-43c4-b95b-79cbc258492d"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "a9fdeda7-a7a4-4f7e-887a-21b41dda6bb6": {
+      "type": "style-masonry-grid",
+      "blocks": {
+        "f5da6b84-6cc9-4434-bdf4-f843b0ff66ea": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "21-club-matchbook-painting"
+          }
+        },
+        "c4bf3a43-ca08-454b-abc5-0150b2ece898": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "maison-balzac-2-piece-pomponette-glasses"
+          }
+        },
+        "c2ec6d41-4ba4-482d-9e74-f58f42dbcb57": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "danielle-guizio-pink-tank"
+          }
+        },
+        "2a3ef285-448e-4f02-90b1-ea6032218e1f": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "one-thing-propolis-honey-extract"
+          }
+        }
+      },
+      "block_order": [
+        "f5da6b84-6cc9-4434-bdf4-f843b0ff66ea",
+        "c4bf3a43-ca08-454b-abc5-0150b2ece898",
+        "c2ec6d41-4ba4-482d-9e74-f58f42dbcb57",
+        "2a3ef285-448e-4f02-90b1-ea6032218e1f"
+      ],
+      "disabled": true,
+      "settings": {
+        "myprdt": "untitled-sep8_07-00",
+        "order": ""
+      }
+    },
+    "22c65ca8-3b4e-4476-ad27-5ecacb2be8af": {
+      "type": "Masonry-Image",
+      "blocks": {
+        "3014648c-fc36-4306-907a-89721dbf9328": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/superegg-n-a-phyto-bounce-eye-contour-solution.jpg",
+            "urlss": "shopify://products/chunky-stone-necklace"
+          }
+        },
+        "329a2c03-bf3d-44f6-b74b-bb8766e67535": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/sophie-lou-jacobsen-multi-piano-cocktail-set-bluenote_f9a88b8c-76f6-4ea5-adb6-571a7f0dc28e.jpg",
+            "urlss": "https://rstyle.me/+avQTZs-1w8MroXV_yw-z2Q"
+          }
+        },
+        "a20ad55f-36a1-423c-ab26-a1ce1e386ec7": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/Screenshot_2023-05-25_at_12.16.55_AM-removebg-preview.png",
+            "urlss": "shopify://products/marlo-laz-mini-port-bonheur-pearl"
+          }
+        },
+        "c10f6732-4512-43f9-bece-8698a866f53f": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/Screenshot_2023-05-25_at_12.16.16_AM-removebg-preview.png",
+            "urlss": "shopify://products/rococo-gem-ring-in-blue"
+          }
+        }
+      },
+      "block_order": [
+        "3014648c-fc36-4306-907a-89721dbf9328",
+        "329a2c03-bf3d-44f6-b74b-bb8766e67535",
+        "a20ad55f-36a1-423c-ab26-a1ce1e386ec7",
+        "c10f6732-4512-43f9-bece-8698a866f53f"
+      ],
+      "settings": {
+        "myprdt": "shopify://shop_images/gabriela-hearst-blue-calderon-strapless-wool-cashmere-midi-dress.jpg",
+        "urls": "https://rstyle.me/+qrdERRDl_k8sU5FQV4UewA",
+        "order": ""
+      }
+    },
+    "e5f1b6d4-96f5-47ef-ac9c-8ee24a176bcb": {
+      "type": "Masonry-Image",
+      "blocks": {
+        "9d0e2809-087c-4e83-b691-81e86e8fdf6d": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/De-Soi-Champignon-Dreams-Non-Alcoholic-Aperitif-Single-Front_350797bf-c6f4-488f-a8b9-02df8af7b219.webp",
+            "urlss": "shopify://products/de-soi-apertif-variety-pack"
+          }
+        },
+        "af30fcc1-cf01-48f3-b8d5-acd53a7d8b6d": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/19908201_44898514_1000_733061c6-1e27-4ba9-afd0-1f6ce5c4a02a.webp",
+            "urlss": "shopify://products/maison-balzac-2-piece-pomponette-glasses"
+          }
+        },
+        "0fb5d28a-e89a-493f-9245-eb926b0c32c4": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/19176999_43652034_1000_1a390ce5-93d0-4031-8190-a850d2cccda8.webp",
+            "urlss": "shopify://products/danielle-guizio-pink-tank"
+          }
+        },
+        "16883910-79cb-4c9f-ae1f-af7ad41be827": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/BonBonGiftBoxLarge1-1.webp",
+            "urlss": "shopify://products/bon-bon-candy-box"
+          }
+        }
+      },
+      "block_order": [
+        "9d0e2809-087c-4e83-b691-81e86e8fdf6d",
+        "af30fcc1-cf01-48f3-b8d5-acd53a7d8b6d",
+        "0fb5d28a-e89a-493f-9245-eb926b0c32c4",
+        "16883910-79cb-4c9f-ae1f-af7ad41be827"
+      ],
+      "settings": {
+        "myprdt": "shopify://shop_images/18232585_40143362_1000_8e8d8e24-5b97-43c5-bdc8-aeaae2cf0c53.webp",
+        "urls": "shopify://products/pucci-a-line-graphic-print-skirt",
+        "order": ""
+      }
+    },
+    "055edd34-f351-455c-8da4-d0a920997cb1": {
+      "type": "Masonry-Image",
+      "blocks": {
+        "cf530abd-61cf-4052-a071-1694d6785864": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/DSC_6631_dc610612-8f1d-49df-b037-e9765c639c1a.webp",
+            "urlss": "shopify://products/one-thing-propolis-honey-extract"
+          }
+        },
+        "345e7830-599f-4c61-b7bc-2d4ca7d456ed": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/Screenshot_2023-05-23_at_2.47.32_PM-removebg-preview_e5a8b022-1cb0-430d-bb78-3f5cf832afd7.png",
+            "urlss": "shopify://products/patou-cotton-poplin-minidress"
+          }
+        },
+        "e2b1dd0e-7962-4c9f-8ad3-2c691b931179": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/pink-palm-hollywood-deco-inspired-los-angeles-unframed-print-16-x-20-8266_d185930f-cbbc-466f-bfde-b2d89d738ab1.webp",
+            "urlss": "shopify://products/slim-aarons-marbella-club-framed-print"
+          }
+        },
+        "e2f52a35-2467-4d4d-99df-ae41a73153f9": {
+          "type": "block-1",
+          "settings": {
+            "featured_product": "shopify://shop_images/Screen_Shot_2020-02-27_at_1.18.56_pm_1024x1024_80b180e3-b9b2-4dbd-93c5-113a1b20b942.webp",
+            "urlss": ""
+          }
+        }
+      },
+      "block_order": [
+        "cf530abd-61cf-4052-a071-1694d6785864",
+        "345e7830-599f-4c61-b7bc-2d4ca7d456ed",
+        "e2b1dd0e-7962-4c9f-8ad3-2c691b931179",
+        "e2f52a35-2467-4d4d-99df-ae41a73153f9"
+      ],
+      "settings": {
+        "myprdt": "shopify://shop_images/R03970619_M-removebg-preview-removebg-preview.png",
+        "urls": "shopify://products/dirty-dancing-ceramic-plate",
+        "order": ""
+      }
+    },
+    "3307a243-6756-4cec-b4cf-2bd8a54678a2": {
+      "type": "image-text-grid",
+      "blocks": {
+        "6d2f09e9-5872-40c7-9874-22de92f429e3": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/222849M811002_1.webp",
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "97711cc9-ed8b-43c2-8fdd-415dc12feff2": {
+          "type": "product",
+          "settings": {
+            "image": "shopify://shop_images/231553F028022_1.webp",
+            "title": "",
+            "subtitle": "",
+            "link": "https://www.neimanmarcus.com/p/jacquemus-la-serviette-soleil-graphic-cotton-towel-prod259510258?utm_source=google_shopping&ecid=NMCS_GL_RL&gclid=CjwKCAjwp6CkBhB_EiwAlQVyxa5A5oUBrti-xRBaPaHKOleHSm28BiYox6e7rRRARzULFH_gWq9yphoCKhwQAvD_BwE&gclsrc=aw.ds"
+          }
+        }
+      },
+      "block_order": [
+        "6d2f09e9-5872-40c7-9874-22de92f429e3",
+        "97711cc9-ed8b-43c2-8fdd-415dc12feff2"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "7c0a678a-b356-4762-b388-295dbcdef1e8": {
+      "type": "image-text-grid",
+      "blocks": {
+        "5b296836-89d3-4bd0-a8da-d40444cedd15": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Agee_Leinberry_Feature_Image_27e459b9-9cce-4660-aca3-4c31f3380857.jpg",
+            "title": "AGEE LEINBERRY",
+            "subtitle": "Shop her Tens",
+            "link": "https://shareyourtopten.com/pages/agee-lineberry"
+          }
+        },
+        "3be0da97-48c7-4125-9bd1-e46399add2ad": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Abby_Earley_Feature_ab9725c0-3e7f-4e7e-b9e9-a7e4489fbba2.webp",
+            "title": "ABBY EARLEY",
+            "subtitle": "Shop her Tens",
+            "link": "https://shareyourtopten.com/pages/abby-earley"
+          }
+        }
+      },
+      "block_order": [
+        "5b296836-89d3-4bd0-a8da-d40444cedd15",
+        "3be0da97-48c7-4125-9bd1-e46399add2ad"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "553953a1-aaf5-46af-9573-5c6d5adfc35b",
+    "f1619652-4fea-43d6-b9a9-6283a300a9c6",
+    "395fa861-6cba-43bd-8ec9-4cbded935c41",
+    "89e8615f-cec9-4ea2-8e03-77961b0109b8",
+    "d748f129-b270-4f4a-a454-773b9c407405",
+    "7b397dcd-0ae1-49d7-a208-2467ae8c2d6a",
+    "0bc93732-7731-4ac3-b26b-39ee1986ae6c",
+    "81ed1916-3369-4a84-946c-e65cde613bf1",
+    "453a36cd-1817-46d1-ac50-9838b5b54711",
+    "77e7f68c-a96a-495a-a67c-d044201968b1",
+    "7bb4e52f-3719-436b-a72c-506af268d3dc",
+    "4d569fe8-ea13-46f4-b88b-7e87f3a188d3",
+    "3f01c2a5-9d7b-47f8-9317-ebbf48530b77",
+    "6910e0e7-6394-43cf-9d81-2ccd312cba8c",
+    "290926fd-4cdf-4b80-9bb5-9cc64983f203",
+    "a9fdeda7-a7a4-4f7e-887a-21b41dda6bb6",
+    "22c65ca8-3b4e-4476-ad27-5ecacb2be8af",
+    "e5f1b6d4-96f5-47ef-ac9c-8ee24a176bcb",
+    "055edd34-f351-455c-8da4-d0a920997cb1",
+    "3307a243-6756-4cec-b4cf-2bd8a54678a2",
+    "7c0a678a-b356-4762-b388-295dbcdef1e8"
+  ]
+}

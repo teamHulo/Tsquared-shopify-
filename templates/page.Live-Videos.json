@@ -1,0 +1,241 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "c2655794-8ddc-4506-9ca9-b5095bcc1333": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Image_7.webp",
+        "mobile_image": "shopify://shop_images/Image_7.webp",
+        "path_image": "shopify://shop_images/path.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Events",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "64520544-583c-4303-bbb4-e5ca8a554fc5": {
+      "type": "text-with-video",
+      "settings": {
+        "vertical_text": "",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/64df952020724dde8eaebe5df7eb929e.mp4",
+        "video_poster": "shopify://shop_images/hqdefault.jpg",
+        "title": "NANCY SINATRA",
+        "btn_url": "",
+        "subtitle": "THE POWER OF A GOOD PAIR OF SHOES",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 100,
+        "padding_bottom_mobile": 100
+      }
+    },
+    "ad7adede-1d50-4ffb-bbb9-0942fe086956": {
+      "type": "view-all-video",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/f0192ee86e1b409583df831dee6270d5.mov",
+        "video_poster": "shopify://shop_images/Screen_Shot_2023-03-04_at_2.42.29_PM.png",
+        "title": "Features + Fashion",
+        "subtitle": "IN A CULTURE CLIMATE",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 100,
+        "padding_bottom_mobile": 100
+      }
+    },
+    "a1df506b-2485-40bb-962d-c1b6386e37ed": {
+      "type": "text-with-video",
+      "settings": {
+        "vertical_text": "FROM THE ELEVATOR",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/fe702d9e3f24456cb8bc7849252fc140.mp4",
+        "video_poster": "shopify://shop_images/Screen_Shot_2023-03-05_at_11.16.17_PM.png",
+        "title": "TO THE RUNWAY",
+        "btn_url": "https://www.youtube.com/watch?v=JeAulY1lqzs",
+        "subtitle": "GUCCI FW 23",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "37db2842-34c9-4f97-898b-735c824d661b": {
+      "type": "text-with-video",
+      "settings": {
+        "vertical_text": "Donned fringe hair + a basket for a purse — and slept with an eye pencil under her pillow",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2128cde99f544bdfb8941633bb56d997.mp4",
+        "video_poster": "shopify://shop_images/1870318.jpg",
+        "title": "JANE BIRKIN",
+        "btn_url": "",
+        "subtitle": "The laissez-faire inspiration for a modern muse",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 100,
+        "padding_bottom_mobile": 100
+      }
+    },
+    "f4e619c5-54fd-4d32-81cd-974543e4f9c1": {
+      "type": "latest-top-tens",
+      "disabled": true,
+      "settings": {
+        "title": "The latest Top Tens",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_mobile": 90,
+        "padding_bottom_mobile": 90
+      }
+    },
+    "ada75601-4252-40a7-bcd2-9bbedea3ef8f": {
+      "type": "title-content",
+      "disabled": true,
+      "settings": {
+        "top_title": "HEY",
+        "bg_color": "",
+        "title": "Talk to us",
+        "sub_title1": "if you have some ideas for",
+        "effect_text": "ANYTHING",
+        "sub_title2": "you want to see",
+        "content": "<p>I AM ALWAYS OPEN TO NEW COLLABORATIONS WITH INSPIRATIONAL ARTISTS, MODELS AND CREATIVES</p><p>YOU KNOW WHAT TO DO - <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">JUST DROP A LINE</a></p>",
+        "bg": "palette--gray"
+      }
+    },
+    "image_slider_XUKgJN": {
+      "type": "image-slider",
+      "blocks": {
+        "image_4TLBCP": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4TLBCP"
+      ],
+      "name": "Image Slider",
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_9cmHkY": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/HOME_PG..png",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "kicker": "hi",
+        "title1": "IN COLLABORATION WITH KREWE",
+        "title2": "Image banner",
+        "richtext": "<p>Filled with </p>",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "View products",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "1775599849e7ee7c90": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_93f4a2d_d3BTmf": {
+          "type": "ai_gen_block_93f4a2d",
+          "settings": {
+            "image_1": "shopify://shop_images/Copy_of_TOP_TEN_BABY_PINK_2.png",
+            "image_2": "shopify://shop_images/ChatGPT_Image_Mar_26_2026_11_01_26_PM.png",
+            "desktop_width_percent": 100,
+            "aspect_ratio": 1.5,
+            "border_radius": 0,
+            "show_arrows": true,
+            "nav_button_size": 44,
+            "nav_button_offset": 20,
+            "nav_button_color": "#ffffff",
+            "nav_button_icon_color": "#000000",
+            "show_dots": true,
+            "dot_size": 10,
+            "dot_color": "#cccccc",
+            "dot_active_color": "#191008",
+            "autoplay": false,
+            "autoplay_speed": 5
+          },
+          "blocks": {}
+        },
+        "ai_gen_block_93f4a2d_heFeQP": {
+          "type": "ai_gen_block_93f4a2d",
+          "name": "Image carousel",
+          "settings": {
+            "image_1": "shopify://shop_images/Krewe_x_TSquared_Menu.png",
+            "desktop_width_percent": 50,
+            "aspect_ratio": 0.7,
+            "border_radius": 14,
+            "show_arrows": true,
+            "nav_button_size": 44,
+            "nav_button_offset": 20,
+            "nav_button_color": "#ffffff",
+            "nav_button_icon_color": "#000000",
+            "show_dots": true,
+            "dot_size": 10,
+            "dot_color": "#cccccc",
+            "dot_active_color": "#191008",
+            "autoplay": false,
+            "autoplay_speed": 5
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_93f4a2d_d3BTmf",
+        "ai_gen_block_93f4a2d_heFeQP"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "c2655794-8ddc-4506-9ca9-b5095bcc1333",
+    "64520544-583c-4303-bbb4-e5ca8a554fc5",
+    "ad7adede-1d50-4ffb-bbb9-0942fe086956",
+    "a1df506b-2485-40bb-962d-c1b6386e37ed",
+    "37db2842-34c9-4f97-898b-735c824d661b",
+    "f4e619c5-54fd-4d32-81cd-974543e4f9c1",
+    "ada75601-4252-40a7-bcd2-9bbedea3ef8f",
+    "image_slider_XUKgJN",
+    "section_hero_9cmHkY",
+    "1775599849e7ee7c90"
+  ]
+}

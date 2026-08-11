@@ -1,0 +1,121 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "825e6605-5908-469f-9312-30522f052a77": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Image_10.webp",
+        "mobile_image": "shopify://shop_images/Image_10.webp",
+        "path_image": "shopify://shop_images/path.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Winter/",
+        "title2": "Spring",
+        "richtext": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "6f246d52-88eb-44ca-85fa-85530673911e": {
+      "type": "featured1",
+      "settings": {
+        "heading": "THE BEST OF SPRING SUMMER ‘22",
+        "sub-heading": "Our favourites",
+        "image": "shopify://shop_images/Screen_Shot_202_10_3e567151-0059-4892-92f6-a351e15a952d.webp",
+        "link": "",
+        "image1": "shopify://shop_images/Screen_Shot_202_11.webp",
+        "link1": ""
+      }
+    },
+    "6114e8cc-a9da-4469-aada-a50a5da11526": {
+      "type": "featured4",
+      "settings": {
+        "heading": "Our favourites",
+        "sub-heading": "",
+        "image0": "shopify://shop_images/IMG_3199.webp",
+        "link": "",
+        "image1": "shopify://shop_images/Screen_Shot_202_8_c9ee9b89-3cf0-4240-a082-8b0edd170fac.webp",
+        "link1": "",
+        "image2": "shopify://shop_images/Image_11.webp",
+        "image3": "shopify://shop_images/Screen_Shot_202_4_a062ba05-2481-47e1-a81b-8bd615dfe817.webp",
+        "image4": "shopify://shop_images/IMG_3196.webp"
+      }
+    },
+    "a0f61064-b94c-4680-801d-6b6701788b4c": {
+      "type": "featured-cold",
+      "settings": {
+        "heading": "WHAT ELSE",
+        "description": "<p>TAKE A LOOK AT THE BEST OF THE BEST TOP TEN LISTS. WE SELECTED OUR FAVORITES OF WEEK III. </p><p>SHOP AND SHARE TO ENSURE YOUR STUNNING LOOK.</p>",
+        "sub_description": "<p>DON’T THANK US - JUST ENJOY!</p>",
+        "text": "<p>COLD GLASS FOR HOLIDAYS</p>",
+        "image": "shopify://shop_images/Screen_Shot_202_2.webp",
+        "path_image": "shopify://shop_images/path.webp",
+        "right_image": "shopify://shop_images/Screen_Shot_202_3_cf75faf7-ef01-4440-b31f-f7759ceae22b.webp",
+        "title": "Vanessa Deis",
+        "sub-heading": "WHAT TO WEAR THIS SPRING",
+        "link": "",
+        "html": ""
+      }
+    },
+    "a587bfdd-ad59-428a-a23d-adf69eb1e8b0": {
+      "type": "custom-two-images",
+      "settings": {
+        "bg_color": "",
+        "image1": "shopify://shop_images/Screen_Shot_202_3.webp",
+        "image2": "shopify://shop_images/Screen_Shot_202_9_6dd0a845-36d3-4d26-a24f-2b0b8d074356.webp"
+      }
+    },
+    "c0c9ee50-f737-487d-a533-44e73c9363a7": {
+      "type": "title-content",
+      "settings": {
+        "top_title": "TOP TEN",
+        "bg_color": "",
+        "title": "Talk to me",
+        "sub_title1": "if you have some ideas for",
+        "effect_text": "ANY",
+        "sub_title2": "collaborations",
+        "content": "<p>I AM ALWAYS OPEN TO NEW COLLABORATIONS WITH BRANDS, </p><p></p><p>YOU KNOW WHAT TO DO - CONTACT US</p>",
+        "bg": "palette--gray"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "825e6605-5908-469f-9312-30522f052a77",
+    "6f246d52-88eb-44ca-85fa-85530673911e",
+    "6114e8cc-a9da-4469-aada-a50a5da11526",
+    "a0f61064-b94c-4680-801d-6b6701788b4c",
+    "a587bfdd-ad59-428a-a23d-adf69eb1e8b0",
+    "c0c9ee50-f737-487d-a533-44e73c9363a7"
+  ]
+}

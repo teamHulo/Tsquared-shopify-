@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "f8817c39-4b80-4469-aec3-184c779f8225": {
+      "type": "image-description",
+      "settings": {
+        "heading": "Mélanie Masarin",
+        "path_image": "shopify://shop_images/path.webp",
+        "image": "shopify://shop_images/Screenshot_2023-05-17_at_5.35.17_PM.png",
+        "description": "Find Mélanie Masarin assembling an alluring gathering with a dream-like menu, guest list & and bottle of Ghia— her non-alcoholic aperitif changing the way we drink & think. France-born and Los Angeles raised, the former Head of Glossier’s Retail & Offline Experiences approaches every day with limitless creativity and a pioneering POV. Cheers to a role model & the drink that provides the ultimate zen— we give you MM’s Top Ten…",
+        "padding_top": 130,
+        "padding_bottom": 120
+      }
+    },
+    "df1e06d2-f052-41a9-ab09-7ab5939b5c3e": {
+      "type": "image-slider",
+      "blocks": {
+        "b5413a7e-5d03-44ff-818f-68f0522d7fa2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-05-18_at_11.45.27_AM.png",
+            "product_url": "https://www.mytheresa.com/us/en/women/courreges-ombre-cotton-blend-jacket-multicoloured-p00810331",
+            "text": ""
+          }
+        },
+        "be9413c9-d88d-40e8-b238-a1340dd64c7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Laboratorio-Paravicini_Snakes-v1-Insiemi_4_360x_jpg.webp",
+            "product_url": "https://www.paravicini.it/en/products/serpi-3?_pos=2&_sid=d57b0db1c&_ss=r",
+            "text": ""
+          }
+        },
+        "29168f80-d680-4b0c-a224-4969fbe488f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Beta_Pin_for_Scott_5_6_22x21_22x2.75_22.jpg",
+            "product_url": "https://avocadosforlunch.com/artists#/the-beta-pin",
+            "text": ""
+          }
+        },
+        "c67dc3f0-ab97-4037-9002-070e6f537368": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pwxw0gryygvieo3mamu4.jpg",
+            "product_url": "https://sophieloujacobsen.com/products/piano-cocktail-glasses?variant=39746169864236",
+            "text": ""
+          }
+        },
+        "183b6662-591f-406d-b583-6936c814cdca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Thermomix-ModeEggBoiler-882x560-1.webp",
+            "product_url": "https://www.thermomix.com",
+            "text": ""
+          }
+        },
+        "67ac0598-96f9-444f-bd3e-ab734b441d86": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitleddesign_64_png.webp",
+            "product_url": "https://drinkghia.com/products/ghia?variant=43914677321962&utm_source=google&utm_medium=paid&utm_campaign=20116792284&utm_content=&utm_term=&gadid=&gad=1&gclid=Cj0KCQjwmZejBhC_ARIsAGhCqnfVxFO_hHgjwbH6wynrA_r59Fdf626dCUIKCjKzxsCAeNwrk1sYcF8aAnZEEALw_wcB",
+            "text": ""
+          }
+        },
+        "455b91fb-a38c-46f2-9f4c-b0ba79b4aa9a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unknown_01410090-a811-45b4-95ac-34b836c77116.jpg",
+            "product_url": "https://www.sothebys.com/en/buy/private-sales/20th-century-design/_pierre-paulin-abcd-sofas-two-setee-835e",
+            "text": ""
+          }
+        },
+        "ee5c2a4a-6c6b-4f66-babd-af4fabe475ef": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/glossier-you-edp-carousel-01_6c4fafa7-fa0c-4ac4-8ace-3da06f3b67e5_png.webp",
+            "product_url": "https://www.glossier.com/products/glossier-you",
+            "text": ""
+          }
+        },
+        "81c35f13-799d-49f3-a18b-17cfef58eed9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero_e966d13e-e3cc-4c65-8ad3-e3c48faa060c.jpg",
+            "product_url": "https://gjusta.com",
+            "text": ""
+          }
+        },
+        "2db874c1-c859-4373-b124-273e8347f7d6": {
+          "type": "image",
+          "settings": {
+            "product_url": "",
+            "text": ""
+          }
+        },
+        "708b4847-572d-4e9f-a5f7-b0cf4f267baa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Unknown-1_a5c2bfb7-3215-4860-af45-be8a738fdaf5.png",
+            "product_url": "https://www.therealreal.com/?irgwc=1&utm_source=impactradius&utm_medium=affiliate&utm_campaign=8270&utm_content=Online%20Tracking%20Link&utm_tem=ONLINE_TRACKING_LINK&clickid=yixyKKSnlxyNWW9SSeSuLzkmUkAXZBzX8wKo240",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "b5413a7e-5d03-44ff-818f-68f0522d7fa2",
+        "be9413c9-d88d-40e8-b238-a1340dd64c7e",
+        "29168f80-d680-4b0c-a224-4969fbe488f2",
+        "c67dc3f0-ab97-4037-9002-070e6f537368",
+        "183b6662-591f-406d-b583-6936c814cdca",
+        "67ac0598-96f9-444f-bd3e-ab734b441d86",
+        "455b91fb-a38c-46f2-9f4c-b0ba79b4aa9a",
+        "ee5c2a4a-6c6b-4f66-babd-af4fabe475ef",
+        "81c35f13-799d-49f3-a18b-17cfef58eed9",
+        "2db874c1-c859-4373-b124-273e8347f7d6",
+        "708b4847-572d-4e9f-a5f7-b0cf4f267baa"
+      ],
+      "settings": {
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "fd55b281-5575-48d7-acd9-169baf0d7245": {
+      "type": "custom-two-images-vertical",
+      "settings": {
+        "image1": "shopify://shop_images/Screenshot_2023-05-17_at_5.09.17_PM.png",
+        "top_url": "",
+        "image2": "shopify://shop_images/Screenshot_2023-05-17_at_5.09.33_PM.png",
+        "bottom_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "f6e2defa-9238-4565-b488-dfe1a372ff91": {
+      "type": "footer-new",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify://shop_images/Image_7.png",
+        "image2": "shopify://shop_images/Image_4_ccfc7dd8-1f80-4bc4-b1d1-80291bbcd1fb.png",
+        "title1": "",
+        "link1": "",
+        "title2": "",
+        "link2": "",
+        "title3": "",
+        "link3": "",
+        "title4": "",
+        "link4": "",
+        "html": "<div style='text-align: center; padding: 90px 0;'><h2 class='home__subtitle'>Custom HTML</h2><p>Add your custom HTML here.</p></div>"
+      }
+    },
+    "d0559036-5edc-4c09-ae7a-c903999fa77e": {
+      "type": "new-footer",
+      "disabled": true,
+      "settings": {
+        "image1": "shopify://shop_images/Image_7.png",
+        "image2": "shopify://shop_images/Image_1_0301e4d6-16ea-4ae5-bd3f-57968ebf2564.png",
+        "linktitle_1": "",
+        "link_1": "",
+        "linktitle_2": "",
+        "link_2": "",
+        "linktitle_3": "",
+        "link_3": "",
+        "linktitle_4": "",
+        "link_4": "",
+        "footer_description": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f8817c39-4b80-4469-aec3-184c779f8225",
+    "df1e06d2-f052-41a9-ab09-7ab5939b5c3e",
+    "fd55b281-5575-48d7-acd9-169baf0d7245",
+    "f6e2defa-9238-4565-b488-dfe1a372ff91",
+    "d0559036-5edc-4c09-ae7a-c903999fa77e"
+  ]
+}

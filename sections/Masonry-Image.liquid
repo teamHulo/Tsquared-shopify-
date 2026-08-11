@@ -1,0 +1,80 @@
+<section class="masrony-grid">
+  <div class="wrapper">
+    <div class="masrony-flex">
+      <div class="masrony-item-main" style="order:{{ section.settings.order }}">
+        {% assign productt = all_products[section.settings.myprdt] %}
+        <div class="itms-masrony">
+          <a href="{{ section.settings.urls }}"> <img src="{{ section.settings.myprdt | img_url: 'master' }}"></a>
+        </div>
+      </div>
+      <div class="masrony-item-main">
+        <div class="masrony-flex">
+          {% for block in section.blocks %}
+            {% assign product2 = all_products[block.settings.featured_product] %}
+            <div class="masn-itm">
+              <a href="{{  block.settings.urlss }}">
+                <img src="{{ block.settings.featured_product | img_url: 'master' }}"
+              ></a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Masonry Image",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "label": "Image",
+      "type": "image_picker",
+      "id": "myprdt"
+    },
+    {
+      "label": "URL",
+      "type": "url",
+      "id": "urls"
+    },
+    {
+      "label": "Order",
+      "type": "text",
+      "id": "order"
+    }
+
+  ],
+  "blocks":[
+    {
+      "name": "Masonry Item",
+      "type": "block-1",
+      "settings":[
+    {
+      "label": "Image",
+      "type": "image_picker",
+      "id": "featured_product"
+    },
+        {
+      "label": "URL",
+      "type": "url",
+      "id": "urlss"
+    }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name": "Masonry Image",
+      "category": "Image",
+      "settings":{}
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

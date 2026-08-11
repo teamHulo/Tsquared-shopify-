@@ -1,0 +1,123 @@
+{{ 'section-text-with-video.css' | asset_url | stylesheet_tag }}
+
+<style>
+    #section--{{section.id}} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom}}px;
+    }
+    @media (max-width: 767px) {
+        #section--{{section.id}} {
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+</style>
+
+<text-with-video id="section--{{ section.id }}" class="text-video__wrapper">
+    {% if section.settings.vertical_text != blank %}
+        <div class="vertical-text">{{ section.settings.vertical_text }}</div>
+    {% endif %}
+    <div class="video__wrapper">
+        <video controls preload="none" {% if section.settings.video_poster != blank %}
+            poster="{{ section.settings.video_poster | img_url: '1000x' }}"
+        {% endif %}>
+            <source src="{{ section.settings.video_url }}" typer="video/mp4">
+        </video>
+        <div class="text__wrapper">
+            {% if section.settings.title != blank %}
+                <h2 class="title"><a href="{{ section.settings.btn_url }}">{{ section.settings.title }}</a></h2>
+            {% endif %}
+            {% if section.settings.subtitle != blank %}
+                <p class="subtitle">{{ section.settings.subtitle }}</p>
+            {% endif %}
+        </div>
+    </div>
+</text-with-video>
+
+{% schema %}
+    {
+        "name": "Text with video",
+        "class": "text-with-video",
+        "settings": [
+            {
+                "type": "text",
+                "id": "vertical_text",
+                "label": "Vertical text"
+            },
+            {
+                "type": "url",
+                "id": "video_url",
+                "label": "Video url"
+            },
+            {
+                "type": "image_picker",
+                "id": "video_poster",
+                "label": "Video poster"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+          {
+            "label": "Title Link",
+            "type": "url",
+            "id": "btn_url"
+          },
+            {
+                "type": "text",
+                "id": "subtitle",
+                "label": "Subtitle"
+            },
+            {
+                "type": "header",
+                "content": "Section spacing"
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding top",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding bottom",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_top_mobile",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding top on mobile",
+                "default": 50
+            },
+            {
+                "type": "range",
+                "id": "padding_bottom_mobile",
+                "min":0,
+                "max": 100,
+                "step": 5,
+                "unit": "px",
+                "label": "Padding bottom on mobile",
+                "default": 50
+            }
+        ],
+        "presets": [
+            {
+                "name": "Text with video"
+            }
+        ]
+    }
+{% endschema %}

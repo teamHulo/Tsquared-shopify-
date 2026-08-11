@@ -1,0 +1,156 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+        "kicker": "",
+        "show_title": true,
+        "show_content": true,
+        "text_size": 5,
+        "align_text": "text-center",
+        "height": "margin--zero",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "a85ad526-429d-4fb1-a78b-3ca761430295": {
+      "type": "section-collection-tabs",
+      "disabled": true,
+      "blocks": {
+        "template--15752680046787__a85ad526-429d-4fb1-a78b-3ca761430295-16752739911ba8662b-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "wear"
+          }
+        },
+        "template--15752680046787__a85ad526-429d-4fb1-a78b-3ca761430295-16752739911ba8662b-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Second collection"
+          }
+        },
+        "4b4d99fe-156f-49cc-8515-ab32aecf41bf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "295bbd62-0578-4200-a659-ab06d2f0296d": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "57251795-4164-45bc-b1ce-d14d354de614": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15752680046787__a85ad526-429d-4fb1-a78b-3ca761430295-16752739911ba8662b-0",
+        "template--15752680046787__a85ad526-429d-4fb1-a78b-3ca761430295-16752739911ba8662b-1",
+        "4b4d99fe-156f-49cc-8515-ab32aecf41bf",
+        "295bbd62-0578-4200-a659-ab06d2f0296d",
+        "57251795-4164-45bc-b1ce-d14d354de614"
+      ],
+      "settings": {
+        "title": "collections",
+        "grid": 3,
+        "limit": 6,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "22341d01-39c8-46e1-93ac-42eaf8f9d2d1": {
+      "type": "Gallery-section",
+      "blocks": {
+        "46163c0f-be4c-42ce-b2a5-28b910e31707": {
+          "type": "product-block",
+          "settings": {
+            "image": "shopify://shop_images/Periodicult_1980-1989.jpg",
+            "title": "Title here",
+            "price": "",
+            "link": "#"
+          }
+        },
+        "178de4cb-8591-4c08-ab4f-d266f9465445": {
+          "type": "product-block",
+          "settings": {
+            "image": "shopify://shop_images/Periodicult_1980-1989.jpg",
+            "title": "Title here",
+            "price": "",
+            "link": "#"
+          }
+        },
+        "5528ddb5-7ee2-466a-91fc-00394c475375": {
+          "type": "product-block",
+          "settings": {
+            "image": "shopify://shop_images/Periodicult_1980-1989.jpg",
+            "title": "Title here",
+            "price": "",
+            "link": "#"
+          }
+        },
+        "49796889-18a0-4fe0-a8b5-4fac0594acd1": {
+          "type": "product-block",
+          "settings": {
+            "image": "shopify://shop_images/Periodicult_1980-1989.jpg",
+            "title": "Title here",
+            "price": "",
+            "link": "#"
+          }
+        },
+        "8075d8e0-8dd6-4a11-8632-0b2d2476a1e2": {
+          "type": "product-block",
+          "settings": {
+            "image": "shopify://shop_images/Periodicult_1980-1989.jpg",
+            "title": "Title here",
+            "price": "",
+            "link": "#"
+          }
+        },
+        "8984369b-340b-4804-bb74-7aeb5a286748": {
+          "type": "product-block",
+          "settings": {
+            "image": "shopify://shop_images/Periodicult_1980-1989.jpg",
+            "title": "Title here",
+            "price": "",
+            "link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "46163c0f-be4c-42ce-b2a5-28b910e31707",
+        "178de4cb-8591-4c08-ab4f-d266f9465445",
+        "5528ddb5-7ee2-466a-91fc-00394c475375",
+        "49796889-18a0-4fe0-a8b5-4fac0594acd1",
+        "8075d8e0-8dd6-4a11-8632-0b2d2476a1e2",
+        "8984369b-340b-4804-bb74-7aeb5a286748"
+      ],
+      "settings": {
+        "heading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a85ad526-429d-4fb1-a78b-3ca761430295",
+    "22341d01-39c8-46e1-93ac-42eaf8f9d2d1"
+  ]
+}

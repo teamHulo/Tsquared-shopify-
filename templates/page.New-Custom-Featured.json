@@ -1,0 +1,940 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "show_title": false,
+        "show_content": true,
+        "text_size": 2,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "adc32f16-e564-449f-87a7-3fc04cf6570b": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify://shop_images/Image_10.webp",
+        "path_image": "shopify://shop_images/path.webp",
+        "bg_position": "center-center",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "",
+        "title1": "Featured",
+        "title2": "",
+        "richtext": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "btn"
+      }
+    },
+    "32d963ea-7cc8-4779-a2b3-2b2cf80b8956": {
+      "type": "image-text-grid",
+      "blocks": {
+        "611a40ed-0eb7-4827-a43d-a7ae576bd6e8": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Yolanda_Edwards_Feature_e96ba3a9-88d1-4621-b1fb-eb4715efc11e.jpg",
+            "title": "YOLANDA EDWARDS",
+            "subtitle": "jetset with the ultimate travel expert + YOLO mag founder",
+            "link": "shopify://pages/yolanda-edwards"
+          }
+        },
+        "500d021d-2191-40a6-9d81-6eb0b0ad758a": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Valentina_Hites_Feature_311ec0d9-b6e3-4b95-8687-9d221111012b.jpg",
+            "title": "VALENTINA HITES",
+            "subtitle": "a style so elevated, it takes us to new heights",
+            "link": "shopify://pages/valentina-hites"
+          }
+        },
+        "a15e79ca-82ab-4d45-aa22-ee3d442bd31e": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Teressa_Foglia_Feature_a6035c8f-6666-45c4-a551-3e68d163211d.jpg",
+            "title": "TERESSA FOGLIA",
+            "subtitle": "",
+            "link": "shopify://pages/teressa-foglia"
+          }
+        },
+        "ddc1f527-72a7-459c-a788-9d4ed96fc759": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Sweats_the_City_Elizabeth_Dale_Feature_3e52fdc1-f3b1-4564-8d7a-425a10ff983f.jpg",
+            "title": "SWEATS AND THE CITY",
+            "subtitle": "from blind roommates to bff fitness culture curators,  - they're our go to's for go to's",
+            "link": "shopify://pages/sweats-the-city"
+          }
+        }
+      },
+      "block_order": [
+        "611a40ed-0eb7-4827-a43d-a7ae576bd6e8",
+        "500d021d-2191-40a6-9d81-6eb0b0ad758a",
+        "a15e79ca-82ab-4d45-aa22-ee3d442bd31e",
+        "ddc1f527-72a7-459c-a788-9d4ed96fc759"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "913c996f-1016-4257-b56d-59041130d849": {
+      "type": "image-text-grid",
+      "blocks": {
+        "ac1f0b40-cb9a-4712-a475-4539a7e321d4": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Teressa_Foglia_Feature_a6035c8f-6666-45c4-a551-3e68d163211d.jpg",
+            "title": "TERESSA FOGLIA",
+            "subtitle": "wearer of many hats",
+            "link": "shopify://pages/teressa-foglia"
+          }
+        },
+        "e06b21cd-0b0d-4394-bcf6-58583f56efd3": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Sweats_the_City_Elizabeth_Dale_Feature_3e52fdc1-f3b1-4564-8d7a-425a10ff983f.jpg",
+            "title": "SWEATS AND THE CITY",
+            "subtitle": "",
+            "link": "shopify://pages/sweats-the-city"
+          }
+        }
+      },
+      "block_order": [
+        "ac1f0b40-cb9a-4712-a475-4539a7e321d4",
+        "e06b21cd-0b0d-4394-bcf6-58583f56efd3"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "0e61cdcd-173d-4a80-ab80-01c7ac5a61d6": {
+      "type": "image-text-grid",
+      "blocks": {
+        "6c4b3d6a-3553-4a25-b6d5-11034f1ef8d8": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Stephanie_Covington_Feature_93d01fc8-2ec8-49e1-aeaf-e8214cdba371.jpg",
+            "title": "STEPHANIE COVINGTON",
+            "subtitle": "",
+            "link": "shopify://pages/stephanie-covington"
+          }
+        },
+        "b749f459-bf89-4605-ba54-0a56ff65ea5d": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Sophie_Schaffler_Feature-1_ac114e66-7efd-472f-b729-8fbf92d86b40.jpg",
+            "title": "SOPHIE SCHAFFLER",
+            "subtitle": "",
+            "link": "shopify://pages/sophie-schaffler"
+          }
+        }
+      },
+      "block_order": [
+        "6c4b3d6a-3553-4a25-b6d5-11034f1ef8d8",
+        "b749f459-bf89-4605-ba54-0a56ff65ea5d"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "379c3891-f636-47d7-92d7-f5b9448b310f": {
+      "type": "image-text-grid",
+      "blocks": {
+        "97599a9c-3c16-4877-a389-c479276f5a9a": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-02-20_at_5.34.13_PM.png",
+            "title": "SOPHIE ELGORT",
+            "subtitle": "flip through VOGUE - or click to see things through her lens",
+            "link": "shopify://pages/sophie-elgort"
+          }
+        },
+        "ece547b7-d8b0-4786-8c71-41607a6bed6c": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Skylar_Maio_Feature_dc07f121-a476-4718-8410-2a8b1f3ca2d0.jpg",
+            "title": "SKYLAR MAIO",
+            "subtitle": "",
+            "link": "shopify://pages/skylar-maio"
+          }
+        }
+      },
+      "block_order": [
+        "97599a9c-3c16-4877-a389-c479276f5a9a",
+        "ece547b7-d8b0-4786-8c71-41607a6bed6c"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "03a1b8ee-66cf-4ae4-bed2-9d75c627cb55": {
+      "type": "image-text-grid",
+      "blocks": {
+        "558e1d96-ea14-491e-b9ba-d6f269484703": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/SOCO_Feature_1a3a6563-0376-4e38-90b3-339bec107a11.jpg",
+            "title": "SOCO",
+            "subtitle": "",
+            "link": "shopify://pages/shop-soco-1"
+          }
+        },
+        "b456a6f5-656e-46aa-955c-19a90f880db2": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/SFK_Feature_048d7e63-137f-4196-8000-3099423c021f.jpg",
+            "title": "SFK",
+            "subtitle": "the queen of confidence has saved you a seat at her throne",
+            "link": "shopify://pages/sfk"
+          }
+        }
+      },
+      "block_order": [
+        "558e1d96-ea14-491e-b9ba-d6f269484703",
+        "b456a6f5-656e-46aa-955c-19a90f880db2"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "193532d3-ac18-4e29-9f9e-980fef6a890e": {
+      "type": "image-text-grid",
+      "blocks": {
+        "4e6181b6-19b0-4d51-9e84-a1f5f1515667": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Sarah_Levine_Feature_96589656-d8e8-406b-83b2-8cc48913c8f5.jpg",
+            "title": "SARAH LEVINE",
+            "subtitle": "",
+            "link": "shopify://pages/sarah-levine"
+          }
+        },
+        "528a0137-e5c1-4fe0-853e-cc98e9d11fca": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Sammy_Ferris_Feature_7fa91e85-a082-41ca-8fc4-f93b60445792.jpg",
+            "title": "SAMMY FERRIS",
+            "subtitle": "",
+            "link": "shopify://pages/sammy-ferris"
+          }
+        }
+      },
+      "block_order": [
+        "4e6181b6-19b0-4d51-9e84-a1f5f1515667",
+        "528a0137-e5c1-4fe0-853e-cc98e9d11fca"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "a81fc261-7356-4207-a050-4100907d5006": {
+      "type": "image-text-grid",
+      "blocks": {
+        "e0d1321f-19a0-4dc7-8c1e-7833358781e1": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Ruthie_Friedlander_Feature_fa08169a-3f1b-43f2-94a5-6509b387f21d.jpg",
+            "title": "RUTHIE FRIEDLANDER",
+            "subtitle": "",
+            "link": "shopify://pages/ruthie-friedlander"
+          }
+        },
+        "169225c6-32b2-44c7-b7d1-d9cf57c0a1b6": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Ruby_Saracino_Feature_54b62798-48bd-4982-bea8-2f48a126ada3.jpg",
+            "title": "RUBY SARACINO",
+            "subtitle": "",
+            "link": "shopify://pages/ruby-saracino"
+          }
+        }
+      },
+      "block_order": [
+        "e0d1321f-19a0-4dc7-8c1e-7833358781e1",
+        "169225c6-32b2-44c7-b7d1-d9cf57c0a1b6"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "916ab42d-f2e5-4391-8d78-cf03994e194f": {
+      "type": "image-text-grid",
+      "blocks": {
+        "d566e47d-39c8-4a13-a7c7-b281f418c56c": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Quincy_Morgan_Feature_e6452920-b798-4afd-b119-5af4be5d2a3f.jpg",
+            "title": "QUINCY MORGAN",
+            "subtitle": "",
+            "link": "shopify://pages/quincy-morgan"
+          }
+        },
+        "2754e15a-9dd6-496b-ba69-80577f0d0963": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/PJ_Middleton_Feature_0321eb7d-e601-4134-8c5c-47ad648b40d3.jpg",
+            "title": "PJ MIDDLETON",
+            "subtitle": "",
+            "link": "shopify://pages/pj-middleton"
+          }
+        }
+      },
+      "block_order": [
+        "d566e47d-39c8-4a13-a7c7-b281f418c56c",
+        "2754e15a-9dd6-496b-ba69-80577f0d0963"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "2ae4ee59-dc60-4e7c-81db-7d52960d4ad0": {
+      "type": "image-text-grid",
+      "blocks": {
+        "b616b93b-fafc-4621-aa35-0336102c1e52": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Peyton_Spolansky_Feature_de227f4d-7528-42da-9660-d01f787a120f.jpg",
+            "title": "PEYTON SPOLANSKY",
+            "subtitle": "",
+            "link": "shopify://pages/peyton-spolansky"
+          }
+        },
+        "fcb7c87b-c917-4a4f-81d4-c95ea7e56fe5": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Petra_Rose_Feature_b5a65f69-6036-4676-8467-f81fe90486f9.jpg",
+            "title": "PETRA ROSE",
+            "subtitle": "",
+            "link": "shopify://pages/petra-rose"
+          }
+        }
+      },
+      "block_order": [
+        "b616b93b-fafc-4621-aa35-0336102c1e52",
+        "fcb7c87b-c917-4a4f-81d4-c95ea7e56fe5"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "2fb1ec4d-2578-4e2b-bd5d-fb5d0279999b": {
+      "type": "image-text-grid",
+      "blocks": {
+        "c77c75a4-b014-481e-ba8f-c0c63d171d18": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Natalie_Obradovich_Feature_e5a4ba74-2bba-40e1-8fd9-f45f93abcf16.jpg",
+            "title": "NATALIE OBRADOVICH",
+            "subtitle": "",
+            "link": "shopify://pages/natalie-obradovich"
+          }
+        },
+        "6246a26f-55c3-4391-b4e0-7366f093ec77": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Natalie_Barbu_Feature_6c038bf6-8df4-4c01-b4ba-8ef373207c2a.jpg",
+            "title": "NATALIE BARBU",
+            "subtitle": "",
+            "link": "shopify://pages/natalie-barbu"
+          }
+        }
+      },
+      "block_order": [
+        "c77c75a4-b014-481e-ba8f-c0c63d171d18",
+        "6246a26f-55c3-4391-b4e0-7366f093ec77"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "1c334da7-c994-4f3a-9874-1004b8e64ff6": {
+      "type": "image-text-grid",
+      "blocks": {
+        "1c08365b-5c30-4198-9036-a939897da99d": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Natalie_Steen_The_Nat_Note_Feature_Image_ba60bb8b-b02e-4250-a7cb-bbf5b3b1cbd8.jpg",
+            "title": "THE NAT NOTE",
+            "subtitle": "",
+            "link": "shopify://pages/nat-note"
+          }
+        },
+        "e13a7366-0149-4a7f-b519-36e827bd8ff3": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Lou_Wright_Feature_Image_210624ac-0390-4c4b-8f7a-9015198d861b.jpg",
+            "title": "LOU WRIGHT",
+            "subtitle": "",
+            "link": "shopify://pages/raeharrison"
+          }
+        }
+      },
+      "block_order": [
+        "1c08365b-5c30-4198-9036-a939897da99d",
+        "e13a7366-0149-4a7f-b519-36e827bd8ff3"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "3033dd7f-6f33-4d72-916c-82717aa88b3c": {
+      "type": "image-text-grid",
+      "blocks": {
+        "b271c6c6-da91-4399-b1c1-6c41365d71b6": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Lizzie_Hanes_Feature_8604e6c3-9850-4b2a-95d4-d702f397bf2b.jpg",
+            "title": "LIZZIE HANES",
+            "subtitle": "you've never seen a brighter glow",
+            "link": "shopify://pages/lizzie-hanes"
+          }
+        },
+        "7a03279c-7265-4373-a656-ef1b3dcd2921": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-02-20_at_4.41.23_PM.png",
+            "title": "LINDSEY METSELAAR",
+            "subtitle": "",
+            "link": "shopify://pages/lindsey-metselaar"
+          }
+        }
+      },
+      "block_order": [
+        "b271c6c6-da91-4399-b1c1-6c41365d71b6",
+        "7a03279c-7265-4373-a656-ef1b3dcd2921"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "00708ee2-3994-4d98-a721-e5195a1f3ced": {
+      "type": "image-text-grid",
+      "blocks": {
+        "72a32d2a-9568-476e-9a52-7b8961eabafe": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Lilly_Sisto_Feature_eaf544a3-d601-4b39-8ecd-73ad5b327d31.jpg",
+            "title": "LILLY SISTO",
+            "subtitle": "",
+            "link": "shopify://pages/lilly-sisto"
+          }
+        },
+        "cfa25fb3-e6a6-4067-8163-cffab84db730": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Lilah_Ramzi_Feature_3e730d37-c5b4-4bd5-a1c2-9ba2ad2c0d5e.jpg",
+            "title": "LILAH RAMZI",
+            "subtitle": "",
+            "link": "shopify://pages/lilah-ramzi"
+          }
+        }
+      },
+      "block_order": [
+        "72a32d2a-9568-476e-9a52-7b8961eabafe",
+        "cfa25fb3-e6a6-4067-8163-cffab84db730"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "ee4aab42-96a8-4b23-aff4-49267fe9a3b6": {
+      "type": "image-text-grid",
+      "blocks": {
+        "6c3a6f65-13aa-40d7-b3c4-4ff5b74fdc06": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Kit_Keenan_Feature_27a4c653-1168-45cc-bb53-001f9ec2b937.jpg",
+            "title": "KIT KEENAN",
+            "subtitle": "",
+            "link": "shopify://pages/kit-keenan"
+          }
+        },
+        "8a1faf2c-26e7-4fc5-8623-b028d476ccee": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Katie_McEvoy_Feature_4aa2a52b-1912-4232-92bc-7b01b5982963.jpg",
+            "title": "KATIE MCEVOY",
+            "subtitle": "",
+            "link": "shopify://pages/katie-mckevoy"
+          }
+        }
+      },
+      "block_order": [
+        "6c3a6f65-13aa-40d7-b3c4-4ff5b74fdc06",
+        "8a1faf2c-26e7-4fc5-8623-b028d476ccee"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "38ce3e51-0651-492a-b986-df7256e9477c": {
+      "type": "image-text-grid",
+      "blocks": {
+        "6a5e1034-ee86-44fd-a17a-768df4608818": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-02-20_at_4.19.44_PM.png",
+            "title": "KAKI GAINES",
+            "subtitle": "",
+            "link": "shopify://pages/kaki-gaines"
+          }
+        },
+        "f4194826-0294-4a4c-8fb2-d565812b53fa": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Jonesy_Wilbanks_Feature_8dac8467-ae52-4e59-aec4-ea897c6c094f.jpg",
+            "title": "JONSEY WILBANKS",
+            "subtitle": "",
+            "link": "shopify://pages/jonsey-wilbanks"
+          }
+        }
+      },
+      "block_order": [
+        "6a5e1034-ee86-44fd-a17a-768df4608818",
+        "f4194826-0294-4a4c-8fb2-d565812b53fa"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "7765fde6-a322-4156-9407-a6bfbe26ea9e": {
+      "type": "image-text-grid",
+      "blocks": {
+        "189e7f96-918c-4387-b74d-6472b7c41864": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Isabel_Janie_Molster_Feature_Images_Duo_Feature_-2_1_99f7b15c-085f-43be-8ff5-6b7e417f3b8a.jpg",
+            "title": "ISABEL AND JANIE MOLSTER",
+            "subtitle": "",
+            "link": "shopify://pages/isabel-janie-molster"
+          }
+        },
+        "0c302198-8bd0-4100-a2ce-012411028b94": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Ireland_Hudson_Top_Ten_d8afc8d5-bad7-473e-ad0a-6c0eec700a67.jpg",
+            "title": "IRELAND HUDSON",
+            "subtitle": "",
+            "link": "shopify://pages/ireland-hudson"
+          }
+        }
+      },
+      "block_order": [
+        "189e7f96-918c-4387-b74d-6472b7c41864",
+        "0c302198-8bd0-4100-a2ce-012411028b94"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "fd82d593-279a-48be-a2f1-6ab19611b4a3": {
+      "type": "image-text-grid",
+      "blocks": {
+        "46d825c9-ac46-4af3-b3ff-4fe4ee5297d6": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Hope_Chilton_Feature_bc3a3f80-4053-480b-b79e-6345bb916f16.jpg",
+            "title": "HOPE CHILTON",
+            "subtitle": "",
+            "link": "shopify://pages/hope-chilton"
+          }
+        },
+        "88ff2b28-6cbb-4236-9a8b-c37b30990a90": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Hannah_Bucknam_Feature_13bf3ff3-87f9-49f2-8de5-477cb32795db.jpg",
+            "title": "HANNAH BUCKNAM",
+            "subtitle": "",
+            "link": "shopify://pages/hannah-bucknam"
+          }
+        }
+      },
+      "block_order": [
+        "46d825c9-ac46-4af3-b3ff-4fe4ee5297d6",
+        "88ff2b28-6cbb-4236-9a8b-c37b30990a90"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "55021c04-41f9-47ee-923c-b7532a07de5e": {
+      "type": "image-text-grid",
+      "blocks": {
+        "616fb188-1103-48db-80ab-7723bc234516": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Haley_Carrere_Feature_2cae064d-752f-426d-a66c-69018066190e.jpg",
+            "title": "HALEY CARRERE",
+            "subtitle": "",
+            "link": "shopify://pages/haley-carrere"
+          }
+        },
+        "6da192ae-a617-410c-8e59-958be79478a3": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Grace_Brosnan_Feature_0e7b6c2a-c1db-4b2b-9f64-8529f6286937.jpg",
+            "title": "GRACE BROSNAN",
+            "subtitle": "",
+            "link": "shopify://pages/grace-brosnan"
+          }
+        }
+      },
+      "block_order": [
+        "616fb188-1103-48db-80ab-7723bc234516",
+        "6da192ae-a617-410c-8e59-958be79478a3"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "d9d96553-7c01-4dee-a6d8-3c0fa15f0f72": {
+      "type": "image-text-grid",
+      "blocks": {
+        "0ad6d74c-afc1-4f84-9d45-cce963562abc": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Gillian_Goldsmith_Feature_1.jpg",
+            "title": "GILLIAN GOLDSMITH",
+            "subtitle": "",
+            "link": "shopify://pages/gillian-goldsmith"
+          }
+        },
+        "5963e376-ca62-4d60-b4b2-c072fffbbe51": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Erica_Coven_Feature_778dfa3e-cfa7-49fb-a759-e60c6bae7a73.jpg",
+            "title": "ERICA COVEN",
+            "subtitle": "",
+            "link": "shopify://pages/erica-coven"
+          }
+        },
+        "c236978b-036a-4c59-bbbb-88b62761cd16": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0ad6d74c-afc1-4f84-9d45-cce963562abc",
+        "5963e376-ca62-4d60-b4b2-c072fffbbe51",
+        "c236978b-036a-4c59-bbbb-88b62761cd16"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "00273ebc-3b90-46b3-9bad-cb01916729d7": {
+      "type": "image-text-grid",
+      "blocks": {
+        "eb83f708-92ee-40e8-8d2c-ba1fc4b11413": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-02-20_at_3.57.02_PM.png",
+            "title": "EMILY MEDVIN",
+            "subtitle": "",
+            "link": "shopify://pages/emily-medvin"
+          }
+        },
+        "0bc005ad-27ab-4a3a-a24d-8e3f192d9e62": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Eloise_York_Feature_d2f6d3c8-1fc0-4db2-b21a-ced120d28338.jpg",
+            "title": "ELOISE YORK",
+            "subtitle": "",
+            "link": "shopify://pages/eloise-york"
+          }
+        }
+      },
+      "block_order": [
+        "eb83f708-92ee-40e8-8d2c-ba1fc4b11413",
+        "0bc005ad-27ab-4a3a-a24d-8e3f192d9e62"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "cf980a80-99d0-4a29-aee5-d0d178efcbab": {
+      "type": "image-text-grid",
+      "blocks": {
+        "6ac50ebb-ef31-4f0f-88fb-f416994ca1fe": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Eliza_Davis_Feature_Image_c9dea191-d9d9-4707-99fb-091d54052db1.jpg",
+            "title": "ELIZA DAVIS",
+            "subtitle": "",
+            "link": "shopify://pages/eliza-davis"
+          }
+        },
+        "03ebfd5b-9434-48ea-b53d-42d1da173ec2": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Elisee_Browchuk_Feature_43f20573-3ee5-4664-9b01-a621a988c9a9.jpg",
+            "title": "ELISEE BROWCHUK",
+            "subtitle": "",
+            "link": "shopify://pages/elisee-browchuk"
+          }
+        }
+      },
+      "block_order": [
+        "6ac50ebb-ef31-4f0f-88fb-f416994ca1fe",
+        "03ebfd5b-9434-48ea-b53d-42d1da173ec2"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "6cbc639f-3802-475e-84fe-f155db272762": {
+      "type": "image-text-grid",
+      "blocks": {
+        "2107ba10-8671-433f-8924-64ad853f1971": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Edith_Young_Feature_9fa894d7-82b4-4f95-b113-22cec26061a1.jpg",
+            "title": "EDITH YOUNG",
+            "subtitle": "",
+            "link": "shopify://pages/edith-young"
+          }
+        },
+        "ff837f03-7e38-4d69-b2ea-e9bde40ecc71": {
+          "type": "product_caption",
+          "settings": {
+            "image": "shopify://shop_images/Dax_Seidlin_Feature_Image_75af706d-8091-4eab-a6e8-d2be6ac04b5f.jpg",
+            "title": "DAX SEIDLIN",
+            "subtitle": "",
+            "link": "shopify://pages/dax-seidlin"
+          }
+        }
+      },
+      "block_order": [
+        "2107ba10-8671-433f-8924-64ad853f1971",
+        "ff837f03-7e38-4d69-b2ea-e9bde40ecc71"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "grid_title": "",
+        "desktop_margin_top": 10,
+        "desktop_margin_bottom": 10,
+        "mobile_margin_top": 10,
+        "mobile_margin_bottom": 10,
+        "bg": "palette--light bg--neutral"
+      }
+    },
+    "779a6d2e-39f8-4482-b84d-48364e078b20": {
+      "type": "tab_blogs",
+      "disabled": true,
+      "blocks": {
+        "a0d7ad30-0dd1-40f1-acb1-b65fa77bd67e": {
+          "type": "block-1",
+          "settings": {
+            "link__url": "shopify://pages/new-agee-test",
+            "tab_ttl": "Agee",
+            "access": ""
+          }
+        }
+      },
+      "block_order": [
+        "a0d7ad30-0dd1-40f1-acb1-b65fa77bd67e"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "adc32f16-e564-449f-87a7-3fc04cf6570b",
+    "32d963ea-7cc8-4779-a2b3-2b2cf80b8956",
+    "913c996f-1016-4257-b56d-59041130d849",
+    "0e61cdcd-173d-4a80-ab80-01c7ac5a61d6",
+    "379c3891-f636-47d7-92d7-f5b9448b310f",
+    "03a1b8ee-66cf-4ae4-bed2-9d75c627cb55",
+    "193532d3-ac18-4e29-9f9e-980fef6a890e",
+    "a81fc261-7356-4207-a050-4100907d5006",
+    "916ab42d-f2e5-4391-8d78-cf03994e194f",
+    "2ae4ee59-dc60-4e7c-81db-7d52960d4ad0",
+    "2fb1ec4d-2578-4e2b-bd5d-fb5d0279999b",
+    "1c334da7-c994-4f3a-9874-1004b8e64ff6",
+    "3033dd7f-6f33-4d72-916c-82717aa88b3c",
+    "00708ee2-3994-4d98-a721-e5195a1f3ced",
+    "ee4aab42-96a8-4b23-aff4-49267fe9a3b6",
+    "38ce3e51-0651-492a-b986-df7256e9477c",
+    "7765fde6-a322-4156-9407-a6bfbe26ea9e",
+    "fd82d593-279a-48be-a2f1-6ab19611b4a3",
+    "55021c04-41f9-47ee-923c-b7532a07de5e",
+    "d9d96553-7c01-4dee-a6d8-3c0fa15f0f72",
+    "00273ebc-3b90-46b3-9bad-cb01916729d7",
+    "cf980a80-99d0-4a29-aee5-d0d178efcbab",
+    "6cbc639f-3802-475e-84fe-f155db272762",
+    "779a6d2e-39f8-4482-b84d-48364e078b20"
+  ]
+}

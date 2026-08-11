@@ -1,0 +1,27 @@
+.section-heading{
+  padding:20px 10px;
+}
+.product-list{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  flex-wrap:wrap;
+  width:100%;
+  max-width:100%;
+}
+.product-item{
+  display:block;
+  width:25%;
+  max-width:25%;
+  padding:10px;
+}
+.product-item img{
+  width:100%;
+  max-width:100%;
+}
+@media screen and (max-width:768px){
+  .product-item{
+    width:100%;
+    max-width:100%;
+  }
+}

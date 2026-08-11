@@ -1,0 +1,84 @@
+.text-video__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-video__wrapper .vertical-text {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  transform: translate(0, -50%) rotate(-90deg);
+  font-family: "Poppins-Regular" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  text-align: center;
+  color: #090909;
+  max-width: 300px;
+}
+
+.text-video__wrapper .video__wrapper {
+  width: 50%;
+}
+
+.text-video__wrapper .video__wrapper video {
+  width: 100%;
+}
+
+.text-video__wrapper .video__wrapper .text__wrapper {
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  margin-top: 15px;
+  padding: 26px 0 20px 0;
+}
+
+.text-video__wrapper .video__wrapper .text__wrapper .title {
+  font-family: "Poppins-Regular" !important;
+  text-transform: none !important;
+  font-size: 43px;
+  font-weight: bold;
+  line-height: 1;
+  font-style: normal;
+  text-align: left;
+  color: #171717;
+}
+
+.text-video__wrapper .video__wrapper .text__wrapper .subtitle {
+  font-family: "Futura" !important;
+/*   font-family: "BebasNeue-Regular" !important; */
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  font-style: normal;
+  text-align: left;
+  color: #171717;
+  margin-top: 67px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .text-video__wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .text-video__wrapper .vertical-text {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+  }
+  .text-video__wrapper .video__wrapper {
+    width: 90%;
+  }
+  .text-video__wrapper .video__wrapper .text__wrapper .title {
+    font-size: 26px;
+  }
+
+  .text-video__wrapper .video__wrapper .text__wrapper .subtitle {
+    margin-top: 20px;
+  }
+}

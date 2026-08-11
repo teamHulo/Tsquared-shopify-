@@ -1,0 +1,74 @@
+{{ 'section-custom-two-images-vertical.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .section-html-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+</style>
+
+<div class="vertical-two-images section-html-{{ section.id }}">
+  <div class="top-image">
+    <a href="{{ section.settings.top_url }}">
+      <img src="{{ section.settings.image1 | img_url:'master' }}" class="top-image" alt="top-image">
+    </a>
+  </div>
+  <div class="bottom-image">
+    <a href="{{ section.settings.bottom_url }}">
+      <img src="{{ section.settings.image2 | img_url:'master' }}" alt="bottom-image">
+    </a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Vertical Two Images",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Top Image"
+    },
+    {
+      "type": "url",
+      "id": "top_url",
+      "label": "Top Url"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Bottom Image"
+    },
+    {
+      "type": "url",
+      "id": "bottom_url",
+      "label": "Bottom Url"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 10,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Top",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 10,
+      "max": 600,
+      "step": 10,
+      "unit": "px",
+      "label": "Padding Bottom",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vertical Two Images"
+    }
+  ]
+}
+{% endschema %}
