@@ -1,0 +1,99 @@
+.section-split-hero  {
+    overflow: hidden;
+}
+
+.section-split-hero__wrap {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.section-split-hero__wrap .title h2 {
+    margin:0;
+}
+
+.section-split-hero__wrap .grid-blocks {
+    display: flex;
+    gap:20px;
+}
+
+.section-split-hero__wrap .grid-blocks .content {
+   width: 59.321%;
+}
+.section-split-hero__wrap .grid-blocks:has(.image-item) .content {
+    padding-top:clamp(20px, 6.64vw, 85px);
+}
+.section-split-hero__wrap .grid-blocks .content .content__wrap {
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    max-width: 700px;
+}
+
+.section-split-hero__wrap .grid-blocks .content .content__wrap .title h3 {
+    margin:0;
+    text-transform: none;
+}
+.section-split-hero__wrap .grid-blocks .content .content__wrap .text p {
+    margin:0;
+    max-width: 458px;
+}
+
+.section-split-hero__wrap .grid-blocks .image-item {
+    flex:1;
+}
+
+.section-split-hero__wrap .grid-blocks .image-item .image__wrap {
+    padding-top:85%;
+}
+
+.section-split-hero__wrap .grid-blocks .content .btn__wrap {
+    align-items: center;
+    gap:20px;
+}
+.section-split-hero__wrap .grid-blocks .image__wrap-split img {
+    object-fit: contain;
+    width: 79.8%;
+    height: 103.25%;
+}
+.section-split-hero__wrap .grid-blocks .image__wrap-split img:first-child {
+    transform: rotate(-2.975deg);
+    left:-10%;
+}
+.section-split-hero__wrap .grid-blocks .image__wrap-split img:last-child {
+    transform: rotate(13.444deg);
+    left: 25%;
+    top: -6%;
+    
+
+}
+@media (max-width:767px) {
+    .section-split-hero__wrap .grid-blocks:has(.image-item + .content) {
+        flex-direction: column;
+    }
+    .section-split-hero__wrap .grid-blocks {
+        flex-direction: column-reverse;
+        gap:0;
+    }
+    .section-split-hero__wrap .grid-blocks:has(.image-item) .content {
+        padding-top:20px;
+    }
+    .section-split-hero__wrap .grid-blocks .content {
+        width: 100%;
+    }
+    .section-split-hero__wrap .grid-blocks .image__wrap-split img:last-child {
+        left: 31%;
+    }
+}
+
+@media (max-width:500px) {
+    .section-split-hero__wrap .grid-blocks .content .btn__wrap {
+        flex-wrap:wrap;
+        flex-direction: column;
+
+    }
+    .section-split-hero__wrap .grid-blocks .content .btn__wrap a {
+        width: 100%;
+        white-space: nowrap;
+    }
+}

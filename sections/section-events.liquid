@@ -1,0 +1,89 @@
+{{ 'section-events.css' |  asset_url | stylesheet_tag }}
+{%  assign events = section.settings.events %}
+{% if events != blank %}
+    <div class="section-events color-{{ section.settings.color_scheme }}">
+        <div class="section-events__wrap">
+            {%  assign count =  0 %}
+            {% for event in events %}
+                {%  assign count = count | plus: 1 %} 
+                {% if count == 1 %}
+                    <div class="events-row">
+                        <div class="container">
+                {% endif %}
+                    <div class="event-item">
+                        <div class="event-item__wrap">
+                            <div class="media">
+                                {% for img in event.images.value %}
+                                    <div class="image">
+                                        <div class="image__wrap">
+                                            <img src="{{ img |  image_url: width: img.width }}" alt="{{ event.event_name }}">
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                            <div class="content">
+                                <div class="heading">
+                                    <div class="title">
+                                        <h3>
+                                            {{ event.event_name }}
+                                        </h3>
+                                    </div>
+                                    <div class="location">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.601 21.799C14.461 20.193 20 14.993 20 10C20 7.87827 19.1571 5.84344 17.6569 4.34315C16.1566 2.84285 14.1217 2 12 2C9.87827 2 7.84344 2.84285 6.34315 4.34315C4.84285 5.84344 4 7.87827 4 10C4 14.993 9.539 20.193 11.399 21.799C11.5723 21.9293 11.7832 21.9998 12 21.9998C12.2168 21.9998 12.4277 21.9293 12.601 21.799Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+
+                                        <span>
+                                            {{ event.location }}
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="description">
+                                    <p>
+                                        {{ event.description }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% if count == 2 or forloop.last%}
+                        </div>
+                    </div>
+                    {%  assign count =  0 %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Section events",
+  "tag": "section",
+  "class": "section new-shopify-section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "color scheme",
+      "default": "scheme-1"
+    },
+    {
+        "type": "metaobject_list",
+        "id": "events",
+        "label": "events",
+        "metaobject_type": "events"
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "Section events"
+    }
+  ]
+}
+{% endschema %}

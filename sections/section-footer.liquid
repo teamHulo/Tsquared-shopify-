@@ -1,0 +1,330 @@
+{{ 'section-footer.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .footer {
+      margin-top: {{ section.settings.margin_top }}px;
+    }
+
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  <div class="footer__content-top">
+    <div class="container">
+      <div class="footer__content-top__wrap">
+
+        {% if section.settings.img != blank %}
+          <div class="image">
+            <div class="image__wrap">
+              <img
+                src="{{ section.settings.img | image_url: width: section.settings.img.width }}"
+                alt="{{ section.settings.img.alt | escape }}"
+                loading="lazy"
+                width="{{ section.settings.img.width }}"
+                height="{{ section.settings.img.height }}"
+              >
+            </div>
+          </div>
+        {% endif %}
+
+        {% if section.blocks.size > 0 %}
+          <div
+            class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+            {% endif %}
+          >
+            {% for block in section.blocks %}
+              <div
+                class="footer-block grid__item footer-block--menu{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style="--animation-order: {{ forloop.index }};"
+                {% endif %}
+              >
+                {% if block.settings.heading != blank %}
+                  <h2 class="footer-block__heading inline-richtext">
+                    {{ block.settings.heading }}
+                  </h2>
+                {% endif %}
+
+                {% if block.settings.menu != blank %}
+                  <ul class="footer-block__details-content list-unstyled">
+                    {% for link in block.settings.menu.links %}
+                      <li>
+                        <a
+                          href="{{ link.url }}"
+                          class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                        >
+                          {{ link.title | escape }}
+                        </a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        {% if section.settings.newsletter_enable %}
+          <div class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <div class="footer-block__newsletter">
+
+              {% if section.settings.newsletter_title != blank %}
+                <div class="title">
+                  <h2 class="h3">
+                    {{ section.settings.newsletter_title }}
+                  </h2>
+                </div>
+              {% endif %}
+
+              {% if section.settings.newsletter_heading != blank %}
+                <p>
+                  {{ section.settings.newsletter_heading }}
+                </p>
+              {% endif %}
+
+              {% form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' %}
+
+                <input type="hidden" name="contact[tags]" value="newsletter">
+
+                <div class="newsletter-form__field-wrapper">
+                  <div class="field-group">
+
+                    <div class="field">
+                      <input
+                        id="NewsletterForm--{{ section.id }}"
+                        type="email"
+                        name="contact[email]"
+                        class="field__input"
+                        value="{{ form.email }}"
+                        aria-required="true"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        autocomplete="email"
+                        {% if form.errors %}
+                          autofocus
+                          aria-invalid="true"
+                          aria-describedby="ContactFooter-error"
+                        {% elsif form.posted_successfully? %}
+                          aria-describedby="ContactFooter-success"
+                        {% endif %}
+                        placeholder="Your email address"
+                        required
+                      >
+
+                      <label
+                        class="field__label"
+                        for="NewsletterForm--{{ section.id }}"
+                      >
+                        Your email address
+                      </label>
+                    </div>
+
+                    <button
+                      type="submit"
+                      class="btn"
+                      name="commit"
+                      id="Subscribe"
+                      aria-label="Submit"
+                    >
+                      <span>
+                        Submit →
+                      </span>
+                    </button>
+
+                  </div>
+
+                  {% if form.errors %}
+                    <small
+                      class="newsletter-form__message form__message"
+                      id="ContactFooter-error"
+                    >
+                      <span class="svg-wrapper">
+                        {{ 'icon-error.svg' | inline_asset_content }}
+                      </span>
+
+                      {{ form.errors.translated_fields.email | capitalize }}
+                      {{ form.errors.messages.email }}
+                    </small>
+                  {% endif %}
+
+                </div>
+
+                {% if form.posted_successfully? %}
+                  <h3
+                    class="newsletter-form__message newsletter-form__message--success form__message"
+                    id="ContactFooter-success"
+                    tabindex="-1"
+                    autofocus
+                  >
+                    <span class="svg-wrapper">
+                      {{ 'icon-success.svg' | inline_asset_content }}
+                    </span>
+
+                    Thanks for subscribing!
+                  </h3>
+                {% endif %}
+
+              {% endform %}
+
+            </div>
+          </div>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+    <div class="container">
+
+      <div class="footer__content-bottom-wrapper footer__content-bottom-wrapper--center">
+
+        <div class="footer__copyright caption">
+          <small class="copyright__content mini">
+            &copy; {{ 'now' | date: '%Y' }} TSquared Platforms LLC
+          </small>
+        </div>
+
+        {% if section.settings.message != blank %}
+          <p class="mini">
+            {{ section.settings.message }}
+          </p>
+        {% endif %}
+
+        <div class="policy-links">
+          <a
+            class="mini"
+            href="/policies/privacy-policy"
+          >
+            Privacy Policy
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "class":"new-shopify-section",
+  "blocks": [
+    {
+      "type": "link_list",
+      "name": "Link list",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Learn",
+          "label": "Heading"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "Menu"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image logo"
+    },
+    {
+      "type": "header",
+      "content": "Newsletter"
+    },
+    {
+      "type": "checkbox",
+      "id": "newsletter_enable",
+      "default": true,
+      "label": "Show newsletter signup"
+    },
+    {
+      "type": "text",
+      "id": "newsletter_title",
+      "label": "Newsletter title",
+      "default": "Join the List"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "newsletter_heading",
+      "default": "Lorem ipsum dolor sit amet consectetur. Massa sollicitudin etiam in nunc malesuada mollis.",
+      "label": "Newsletter heading"
+    },
+    {
+      "type": "text",
+      "id": "message",
+      "label": "Footer bottom message",
+      "default": "We may make a commission on some links from this site"
+    },
+    {
+      "type": "header",
+      "content": "Section padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 36
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "link_list",
+        "settings": {
+          "heading": "Learn"
+        }
+      },
+      {
+        "type": "link_list",
+        "settings": {
+          "heading": "Follow Us"
+        }
+      }
+    ]
+  }
+}
+{% endschema %}

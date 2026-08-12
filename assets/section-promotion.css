@@ -1,0 +1,40 @@
+.section-promotion {
+    position: relative;
+}
+.section-promotion .bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.section-promotion__wrap {
+    min-height: 454px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:clamp(20px, 3.125vw, 40px);
+    max-width: 700px;
+    margin:0 auto;
+    padding:clamp(50px, 9.688vw, 250px) 0;
+}
+
+.section-promotion__wrap .title {
+    margin:0;
+}
+.section-promotion__wrap .title h2 {
+    margin:0;
+    text-align: center;
+}
+.section-promotion__wrap .text p {
+    margin:0;
+    text-align: center;
+}
+
+.section-promotion__wrap .btn__wrap {
+    justify-content: center;
+}
+

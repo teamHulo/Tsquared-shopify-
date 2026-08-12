@@ -102,101 +102,75 @@
     {% render 'css-variables' %}
 
     {{ 'theme.css' | asset_url | stylesheet_tag }}
-
+    {{ 'global-style.css' | asset_url | stylesheet_tag}}
     <script>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    let root = '{{ routes.root_url }}';
-    if (root[root.length - 1] !== '/') {
-      root = `${root}/`;
-    }
-    var theme = {
-      routes: {
-        root_url: root,
-        cart: '{{ routes.cart_url }}',
-        cart_add_url: '{{ routes.cart_add_url }}',
-        product_recommendations_url: '{{ routes.product_recommendations_url }}',
-        account_addresses_url: '{{ routes.account_addresses_url }}'
-      },
-      assets: {
-        photoswipe: '{{ "photoswipe.js" | asset_url }}',
-        smoothscroll: '{{ "smoothscroll.js" | asset_url }}',
-        swatches: '{{ "swatches.json" | asset_url }}',
-        noImage: '{{ "nil" | img_url: "master" }}',
-        base: '{{ "nil.jpg" | asset_url | split: "nil.jpg" | first }}'
-      },
-      strings: {
-        swatchesKey: {{ 'general.swatches.color' | t | json }},     
-        addToCart: {{ 'products.product.add_to_cart' | t | json }},
-        estimateShipping: {{ 'cart.shipping.estimate_shipping' | t | json }},
-        noShippingAvailable: {{ 'cart.shipping.no_shipping_available' | t | json }},
-        free: {{ 'cart.shipping.free' | t | json }},
-        from: {{ 'products.general.from' | t | json }},
-        preOrder: {{ 'products.product.pre_order' | t | json }},
-        soldOut: {{ 'products.product.sold_out' | t | json }},
-        sale: {{ 'products.product.sale' | t | json }},
-        subscription: {{ 'products.product.subscription' | t | json }},
-        unavailable: {{ 'products.product.unavailable' | t | json }},
-        unitPrice: {{ 'products.product.unit_price_label' | t | json }},
-        unitPriceSeparator: {{ 'general.accessibility.unit_price_separator' | t | json }},        
-        stockout: {{ 'cart.general.stockout' | t | json }},
-        products: {{ 'products.general.products' | t | json }},
-        pages: {{ 'general.page.pages' | t | json }},
-        collections: {{ 'collections.sidebar.collections' | t | json }},
-        resultsFor: {{ 'general.search.results_for' | t | json }},
-        noResultsFor: {{ 'general.search.no_results_for' | t | json }},
-        articles: {{ 'blogs.article.articles' | t | json }}
-      },
-      settings: {
-        badge_sale_type: {{ settings.badge_sale_type | json }},
-        search_products: {{ settings.search_products | json }},
-        search_collections: {{ settings.search_collections | json }},
-        search_pages: {{ settings.search_pages | json }},
-        search_articles: {{ settings.search_articles | json }},
-        animate_hover: {{ settings.animations_hover_enable | json }},
-        animate_scroll: {{ settings.animations_scroll_enable | json }}
-      },
-      info: {
-        name: 'pipeline'
-      },
-      moneyFormat: {{ shop.money_format | json }},
-      version: '6.2.2'
-    }
-    let windowInnerHeight = window.innerHeight;
-    document.documentElement.style.setProperty('--full-screen', `${windowInnerHeight}px`);
-    document.documentElement.style.setProperty('--three-quarters', `${windowInnerHeight * 0.75}px`);
-    document.documentElement.style.setProperty('--two-thirds', `${windowInnerHeight * 0.66}px`);
-    document.documentElement.style.setProperty('--one-half', `${windowInnerHeight * 0.5}px`);
-    document.documentElement.style.setProperty('--one-third', `${windowInnerHeight * 0.33}px`);
-    document.documentElement.style.setProperty('--one-fifth', `${windowInnerHeight * 0.2}px`);
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      let root = '{{ routes.root_url }}';
+      if (root[root.length - 1] !== '/') {
+        root = `${root}/`;
+      }
+      var theme = {
+        routes: {
+          root_url: root,
+          cart: '{{ routes.cart_url }}',
+          cart_add_url: '{{ routes.cart_add_url }}',
+          product_recommendations_url: '{{ routes.product_recommendations_url }}',
+          account_addresses_url: '{{ routes.account_addresses_url }}'
+        },
+        assets: {
+          photoswipe: '{{ "photoswipe.js" | asset_url }}',
+          smoothscroll: '{{ "smoothscroll.js" | asset_url }}',
+          swatches: '{{ "swatches.json" | asset_url }}',
+          noImage: '{{ "nil" | img_url: "master" }}',
+          base: '{{ "nil.jpg" | asset_url | split: "nil.jpg" | first }}'
+        },
+        strings: {
+          swatchesKey: {{ 'general.swatches.color' | t | json }},     
+          addToCart: {{ 'products.product.add_to_cart' | t | json }},
+          estimateShipping: {{ 'cart.shipping.estimate_shipping' | t | json }},
+          noShippingAvailable: {{ 'cart.shipping.no_shipping_available' | t | json }},
+          free: {{ 'cart.shipping.free' | t | json }},
+          from: {{ 'products.general.from' | t | json }},
+          preOrder: {{ 'products.product.pre_order' | t | json }},
+          soldOut: {{ 'products.product.sold_out' | t | json }},
+          sale: {{ 'products.product.sale' | t | json }},
+          subscription: {{ 'products.product.subscription' | t | json }},
+          unavailable: {{ 'products.product.unavailable' | t | json }},
+          unitPrice: {{ 'products.product.unit_price_label' | t | json }},
+          unitPriceSeparator: {{ 'general.accessibility.unit_price_separator' | t | json }},        
+          stockout: {{ 'cart.general.stockout' | t | json }},
+          products: {{ 'products.general.products' | t | json }},
+          pages: {{ 'general.page.pages' | t | json }},
+          collections: {{ 'collections.sidebar.collections' | t | json }},
+          resultsFor: {{ 'general.search.results_for' | t | json }},
+          noResultsFor: {{ 'general.search.no_results_for' | t | json }},
+          articles: {{ 'blogs.article.articles' | t | json }}
+        },
+        settings: {
+          badge_sale_type: {{ settings.badge_sale_type | json }},
+          search_products: {{ settings.search_products | json }},
+          search_collections: {{ settings.search_collections | json }},
+          search_pages: {{ settings.search_pages | json }},
+          search_articles: {{ settings.search_articles | json }},
+          animate_hover: {{ settings.animations_hover_enable | json }},
+          animate_scroll: {{ settings.animations_scroll_enable | json }}
+        },
+        info: {
+          name: 'pipeline'
+        },
+        moneyFormat: {{ shop.money_format | json }},
+        version: '6.2.2'
+      }
+      let windowInnerHeight = window.innerHeight;
+      document.documentElement.style.setProperty('--full-screen', `${windowInnerHeight}px`);
+      document.documentElement.style.setProperty('--three-quarters', `${windowInnerHeight * 0.75}px`);
+      document.documentElement.style.setProperty('--two-thirds', `${windowInnerHeight * 0.66}px`);
+      document.documentElement.style.setProperty('--one-half', `${windowInnerHeight * 0.5}px`);
+      document.documentElement.style.setProperty('--one-third', `${windowInnerHeight * 0.33}px`);
+      document.documentElement.style.setProperty('--one-fifth', `${windowInnerHeight * 0.2}px`);
 
-    window.lazySizesConfig = window.lazySizesConfig || {};
-    window.lazySizesConfig.loadHidden = false;
-
-
-
-
-
-
-
-
-
-
-
-
-
+      window.lazySizesConfig = window.lazySizesConfig || {};
+      window.lazySizesConfig.loadHidden = false;
     </script>
 
     {%- if request.page_type contains 'customers/' -%}
@@ -247,19 +221,72 @@
     {% if template.name == 'product' %}{% render ('outlink-sticky') %}{% endif %}
     <!-- OutlinkStickyBtn END -->
     {{ content_for_header }}
+
+    {% style %}
+      {% for scheme in settings.color_schemes -%}
+        {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
+
+        {% if forloop.index == 1 -%}
+          :root,
+        {%- endif %}
+
+        .color-{{ scheme.id }} {
+          --color-background: {{ scheme.settings.background.red }}, {{ scheme.settings.background.green }}, {{ scheme.settings.background.blue }};
+
+          {% if scheme.settings.background_gradient != empty %}
+            --gradient-background: {{ scheme.settings.background_gradient }};
+          {% else %}
+            --gradient-background: {{ scheme.settings.background }};
+          {% endif %}
+
+          {% liquid
+            assign background_color = scheme.settings.background
+            assign background_color_brightness = background_color | color_brightness
+
+            if background_color_brightness <= 26
+              assign background_color_contrast = background_color | color_lighten: 50
+            elsif background_color_brightness <= 65
+              assign background_color_contrast = background_color | color_lighten: 5
+            else
+              assign background_color_contrast = background_color | color_darken: 25
+            endif
+          %}
+
+          --color-foreground: {{ scheme.settings.text.red }}, {{ scheme.settings.text.green }}, {{ scheme.settings.text.blue }};
+          --color-background-contrast: {{ background_color_contrast.red }}, {{ background_color_contrast.green }}, {{ background_color_contrast.blue }};
+          --color-shadow: {{ scheme.settings.shadow.red }}, {{ scheme.settings.shadow.green }}, {{ scheme.settings.shadow.blue }};
+          --color-button: {{ scheme.settings.button.red }}, {{ scheme.settings.button.green }}, {{ scheme.settings.button.blue }};
+          --color-button-text: {{ scheme.settings.button_label.red }}, {{ scheme.settings.button_label.green }}, {{ scheme.settings.button_label.blue }};
+          --color-secondary-button: {{ scheme.settings.background.red }}, {{ scheme.settings.background.green }}, {{ scheme.settings.background.blue }};
+          --color-secondary-button-text: {{ scheme.settings.secondary_button_label.red }}, {{ scheme.settings.secondary_button_label.green }}, {{ scheme.settings.secondary_button_label.blue }};
+          --color-link: {{ scheme.settings.secondary_button_label.red }}, {{ scheme.settings.secondary_button_label.green }}, {{ scheme.settings.secondary_button_label.blue }};
+          --color-badge-foreground: {{ scheme.settings.text.red }}, {{ scheme.settings.text.green }}, {{ scheme.settings.text.blue }};
+          --color-badge-background: {{ scheme.settings.background.red }}, {{ scheme.settings.background.green }}, {{ scheme.settings.background.blue }};
+          --color-badge-border: {{ scheme.settings.text.red }}, {{ scheme.settings.text.green }}, {{ scheme.settings.text.blue }};
+          --payment-terms-background-color: rgb({{ scheme.settings.background.rgb }});
+        }
+      {% endfor %}
+
+      body{{ scheme_classes }} {
+        color: rgba(var(--color-foreground), 1);
+        background-color: rgb(var(--color-background));
+      }
+    {% endstyle %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
   </head>
 
   <body
     id="{{ page_title | handle }}"
     class="template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} {{ settings.default_background }}{% if customer %} customer-logged-in{% endif %}"
+    data-template="{{ template | handle }}"
   >
     <a class="in-page-link visually-hidden skip-link" href="#MainContent">
       {{- 'general.accessibility.skip_to_content' | t -}}
     </a>
 
     {% section 'announcement' %}
-    {% section 'new-header' %}
-
+    {% comment %} {% section 'new-header' %} {% endcomment %}
+    {% section 'section-header' %}
     <main class="main-content" id="MainContent">
       {{ content_for_layout }}
     </main>
@@ -268,7 +295,8 @@
       {% render 'common' %}
     {% endcomment %}
     {%- unless template == 'page.Agee-Lineberry' or template == 'page.New-Custom-Featured' -%}
-      {% section 'new-footer' %}
+      {% comment %} {% section 'new-footer' %} {% endcomment %}
+       {% section 'section-footer' %}
     {%- endunless -%}
 
     {% section 'popups' %}
@@ -307,5 +335,7 @@
         }
       }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="{{ 'custom-slider.js' | asset_url }}" defer></script>
   </body>
 </html>

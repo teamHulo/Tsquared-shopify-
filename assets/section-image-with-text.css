@@ -1,0 +1,84 @@
+.section-image-with-text__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:clamp(20px, 4.53vw, 58px);
+}
+.section-image-with-text__wrap:has(.image-item.image-ratio-640-519) {
+    gap:clamp(20px, 6.25vw, 80px);
+}
+.section-image-with-text__wrap:has(.image-ratio-688-620) {
+    gap:clamp(20px, 2.5vw, 32px);
+}
+.section-image-with-text__wrap .image-item.image-ratio-626-439 {
+    width: 53.05%;
+}
+.section-image-with-text__wrap .image-item.image-ratio-626-439 .image__wrap {
+    padding-top: 70.13%;
+}
+
+.section-image-with-text__wrap .image-item.image-ratio-640-519 {
+    width: 54.256%;
+}
+.section-image-with-text__wrap .image-item.image-ratio-640-519 .image__wrap {
+    padding-top: 81.094%;
+}
+.section-image-with-text__wrap .image-item.image-ratio-688-620 {
+    width: 58.325%;
+}
+.section-image-with-text__wrap .image-item.image-ratio-688-620 .image__wrap {
+        padding-top: 90.117%;
+}
+
+.section-image-with-text__wrap .content {
+    width: 39%;
+    min-width: 250px;
+    padding:20px 0;
+}
+.section-image-with-text__wrap .content .content__wrap {
+    display: flex;
+    flex-direction: column;
+    gap:clamp(20px, 3.13vw, 40px);
+    max-width: 458px;
+}
+.section-image-with-text__wrap .content .title {
+    margin:0;
+}
+
+.section-image-with-text__wrap .content .title * {
+    margin:0;
+    text-transform: none;
+}
+.section-image-with-text__wrap .content .text {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.section-image-with-text__wrap .content .text p {
+    margin:0;
+}
+
+@media (max-width:767px) {
+    .section-image-with-text__wrap {
+        flex-direction: column;
+    }
+    .section-image-with-text__wrap .image-item.image-ratio-626-439, .section-image-with-text__wrap .image-item.image-ratio-640-519, .section-image-with-text__wrap .image-item.image-ratio-688-620   {
+        width: 100%;
+    }
+    .section-image-with-text__wrap .image-item {
+        width: 100%;
+        max-width: 100%;
+    }
+    .section-image-with-text__wrap .content {
+        flex:1 1 100%;
+        max-width: 100%;
+    }
+    .section-image-with-text__wrap .content {
+        width: 100%;
+        min-width: 0;
+    }
+    .section-image-with-text__wrap:has(.content + .image-item) {
+        flex-direction: column-reverse;
+    }
+}
+

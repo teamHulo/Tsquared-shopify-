@@ -1,0 +1,104 @@
+.section-events {
+    padding-top:5px;
+    border-top:1px solid rgb(var(--color-foreground));
+}
+.section-events .events-row {
+    border-top:1px solid rgb(var(--color-foreground));
+    position: relative;
+}
+.section-events .events-row::before {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background: rgb(var(--color-foreground));
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.section-events .events-row .container {
+    display: flex;
+    flex-wrap:wrap;
+    padding:0;
+}
+
+.event-item__wrap {
+    padding:clamp(20px, 3.906vw, 50px);
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    height: 100%;
+}
+.event-item {
+    width: calc(100% / 2);
+}
+.event-item__wrap .media {
+    display: flex;
+    flex-wrap:wrap;
+    gap:10px;
+    flex:1;
+}
+
+.event-item__wrap .media .image {
+    width: calc( 100% / 3 - 10px * 2 / 3);
+}
+.event-item__wrap .media .image .image__wrap {
+    padding-top: 102.2%;
+}
+
+.event-item .heading {
+    display: flex;
+    align-items: center;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.event-item .heading .title {
+    margin:0;
+}
+.event-item .heading .title h3 {
+    margin:0;
+    font-family: var(--font-family-3);
+    font-size: var(--font-size-1);
+    font-style: normal;
+    font-weight: 335;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+.event-item .heading .location {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.event-item .heading .location span {
+    font-family: var(--font-family-3);
+    font-size: var(--font-size-1);
+    font-style: normal;
+    font-weight: 335;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+.event-item .description {
+    margin-top:23px;
+
+}
+.event-item .description p {
+    margin:0;
+}
+
+@media (max-width:767px) {
+    .event-item {
+        width: 100%;
+        border-top:1px solid rgb(var(--color-foreground));
+    }
+    .section-events .events-row::before {
+        content: none;
+    }
+    .section-events .events-row {
+        border:0;
+    }
+}

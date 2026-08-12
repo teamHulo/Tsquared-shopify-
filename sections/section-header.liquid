@@ -1,0 +1,286 @@
+{{ 'section-header.css' | asset_url | stylesheet_tag }}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+<header class="header color-{{ section.settings.color_scheme }}">
+  <div class="header__body">
+    <div class="container">
+      <div class="header__wrap section-{{ section.id }}-padding">
+        <button
+          type="button"
+          class="header-burger"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="HeaderDrawer-{{ section.id }}"
+        >
+          <svg
+            width="36"
+            height="19"
+            viewBox="0 0 36 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="0.5" x2="36" y2="0.5" stroke="currentColor"/>
+            <line y1="9.33019" x2="36" y2="9.33019" stroke="currentColor"/>
+            <line y1="18.1604" x2="36" y2="18.1604" stroke="currentColor"/>
+          </svg>
+        </button>
+
+        <div class="logo">
+          <a href="{{ routes.root_url }}" class="logo__link">
+            {% if section.settings.logo != blank %}
+              <div class="image">
+                <div class="image__wrap">
+                  {{
+                    section.settings.logo
+                    | image_url: width: 600
+                    | image_tag:
+                      loading: 'eager',
+                      widths: '150, 300, 450, 600',
+                      sizes: '300px',
+                      alt: shop.name
+                  }}
+                </div>
+              </div>
+            {% else %}
+              <span>{{ shop.name }}</span>
+            {% endif %}
+          </a>
+        </div>
+
+        <div class="icons">
+          <a href="#swym-wishlist" class="swym-wishlist" aria-label="Wishlist">
+            <i
+              aria-hidden="true"
+              focusable="false"
+              role="presentation"
+              class="fa fa-heart"
+            ></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <header-drawer
+      id="HeaderDrawer-{{ section.id }}"
+      class="header-drawer color-{{ section.settings.color_scheme_drawer }}"
+    >
+      <div class="header-drawer__overlay"></div>
+
+      <div class="header-drawer__wrap">
+        <div class="container">
+          {% if section.settings.menu != blank %}
+            <nav class="header-drawer__nav">
+              <ul class="header-drawer__menu" role="list">
+                {% for link in section.settings.menu.links %}
+                  <li class="header-drawer__menu-item{% if link.links != blank %} has-submenu{% endif %}">
+                    <a
+                      href="{{ link.url }}"
+                      class="header-drawer__menu-link"
+                    >
+                      {{ link.title }}
+                    </a>
+
+                    {% if link.links != blank %}
+                      <ul class="header-drawer__submenu" role="list">
+                        {% for child_link in link.links %}
+                          <li class="header-drawer__submenu-item{% if child_link.links != blank %} has-submenu{% endif %}">
+                            <a
+                              href="{{ child_link.url }}"
+                              class="header-drawer__submenu-link"
+                            >
+                              {{ child_link.title }}
+                            </a>
+
+                            {% if child_link.links != blank %}
+                              <ul
+                                class="header-drawer__submenu header-drawer__submenu--child"
+                                role="list"
+                              >
+                                {% for grandchild_link in child_link.links %}
+                                  <li class="header-drawer__submenu-item">
+                                    <a
+                                      href="{{ grandchild_link.url }}"
+                                      class="header-drawer__submenu-link"
+                                    >
+                                      {{ grandchild_link.title }}
+                                    </a>
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </nav>
+          {% endif %}
+        </div>
+      </div>
+    </header-drawer>
+  </div>
+</header>
+
+<script>
+class HeaderDrawer extends HTMLElement {
+  constructor() {
+    super();
+
+    this.section = this.closest('.shopify-section');
+    this.header = this.section?.querySelector('.header');
+    this.burger = this.section?.querySelector('.header-burger');
+    this.overlay = this.querySelector('.header-drawer__overlay');
+
+    this.onBurgerClick = this.onBurgerClick.bind(this);
+    this.onOverlayClick = this.onOverlayClick.bind(this);
+    this.onKeydown = this.onKeydown.bind(this);
+    this.onScroll = this.onScroll.bind(this);
+  }
+
+  connectedCallback() {
+    if (!this.burger) return;
+
+    this.burger.addEventListener('click', this.onBurgerClick);
+    this.overlay?.addEventListener('click', this.onOverlayClick);
+    document.addEventListener('keydown', this.onKeydown);
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+
+    this.onScroll();
+  }
+
+  disconnectedCallback() {
+    this.burger?.removeEventListener('click', this.onBurgerClick);
+    this.overlay?.removeEventListener('click', this.onOverlayClick);
+    document.removeEventListener('keydown', this.onKeydown);
+    window.removeEventListener('scroll', this.onScroll);
+  }
+
+  open() {
+    this.classList.add('is-open');
+    this.burger.classList.add('is-active');
+
+    this.burger.setAttribute('aria-expanded', 'true');
+    this.burger.setAttribute('aria-label', 'Close menu');
+
+    document.body.classList.add('header-drawer-open');
+  }
+
+  close() {
+    this.classList.remove('is-open');
+    this.burger.classList.remove('is-active');
+
+    this.burger.setAttribute('aria-expanded', 'false');
+    this.burger.setAttribute('aria-label', 'Open menu');
+
+    document.body.classList.remove('header-drawer-open');
+  }
+
+  toggle() {
+    this.classList.contains('is-open')
+      ? this.close()
+      : this.open();
+  }
+
+  onBurgerClick() {
+    this.toggle();
+  }
+
+  onOverlayClick() {
+    this.close();
+  }
+
+  onKeydown(event) {
+    if (event.key === 'Escape' && this.classList.contains('is-open')) {
+      this.close();
+    }
+  }
+
+  onScroll() {
+    this.header?.classList.toggle('is-at-top', window.scrollY === 0);
+  }
+}
+
+if (!customElements.get('header-drawer')) {
+  customElements.define('header-drawer', HeaderDrawer);
+}
+</script>
+
+{% schema %}
+{
+  "name": "Header",
+  "tag": "section",
+  "class": "section new-shopify-section section-header",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme_drawer",
+      "label": "Color scheme drawer",
+      "default": "scheme-1"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 50,
+      "max": 400,
+      "step": 10,
+      "unit": "px",
+      "label": "Logo width",
+      "default": 200
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "padding top",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "padding bottom",
+      "default": 15
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header"
+    }
+  ]
+}
+{% endschema %}

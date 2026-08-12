@@ -1,0 +1,124 @@
+{{ 'section-promotion.css' |  asset_url |  stylesheet_tag }}
+
+
+<div class="section-promotion  color-{{ section.settings.color_scheme }}">
+    {% if section.settings.img != blank %}
+        <picture>
+            {% if section.settings.img_m != blank %}
+            <source
+                media="(max-width: 500px)"
+                srcset="
+                {{ section.settings.img_m | image_url: width: 375 }} 375w,
+                {{ section.settings.img_m | image_url: width: 500 }} 500w,
+                {{ section.settings.img_m | image_url: width: 750 }} 750w
+                "
+                sizes="100vw"
+            >
+            {% endif %}
+
+            <img
+            class="bg"
+            src="{{ section.settings.img | image_url: width: 1600 }}"
+            srcset="
+                {{ section.settings.img | image_url: width: 750 }} 750w,
+                {{ section.settings.img | image_url: width: 1200 }} 1200w,
+                {{ section.settings.img | image_url: width: 1600 }} 1600w,
+                {{ section.settings.img | image_url: width: 2200 }} 2200w
+            "
+            sizes="100vw"
+            width="{{ section.settings.img.width }}"
+            height="{{ section.settings.img.height }}"
+            fetchpriority="high"
+            loading="eager"
+            decoding="async"
+            alt="{{ section.settings.img.alt | escape }}"
+            >
+        </picture>
+    {% endif %}
+    <div class="container">
+        <div class="section-promotion__wrap">
+          
+            {% if  section.settings.title != blank %}
+                <div class="title" >
+                    <h2 class="h2">
+                        {{ section.settings.title }}
+                    </h2>
+                </div>
+            {% endif %}
+            {% if section.settings.text != blank %}
+                <div class="text">
+                    <p>
+                        {{ section.settings.text }}
+                    </p>
+                </div>
+            {% endif %}
+            {% if section.settings.btn_name != blank and section.settings.url != blank %}
+                <div class="btn__wrap">
+                    <a class="btn" href="{{ section.settings.url }}"> 
+                        <span>
+                            {{ section.settings.btn_name }} 
+                        </span>
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Section promotion",
+  "tag": "section",
+  "class": "section new-shopify-section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "color scheme",
+      "default": "scheme-1"
+    },
+    {
+        "type": "image_picker",
+        "id":"img",
+        "label":"background image"
+    },
+    {
+        "type": "image_picker",
+        "id":"img_m",
+        "label":"background image mobile"
+    },
+     {
+        "type": "text",
+        "id":"title",
+        "label": "title",
+        "default": "JOIN US IRL"
+    },
+    {
+        "type": "text",
+        "id":"text",
+        "label": "text",
+        "default": "Lorem ipsum dolor sit amet consectetur. Turpis risus enim est sapien enim suspendisse lacinia euismod posuere. Magnis phasellus hendrerit maecenas posuere diam tincidunt sit rhoncus."
+    },
+   
+    {
+        "type": "text",
+        "id":"btn_name",
+        "label": "btn name",
+        "default": "LEARN more → "
+    },
+    {
+        "type": "url",
+        "id":"url",
+        "label": "url"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section promotion"
+    }
+  ]
+}
+{% endschema %}
