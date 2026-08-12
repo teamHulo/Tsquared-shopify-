@@ -515,13 +515,13 @@
 }
 .footer__content-top__wrap .image {
 
-  width: clamp(150px, 17.19vw, calc(220px * 2.5));
+  width: clamp(150px, 17.19vw, 220px);
 }
 
 .footer-block--newsletter {
   margin:0;
   flex:1;
-  max-width: clamp(380px, 29.69vw, calc(380px * 2));
+  max-width: clamp(380px, 29.69vw, 380px);
   min-width: 380px;
 }
 .footer__blocks-wrapper {
