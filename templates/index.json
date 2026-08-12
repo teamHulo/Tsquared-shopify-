@@ -47,9 +47,269 @@
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral"
       }
+    },
+    "section_banner_C43ktb": {
+      "type": "section-banner",
+      "name": "Section banner",
+      "settings": {
+        "color_scheme": "scheme-6",
+        "img": "shopify://shop_images/57aa2fe0a897750902297b378eb1d09502f547c0.webp",
+        "title": "HOME OF THE TOP TEN"
+      }
+    },
+    "section_image_with_text_z3HDk9": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_NLrr6A": {
+          "type": "image",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_11.webp",
+            "aspect_ratio": "image-ratio-626-439"
+          }
+        },
+        "content_MkNfdW": {
+          "type": "content",
+          "settings": {
+            "title": "Your trusted insider lens & home of the Top Ten",
+            "title_tag": "h2",
+            "text": "<p>Through features with founders and tastemakers, T² distills personal taste into actionable discovery across products, places, and rituals—bridging aspiration with application.</p>",
+            "btn_name": "Learn more →",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_NLrr6A",
+        "content_MkNfdW"
+      ],
+      "name": "Section image with text",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 65
+      }
+    },
+    "section_marquee_logo_8PC3kj": {
+      "type": "section-marquee-logo",
+      "blocks": {
+        "item_7rtdND": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_24_1.webp",
+            "max_width": 192,
+            "max_height": 55
+          }
+        },
+        "item_KyWiJV": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_23_1.webp",
+            "max_width": 286,
+            "max_height": 80
+          }
+        },
+        "item_6HcyfJ": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_22_1.webp",
+            "max_width": 286,
+            "max_height": 80
+          }
+        },
+        "item_9wQT4K": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_7_1.webp",
+            "max_width": 250,
+            "max_height": 70
+          }
+        },
+        "item_4dLMxC": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_18_1.webp",
+            "max_width": 288,
+            "max_height": 80
+          }
+        },
+        "item_MkfAjX": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_24_1.webp",
+            "max_width": 192,
+            "max_height": 55
+          }
+        },
+        "item_9tn9Bg": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_23_1.webp",
+            "max_width": 286,
+            "max_height": 80
+          }
+        },
+        "item_6ffXYb": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_22_1.webp",
+            "max_width": 286,
+            "max_height": 80
+          }
+        },
+        "item_CHrL79": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_18_1.webp",
+            "max_width": 288,
+            "max_height": 80
+          }
+        },
+        "item_MKbcHE": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_18_1.webp",
+            "max_width": 288,
+            "max_height": 80
+          }
+        }
+      },
+      "block_order": [
+        "item_7rtdND",
+        "item_KyWiJV",
+        "item_6HcyfJ",
+        "item_9wQT4K",
+        "item_4dLMxC",
+        "item_MkfAjX",
+        "item_9tn9Bg",
+        "item_6ffXYb",
+        "item_CHrL79",
+        "item_MKbcHE"
+      ],
+      "name": "Section marquee",
+      "settings": {
+        "color_scheme": "scheme-7",
+        "padding_top": 30,
+        "padding_bottom": 35
+      }
+    },
+    "section_featured_9UkVLQ": {
+      "type": "section-featured",
+      "blocks": {
+        "image_text_krVch7": {
+          "type": "image-text",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_5.webp",
+            "title": "Chandon",
+            "subtitle": "Rose Brut"
+          }
+        },
+        "content_FGikzY": {
+          "type": "content",
+          "settings": {
+            "title": "Kate berry",
+            "text": "Lorem ipsum dolor sit amet consectetur. Ut tortor aliquet viverra pulvinar tellus. Felis justo congue aliquet ultricies dui egestas consectetur scelerisque.",
+            "btn_name": "VIEW more →",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "image_text_krVch7",
+        "content_FGikzY"
+      ],
+      "name": "Section top ten",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "img": "shopify://shop_images/Rectangle_6.webp",
+        "title": "FEATUREd top ten",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_recent_MftGVJ": {
+      "type": "section-recent",
+      "blocks": {
+        "item_frhFJ6": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_7.webp",
+            "title": "LILAH RAMZI "
+          }
+        },
+        "item_rQahYd": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_70.webp",
+            "title": "LILLY SISTO"
+          }
+        },
+        "item_fY4xr7": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_71.webp",
+            "title": "LILAH RAMZI "
+          }
+        },
+        "item_hamCEV": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_72.webp",
+            "title": "KIT KEENAN"
+          }
+        },
+        "item_jWXFzf": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_73.webp",
+            "title": "HANNAH PORTER"
+          }
+        },
+        "item_PGF6qL": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_7.webp",
+            "title": "LILAH RAMZI "
+          }
+        }
+      },
+      "block_order": [
+        "item_frhFJ6",
+        "item_rQahYd",
+        "item_fY4xr7",
+        "item_hamCEV",
+        "item_jWXFzf",
+        "item_PGF6qL"
+      ],
+      "name": "Section recent",
+      "settings": {
+        "color_scheme": "",
+        "title": "RECENT features",
+        "btn_name": "VIEW more →",
+        "url": "",
+        "padding_top": 50,
+        "padding_bottom": 60
+      }
+    },
+    "section_promotion_jmiQJK": {
+      "type": "section-promotion",
+      "name": "Section promotion",
+      "settings": {
+        "color_scheme": "scheme-8",
+        "img": "shopify://shop_images/Rectangle_80.webp",
+        "title": "JOIN US IRL",
+        "text": "Lorem ipsum dolor sit amet consectetur. Turpis risus enim est sapien enim suspendisse lacinia euismod posuere. Magnis phasellus hendrerit maecenas posuere diam tincidunt sit rhoncus.",
+        "btn_name": "LEARN more →",
+        "url": "#"
+      }
     }
   },
   "order": [
-    "43008efe-227e-4180-9427-71e7490f6511"
+    "43008efe-227e-4180-9427-71e7490f6511",
+    "section_banner_C43ktb",
+    "section_image_with_text_z3HDk9",
+    "section_marquee_logo_8PC3kj",
+    "section_featured_9UkVLQ",
+    "section_recent_MftGVJ",
+    "section_promotion_jmiQJK"
   ]
 }
