@@ -284,6 +284,50 @@
           "link_4": "shopify://pages/about",
           "footer_description": "<p>YOUR CURATED COMMUNITY</p>\n<br>\n<p>YOU KNOW WHAT TO DO<br> DROP US A LINE<br>HELLO@SHAREYOURTOPTEN.COM </p>\n<br>\n<p class=\"btm-textllc\">TSquared Platforms LLC | We might make a commission on some links from this site. <br> Images and videos not linked are inspirational | ©T2 What’s Your Top Ten</p>"
         }
+      },
+      "section-header": {
+        "type": "section-header",
+        "settings": {
+          "color_scheme": "",
+          "color_scheme_drawer": "",
+          "logo_width": 200,
+          "menu": "",
+          "padding_top": 15,
+          "padding_bottom": 15
+        }
+      },
+      "section-footer": {
+        "type": "section-footer",
+        "blocks": {
+          "section-footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Learn",
+              "menu": "footer"
+            }
+          },
+          "section-footer-1": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Follow Us",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "section-footer-0",
+          "section-footer-1"
+        ],
+        "settings": {
+          "color_scheme": "scheme-8",
+          "img": "shopify://shop_images/Layer_1.webp",
+          "newsletter_enable": true,
+          "newsletter_title": "Join the List",
+          "newsletter_heading": "Lorem ipsum dolor sit amet consectetur. Massa sollicitudin etiam in nunc malesuada mollis.",
+          "message": "We may make a commission on some links from this site",
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
       }
     },
     "content_for_index": [],
@@ -308,11 +352,11 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#FCF8F2",
+          "background": "#fcf8f2",
           "background_gradient": "",
           "text": "#000000",
           "button": "#600724",
-          "button_label": "#FFFFFF",
+          "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -363,9 +407,9 @@
       },
       "scheme-6": {
         "settings": {
-          "background": "#FCF8F2",
+          "background": "#fcf8f2",
           "background_gradient": "",
-          "text": "#FFFFFF",
+          "text": "#ffffff",
           "button": "#600724",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
@@ -374,11 +418,11 @@
       },
       "scheme-7": {
         "settings": {
-          "background": "#D5CF8F",
+          "background": "#d5cf8f",
           "background_gradient": "",
           "text": "#000000",
           "button": "#600724",
-          "button_label": "#FFFFFF",
+          "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -387,15 +431,14 @@
         "settings": {
           "background": "#600724",
           "background_gradient": "",
-          "text": "#FCF8F2",
-          "button": "#FCF8F2",
+          "text": "#fcf8f2",
+          "button": "#fcf8f2",
           "button_label": "#600724",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
     }
-    
   },
   "presets": {
     "Bright": {
