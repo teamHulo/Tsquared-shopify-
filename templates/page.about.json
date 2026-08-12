@@ -24,240 +24,109 @@
         "bg": "palette--light bg--neutral"
       }
     },
-    "1661420698291d4933": {
-      "type": "custom-image-banner",
-      "settings": {
-        "image": "shopify://shop_images/giphy-downsized_2.gif",
-        "mobile_image": "shopify://shop_images/IMG_3206.png",
-        "bg_position": "center-center",
-        "height": "use_screen_two_thirds",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "kicker": "",
-        "title": "About",
-        "title1": "TSquared",
-        "richtext": "",
-        "text_align": "align--middle-left",
-        "text_color": "text--white",
-        "link_text": "",
-        "link": "",
-        "button_color": "btn--white",
-        "button_style": "btn"
-      }
-    },
-    "1661422004f236495d": {
-      "type": "custom-about1",
-      "settings": {
-        "text": "ABOUT US",
-        "html1": "<h2 class=\"inn1 t hero__title\">\n    T<sup>2</sup>\n</h2>\n<h2 class=\"inn2 hero__title\">TSquared</h2>",
-        "html": "<div style='text-align: center;'><h2 class='hero__title h2'>a community of favourite things</h2>\n<br>\n<p class=\"more\">\nMORE\n</p>\n<div class=\"vl\"></div>\n<br>\n\n<p>THROUGHOUT THE LAST YEARS,</p>\n<p>I'VE BEEN ABLE TO FIND WHAT</p>\n<p>IS THE MOST INTERESTING &</p>\n<p>EXCITING IN FASHION, ART,</p>\n<p>DESIGN AND TRAVEL.</p>\n<br>\n<p>WE WANT TO SEE WHAT YOUR </p>\n<p>FAVOURITES ARE - SEND US YOUR </p>\n<p>FAVOURITE TOP TEN LIST.</p>\n</div>",
-        "full_width": false
-      }
-    },
-    "1661423637641a2dd5": {
-      "type": "custom-about2",
-      "settings": {
-        "text": "",
-        "html1": "<div style='text-align: center;'>\n<h4 style=\"color:white;\">THE PROCESS</h4>\n<br><br><br>\n<h5 style=\"color:white;\">\ncreate your list\n</h5>\n<p style=\"color:white;\">\nCREATE YOUR CUSTOM LIST \n</p>\n<p style=\"color:white;\"> AND WE WILL POST IT ON YOUR BEHALF.</p>\n<p style=\"color:white;\">WE ARE DEMOCRATICIZING THE LIST PROCESS BY\n</p>\n<p style=\"color:white;\">MAKING SPECIALIZED TOP TEN LISTS\n</p>\n<p style=\"color:white;\">CREATED BY YOU FOR THE COMMUNITY\n</p>\n</div>\n\n<div style='text-align: center;'>\n<br><br><br>\n<h5 style=\"color:white;\">\nCHANGE MONTHLY\n</h5>\n<p style=\"color:white;\">\nWE ALL YOU TO CREATE ONE TOP TEN \n</p>\n<p style=\"color:white;\"> LIST PER MONTH. YOU CAN LOGIN AND CHANGE</p>\n<p style=\"color:white;\">THE LIST MONTHLY </p>\n\n\n</div>\n\n\n<div style='text-align: center;'>\n<br><br><br>\n<h5 style=\"color:white;\">\nDEMOCRATIZED COMMUNITY\n</h5>\n<p style=\"color:white;\">\nTHERE WILL BE NO LIKES, NO COMMENTS\n</p>\n<p style=\"color:white;\"> NO HEARTS. WE WANT THIS TO BE ORIGINAL</p>\n<p style=\"color:white;\">PURE CONTENT THAT IS USEFUL AND IMPACTFUL. </p>\n</div>",
-        "html": "",
-        "full_width": true,
-        "image1": "shopify://shop_images/Screenshot_2022-07-25_at_10.29.40_AM.png",
-        "image2": "shopify://shop_images/Screenshot_2022-07-24_at_11.53.45_AM.png",
-        "image3": "shopify://shop_images/Screenshot_2022-07-24_at_11.53.29_AM.png",
-        "image4": "shopify://shop_images/Screenshot_2022-07-22_at_11.39.08_AM.png",
-        "image5": "shopify://shop_images/Screenshot_2022-07-22_at_11.39.32_AM.png",
-        "image6": "shopify://shop_images/moon-walk2.png"
-      }
-    },
-    "16614323001251b5e7": {
-      "type": "custom-about-last",
-      "disabled": true,
+    "section_split_hero_CE3Bq6": {
+      "type": "section-split-hero",
       "blocks": {
-        "75f53efa-55ff-4fc8-b7df-d79aa2c49f85": {
-          "type": "images",
+        "content_NgyYeQ": {
+          "type": "content",
           "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
+            "title": "Through a structured set of ten items, each feature captures an individual or brand’s taste across products, places, and rituals —translating personal preference into actionable discovery.",
+            "text": "Think: raw honey from a small-batch maker, the vintage Levi’s you finally found, the one song you never skip.",
+            "btn_name_1": "EXPLORE FEATURES →",
+            "url_1": "#",
+            "btn_name_2": "EXPLORE thematic lists →",
+            "url_2": "#"
           }
         },
-        "b00bf3ff-2588-41d7-abe4-032120589987": {
-          "type": "images",
+        "image_LB9Jcf": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "049d4d3e-0239-439d-ad2a-8488b4e9c89f": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "a26be0f4-4016-442d-b155-ee0e78961f6a": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "7ddc2378-6d5c-4ed4-9df2-734cc1704e38": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "9b4adde2-087c-4782-8ca4-933ed357a082": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "228275f0-2140-4d58-b763-58cd69b27e78": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "367a3371-94de-4fff-8f31-2a4603032eb8": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "5384f628-5501-4d75-8563-a3fcfa761e67": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
-          }
-        },
-        "a98d2c17-e14a-4f21-a2ba-78eb75adb5bf": {
-          "type": "images",
-          "settings": {
-            "image": "shopify://shop_images/biscotti-lays-in-a-monstera-leaf.jpg",
-            "link": ""
+            "img_1": "shopify://shop_images/Rectangle_18.webp",
+            "img_2": "shopify://shop_images/Rectangle_14.webp"
           }
         }
       },
       "block_order": [
-        "75f53efa-55ff-4fc8-b7df-d79aa2c49f85",
-        "b00bf3ff-2588-41d7-abe4-032120589987",
-        "049d4d3e-0239-439d-ad2a-8488b4e9c89f",
-        "a26be0f4-4016-442d-b155-ee0e78961f6a",
-        "7ddc2378-6d5c-4ed4-9df2-734cc1704e38",
-        "9b4adde2-087c-4782-8ca4-933ed357a082",
-        "228275f0-2140-4d58-b763-58cd69b27e78",
-        "367a3371-94de-4fff-8f31-2a4603032eb8",
-        "5384f628-5501-4d75-8563-a3fcfa761e67",
-        "a98d2c17-e14a-4f21-a2ba-78eb75adb5bf"
+        "content_NgyYeQ",
+        "image_LB9Jcf"
       ],
+      "name": "Section split hero",
       "settings": {
-        "title": "An example of a Top Ten List",
-        "sub-heading": "10/13"
+        "color_scheme": "",
+        "title": "the top ten format",
+        "padding_top": 50,
+        "padding_bottom": 30
       }
     },
-    "16614353261f55a56a": {
-      "type": "about-page-links",
-      "disabled": true,
-      "settings": {
-        "heading1": "PROFILE213",
-        "heading2": "SHOP LIST",
-        "heading3": "YOUTUBE",
-        "heading4": "SHARE LIST",
-        "sub-heading1": "10/13",
-        "sub-heading2": "CLICK TO SHOP",
-        "sub-heading3": "10/13",
-        "sub-heading4": "SHOP NOW",
-        "link1": "#",
-        "link2": "#",
-        "link3": "#",
-        "link4": "#",
-        "bottom-text": "<p>CLICK THROUGH TO CREATE YOUR FAVOURITE TOP TEN LIST</p>",
-        "bottom-link": "#"
-      }
-    },
-    "6151c9b6-e7c7-469a-8550-aea8b8911c66": {
-      "type": "section-gallery",
-      "disabled": true,
+    "section_image_with_text_H8HBKc": {
+      "type": "section-image-with-text",
       "blocks": {
-        "template--15662938194115__6151c9b6-e7c7-469a-8550-aea8b8911c66-1666814588a324153f-0": {
+        "image_AfNxrY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WELCOME_0d7c9375-2287-4d37-b8d5-a2e78bbdcb7e.png",
-            "bg_position": "center-center",
-            "link": ""
+            "img": "shopify://shop_images/Rectangle_17_5e83fa28-082a-449f-8f44-63671e3a720e.webp",
+            "aspect_ratio": "image-ratio-640-519"
           }
         },
-        "template--15662938194115__6151c9b6-e7c7-469a-8550-aea8b8911c66-1666814588a324153f-1": {
-          "type": "image",
+        "content_N7x9TW": {
+          "type": "content",
           "settings": {
-            "image": "shopify://shop_images/SIGN_IN.png",
-            "bg_position": "center-center",
-            "link": ""
-          }
-        },
-        "template--15662938194115__6151c9b6-e7c7-469a-8550-aea8b8911c66-1666814588a324153f-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SIGN_UP.png",
-            "bg_position": "center-center",
-            "link": ""
-          }
-        },
-        "4b27190b-9032-441e-8bcd-8da5ccefdef0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TOP_TEN_IMPORT.png",
-            "bg_position": "center-center",
-            "link": ""
-          }
-        },
-        "a1f1be56-33f7-4c2f-a92e-bfdf1b326f57": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/PROFILE.png",
-            "bg_position": "center-center",
-            "link": ""
-          }
-        },
-        "7482bf36-3d3c-41b6-a03e-937a36d90a27": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MENU.png",
-            "bg_position": "center-center",
-            "link": ""
+            "title": "ABOUT US",
+            "title_tag": "h2",
+            "text": "<p>T² is a curated editorial platform built around a single format: the Top Ten. </p><p>Each feature captures how a person actually lives — the products, places, and rituals that define their taste — and translates it into something worth saving, sharing, and buying. </p><p>Founded by Kate Yarbrough, whose perspective spans fashion, finance, and the consumer brands she invests in, T² brings together founders, creatives, and tastemakers to create discovery that feels personal. </p>",
+            "btn_name": "Learn more →",
+            "url": ""
           }
         }
       },
       "block_order": [
-        "template--15662938194115__6151c9b6-e7c7-469a-8550-aea8b8911c66-1666814588a324153f-0",
-        "template--15662938194115__6151c9b6-e7c7-469a-8550-aea8b8911c66-1666814588a324153f-1",
-        "template--15662938194115__6151c9b6-e7c7-469a-8550-aea8b8911c66-1666814588a324153f-2",
-        "4b27190b-9032-441e-8bcd-8da5ccefdef0",
-        "a1f1be56-33f7-4c2f-a92e-bfdf1b326f57",
-        "7482bf36-3d3c-41b6-a03e-937a36d90a27"
+        "image_AfNxrY",
+        "content_N7x9TW"
       ],
+      "name": "Section image with text",
       "settings": {
-        "full_width": true,
-        "padding": false,
-        "scale_image": false,
-        "aspect_ratio": 1.5,
-        "bg": "palette--light bg--neutral"
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_Wh9MHW": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "content_hKWEqC": {
+          "type": "content",
+          "settings": {
+            "title": "OUR FOUNDER",
+            "title_tag": "h2",
+            "text": "<p>Kate Yarbrough is the founder of T² (T-Squared), a platform designed to inspire connection through curated discovery across the products, places, and rituals that define how we live. </p><p>Her perspective is shaped by her work at the intersection of fashion and finance, where she invests in and advises leading consumer brands. </p><p>Through T², she brings together founders, creatives, and tastemakers—translating their preferences into actionable, high-signal discovery. <br/><br/></p>",
+            "btn_name": "Learn more →",
+            "url": ""
+          }
+        },
+        "image_QhHPcH": {
+          "type": "image",
+          "settings": {
+            "img": "shopify://shop_images/Rectangle_81.webp",
+            "aspect_ratio": "image-ratio-688-620"
+          }
+        }
+      },
+      "block_order": [
+        "content_hKWEqC",
+        "image_QhHPcH"
+      ],
+      "name": "Section image with text",
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 25
       }
     }
   },
   "order": [
     "main",
-    "1661420698291d4933",
-    "1661422004f236495d",
-    "1661423637641a2dd5",
-    "16614323001251b5e7",
-    "16614353261f55a56a",
-    "6151c9b6-e7c7-469a-8550-aea8b8911c66"
+    "section_split_hero_CE3Bq6",
+    "section_image_with_text_H8HBKc",
+    "section_image_with_text_Wh9MHW"
   ]
 }
