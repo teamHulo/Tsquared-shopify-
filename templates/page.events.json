@@ -41,8 +41,8 @@
         "image_HhyRyn": {
           "type": "image",
           "settings": {
-            "img_1": "shopify://shop_images/photo-frame2.png",
-            "img_2": "shopify://shop_images/photo-frame3.png"
+            "img_1": "shopify://shop_images/photo-frame3.png",
+            "img_2": "shopify://shop_images/photo-frame2.png"
           }
         }
       },
