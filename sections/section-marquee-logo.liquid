@@ -1,4 +1,5 @@
-{{ 'section-marquee-logo.css' |  asset_url |  stylesheet_tag }}
+{{ 'section-marquee-logo.css' | asset_url | stylesheet_tag }}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -12,8 +13,10 @@
     }
   }
 {%- endstyle -%}
+
 {% capture marquee_items %}
   {% for block in section.blocks %}
+
     {% assign responsive_width = block.settings.max_width
       | times: 100.0
       | divided_by: 1280
@@ -24,34 +27,85 @@
       | divided_by: 1280
     %}
 
+    {% assign image_width_55 = block.settings.max_width
+      | times: 0.55
+      | round
+    %}
+
+    {% assign image_width_75 = block.settings.max_width
+      | times: 0.75
+      | round
+    %}
+
+    {% assign image_width_100 = block.settings.max_width %}
+
+    {% assign image_width_150 = block.settings.max_width
+      | times: 1.5
+      | round
+    %}
+
+    {% assign image_width_200 = block.settings.max_width
+      | times: 2
+      | round
+    %}
+
+    {% if image_width_200 > block.settings.icon.width %}
+      {% assign image_width_200 = block.settings.icon.width %}
+    {% endif %}
+
+    {% if image_width_150 > block.settings.icon.width %}
+      {% assign image_width_150 = block.settings.icon.width %}
+    {% endif %}
+
     {% if block.settings.icon != blank %}
-      <div class="item" {{ block.shopify_attributes }} style="--width-icon:clamp(
-            calc({{- block.settings.max_width -}}px * 0.55),
-            {{- responsive_width -}}vw,
-            {{- block.settings.max_width -}}px
-          );">
-        <div
-          class="image"  
-        >
+      <div
+        class="item"
+        {{ block.shopify_attributes }}
+        style="
+          --width-icon: clamp(
+            calc({{ block.settings.max_width }}px * 0.55),
+            {{ responsive_width }}vw,
+            {{ block.settings.max_width }}px
+          );
+        "
+      >
+        <div class="image">
           <div
             class="image__wrap"
-            style="padding-top:clamp(
-              calc({{- block.settings.max_height -}}px * 0.55),
-              {{- responsive_height -}}vw,
-              {{- block.settings.max_height -}}px
-            );"
+            style="
+              padding-top: clamp(
+                calc({{ block.settings.max_height }}px * 0.55),
+                {{ responsive_height }}vw,
+                {{ block.settings.max_height }}px
+              );
+            "
           >
             <img
-              src="{{ block.settings.icon | image_url: width: block.settings.icon.width }}"
+              src="{{ block.settings.icon | image_url: width: image_width_200 }}"
+              srcset="
+                {{ block.settings.icon | image_url: width: image_width_55 }} {{ image_width_55 }}w,
+                {{ block.settings.icon | image_url: width: image_width_75 }} {{ image_width_75 }}w,
+                {{ block.settings.icon | image_url: width: image_width_100 }} {{ image_width_100 }}w,
+                {{ block.settings.icon | image_url: width: image_width_150 }} {{ image_width_150 }}w,
+                {{ block.settings.icon | image_url: width: image_width_200 }} {{ image_width_200 }}w
+              "
+              sizes="
+                (min-width: 1280px) {{ block.settings.max_width }}px,
+                (min-width: 704px) {{ responsive_width }}vw,
+                {{ image_width_55 }}px
+              "
               alt="{{ block.settings.icon.alt | escape }}"
               width="{{ block.settings.icon.width }}"
               height="{{ block.settings.icon.height }}"
               loading="lazy"
+              fetchpriority="low"
+              decoding="async"
             >
           </div>
         </div>
       </div>
     {% endif %}
+
   {% endfor %}
 {% endcapture %}
 
@@ -74,7 +128,7 @@
 {% schema %}
 {
   "name": "Section marquee ",
-  "class":"new-shopify-section",
+  "class": "new-shopify-section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
@@ -108,42 +162,41 @@
   ],
   "blocks": [
     {
-        "name": "item",
-        "type":"item",
-        "settings": [
-            {
-                "type": "image_picker",
-                "label": "icon",
-                "id":"icon"
-            },
-            {
-                "type": "range",
-                "id": "max_width",
-                "min": 150,
-                "max": 300,
-                "step": 2,
-                "unit": "px",
-                "label": "max-width logo",
-                "default": 280
-            },
-            {
-                "type": "range",
-                "id": "max_height",
-                "min": 50,
-                "max": 300,
-                "step": 5,
-                "unit": "px",
-                "label": "max-width logo",
-                "default": 280
-            }
-        ]
+      "name": "item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "icon",
+          "id": "icon"
+        },
+        {
+          "type": "range",
+          "id": "max_width",
+          "min": 150,
+          "max": 300,
+          "step": 2,
+          "unit": "px",
+          "label": "max-width logo",
+          "default": 280
+        },
+        {
+          "type": "range",
+          "id": "max_height",
+          "min": 50,
+          "max": 300,
+          "step": 5,
+          "unit": "px",
+          "label": "max-height logo",
+          "default": 280
+        }
+      ]
     }
   ],
   "presets": [
     {
       "name": "Section marquee",
-      "category":"Home page"
-      
+      "category": "Home page"
     }
   ]
 }

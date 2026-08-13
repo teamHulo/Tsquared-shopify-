@@ -8,73 +8,97 @@
     "theme_documentation_url": "https://groupthought.com/link/pipeline/docs"
   },
   {
-    "name": "Color Scheme",
-    "settings": [
-      {
-        "type": "color_scheme_group",
-        "id": "color_schemes",
-        "definition": [
-          {
-            "type": "color",
-            "id": "background",
-            "label": "Background",
-            "default": "#FFFFFF"
-          },
-          {
-            "type": "color_background",
-            "id": "background_gradient",
-            "label": "Background gradient",
-            "info": "Background gradient replaces background where possible."
-          },
-          {
-            "type": "color",
-            "id": "text",
-            "label": "Text",
-            "default": "#121212"
-          },
-          {
-            "type": "color",
-            "id": "button",
-            "label": "Solid button background",
-            "default": "#121212"
-          },
-          {
-            "type": "color",
-            "id": "button_label",
-            "label": "Solid button label",
-            "default": "#FFFFFF"
-          },
-          {
-            "type": "color",
-            "id": "secondary_button_label",
-            "label": "Outline button",
-            "default": "#121212"
-          },
-          {
-            "type": "color",
-            "id": "shadow",
-            "label": "Shadow",
-            "default": "#121212"
-          }
-        ],
-        "role": {
-          "text": "text",
-          "background": {
-            "solid": "background",
-            "gradient": "background_gradient"
-          },
-          "links": "secondary_button_label",
-          "icons": "text",
-          "primary_button": "button",
-          "on_primary_button": "button_label",
-          "primary_button_border": "button",
-          "secondary_button": "background",
-          "on_secondary_button": "secondary_button_label",
-          "secondary_button_border": "secondary_button_label"
+  "name": "Color Scheme",
+  "settings": [
+    {
+      "type": "color_scheme_group",
+      "id": "color_schemes",
+      "definition": [
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color_background",
+          "id": "background_gradient",
+          "label": "Background gradient",
+          "info": "Background gradient replaces background where possible."
+        },
+        {
+          "type": "color",
+          "id": "text",
+          "label": "Text",
+          "default": "#121212"
+        },
+        {
+          "type": "color",
+          "id": "button",
+          "label": "Solid button background",
+          "default": "#121212"
+        },
+        {
+          "type": "color",
+          "id": "button_label",
+          "label": "Solid button label",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "button_hover",
+          "label": "Solid button hover background",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "button_label_hover",
+          "label": "Solid button hover label",
+          "default": "#121212"
+        },
+        {
+          "type": "color",
+          "id": "secondary_button_label",
+          "label": "Outline button",
+          "default": "#121212"
+        },
+        {
+          "type": "color",
+          "id": "secondary_button_hover",
+          "label": "Outline button hover background",
+          "default": "#121212"
+        },
+        {
+          "type": "color",
+          "id": "secondary_button_label_hover",
+          "label": "Outline button hover label",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "shadow",
+          "label": "Shadow",
+          "default": "#121212"
         }
+      ],
+      "role": {
+        "text": "text",
+        "background": {
+          "solid": "background",
+          "gradient": "background_gradient"
+        },
+        "links": "secondary_button_label",
+        "icons": "text",
+        "primary_button": "button",
+        "on_primary_button": "button_label",
+        "primary_button_border": "button",
+        "secondary_button": "background",
+        "on_secondary_button": "secondary_button_label",
+        "secondary_button_border": "secondary_button_label"
       }
-    ]
-  },
+    }
+  ]
+},
   {
     "name": "Color",
     "settings": [

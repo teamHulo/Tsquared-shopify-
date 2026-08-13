@@ -1,4 +1,4 @@
-{{ 'section-featured.css' |  asset_url |  stylesheet_tag }}
+{{ 'section-featured.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -13,97 +13,146 @@
     }
   }
 {%- endstyle -%}
-<div class="section-featured  color-{{ section.settings.color_scheme }}">
-    <div class="section-featured-body">
-        <div class="container">
-        <div class="section-featured__wrap section-{{ section.id }}-padding">
-            {% if section.settings.title != blank %}
-                <div class="title">
-                    <h2>
-                        {{ section.settings.title }}
-                    </h2>
-                </div>
-            {% endif %}
-            <div class="content">
-                <div class="left">
-                    <div class="left__wrap">
-                        {% for block in section.blocks %}
-                            {% case block.type %}
-                                {% when 'content' %}
-                                    <div class="content-item">
-                                        {% if  block.settings.title != blank %}
-                                            <div class="title" >
-                                                <h3>
-                                                    {{ block.settings.title }}
-                                                </h3>
-                                            </div>
-                                        {% endif %}
-                                        {% if block.settings.text != blank %}
-                                            <div class="text">
-                                                <p>
-                                                    {{ block.settings.text }}
-                                                </p>
-                                            </div>
-                                        {% endif %}
-                                        {% if block.settings.btn_name != blank and block.settings.url != blank %}
-                                            <div class="btn__wrap">
-                                                <a class="btn" href="{{ block.settings.url }}"> 
-                                                    <span>
-                                                        {{ block.settings.btn_name }} 
-                                                    </span>
-                                                </a>
-                                            </div>
-                                        {% endif %}
-                                    </div>
-                                {% when 'image-text' %}
-                                    <div class="image-text">
-                                        {% if block.settings.img != blank %}
-                                            <div class="image">
-                                                <div class="image__wrap">
-                                                    <img src="{{ block.settings.img |  image_url: width: block.settings.img.width }}" alt="{% if block.settings.img.alt != blank %}{{block.settings.img.alt}}{% else %}{{block.settings.title}}{% endif %}">
-                                                </div>
-                                            </div>
-                                        {% endif %}
-                                        {% if block.settings.title != blank %}
-                                            <div class="title">
-                                                <h3>
-                                                    {{ block.settings.title }}
-                                                </h3>
-                                            </div>
-                                        {% endif %}
-                                        {% if block.settings.subtitle != blank %}
-                                            <div class="subtitle">
-                                                <p>
-                                                    {{ block.settings.subtitle }}
-                                                </p>
-                                            </div>
-                                        {% endif %}
-                                    </div>
-                            {% endcase %}
-                        {% endfor %}
-                    </div>
-                </div>
-                {% if section.settings.img != blank %}
-                    <div class="right">
-                        <div class="right__wrap">
-                            <div class="image">
-                                <div class="image__wrap">   
-                                    <picture>
-                                        <img
-                                        src="{{ section.settings.img | image_url: width: section.settings.img.width }}"
-                                        width="{{ section.settings.img.width }}"
-                                        alt="{{ section.settings.img.alt | escape }}"
-                                        >
-                                    </picture>    
-                                </div>
-                            </div>
+
+{%- liquid
+  assign image_loading = 'lazy'
+  assign image_fetchpriority = 'auto'
+
+  if section.location == 'template' and section.index <= 2
+    assign image_loading = 'eager'
+  endif
+
+  if section.location == 'template' and section.index == 1
+    assign image_fetchpriority = 'high'
+  endif
+-%}
+
+<div class="section-featured color-{{ section.settings.color_scheme }}">
+  <div class="section-featured-body">
+    <div class="container">
+      <div class="section-featured__wrap section-{{ section.id }}-padding">
+
+        {% if section.settings.title != blank %}
+          <div class="title">
+            <h2>
+              {{ section.settings.title }}
+            </h2>
+          </div>
+        {% endif %}
+
+        <div class="content">
+
+          <div class="left">
+            <div class="left__wrap">
+
+              {% for block in section.blocks %}
+                {% case block.type %}
+
+                  {% when 'content' %}
+                    <div class="content-item" {{ block.shopify_attributes }}>
+
+                      {% if block.settings.title != blank %}
+                        <div class="title">
+                          <h3>
+                            {{ block.settings.title }}
+                          </h3>
                         </div>
+                      {% endif %}
+
+                      {% if block.settings.text != blank %}
+                        <div class="text">
+                          <p>
+                            {{ block.settings.text }}
+                          </p>
+                        </div>
+                      {% endif %}
+
+                      {% if block.settings.btn_name != blank and block.settings.url != blank %}
+                        <div class="btn__wrap">
+                          <a class="btn" href="{{ block.settings.url }}">
+                            <span>
+                              {{ block.settings.btn_name }}
+                            </span>
+                          </a>
+                        </div>
+                      {% endif %}
+
                     </div>
-                {% endif %}
+
+                  {% when 'image-text' %}
+                    <div class="image-text" {{ block.shopify_attributes }}>
+
+                      {% if block.settings.img != blank %}
+                        <div class="image">
+                          <div class="image__wrap">
+
+                            {% assign image_alt = block.settings.img.alt | default: block.settings.title %}
+
+                            {{
+                              block.settings.img
+                              | image_url: width: 765
+                              | image_tag:
+                                widths: '255, 383, 510, 765',
+                                sizes: '(min-width: 510px) 255px, 50vw',
+                                loading: image_loading,
+                                alt: image_alt
+                            }}
+
+                          </div>
+                        </div>
+                      {% endif %}
+
+                      {% if block.settings.title != blank %}
+                        <div class="title">
+                          <h3>
+                            {{ block.settings.title }}
+                          </h3>
+                        </div>
+                      {% endif %}
+
+                      {% if block.settings.subtitle != blank %}
+                        <div class="subtitle">
+                          <p>
+                            {{ block.settings.subtitle }}
+                          </p>
+                        </div>
+                      {% endif %}
+
+                    </div>
+
+                {% endcase %}
+              {% endfor %}
+
             </div>
+          </div>
+
+          {% if section.settings.img != blank %}
+            <div class="right">
+              <div class="right__wrap">
+                <div class="image">
+                  <div class="image__wrap">
+
+                    {{
+                      section.settings.img
+                      | image_url: width: 1404
+                      | image_tag:
+                        widths: '350, 500, 702, 900, 1053, 1404',
+                        sizes: '(min-width: 1404px) 702px, 50vw',
+                        loading: image_loading,
+                        fetchpriority: image_fetchpriority,
+                        alt: section.settings.img.alt
+                    }}
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+
         </div>
+      </div>
     </div>
-    </div>
+  </div>
 </div>
 
 {% schema %}
@@ -122,15 +171,15 @@
       "default": "scheme-1"
     },
     {
-        "type": "image_picker",
-        "id":"img",
-        "label":"image"
+      "type": "image_picker",
+      "id": "img",
+      "label": "image"
     },
     {
-        "type": "text",
-        "id":"title",
-        "label": "title",
-        "default": "FEATUREd top ten"
+      "type": "text",
+      "id": "title",
+      "label": "title",
+      "default": "FEATUREd top ten"
     },
     {
       "type": "range",
@@ -155,58 +204,58 @@
   ],
   "blocks": [
     {
-        "type": "image-text",
-        "name":"image with text",
-        "limit":1,
-        "settings": [
-            {
-                "type": "image_picker",
-                "id":"img",
-                "label":"image"
-            },
-            {
-                "type": "text",
-                "id":"title",
-                "label": "title",
-                "default":"Chandon"
-            },
-            {
-                "type": "text",
-                "id":"subtitle",
-                "label":"subtitle",
-                "default":"Rose Brut"
-            }
-        ]
+      "type": "image-text",
+      "name": "image with text",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default": "Chandon"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "subtitle",
+          "default": "Rose Brut"
+        }
+      ]
     },
     {
-        "type": "content",
-        "name":"content",
-        "limit":1,
-        "settings": [
-            {
-                "type": "text",
-                "id":"title",
-                "label": "title",
-                "default":"Kate berry"
-            },
-            {
-                "type": "text",
-                "id":"text",
-                "label": "text",
-                "default":"Lorem ipsum dolor sit amet consectetur. Ut tortor aliquet viverra pulvinar tellus. Felis justo congue aliquet ultricies dui egestas consectetur scelerisque."
-            },
-            {
-                "type": "text",
-                "id":"btn_name",
-                "label": "btn name",
-                "default": "VIEW more → "
-            },
-            {
-                "type": "url",
-                "id":"url",
-                "label": "url"
-            }
-        ]
+      "type": "content",
+      "name": "content",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default": "Kate berry"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "text",
+          "default": "Lorem ipsum dolor sit amet consectetur. Ut tortor aliquet viverra pulvinar tellus. Felis justo congue aliquet ultricies dui egestas consectetur scelerisque."
+        },
+        {
+          "type": "text",
+          "id": "btn_name",
+          "label": "btn name",
+          "default": "VIEW more → "
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "url"
+        }
+      ]
     }
   ],
   "presets": [

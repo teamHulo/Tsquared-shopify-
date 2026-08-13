@@ -192,17 +192,18 @@
 }
 
 .btn {
-    display: flex;
-    align-items: center;
-    gap:5px;
-    justify-content: center;
-    padding: 15px 19px 13px 19px;
-    background: rgb(var(--color-button));
-    overflow: hidden;
-    border-radius: 30px;
-    text-decoration: none;
-    border:0;
-    min-height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 15px 19px 13px 19px;
+  background: rgb(var(--color-button));
+  overflow: hidden;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 0;
+  min-height: 45px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn span {
@@ -217,20 +218,31 @@
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  transition: color 0.3s ease;
 }
 
+.btn:hover {
+  background: rgb(var(--color-button-hover));
+}
+
+.btn:hover span {
+  color: rgb(var(--color-button-hover-text));
+}
+
+
 .btn-secondary {
-    display: flex;
-    align-items: center;
-    gap:5px;
-    justify-content: center;
-    padding: 15px 19px 13px 19px;
-    background: transparent;
-    border:1px solid rgb(var(--color-button-text));
-    overflow: hidden;
-    border-radius: 30px;
-    text-decoration: none;
-    min-height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 15px 19px 13px 19px;
+  background: rgb(var(--color-secondary-button));
+  border: 1px solid rgb(var(--color-secondary-button-text));
+  overflow: hidden;
+  border-radius: 30px;
+  text-decoration: none;
+  min-height: 45px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-secondary span {
@@ -241,8 +253,18 @@
   line-height: normal;
   text-transform: uppercase;
   letter-spacing: 0;
-  color: rgb(var(--color-button-text));
+  color: rgb(var(--color-secondary-button-text));
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  transition: color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: rgb(var(--color-secondary-button-hover));
+  border-color: rgb(var(--color-secondary-button-hover));
+}
+
+.btn-secondary:hover span {
+  color: rgb(var(--color-secondary-button-hover-text));
 }

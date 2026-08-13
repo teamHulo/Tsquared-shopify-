@@ -1,4 +1,4 @@
-{{ 'section-recent.css' |  asset_url |  stylesheet_tag }}
+{{ 'section-recent.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -13,77 +13,121 @@
     }
   }
 {%- endstyle -%}
-<div class="section-recent  color-{{ section.settings.color_scheme }}">
-    <div class="section-recent-body">
-        <div class="container">
-            <div class="section-recent__wrap section-{{ section.id }}-padding">
-                {% if  section.settings.title != blank or section.settings.btn_name != blank and section.settings.url != blank %}
-                    <div class="heading">
-                        {% if section.settings.title != blank %}
-                            <div class="title">
-                                <h2>
-                                    {{ section.settings.title }}
-                                </h2>
-                            </div>
-                        {% endif %}
-                        {% if section.settings.btn_name != blank and section.settings.url != blank %}
-                            <div class="btn__wrap">
-                                <a class="btn" href="{{ section.settings.url }}"> 
-                                    <span>
-                                        {{ section.settings.btn_name }} 
-                                    </span>
-                                </a>
-                            </div>
-                        {% endif %}
+
+<div class="section-recent color-{{ section.settings.color_scheme }}">
+  <div class="section-recent-body">
+    <div class="container">
+      <div class="section-recent__wrap section-{{ section.id }}-padding">
+
+        {% if section.settings.title != blank or section.settings.btn_name != blank and section.settings.url != blank %}
+          <div class="heading">
+
+            {% if section.settings.title != blank %}
+              <div class="title">
+                <h2>
+                  {{ section.settings.title }}
+                </h2>
+              </div>
+            {% endif %}
+
+            {% if section.settings.btn_name != blank and section.settings.url != blank %}
+              <div class="btn__wrap">
+                <a class="btn" href="{{ section.settings.url }}">
+                  <span>
+                    {{ section.settings.btn_name }}
+                  </span>
+                </a>
+              </div>
+            {% endif %}
+
+          </div>
+        {% endif %}
+
+        <custom-slider class="swiper" data-index="1" data-progress>
+          <div class="swiper-wrapper">
+
+            {% for block in section.blocks %}
+
+              {%- liquid
+                assign image_loading = 'lazy'
+                assign image_fetchpriority = 'auto'
+
+                if section.location == 'template' and section.index <= 2 and forloop.first
+                  assign image_loading = 'eager'
+                  assign image_fetchpriority = 'high'
+                endif
+              -%}
+
+              <div
+                class="swiper-slide color-{{ section.settings.color_scheme_item }}"
+                {{ block.shopify_attributes }}
+              >
+
+                {% if block.settings.img != blank %}
+                  <div class="image">
+                    <div class="image__wrap">
+
+                      {{
+                        block.settings.img
+                        | image_url: width: 660
+                        | image_tag:
+                          widths: '220, 330, 440, 550, 660',
+                          sizes: '(min-width: 750px) 220px, 70vw',
+                          loading: image_loading,
+                          fetchpriority: image_fetchpriority,
+                          alt: block.settings.img.alt
+                      }}
+
                     </div>
+                  </div>
                 {% endif %}
-                <custom-slider class="swiper" data-index="1" data-progress>
-                    <div class="swiper-wrapper">
-                        {% for block in section.blocks %}
-                            <div class="swiper-slide color-{{ section.settings.color_scheme_item }}">
-                                {% if block.settings.img != blank %}
-                                    <div class="image">
-                                        <div class="image__wrap">
-                                            <img src="{{ block.settings.img |  image_url: width: block.settings.img.width }}" alt="{{ block.settings.img.alt }}">
-                                        </div>
-                                    </div>
-                                {% endif %}
-                                <div class="content">
-                                    {% if block.settings.title != blank %}
-                                        <div class="title">
-                                            <h3>
-                                                {{ block.settings.title }}
-                                            </h3>
-                                        </div>
-                                    {% endif %}
-                                </div>
-                            </div>         
-                        {% endfor %}
-                    </div>
-                    <div class="swiper-navigations">
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-btns">
-                           
-                            <div class="swiper-button-prev swiper-btn">
-                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="10.1" cy="10.1" r="9.6" transform="matrix(-1 0 0 1 20.2 0)" stroke="#600724"/>
-                                    <path d="M12.0906 7.05887L11.4952 6.46409L8.25259 9.70563C8.20032 9.75757 8.15883 9.81933 8.13053 9.88737C8.10222 9.9554 8.08765 10.0284 8.08765 10.1021C8.08765 10.1757 8.10222 10.2487 8.13053 10.3167C8.15883 10.3848 8.20032 10.4465 8.25259 10.4985L11.4952 13.7417L12.09 13.1469L9.04656 10.1029L12.0906 7.05887Z" fill="#600724"/>
-                                </svg>
 
-                            </div>
-                             <div class="swiper-button-next swiper-btn">
-                                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="10.1" cy="10.1" r="9.6" stroke="#600724"/>
-                                    <path d="M8.10888 7.05887L8.70422 6.46409L11.9469 9.70563C11.9991 9.75757 12.0406 9.81933 12.0689 9.88737C12.0972 9.9554 12.1118 10.0284 12.1118 10.1021C12.1118 10.1757 12.0972 10.2487 12.0689 10.3167C12.0406 10.3848 11.9991 10.4465 11.9469 10.4985L8.70422 13.7417L8.10944 13.1469L11.1529 10.1029L8.10888 7.05887Z" fill="#600724"/>
-                                </svg>
+                <div class="content">
 
-                            </div>
-                        </div>
+                  {% if block.settings.title != blank %}
+                    <div class="title">
+                      <h3>
+                        {{ block.settings.title }}
+                      </h3>
                     </div>
-                </custom-slider>
+                  {% endif %}
+
+                </div>
+
+              </div>
+
+            {% endfor %}
+
+          </div>
+
+          <div class="swiper-navigations">
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-btns">
+
+              <div class="swiper-button-prev swiper-btn">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="10.1" cy="10.1" r="9.6" transform="matrix(-1 0 0 1 20.2 0)" stroke="#600724"/>
+                  <path d="M12.0906 7.05887L11.4952 6.46409L8.25259 9.70563C8.20032 9.75757 8.15883 9.81933 8.13053 9.88737C8.10222 9.9554 8.08765 10.0284 8.08765 10.1021C8.08765 10.1757 8.10222 10.2487 8.13053 10.3167C8.15883 10.3848 8.20032 10.4465 8.25259 10.4985L11.4952 13.7417L12.09 13.1469L9.04656 10.1029L12.0906 7.05887Z" fill="#600724"/>
+                </svg>
+              </div>
+
+              <div class="swiper-button-next swiper-btn">
+                <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="10.1" cy="10.1" r="9.6" stroke="#600724"/>
+                  <path d="M8.10888 7.05887L8.70422 6.46409L11.9469 9.70563C11.9991 9.75757 12.0406 9.81933 12.0689 9.88737C12.0972 9.9554 12.1118 10.0284 12.1118 10.1021C12.1118 10.1757 12.0972 10.2487 12.0689 10.3167C12.0406 10.3848 11.9991 10.4465 11.9469 10.4985L8.70422 13.7417L8.10944 13.1469L11.1529 10.1029L8.10888 7.05887Z" fill="#600724"/>
+                </svg>
+              </div>
+
             </div>
-        </div>
+          </div>
+
+        </custom-slider>
+
+      </div>
     </div>
+  </div>
 </div>
 
 {% schema %}
@@ -102,21 +146,21 @@
       "default": "scheme-1"
     },
     {
-        "type": "text",
-        "id":"title",
-        "label": "title",
-        "default":"RECENT features"
+      "type": "text",
+      "id": "title",
+      "label": "title",
+      "default": "RECENT features"
     },
     {
-        "type": "text",
-        "id":"btn_name",
-        "label": "btn name",
-        "default": "VIEW more → "
+      "type": "text",
+      "id": "btn_name",
+      "label": "btn name",
+      "default": "VIEW more → "
     },
     {
-        "type": "url",
-        "id":"url",
-        "label": "url"
+      "type": "url",
+      "id": "url",
+      "label": "url"
     },
     {
       "type": "range",
@@ -141,21 +185,21 @@
   ],
   "blocks": [
     {
-        "name": "item",
-        "type":"item",
-        "settings": [
-            {
-                "type": "image_picker",
-                "id":"img",
-                "label": "image"
-            },
-            {
-                "type": "text",
-                "id":"title",
-                "label":"title",
-                "default":"LILAH RAMZI "
-            }
-        ]
+      "name": "item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "default": "LILAH RAMZI "
+        }
+      ]
     }
   ],
   "presets": [

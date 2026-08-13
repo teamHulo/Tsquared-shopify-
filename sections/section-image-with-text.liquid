@@ -13,49 +13,101 @@
     }
   }
 {%- endstyle -%}
-<div class="section-image-with-text  color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
-    <div class="container">
-        <div class="section-image-with-text__wrap">
-            {% for block in section.blocks %}
-                {% case block.type %}
-                    {% when 'image' %}
-                        <div class="image-item {{ block.settings.aspect_ratio }}">
-                            <div class="image">
-                                <div class="image__wrap">
-                                    <img src="{{ block.settings.img |  image_url: width: block.settings.img.width }}" alt="{{ block.settings.img.alt }}">
-                                </div>
-                            </div>
-                        </div>
-                    {% when 'content' %}
-                        <div class="content">
-                            <div class="content__wrap">
-                                {% if  block.settings.title != blank %}
-                                    <div class="title" >
-                                        <{{ block.settings.title_tag }}>
-                                            {{ block.settings.title }}
-                                        </{{ block.settings.title_tag }}>
-                                    </div>
-                                {% endif %}
-                                {% if block.settings.text != blank %}
-                                    <div class="text">
-                                        {{ block.settings.text }}
-                                    </div>
-                                {% endif %}
-                                {% if block.settings.btn_name != blank and block.settings.url != blank %}
-                                    <div class="btn__wrap">
-                                        <a class="btn" href="{{ block.settings.url }}"> 
-                                            <span>
-                                                {{ block.settings.btn_name }} 
-                                            </span>
-                                        </a>
-                                    </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                {% endcase %}
-            {% endfor %}
-        </div>
+{{ 'section-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign image_loading = 'lazy'
+  assign image_fetchpriority = 'auto'
+
+  if section.location == 'template' and section.index <= 2
+    assign image_loading = 'eager'
+  endif
+
+  if section.location == 'template' and section.index == 1
+    assign image_fetchpriority = 'high'
+  endif
+-%}
+
+<div class="section-image-with-text color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+  <div class="container">
+    <div class="section-image-with-text__wrap">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'image' %}
+            <div class="image-item {{ block.settings.aspect_ratio }}">
+              <div class="image">
+                <div class="image__wrap">
+                  {% if block.settings.img != blank %}
+                    {% case block.settings.aspect_ratio %}
+                        {% when 'image-ratio-626-439' %}
+                        {% assign image_sizes = '(min-width: 1252px) 626px, (min-width: 750px) 50vw, 100vw' %}
+                        {% when 'image-ratio-640-519' %}
+                        {% assign image_sizes = '(min-width: 1280px) 640px, (min-width: 750px) 50vw, 100vw' %}
+                        {% when 'image-ratio-688-620' %}
+                        {% assign image_sizes = '(min-width: 1376px) 688px, (min-width: 750px) 50vw, 100vw' %}
+                    {% endcase %}
+
+                    {{
+                        block.settings.img
+                        | image_url: width: 1400
+                        | image_tag:
+                        widths: '320, 480, 626, 640, 688, 750, 900, 1100, 1252, 1280, 1376, 1400',
+                        sizes: image_sizes,
+                        loading: image_loading,
+                        fetchpriority: image_fetchpriority,
+                        alt: block.settings.img.alt
+                    }}
+                {% endif %}
+                </div>
+              </div>
+            </div>
+
+          {% when 'content' %}
+            <div class="content">
+              <div class="content__wrap">
+                {% if block.settings.title != blank %}
+                  <div class="title">
+                    <{{ block.settings.title_tag }}>
+                      {{ block.settings.title }}
+                    </{{ block.settings.title_tag }}>
+                  </div>
+                {% endif %}
+
+                {% if block.settings.text != blank %}
+                  <div class="text">
+                    {{ block.settings.text }}
+                  </div>
+                {% endif %}
+
+                {% if block.settings.btn_name != blank and block.settings.url != blank %}
+                  <div class="btn__wrap">
+                    <a class="btn" href="{{ block.settings.url }}">
+                      <span>
+                        {{ block.settings.btn_name }}
+                      </span>
+                    </a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
     </div>
+  </div>
 </div>
 
 {% schema %}

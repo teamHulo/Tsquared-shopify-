@@ -1,49 +1,105 @@
-{{ 'section-banner.css' |  asset_url |  stylesheet_tag }}
+{{ 'section-banner.css' | asset_url | stylesheet_tag }}
 
+{% assign desktop_image = section.settings.img %}
+{% assign mobile_image = section.settings.img_m %}
 
-<div class="section-banner  color-{{ section.settings.color_scheme }}">
-    {% if section.settings.img != blank %}
-        <picture>
-            {% if section.settings.img_m != blank %}
-            <source
-                media="(max-width: 500px)"
-                srcset="
-                {{ section.settings.img_m | image_url: width: 375 }} 375w,
-                {{ section.settings.img_m | image_url: width: 500 }} 500w,
-                {{ section.settings.img_m | image_url: width: 750 }} 750w
-                "
-                sizes="100vw"
-            >
-            {% endif %}
+{% if desktop_image != blank %}
+  {% if mobile_image != blank %}
+    <link
+      rel="preload"
+      as="image"
+      href="{{ mobile_image | image_url: width: 750 }}"
+      imagesrcset="
+        {{ mobile_image | image_url: width: 375 }} 375w,
+        {{ mobile_image | image_url: width: 500 }} 500w,
+        {{ mobile_image | image_url: width: 750 }} 750w,
+        {{ mobile_image | image_url: width: 1000 }} 1000w
+      "
+      imagesizes="100vw"
+      media="(max-width: 500px)"
+      fetchpriority="high"
+    >
 
-            <img
-            class="bg"
-            src="{{ section.settings.img | image_url: width: 1600 }}"
-            srcset="
-                {{ section.settings.img | image_url: width: 750 }} 750w,
-                {{ section.settings.img | image_url: width: 1200 }} 1200w,
-                {{ section.settings.img | image_url: width: 1600 }} 1600w,
-                {{ section.settings.img | image_url: width: 2200 }} 2200w
-            "
-            sizes="100vw"
-            width="{{ section.settings.img.width }}"
-            height="{{ section.settings.img.height }}"
-            fetchpriority="high"
-            loading="eager"
-            decoding="async"
-            alt="{{ section.settings.img.alt | escape }}"
-            >
-        </picture>
-    {% endif %}
-    <div class="container">
-        <div class="section-banner__wrap">
-            <div class="title">
-                <h1 class="h1">
-                    {{ section.settings.title }}
-                </h1>
-            </div>
-        </div>
+    <link
+      rel="preload"
+      as="image"
+      href="{{ desktop_image | image_url: width: 1600 }}"
+      imagesrcset="
+        {{ desktop_image | image_url: width: 750 }} 750w,
+        {{ desktop_image | image_url: width: 1200 }} 1200w,
+        {{ desktop_image | image_url: width: 1600 }} 1600w,
+        {{ desktop_image | image_url: width: 2000 }} 2000w,
+        {{ desktop_image | image_url: width: 2400 }} 2400w
+      "
+      imagesizes="100vw"
+      media="(min-width: 501px)"
+      fetchpriority="high"
+    >
+  {% else %}
+    <link
+      rel="preload"
+      as="image"
+      href="{{ desktop_image | image_url: width: 1600 }}"
+      imagesrcset="
+        {{ desktop_image | image_url: width: 750 }} 750w,
+        {{ desktop_image | image_url: width: 1200 }} 1200w,
+        {{ desktop_image | image_url: width: 1600 }} 1600w,
+        {{ desktop_image | image_url: width: 2000 }} 2000w,
+        {{ desktop_image | image_url: width: 2400 }} 2400w
+      "
+      imagesizes="100vw"
+      fetchpriority="high"
+    >
+  {% endif %}
+{% endif %}
+
+<div class="section-banner color-{{ section.settings.color_scheme }}">
+  {% if desktop_image != blank %}
+    <picture>
+      {% if mobile_image != blank %}
+        <source
+          media="(max-width: 500px)"
+          srcset="
+            {{ mobile_image | image_url: width: 375 }} 375w,
+            {{ mobile_image | image_url: width: 500 }} 500w,
+            {{ mobile_image | image_url: width: 750 }} 750w,
+            {{ mobile_image | image_url: width: 1000 }} 1000w
+          "
+          sizes="100vw"
+          width="{{ mobile_image.width }}"
+          height="{{ mobile_image.height }}"
+        >
+      {% endif %}
+
+      <img
+        class="bg"
+        src="{{ desktop_image | image_url: width: 1600 }}"
+        srcset="
+          {{ desktop_image | image_url: width: 750 }} 750w,
+          {{ desktop_image | image_url: width: 1200 }} 1200w,
+          {{ desktop_image | image_url: width: 1600 }} 1600w,
+          {{ desktop_image | image_url: width: 2000 }} 2000w,
+          {{ desktop_image | image_url: width: 2400 }} 2400w
+        "
+        sizes="100vw"
+        width="{{ desktop_image.width }}"
+        height="{{ desktop_image.height }}"
+        fetchpriority="high"
+        loading="eager"
+        alt="{{ desktop_image.alt | escape }}"
+      >
+    </picture>
+  {% endif %}
+
+  <div class="container">
+    <div class="section-banner__wrap">
+      <div class="title">
+        <h1 class="h1">
+          {{ section.settings.title }}
+        </h1>
+      </div>
     </div>
+  </div>
 </div>
 
 {% schema %}

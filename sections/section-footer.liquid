@@ -1,7 +1,6 @@
 {{ 'section-footer.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
@@ -27,13 +26,16 @@
         {% if section.settings.img != blank %}
           <div class="image">
             <div class="image__wrap">
-              <img
-                src="{{ section.settings.img | image_url: width: section.settings.img.width }}"
-                alt="{{ section.settings.img.alt | escape }}"
-                loading="lazy"
-                width="{{ section.settings.img.width }}"
-                height="{{ section.settings.img.height }}"
-              >
+              {{
+                section.settings.img
+                | image_url: width: 960
+                | image_tag:
+                  widths: '240, 320, 480, 640, 800, 960',
+                  sizes: '(min-width: 1200px) 480px, (min-width: 750px) 40vw, 70vw',
+                  loading: 'lazy',
+                  fetchpriority: 'low',
+                  alt: section.settings.img.alt
+              }}
             </div>
           </div>
         {% endif %}
@@ -224,7 +226,7 @@
 {% schema %}
 {
   "name": "Footer",
-  "class":"new-shopify-section",
+  "class": "new-shopify-section",
   "blocks": [
     {
       "type": "link_list",

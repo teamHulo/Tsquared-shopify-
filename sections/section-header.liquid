@@ -1,4 +1,14 @@
 {{ 'section-header.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+  assign logo_render_width = section.settings.logo_width
+  assign logo_image_width = logo_render_width | times: 2
+
+  if section.settings.logo != blank and logo_image_width > section.settings.logo.width
+    assign logo_image_width = section.settings.logo.width
+  endif
+-%}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -12,10 +22,18 @@
     }
   }
 {%- endstyle -%}
-<header class="header color-{{ section.settings.color_scheme }}">
+
+<header
+  class="header color-{% if request.page_type == 'index' %}{{ section.settings.color_scheme_home_top }}{% else %}{{ section.settings.color_scheme }}{% endif %}"
+  data-header-color-scheme="{{ section.settings.color_scheme }}"
+  data-home-top-color-scheme="{{ section.settings.color_scheme_home_top }}"
+  data-drawer-color-scheme="{{ section.settings.color_scheme_drawer }}"
+  data-is-home="{% if request.page_type == 'index' %}true{% else %}false{% endif %}"
+>
   <div class="header__body">
     <div class="container">
       <div class="header__wrap section-{{ section.id }}-padding">
+
         <button
           type="button"
           class="header-burger"
@@ -37,21 +55,21 @@
         </button>
 
         <div class="logo">
-          <a href="{{ routes.root_url }}" class="logo__link">
+          <a
+            href="{{ routes.root_url }}"
+            class="logo__link"
+            aria-label="{{ shop.name | escape }}"
+          >
             {% if section.settings.logo != blank %}
-              <div class="image">
-                <div class="image__wrap">
-                  {{
-                    section.settings.logo
-                    | image_url: width: 600
-                    | image_tag:
-                      loading: 'eager',
-                      widths: '150, 300, 450, 600',
-                      sizes: '300px',
-                      alt: shop.name
-                  }}
-                </div>
-              </div>
+              <span
+                class="logo__mask"
+                aria-hidden="true"
+                style="
+                  --logo-url: url('{{ section.settings.logo | image_url: width: logo_image_width }}');
+                  width: {{ section.settings.logo_width }}px;
+                  aspect-ratio: {{ section.settings.logo.aspect_ratio }};
+                "
+              ></span>
             {% else %}
               <span>{{ shop.name }}</span>
             {% endif %}
@@ -59,7 +77,11 @@
         </div>
 
         <div class="icons">
-          <a href="#swym-wishlist" class="swym-wishlist" aria-label="Wishlist">
+          <a
+            href="#swym-wishlist"
+            class="swym-wishlist"
+            aria-label="Wishlist"
+          >
             <i
               aria-hidden="true"
               focusable="false"
@@ -68,6 +90,7 @@
             ></i>
           </a>
         </div>
+
       </div>
     </div>
 
@@ -75,15 +98,16 @@
       id="HeaderDrawer-{{ section.id }}"
       class="header-drawer color-{{ section.settings.color_scheme_drawer }}"
     >
-      <div class="header-drawer__overlay"></div>
-
       <div class="header-drawer__wrap">
         <div class="container">
+
           {% if section.settings.menu != blank %}
             <nav class="header-drawer__nav">
               <ul class="header-drawer__menu" role="list">
+
                 {% for link in section.settings.menu.links %}
                   <li class="header-drawer__menu-item{% if link.links != blank %} has-submenu{% endif %}">
+
                     <a
                       href="{{ link.url }}"
                       class="header-drawer__menu-link"
@@ -93,8 +117,10 @@
 
                     {% if link.links != blank %}
                       <ul class="header-drawer__submenu" role="list">
+
                         {% for child_link in link.links %}
                           <li class="header-drawer__submenu-item{% if child_link.links != blank %} has-submenu{% endif %}">
+
                             <a
                               href="{{ child_link.url }}"
                               class="header-drawer__submenu-link"
@@ -107,6 +133,7 @@
                                 class="header-drawer__submenu header-drawer__submenu--child"
                                 role="list"
                               >
+
                                 {% for grandchild_link in child_link.links %}
                                   <li class="header-drawer__submenu-item">
                                     <a
@@ -117,20 +144,46 @@
                                     </a>
                                   </li>
                                 {% endfor %}
+
                               </ul>
                             {% endif %}
+
                           </li>
                         {% endfor %}
+
                       </ul>
                     {% endif %}
+
                   </li>
                 {% endfor %}
+
               </ul>
             </nav>
           {% endif %}
+
+          {% if section.settings.drawer_img != blank %}
+            <div class="image">
+              <div class="image__wrap">
+
+                {{
+                  section.settings.drawer_img
+                  | image_url: width: 1200
+                  | image_tag:
+                    widths: '320, 480, 640, 800, 1000, 1200',
+                    sizes: '(min-width: 1000px) 600px, (min-width: 750px) 50vw, 100vw',
+                    loading: 'lazy',
+                    fetchpriority: 'low',
+                    alt: section.settings.drawer_img.alt
+                }}
+
+              </div>
+            </div>
+          {% endif %}
+
         </div>
       </div>
     </header-drawer>
+
   </div>
 </header>
 
@@ -142,35 +195,78 @@ class HeaderDrawer extends HTMLElement {
     this.section = this.closest('.shopify-section');
     this.header = this.section?.querySelector('.header');
     this.burger = this.section?.querySelector('.header-burger');
-    this.overlay = this.querySelector('.header-drawer__overlay');
+
+    this.headerScheme = this.header?.dataset.headerColorScheme;
+    this.homeTopScheme = this.header?.dataset.homeTopColorScheme;
+    this.drawerScheme = this.header?.dataset.drawerColorScheme;
+    this.isHome = this.header?.dataset.isHome === 'true';
 
     this.onBurgerClick = this.onBurgerClick.bind(this);
-    this.onOverlayClick = this.onOverlayClick.bind(this);
     this.onKeydown = this.onKeydown.bind(this);
     this.onScroll = this.onScroll.bind(this);
+    this.onDocumentClick = this.onDocumentClick.bind(this);
   }
 
   connectedCallback() {
     if (!this.burger) return;
 
     this.burger.addEventListener('click', this.onBurgerClick);
-    this.overlay?.addEventListener('click', this.onOverlayClick);
     document.addEventListener('keydown', this.onKeydown);
+    document.addEventListener('click', this.onDocumentClick);
     window.addEventListener('scroll', this.onScroll, { passive: true });
 
-    this.onScroll();
+    this.updateHeaderAppearance();
   }
 
   disconnectedCallback() {
     this.burger?.removeEventListener('click', this.onBurgerClick);
-    this.overlay?.removeEventListener('click', this.onOverlayClick);
     document.removeEventListener('keydown', this.onKeydown);
+    document.removeEventListener('click', this.onDocumentClick);
     window.removeEventListener('scroll', this.onScroll);
+  }
+
+  setHeaderScheme(scheme) {
+    if (!this.header || !scheme) return;
+
+    Array.from(this.header.classList)
+      .filter((className) => className.startsWith('color-'))
+      .forEach((className) => {
+        this.header.classList.remove(className);
+      });
+
+    this.header.classList.add(`color-${scheme}`);
+  }
+
+  updateHeaderAppearance() {
+    if (!this.header) return;
+
+    const isAtTop = window.scrollY <= 1;
+    const drawerIsOpen = this.classList.contains('is-open');
+
+    this.header.classList.toggle(
+      'is-at-top',
+      this.isHome && isAtTop
+    );
+
+    if (drawerIsOpen) {
+      this.setHeaderScheme(this.drawerScheme);
+      return;
+    }
+
+    if (this.isHome && isAtTop) {
+      this.setHeaderScheme(this.homeTopScheme);
+      return;
+    }
+
+    this.setHeaderScheme(this.headerScheme);
   }
 
   open() {
     this.classList.add('is-open');
+    this.header?.classList.add('drawer-is-open');
     this.burger.classList.add('is-active');
+
+    this.setHeaderScheme(this.drawerScheme);
 
     this.burger.setAttribute('aria-expanded', 'true');
     this.burger.setAttribute('aria-label', 'Close menu');
@@ -180,36 +276,48 @@ class HeaderDrawer extends HTMLElement {
 
   close() {
     this.classList.remove('is-open');
+    this.header?.classList.remove('drawer-is-open');
     this.burger.classList.remove('is-active');
 
     this.burger.setAttribute('aria-expanded', 'false');
     this.burger.setAttribute('aria-label', 'Open menu');
 
     document.body.classList.remove('header-drawer-open');
+
+    this.updateHeaderAppearance();
   }
 
   toggle() {
-    this.classList.contains('is-open')
-      ? this.close()
-      : this.open();
+    if (this.classList.contains('is-open')) {
+      this.close();
+    } else {
+      this.open();
+    }
   }
 
   onBurgerClick() {
     this.toggle();
   }
 
-  onOverlayClick() {
+  onDocumentClick(event) {
+    if (!this.classList.contains('is-open')) return;
+
+    if (this.header?.contains(event.target)) return;
+
     this.close();
   }
 
   onKeydown(event) {
-    if (event.key === 'Escape' && this.classList.contains('is-open')) {
+    if (
+      event.key === 'Escape' &&
+      this.classList.contains('is-open')
+    ) {
       this.close();
     }
   }
 
   onScroll() {
-    this.header?.classList.toggle('is-at-top', window.scrollY === 0);
+    this.updateHeaderAppearance();
   }
 }
 
@@ -227,13 +335,19 @@ if (!customElements.get('header-drawer')) {
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "Color scheme",
+      "label": "Header color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme_home_top",
+      "label": "Homepage top color scheme",
       "default": "scheme-1"
     },
     {
       "type": "color_scheme",
       "id": "color_scheme_drawer",
-      "label": "Color scheme drawer",
+      "label": "Drawer color scheme",
       "default": "scheme-1"
     },
     {
@@ -249,12 +363,17 @@ if (!customElements.get('header-drawer')) {
       "step": 10,
       "unit": "px",
       "label": "Logo width",
-      "default": 200
+      "default": 180
     },
     {
       "type": "link_list",
       "id": "menu",
       "label": "Menu"
+    },
+    {
+      "type": "image_picker",
+      "id": "drawer_img",
+      "label": "Drawer image"
     },
     {
       "type": "range",
@@ -263,7 +382,7 @@ if (!customElements.get('header-drawer')) {
       "max": 30,
       "step": 1,
       "unit": "px",
-      "label": "padding top",
+      "label": "Padding top",
       "default": 15
     },
     {
@@ -273,7 +392,7 @@ if (!customElements.get('header-drawer')) {
       "max": 30,
       "step": 1,
       "unit": "px",
-      "label": "padding bottom",
+      "label": "Padding bottom",
       "default": 15
     }
   ],
