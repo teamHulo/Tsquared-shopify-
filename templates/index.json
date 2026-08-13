@@ -229,6 +229,13 @@
     "section_recent_MftGVJ": {
       "type": "section-recent",
       "blocks": {
+        "item_4ird7h": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Tsquared_Deck.jpg",
+            "title": "Coco Schiffer"
+          }
+        },
         "item_frhFJ6": {
           "type": "item",
           "settings": {
@@ -247,7 +254,7 @@
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Rectangle_71.webp",
-            "title": "LILAH RAMZI "
+            "title": "Ella McFadin"
           }
         },
         "item_hamCEV": {
@@ -263,22 +270,15 @@
             "img": "shopify://shop_images/Rectangle_73.webp",
             "title": "HANNAH PORTER"
           }
-        },
-        "item_PGF6qL": {
-          "type": "item",
-          "settings": {
-            "img": "shopify://shop_images/Rectangle_7.webp",
-            "title": "LILAH RAMZI "
-          }
         }
       },
       "block_order": [
+        "item_4ird7h",
         "item_frhFJ6",
         "item_rQahYd",
         "item_fY4xr7",
         "item_hamCEV",
-        "item_jWXFzf",
-        "item_PGF6qL"
+        "item_jWXFzf"
       ],
       "name": "Section recent",
       "settings": {
