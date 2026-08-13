@@ -33,16 +33,14 @@
             "title": "Lorem ipsum dolor sit amet consectetur. Netus felis consequat scelerisque sollicitudin natoque. Purus quis pellentesque volutpat dui convallis. Scelerisque velit purus ut consequat porttitor sociis risus.",
             "text": "Lorem ipsum dolor sit amet consectetur. Ac vulputate risus eget vulputate viverra ornare quam.",
             "btn_name_1": "Inquire →",
-            "url_1": "#",
+            "url_1": "shopify://pages/contact",
             "btn_name_2": "Learn more →",
             "url_2": ""
           }
         },
         "image_HhyRyn": {
           "type": "image",
-          "settings": {
-            "img_1": "shopify://shop_images/everset-entry_1.jpg"
-          }
+          "settings": {}
         }
       },
       "block_order": [
