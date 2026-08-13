@@ -163,14 +163,6 @@
             "max_width": 288,
             "max_height": 80
           }
-        },
-        "item_MKbcHE": {
-          "type": "item",
-          "settings": {
-            "icon": "shopify://shop_images/Frame_18_1.webp",
-            "max_width": 288,
-            "max_height": 80
-          }
         }
       },
       "block_order": [
@@ -182,8 +174,7 @@
         "item_MkfAjX",
         "item_9tn9Bg",
         "item_6ffXYb",
-        "item_CHrL79",
-        "item_MKbcHE"
+        "item_CHrL79"
       ],
       "name": "Section marquee",
       "settings": {
