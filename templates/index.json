@@ -221,7 +221,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "img": "shopify://shop_images/Rectangle_6.webp",
-        "title": "FEATUREd top ten",
+        "title": "Featured Top Ten",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -299,7 +299,7 @@
         "title": "JOIN US IRL",
         "text": "Lorem ipsum dolor sit amet consectetur. Turpis risus enim est sapien enim suspendisse lacinia euismod posuere. Magnis phasellus hendrerit maecenas posuere diam tincidunt sit rhoncus.",
         "btn_name": "LEARN more →",
-        "url": "#"
+        "url": "shopify://pages/events"
       }
     }
   },
