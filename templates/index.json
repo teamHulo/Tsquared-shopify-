@@ -54,6 +54,7 @@
       "settings": {
         "color_scheme": "scheme-6",
         "img": "shopify://shop_images/57aa2fe0a897750902297b378eb1d09502f547c0.webp",
+        "img_m": "shopify://shop_images/artboard-22-o_2_copy.jpg",
         "title": "HOME OF THE TOP TEN"
       }
     },
@@ -191,7 +192,8 @@
           "settings": {
             "img": "shopify://shop_images/Rectangle_5.webp",
             "title": "Chandon",
-            "subtitle": "Rose Brut"
+            "subtitle": "Rose Brut",
+            "url": ""
           }
         },
         "content_FGikzY": {
@@ -212,6 +214,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "img": "shopify://shop_images/Rectangle_6.webp",
+        "url": "",
         "title": "Featured Top Ten",
         "padding_top": 60,
         "padding_bottom": 60
@@ -224,42 +227,48 @@
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Tsquared_Deck.jpg",
-            "title": "Coco Schiffer"
+            "title": "Coco Schiffer",
+            "url": ""
           }
         },
         "item_frhFJ6": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Rectangle_7.webp",
-            "title": "LILAH RAMZI "
+            "title": "LILAH RAMZI ",
+            "url": ""
           }
         },
         "item_rQahYd": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Rectangle_70.webp",
-            "title": "LILLY SISTO"
+            "title": "LILLY SISTO",
+            "url": ""
           }
         },
         "item_fY4xr7": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Rectangle_71.webp",
-            "title": "Ella McFadin"
+            "title": "Ella McFadin",
+            "url": ""
           }
         },
         "item_hamCEV": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Rectangle_72.webp",
-            "title": "KIT KEENAN"
+            "title": "KIT KEENAN",
+            "url": ""
           }
         },
         "item_jWXFzf": {
           "type": "item",
           "settings": {
             "img": "shopify://shop_images/Rectangle_73.webp",
-            "title": "HANNAH PORTER"
+            "title": "HANNAH PORTER",
+            "url": ""
           }
         }
       },
