@@ -24872,6 +24872,7 @@ h3.home--uppercase.gamb.left.pal-20.cf-s-30{
 .home__subtitle,
 h2.home__subtitle {
     font-family: "Rauschen B" !important;
+    font-weight: 300;
 }
 .image-slider p.text {
     text-align: center;
