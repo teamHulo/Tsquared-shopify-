@@ -298,6 +298,6 @@ button {
   color: rgb(var(--color-secondary-button-hover-text));
 }
 
-h1.hero__title h2.aos-init.aos-animate {
+.hero__title{
   font-family: "Romie" !important; 
 }
