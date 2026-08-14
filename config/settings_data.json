@@ -325,8 +325,8 @@
           "color_scheme": "scheme-8",
           "img": "shopify://shop_images/Layer_1.webp",
           "newsletter_enable": true,
-          "newsletter_title": "Join the List",
-          "newsletter_heading": "Lorem ipsum dolor sit amet consectetur. Massa sollicitudin etiam in nunc malesuada mollis.",
+          "newsletter_title": "WHAT’S WORTH KNOWING",
+          "newsletter_heading": "<em>The T² take on the people, products, places, and ideas shaping what’s next.</em>",
           "message": "We may make a commission on some links from this site",
           "padding_top": 52,
           "padding_bottom": 20
