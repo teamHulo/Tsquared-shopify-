@@ -62,7 +62,9 @@
                 class="swiper-slide color-{{ section.settings.color_scheme_item }}"
                 {{ block.shopify_attributes }}
               >
-
+                {% if block.settings.url != blank %}
+                  <a href="{{ block.settings.url }}"></a>
+                {% endif %}
                 {% if block.settings.img != blank %}
                   <div class="image">
                     <div class="image__wrap">
@@ -198,6 +200,11 @@
           "id": "title",
           "label": "title",
           "default": "LILAH RAMZI "
+        },
+        {
+          "type": "url",
+          "id":"url",
+          "label": "link"
         }
       ]
     }

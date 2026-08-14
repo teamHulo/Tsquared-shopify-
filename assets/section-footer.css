@@ -51,9 +51,22 @@
 
 .footer__content-bottom-wrapper {
   display: flex;
+  gap:20px;
   width: 100%;
 }
-
+.footer__content-bottom-wrapper .footer__copyright, .footer__content-bottom-wrapper .policy-links {
+  width: 30%;
+}
+.footer__content-bottom-wrapper .footer__copyright {
+  text-align: left;
+}
+.footer__content-bottom-wrapper .policy-links {
+  text-align: right;
+}
+.footer__content-bottom-wrapper p.mini {
+  flex:1;
+  text-align: center;
+}
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
@@ -74,6 +87,7 @@
     opacity: 1;
     transform: inherit;
   }
+
 }
 
 .footer__localization:empty + .footer__column--info {
@@ -399,6 +413,19 @@
   .footer-block-image.right {
     justify-content: center;
   }
+    .footer__content-bottom-wrapper {
+    flex-direction: column;
+  }
+  .footer__content-bottom-wrapper .footer__copyright, .footer__content-bottom-wrapper .policy-links {
+    width: auto;
+  }
+  .footer__content-top__wrap .grid.grid--2-col {
+      flex-wrap: nowrap;
+  }
+  .footer__content-top__wrap:has(.grid.grid--3-col) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .footer-block__image-wrapper {
@@ -536,6 +563,8 @@
 .footer__blocks-wrapper .grid__item {
   width: max-content;
   flex:none;
+  padding: 0;
+  float: none;
 }
 
 .footer__blocks-wrapper .grid__item  .footer-block__details-content {
@@ -694,7 +723,7 @@
 .footer__blocks-wrapper:after {
     content:none;
 }
-@media (min-width:1024px) {
+@media (min-width:1100px) {
   .footer__blocks-wrapper.grid--2-col {
     padding-right: clamp(0px, 6.64vw, 85px);
   }
@@ -713,6 +742,19 @@
     padding-left:0;
     padding-right: 0;
   }
+  .footer__blocks-wrapper {
+    flex-wrap: wrap;
+  }
+  /* .footer__content-bottom-wrapper .footer__copyright {
+    text-align: left;
+  }
+  .footer__content-bottom-wrapper .policy-links {
+    text-align: left;
+  }
+  .footer__content-bottom-wrapper p.mini {
+    flex:1;
+    text-align: left;
+  } */
 }
 
 @media (max-width:500px) {
@@ -727,4 +769,9 @@
   .footer__blocks-wrapper .grid__item {
     flex:1;
   }
+  .footer__content-top__wrap .image {
+    margin:0 auto;
+  }
 }
+
+

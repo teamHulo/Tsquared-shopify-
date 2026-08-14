@@ -71,7 +71,36 @@
   --font-size-12: 12px;
   --font-size-9: 9px;
 }
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: var(--font-family-1);
+}
 
+p,
+a,
+span,
+td,
+li,
+dd,
+dt {
+  font-family: var(--font-family-2);
+}
+button {
+  font-family: var(--font-family-3);
+}
+.mini {
+  font-family: var(--font-family-3);
+}
 .new-shopify-section h1,
 .new-shopify-section .h1 {
   font-family: var(--font-family-1);

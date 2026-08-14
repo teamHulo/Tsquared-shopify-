@@ -235,9 +235,9 @@
   text-decoration: none;
 }
 
-.header-drawer-open {
+/* .header-drawer-open {
   overflow: hidden;
-}
+} */
 
 @media (max-width: 767px) {
   .header-drawer {
@@ -264,5 +264,15 @@
 
   .header-drawer__wrap .image {
     margin-right: 0;
+  }
+}
+
+@media (max-width:500px) {
+  .header-burger {
+    width: 25px;
+    height: 14px;
+  }
+  header .logo .logo__mask {
+    width: calc(var(--logo-width) * 0.7) !important;
   }
 }
