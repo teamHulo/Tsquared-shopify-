@@ -229,7 +229,7 @@
 }
 
 .product__grid__title-caption {
-  font-family: "Futura" !important;
+  font-family: "GT Super Text" !important;
   font-weight: bold;
   line-height: 1;
   font-style: normal;
@@ -240,7 +240,7 @@
 }
 
 .product__grid__title-caption span {
-  /*font-family: "Futura" !important;*/
+
    font-family: "Rauschen B" !important;
    font-weight: 300;
    font-size: 16px;
