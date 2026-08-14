@@ -18,8 +18,9 @@
 
 .product__grid__title-custom {
   /*font-family: "Futura" !important;font-family: "BebasNeue-Regular" !important; */
-  font-family: Gambarino-Regular !important;
-  font-size: 28px;
+  font-family: "Rauschen" !important;
+  text-transform: uppercase;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1;
   font-style: normal;
