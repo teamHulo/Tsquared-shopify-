@@ -200,9 +200,9 @@
           "type": "content",
           "settings": {
             "title": "Kate berry",
-            "text": "Lorem ipsum dolor sit amet consectetur. Ut tortor aliquet viverra pulvinar tellus. Felis justo congue aliquet ultricies dui egestas consectetur scelerisque.",
+            "text": "Kate Berry, U.S. Editor of Cabana Magazine and Chandon ambassador, invites us into her world through the people, places, products, and rituals she returns to time and time again. Discover her Top Ten.",
             "btn_name": "VIEW more →",
-            "url": "#"
+            "url": "https://tsquaredofficial.substack.com/p/top-ten-of-kate-berry"
           }
         }
       },
@@ -296,10 +296,10 @@
       "settings": {
         "color_scheme": "scheme-6",
         "img": "shopify://shop_images/Rectangle_80.webp",
-        "title": "JOIN US IRL",
-        "text": "Lorem ipsum dolor sit amet consectetur. Turpis risus enim est sapien enim suspendisse lacinia euismod posuere. Magnis phasellus hendrerit maecenas posuere diam tincidunt sit rhoncus.",
-        "btn_name": "LEARN more →",
-        "url": "shopify://pages/events"
+        "title": "WANT TO BE FEATURED BY T²?",
+        "text": "Have a person, product, place, or brand you think belongs in the T² universe? We partner with founders and brands across features, social, commerce, and IRL experiences.",
+        "btn_name": "WORK WITH US →",
+        "url": "shopify://pages/contact"
       }
     }
   },
