@@ -34,6 +34,7 @@
     .section-banner__wrap {
         height:75vh;
         padding-bottom: 200px;
+        min-height:450px;
     }
 
 }
