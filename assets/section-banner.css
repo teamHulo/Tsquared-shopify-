@@ -28,3 +28,10 @@
 .section-banner__wrap .title h1 {
     margin:0;
 }
+
+
+@media (max-width:500px) {
+    .section-banner__wrap {
+        height:75vh;
+    }
+}
