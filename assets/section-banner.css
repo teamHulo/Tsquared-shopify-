@@ -34,4 +34,8 @@
     .section-banner__wrap {
         height:75vh;
     }
+
+    .section-banner__wrap {
+       justify-content: center;
+    }
 }
