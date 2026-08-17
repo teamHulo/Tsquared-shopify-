@@ -33,9 +33,7 @@
 @media (max-width:500px) {
     .section-banner__wrap {
         height:75vh;
+        padding-bottom:100px;
     }
 
-    .section-banner__wrap {
-       justify-content: center;
-    }
 }
