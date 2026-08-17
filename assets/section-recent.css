@@ -118,7 +118,7 @@
     .section-recent__wrap custom-slider {
         overflow: visible;
     }
-    .section-recent__wrap .swiper-navigations {
+    /* .section-recent__wrap .swiper-navigations {
         display: none;
-    }
+    } */
 }
