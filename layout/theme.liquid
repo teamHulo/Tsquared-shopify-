@@ -218,7 +218,7 @@
     <script type="text/javascript" src="https://s.skimresources.com/js/236378X1719300.skimlinks.js" defer></script>
     <!-- Shopify app scripts =========================================================== -->
     <!-- OutlinkStickyBtn CODE Start -->
-    {% if template.name == 'product' %}{% render ('outlink-sticky') %}{% endif %}
+    {% if template.name == 'product' %}{% render 'outlink-sticky' %}{% endif %}
     <!-- OutlinkStickyBtn END -->
     {{ content_for_header }}
 
@@ -346,3 +346,13 @@
     <script src="{{ 'custom-slider.js' | asset_url }}" defer></script>
   </body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render ('outlink-sticky') %}"
+  to: "{% render 'outlink-sticky' %}"
+  position: 10205..10234
+{% endcomment %}
