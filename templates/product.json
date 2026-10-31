@@ -15,7 +15,7 @@
         "liquid_gbxz3x": {
           "type": "liquid",
           "settings": {
-            "custom_liquid": "<script>window.TPOCustomFunctions=window.TPOCustomFunctions||{};window.TPOCustomFunctions.productPageOptions=Object.assign({},window.TPOCustomFunctions.productPageOptions,{getProductFormContainer:function(){return document.querySelector('.product-single form.shopify-product-form[action*=\"/cart/add\"]')||document.querySelector('form.shopify-product-form[action*=\"/cart/add\"]');}});</script>"
+            "custom_liquid": "<script>window.TPOCustomFunctions=window.TPOCustomFunctions||{};window.TPOCustomFunctions.productPageOptions=Object.assign({},window.TPOCustomFunctions.productPageOptions,{getProductFormContainer:function(){return document.querySelector('.product-single form.shopify-product-form[action*=\"/cart/add\"]')||document.querySelector('form.shopify-product-form[action*=\"/cart/add\"]');}});</script>\n<div data-product-add-popdown-wrapper style=\"display:none\"></div>"
           }
         },
         "easify_options_easify_product_options_6bdwRi": {
