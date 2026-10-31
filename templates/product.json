@@ -15,7 +15,7 @@
         "liquid_gbxz3x": {
           "type": "liquid",
           "settings": {
-            "custom_liquid": "<script>window.TPOCustomFunctions=window.TPOCustomFunctions||{};window.TPOCustomFunctions.productPageOptions=Object.assign({},window.TPOCustomFunctions.productPageOptions,{getProductFormContainer:function(){return document.querySelector('.product-single form.shopify-product-form[action*=\"/cart/add\"]')||document.querySelector('form.shopify-product-form[action*=\"/cart/add\"]');}});</script>\n<div data-product-add-popdown-wrapper style=\"display:none\"></div>"
+            "custom_liquid": "<script>window.TPOCustomFunctions=window.TPOCustomFunctions||{};window.TPOCustomFunctions.productPageOptions=Object.assign({},window.TPOCustomFunctions.productPageOptions,{getProductFormContainer:function(){return document.querySelector('.product-single form.shopify-product-form[action*=\"/cart/add\"]')||document.querySelector('form.shopify-product-form[action*=\"/cart/add\"]');}});</script>\n<div data-product-add-popdown-wrapper style=\"display:none\"></div>\n<script>(function(){var p=document.querySelector('[data-product-add-popdown-wrapper]');if(p){p.addEventListener('theme:cart:popdown',function(){window.location.href='/cart';});}})();</script>"
           }
         },
         "easify_options_easify_product_options_6bdwRi": {
