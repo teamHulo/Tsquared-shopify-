@@ -36,5 +36,9 @@
 .index__column:nth-child(even) .hov:hover::after,
 .masn-itm:nth-child(odd) > a:hover::after { border-color: #D5CF8E; }
 
+/* Grids that wrap each product in its own container (collection pages) */
+div:nth-child(odd) > .product-grid-item:only-child .lazy-image:hover::after { border-color: #600624; }
+div:nth-child(even) > .product-grid-item:only-child .lazy-image:hover::after { border-color: #D5CF8E; }
+
 /* Retire the previous orange hover */
 .hov:hover { border: 0 !important; }
