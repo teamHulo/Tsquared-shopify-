@@ -1,0 +1,40 @@
+/* T² brand hover borders (Alleman Studio palette), added 2026-11-01.
+   Maroon #600624 (primary) and Olive #D5CF8E (secondary), alternating in grid order.
+   To remove: delete this file's stylesheet_tag line in layout/theme.liquid. */
+
+.product-grid-item .lazy-image,
+.index__column .hov,
+.masn-itm > a,
+.itms-masrony > a { position: relative; }
+
+.masn-itm > a,
+.itms-masrony > a { display: block; }
+.masn-itm > a img,
+.itms-masrony > a img { display: block; }
+
+.product-grid-item .lazy-image::after,
+.index__column .hov::after,
+.masn-itm > a::after,
+.itms-masrony > a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 3px solid transparent;
+  pointer-events: none;
+  z-index: 6;
+  transition: border-color 0.45s ease;
+}
+
+/* Maroon: 1st, 3rd, 5th... */
+.product-grid-item:nth-child(odd) .lazy-image:hover::after,
+.index__column:nth-child(odd) .hov:hover::after,
+.itms-masrony > a:hover::after,
+.masn-itm:nth-child(even) > a:hover::after { border-color: #600624; }
+
+/* Olive: 2nd, 4th, 6th... */
+.product-grid-item:nth-child(even) .lazy-image:hover::after,
+.index__column:nth-child(even) .hov:hover::after,
+.masn-itm:nth-child(odd) > a:hover::after { border-color: #D5CF8E; }
+
+/* Retire the previous orange hover */
+.hov:hover { border: 0 !important; }
