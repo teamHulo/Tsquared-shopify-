@@ -231,6 +231,7 @@
         <span data-subscription-watch-price></span>
       {%- endif -%}
 
+      {%- if product.gift_card? -%}{%- render 't2-gift-card-recipient', product: product -%}{%- endif -%}
       {%- if block.settings.show_quantity -%}
         <div class="quantity__wrapper" data-quantity-selector>
           <button class="quantity__button quantity__button--minus" data-decrease-quantity type="button">&minus;</button>

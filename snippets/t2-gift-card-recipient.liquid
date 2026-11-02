@@ -1,0 +1,41 @@
+{%- comment -%} T2: send gift card to a recipient (Shopify native gift card recipient properties) {%- endcomment -%}
+<div class="t2-gc" data-t2-gc>
+  <label class="t2-gc__toggle">
+    <input type="checkbox" name="properties[__shopify_send_gift_card_to_recipient]" value="on" checked data-t2-gc-toggle>
+    <span>Send this gift card directly to the recipient</span>
+  </label>
+  <div class="t2-gc__fields" data-t2-gc-fields>
+    <label class="t2-gc__label" for="t2gc-email-{{ product.id }}">Recipient email <span aria-hidden="true">*</span></label>
+    <input class="t2-gc__input" id="t2gc-email-{{ product.id }}" type="email" name="properties[Recipient email]" placeholder="name@example.com" autocomplete="off" required>
+    <label class="t2-gc__label" for="t2gc-name-{{ product.id }}">Recipient name</label>
+    <input class="t2-gc__input" id="t2gc-name-{{ product.id }}" type="text" name="properties[Recipient name]" autocomplete="off">
+    <label class="t2-gc__label" for="t2gc-msg-{{ product.id }}">Gift message <span class="t2-gc__hint">(optional, 200 characters)</span></label>
+    <textarea class="t2-gc__input" id="t2gc-msg-{{ product.id }}" name="properties[Message]" maxlength="200" rows="3"></textarea>
+    <label class="t2-gc__label" for="t2gc-date-{{ product.id }}">Send on <span class="t2-gc__hint">(optional, leave blank to send right away)</span></label>
+    <input class="t2-gc__input" id="t2gc-date-{{ product.id }}" type="date" name="properties[Send on]" pattern="\d{4}-\d{2}-\d{2}" data-t2-gc-date>
+    <input type="hidden" name="properties[__shopify_offset]" value="" data-t2-gc-offset>
+  </div>
+  <p class="t2-gc__note">Prefer to give it in person? Uncheck the box and the gift card will be emailed to you instead.</p>
+</div>
+<style>
+.t2-gc{margin:18px 0 22px;font-family:'GT Super Text',serif;color:#000}
+.t2-gc__toggle{display:flex;gap:10px;align-items:center;font-family:'Rauschen B',sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:12.5px;cursor:pointer}
+.t2-gc__toggle input{width:18px;height:18px;accent-color:#600624;margin:0}
+.t2-gc__fields{display:grid;gap:6px;margin-top:14px}
+.t2-gc__label{font-family:'Rauschen B',sans-serif;text-transform:uppercase;letter-spacing:1px;font-size:11.5px;margin-top:8px}
+.t2-gc__hint{text-transform:none;letter-spacing:0;font-family:'GT Super Text',serif;font-size:12px;opacity:.7}
+.t2-gc__input{width:100%;box-sizing:border-box;border:1px solid #000;background:transparent;padding:11px 12px;font-family:'GT Super Text',serif;font-size:15px;border-radius:0}
+.t2-gc__note{font-size:13px;opacity:.75;margin:12px 0 0}
+.t2-gc.is-off .t2-gc__fields{display:none}
+</style>
+<script>
+(function(){
+  var root=document.currentScript.previousElementSibling.previousElementSibling;
+  if(!root||!root.matches('[data-t2-gc]')) root=document.querySelector('[data-t2-gc]');
+  var t=root.querySelector('[data-t2-gc-toggle]'), f=root.querySelector('[data-t2-gc-fields]');
+  var off=root.querySelector('[data-t2-gc-offset]'); if(off) off.value=new Date().getTimezoneOffset().toString();
+  var d=root.querySelector('[data-t2-gc-date]'); if(d){var n=new Date(),m=new Date(n.getTime()+90*864e5);var z=function(x){return x.toISOString().slice(0,10)};d.min=z(n);d.max=z(m);}
+  function sync(){var on=t.checked;root.classList.toggle('is-off',!on);f.querySelectorAll('input,textarea').forEach(function(i){i.disabled=!on;});var e=f.querySelector('input[type=email]');if(e)e.required=on;}
+  t.addEventListener('change',sync);sync();
+})();
+</script>
