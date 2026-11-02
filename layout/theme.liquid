@@ -105,7 +105,6 @@
     {{ 'global-style.css' | asset_url | stylesheet_tag}}
     {{ 't2-brand-hover.css' | asset_url | stylesheet_tag }}
     <script src="{{ 't2-addon-guard.js' | asset_url }}" defer></script>
-<script src="{{ 't2-substack-signup.js' | asset_url }}" defer></script>
     <script>
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
       let root = '{{ routes.root_url }}';
