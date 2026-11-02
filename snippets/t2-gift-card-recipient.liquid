@@ -37,5 +37,8 @@
   var d=root.querySelector('[data-t2-gc-date]'); if(d){var n=new Date(),m=new Date(n.getTime()+90*864e5);var z=function(x){return x.toISOString().slice(0,10)};d.min=z(n);d.max=z(m);}
   function sync(){var on=t.checked;root.classList.toggle('is-off',!on);f.querySelectorAll('input,textarea').forEach(function(i){i.disabled=!on;});var e=f.querySelector('input[type=email]');if(e)e.required=on;}
   t.addEventListener('change',sync);sync();
+  var form=root.closest('form'); function prep(){ if(d){ if(d.value){ d.setAttribute('name','properties[Send on]'); } else { d.removeAttribute('name'); } } }
+  if(form){ form.addEventListener('submit',prep,true); form.addEventListener('click',function(e){ if(e.target.closest('[type=submit],button[name=add]')) prep(); },true); }
+  if(d){ d.addEventListener('change',prep); prep(); }
 })();
 </script>
