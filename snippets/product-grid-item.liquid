@@ -200,6 +200,7 @@
           </span>
         {% endif %}
       </div>
+      {%- if product.gift_card? -%}<p class="t2-ship-incl" style="margin:4px 0 0;font-size:0.85em;letter-spacing:0.02em;">Shipping included</p>{%- endif -%}
       {% if current_variant.unit_price %}
         {% capture unit_price_separator %}
           <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
